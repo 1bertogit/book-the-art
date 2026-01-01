@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Audit Report - /home/claude/projeto-atual/modernfaceinstitute-main</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f8fafc;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+        h1 { color: #0f172a; border-bottom: 3px solid #3b82f6; padding-bottom: 10px; }
+        h2 { color: #1e40af; margin-top: 30px; }
+        h3 { color: #1e3a8a; }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin: 15px 0;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        th { 
+            background: #1e40af; 
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        td { 
+            padding: 12px; 
+            border-bottom: 1px solid #e2e8f0;
+        }
+        tr:hover td { background: #f1f5f9; }
+        code { 
+            background: #e2e8f0; 
+            padding: 2px 6px; 
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        .score-excellent { color: #059669; }
+        .score-good { color: #0284c7; }
+        .score-fair { color: #d97706; }
+        .score-poor { color: #dc2626; }
+        ul { padding-left: 20px; }
+        li { margin: 8px 0; }
+        hr { border: none; border-top: 1px solid #e2e8f0; margin: 30px 0; }
+    </style>
+</head>
+<body>
+    <pre style="white-space: pre-wrap; font-family: inherit;"># 🏆 PELÉ SEO AUDIT REPORT
+
+**Target:** /home/claude/projeto-atual/modernfaceinstitute-main
+**Date:** 2025-12-18
+**Pages Analyzed:** 333
+
+---
+
+## 📊 Overall Score: 77/100
+
+| Category | Score | Status |
+|----------|-------|--------|
+| Technical SEO | 95/100 | ✅ Excellent |
+| On-Page SEO | 77/100 | ⚠️ Fair |
+| Schema Markup | 13/100 | ❌ Poor |
+| Performance | 100/100 | ✅ Excellent |
+
+---
+
+## 🔧 Technical SEO Status
+
+| Item | Status |
+|------|--------|
+| robots.txt | ✅ Valid |
+| sitemap.xml | ✅ Valid |
+| SSL/HTTPS | ✅ |
+
+---
+
+## 📝 On-Page SEO Stats
+
+| Metric | Count | Percentage |
+|--------|-------|------------|
+| Pages with Title | 326 | 98% |
+| Pages with Description | 326 | 98% |
+| Pages with H1 | 321 | 96% |
+| Pages with Schema | 46 | 14% |
+| Pages with Canonical | 0 | 0% |
+
+---
+
+## 🚨 Issues Found
+
+### 🔴 Critical (15)
+
+- **Missing H1 tag**
+  - File: `glossario.astro`
+  - Fix: Add <h1>Your Main Heading</h1>
+- **Missing title tag**
+  - File: `anatomia.astro`
+  - Fix: Add <title>Your Page Title</title> in <head>
+
+### 🟠 High (53)
+
+- **Missing meta description**
+  - File: `anatomia.astro`
+  - Fix: Add <meta name="description" content="Your description here">
+- **Title too long (65 chars, max 60)**
+  - File: `blog/dr-roberio-brandao-criador-endomidface.astro`
+  - Fix: Shorten to: Dr. Robério Brandão: Criador do Endomidface e Pai da Face...
+- **Title too long (85 chars, max 60)**
+  - File: `blog/frontoplastia-browlift-guia-completo.astro`
+  - Fix: Shorten to: Frontoplastia (Browlift): Guia Completo da Técnica Face M...
+- **Title too long (62 chars, max 60)**
+  - File: `blog/lifting-facial-diabeticos.astro`
+  - Fix: Shorten to: Lifting Facial em Diabéticos: Cuidados e Orientações Espe...
+- **Title too long (78 chars, max 60)**
+  - File: `blog/ligamentos-retentores-faciais.astro`
+  - Fix: Shorten to: Ligamentos Retentores Faciais: Anatomia Essencial para Ci...
+- **Title too long (77 chars, max 60)**
+  - File: `blog/nervo-facial-cirurgia-protecao.astro`
+  - Fix: Shorten to: Nervo Facial na Cirurgia: Anatomia, Zonas de Perigo e Pro...
+- **Title too long (71 chars, max 60)**
+  - File: `blog/tecnologia-cirurgia-facial-moderna.astro`
+  - Fix: Shorten to: Tecnologia na Cirurgia Facial: O Que Realmente Funciona? ...
+- **Title too long (96 chars, max 60)**
+  - File: `blog/anestesia-local-cirurgia-facial.astro`
+  - Fix: Shorten to: Anestesia Local em Cirurgia Facial: É Possível Fazer Lift...
+- **Title too long (63 chars, max 60)**
+  - File: `blog/lifting-facial-60-anos.astro`
+  - Fix: Shorten to: Lifting Facial aos 60 Anos: Resultados Possíveis e Expect...
+- **Title too long (79 chars, max 60)**
+  - File: `blog/mitos-lifting-facial-verdades.astro`
+  - Fix: Shorten to: 10 Mitos sobre Lifting Facial: O Que É Verdade e O Que É ...
+- **Title too long (70 chars, max 60)**
+  - File: `blog/blefaroplastia-lifting-combinados.astro`
+  - Fix: Shorten to: Blefaroplastia e Lifting Facial: Quando e Como Combinar |...
+- **Title too long (83 chars, max 60)**
+  - File: `blog/lifting-facial-vs-preenchimento.astro`
+  - Fix: Shorten to: Lifting Facial vs Preenchimento: Quando a Cirurgia é a Me...
+- **Title too long (73 chars, max 60)**
+  - File: `blog/o-que-e-face-moderna.astro`
+  - Fix: Shorten to: O que é Face Moderna: A Nova Era da Cirurgia Facial | Dr....
+- **Title too long (80 chars, max 60)**
+  - File: `blog/complicacoes-lifting-facial-prevencao.astro`
+  - Fix: Shorten to: Complicações em Lifting Facial: Prevenção, Identificação ...
+- ... and 33 more
+
+### 🟡 Medium (193)
+
+- **Title too short (10 chars, min 30)**
+  - File: `rss.xml.astro`
+- **Title too short (21 chars, min 30)**
+  - File: `404.astro`
+- **Title too short (23 chars, min 30)**
+  - File: `glossario.astro`
+- **Title too short (13 chars, min 30)**
+  - File: `termos.astro`
+- **Title too short (11 chars, min 30)**
+  - File: `index.astro`
+- **1 images missing alt text**
+  - File: `index.astro`
+  - Fix: Add descriptive alt text to all images
+- **Title too short (22 chars, min 30)**
+  - File: `formacao.astro`
+- **Title too short (29 chars, min 30)**
+  - File: `sobre/index.astro`
+- **Title too short (26 chars, min 30)**
+  - File: `faq/index.astro`
+- **Title too short (15 chars, min 30)**
+  - File: `es/terminos.astro`
+- **Title too short (6 chars, min 30)**
+  - File: `es/index.astro`
+- **Title too short (18 chars, min 30)**
+  - File: `blog/historia-cirurgia-facial-evolucao.astro`
+- **Title too short (25 chars, min 30)**
+  - File: `blog/endomidface-guia-completo.astro`
+- **Meta description too long (207 chars, max 160)**
+  - File: `blog/endomidface-guia-completo.astro`
+  - Fix: Shorten to: Guia técnico completo da técnica Endomidface por Visão Direta. Aprenda o passo a passo, indicações, contraindicações, vantagens sobre Deep Plane e curva de a...
+- **Meta description too long (181 chars, max 160)**
+  - File: `blog/resultados-naturais-lifting-facial.astro`
+  - Fix: Shorten to: Como garantir resultado natural em lifting facial? Entenda a diferença entre vetores verticais e laterais, e por que a técnica Face Moderna prioriza naturali...
+- **Meta description too long (218 chars, max 160)**
+  - File: `blog/o-que-e-face-moderna.astro`
+  - Fix: Shorten to: Descubra a filosofia Face Moderna: abordagem cirúrgica desenvolvida para pacientes que já receberam bioestimuladores e preenchedores. Conheça os 3 pilares, t...
+- ... and 173 more
+
+### 🟢 Low (499)
+
+- **No schema markup found**
+  - File: `rss.xml.astro`
+  - Fix: Add JSON-LD schema for better rich snippets
+- **Thin content (42 words)**
+  - File: `rss.xml.astro`
+  - Fix: Expand content to at least 300 words for better SEO
+- **Meta description too short (56 chars)**
+  - File: `glossario.astro`
+- **Thin content (0 words)**
+  - File: `glossario.astro`
+  - Fix: Expand content to at least 300 words for better SEO
+- **Thin content (8 words)**
+  - File: `sitemap.xml.astro`
+  - Fix: Expand content to at least 300 words for better SEO
+- **Thin content (96 words)**
+  - File: `formacao.astro`
+  - Fix: Expand content to at least 300 words for better SEO
+- **Thin content (259 words)**
+  - File: `legal/termos.astro`
+  - Fix: Expand content to at least 300 words for better SEO
+- **Meta description too short (69 chars)**
+  - File: `legal/privacidade.astro`
+- ... and 479 more
+
+---
+
+## 📋 Duplicate Content Groups
+
+1. glossario.astro, anatomia.astro, anatomia-aplicada.astro...
+
+---
+
+## 🔗 Orphan Pages (No Internal Links)
+
+- `blog/instituto-face-moderna-sobre.astro`
+- `blog/lifting-facial-vs-preenchimento.astro`
+- `blog/historia-lifting-facial-evolucao.astro`
+- `casos/cirurgicos/index.astro`
+- `en/creator/index.astro`
+- `faq/index.astro`
+- `blog/mitos-lifting-facial-verdades.astro`
+- `blog/espaco-pre-zigomatico-anatomia.astro`
+- `blog/bandas-platismais-correcao.astro`
+- `en/modern-face/timeline.astro`
+- ... and 164 more
+
+---
+
+## 🔥 Most Linked Pages
+
+| Page | Incoming Links |
+|------|----------------|
+| `/educacao` | 97 |
+| `/` | 57 |
+| `/es` | 46 |
+| `/en` | 46 |
+| `/es/educacion` | 21 |
+| `/en/education` | 21 |
+| `/tecnicas` | 17 |
+| `/tecnicas/endomidface` | 13 |
+| `/en/training` | 11 |
+| `/blog/o-que-e-face-moderna` | 10 |
+
+---
+
+## 💡 Priority Recommendations
+
+3. **Add missing titles** - 7 pages affected
+4. **Add missing descriptions** - 7 pages affected
+5. **Add schema markup** - Improves rich snippets
+
+---
+
+*Generated by Pelé SEO Auditor*</pre>
+</body>
+</html>

@@ -1,0 +1,5538 @@
+{
+  "base_url": "/home/claude/projeto-atual/modernfaceinstitute-main",
+  "audit_date": "2025-12-18T05:24:00.900532",
+  "total_pages": 333,
+  "scores": {
+    "total": 77,
+    "technical": 95,
+    "onpage": 77,
+    "schema": 13,
+    "performance": 100
+  },
+  "technical": {
+    "robots_txt": true,
+    "sitemap": true,
+    "sitemap_urls": 0
+  },
+  "stats": {
+    "with_title": 326,
+    "with_description": 326,
+    "with_h1": 321,
+    "with_schema": 46,
+    "with_canonical": 0
+  },
+  "cwv": {
+    "lcp": 0,
+    "fid": 0,
+    "cls": 0
+  },
+  "issues": [
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (10 chars, min 30)",
+      "file": "rss.xml.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "rss.xml.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (42 words)",
+      "file": "rss.xml.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (21 chars, min 30)",
+      "file": "404.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "404.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (23 chars, min 30)",
+      "file": "glossario.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (56 chars)",
+      "file": "glossario.astro",
+      "fix": ""
+    },
+    {
+      "severity": "critical",
+      "category": "onpage",
+      "message": "Missing H1 tag",
+      "file": "glossario.astro",
+      "fix": "Add <h1>Your Main Heading</h1>"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "glossario.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (0 words)",
+      "file": "glossario.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "critical",
+      "category": "onpage",
+      "message": "Missing title tag",
+      "file": "anatomia.astro",
+      "fix": "Add <title>Your Page Title</title> in <head>"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Missing meta description",
+      "file": "anatomia.astro",
+      "fix": "Add <meta name=\"description\" content=\"Your description here\">"
+    },
+    {
+      "severity": "critical",
+      "category": "onpage",
+      "message": "Missing H1 tag",
+      "file": "anatomia.astro",
+      "fix": "Add <h1>Your Main Heading</h1>"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "anatomia.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (0 words)",
+      "file": "anatomia.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (13 chars, min 30)",
+      "file": "termos.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "termos.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "critical",
+      "category": "onpage",
+      "message": "Missing title tag",
+      "file": "anatomia-aplicada.astro",
+      "fix": "Add <title>Your Page Title</title> in <head>"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Missing meta description",
+      "file": "anatomia-aplicada.astro",
+      "fix": "Add <meta name=\"description\" content=\"Your description here\">"
+    },
+    {
+      "severity": "critical",
+      "category": "onpage",
+      "message": "Missing H1 tag",
+      "file": "anatomia-aplicada.astro",
+      "fix": "Add <h1>Your Main Heading</h1>"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "anatomia-aplicada.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (0 words)",
+      "file": "anatomia-aplicada.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "critical",
+      "category": "onpage",
+      "message": "Missing title tag",
+      "file": "sitemap.xml.astro",
+      "fix": "Add <title>Your Page Title</title> in <head>"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Missing meta description",
+      "file": "sitemap.xml.astro",
+      "fix": "Add <meta name=\"description\" content=\"Your description here\">"
+    },
+    {
+      "severity": "critical",
+      "category": "onpage",
+      "message": "Missing H1 tag",
+      "file": "sitemap.xml.astro",
+      "fix": "Add <h1>Your Main Heading</h1>"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "sitemap.xml.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (8 words)",
+      "file": "sitemap.xml.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (11 chars, min 30)",
+      "file": "index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "1 images missing alt text",
+      "file": "index.astro",
+      "fix": "Add descriptive alt text to all images"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (22 chars, min 30)",
+      "file": "formacao.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "formacao.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (96 words)",
+      "file": "formacao.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (23 chars, min 30)",
+      "file": "privacidade.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "privacidade.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "legal/termos.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (259 words)",
+      "file": "legal/termos.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (69 chars)",
+      "file": "legal/privacidade.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "legal/privacidade.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (256 words)",
+      "file": "legal/privacidade.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "sobre/casuistica.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (200 words)",
+      "file": "sobre/casuistica.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "sobre/dr-roberio-brandao.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (272 words)",
+      "file": "sobre/dr-roberio-brandao.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (29 chars, min 30)",
+      "file": "sobre/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "sobre/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "sobre/linha-do-tempo.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (117 words)",
+      "file": "sobre/linha-do-tempo.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "sobre/principios-eticos.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (115 words)",
+      "file": "sobre/principios-eticos.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "sobre/visao-de-futuro.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (165 words)",
+      "file": "sobre/visao-de-futuro.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (26 chars, min 30)",
+      "file": "faq/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "faq/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (22 chars, min 30)",
+      "file": "es/privacidad.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/privacidad.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (22 chars, min 30)",
+      "file": "es/formacion.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/formacion.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (97 words)",
+      "file": "es/formacion.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "critical",
+      "category": "onpage",
+      "message": "Missing title tag",
+      "file": "es/anatomia.astro",
+      "fix": "Add <title>Your Page Title</title> in <head>"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Missing meta description",
+      "file": "es/anatomia.astro",
+      "fix": "Add <meta name=\"description\" content=\"Your description here\">"
+    },
+    {
+      "severity": "critical",
+      "category": "onpage",
+      "message": "Missing H1 tag",
+      "file": "es/anatomia.astro",
+      "fix": "Add <h1>Your Main Heading</h1>"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/anatomia.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (0 words)",
+      "file": "es/anatomia.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (15 chars, min 30)",
+      "file": "es/terminos.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/terminos.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (6 chars, min 30)",
+      "file": "es/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "1 images missing alt text",
+      "file": "es/index.astro",
+      "fix": "Add descriptive alt text to all images"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (65 chars, max 60)",
+      "file": "blog/dr-roberio-brandao-criador-endomidface.astro",
+      "fix": "Shorten to: Dr. Robério Brandão: Criador do Endomidface e Pai da Face..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/dr-roberio-brandao-criador-endomidface.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (65 chars, max 60)",
+      "file": "blog/instituto-face-moderna-sobre.astro",
+      "fix": "Shorten to: Instituto Face Moderna: Formação de Excelência em Cirurgi..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/instituto-face-moderna-sobre.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (201 words)",
+      "file": "blog/instituto-face-moderna-sobre.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/alimentacao-recuperacao-lifting.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (95 words)",
+      "file": "blog/alimentacao-recuperacao-lifting.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/dormencia-sensibilidade-pos-lifting.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (86 words)",
+      "file": "blog/dormencia-sensibilidade-pos-lifting.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/mini-lifting-vs-lifting-completo.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (145 words)",
+      "file": "blog/mini-lifting-vs-lifting-completo.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (85 chars, max 60)",
+      "file": "blog/frontoplastia-browlift-guia-completo.astro",
+      "fix": "Shorten to: Frontoplastia (Browlift): Guia Completo da Técnica Face M..."
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (44 chars)",
+      "file": "blog/frontoplastia-browlift-guia-completo.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/edema-inchaço-pos-lifting-evolucao.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (95 words)",
+      "file": "blog/edema-inchaço-pos-lifting-evolucao.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (62 chars, max 60)",
+      "file": "blog/lifting-facial-diabeticos.astro",
+      "fix": "Shorten to: Lifting Facial em Diabéticos: Cuidados e Orientações Espe..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/lifting-facial-diabeticos.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (141 words)",
+      "file": "blog/lifting-facial-diabeticos.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (18 chars, min 30)",
+      "file": "blog/historia-cirurgia-facial-evolucao.astro",
+      "fix": ""
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (78 chars, max 60)",
+      "file": "blog/ligamentos-retentores-faciais.astro",
+      "fix": "Shorten to: Ligamentos Retentores Faciais: Anatomia Essencial para Ci..."
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (77 chars, max 60)",
+      "file": "blog/nervo-facial-cirurgia-protecao.astro",
+      "fix": "Shorten to: Nervo Facial na Cirurgia: Anatomia, Zonas de Perigo e Pro..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/smas-o-que-e-importancia.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (171 words)",
+      "file": "blog/smas-o-que-e-importancia.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/lifting-facial-40-anos.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (219 words)",
+      "file": "blog/lifting-facial-40-anos.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (25 chars, min 30)",
+      "file": "blog/endomidface-guia-completo.astro",
+      "fix": ""
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (207 chars, max 160)",
+      "file": "blog/endomidface-guia-completo.astro",
+      "fix": "Shorten to: Guia técnico completo da técnica Endomidface por Visão Direta. Aprenda o passo a passo, indicações, contraindicações, vantagens sobre Deep Plane e curva de a..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/ptose-malar-tratamento-cirurgico.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (134 words)",
+      "file": "blog/ptose-malar-tratamento-cirurgico.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (71 chars, max 60)",
+      "file": "blog/tecnologia-cirurgia-facial-moderna.astro",
+      "fix": "Shorten to: Tecnologia na Cirurgia Facial: O Que Realmente Funciona? ..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/bandas-platismais-correcao.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (130 words)",
+      "file": "blog/bandas-platismais-correcao.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (96 chars, max 60)",
+      "file": "blog/anestesia-local-cirurgia-facial.astro",
+      "fix": "Shorten to: Anestesia Local em Cirurgia Facial: É Possível Fazer Lift..."
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (63 chars, max 60)",
+      "file": "blog/lifting-facial-60-anos.astro",
+      "fix": "Shorten to: Lifting Facial aos 60 Anos: Resultados Possíveis e Expect..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/lifting-facial-60-anos.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (226 words)",
+      "file": "blog/lifting-facial-60-anos.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (79 chars, max 60)",
+      "file": "blog/mitos-lifting-facial-verdades.astro",
+      "fix": "Shorten to: 10 Mitos sobre Lifting Facial: O Que É Verdade e O Que É ..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/fios-pdo-vs-lifting-cirurgico.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (107 words)",
+      "file": "blog/fios-pdo-vs-lifting-cirurgico.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/skincare-pos-lifting.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (103 words)",
+      "file": "blog/skincare-pos-lifting.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (70 chars, max 60)",
+      "file": "blog/blefaroplastia-lifting-combinados.astro",
+      "fix": "Shorten to: Blefaroplastia e Lifting Facial: Quando e Como Combinar |..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/quando-ver-resultado-final-lifting.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (133 words)",
+      "file": "blog/quando-ver-resultado-final-lifting.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (83 chars, max 60)",
+      "file": "blog/lifting-facial-vs-preenchimento.astro",
+      "fix": "Shorten to: Lifting Facial vs Preenchimento: Quando a Cirurgia é a Me..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/tendencias-cirurgia-facial-2025.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (187 words)",
+      "file": "blog/tendencias-cirurgia-facial-2025.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/tempo-duracao-resultado-lifting.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (124 words)",
+      "file": "blog/tempo-duracao-resultado-lifting.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (62 chars, max 60)",
+      "file": "blog/resultados-naturais-lifting-facial.astro",
+      "fix": "Shorten to: Resultados Naturais em Lifting Facial: Como Evitar a Apar..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (181 chars, max 160)",
+      "file": "blog/resultados-naturais-lifting-facial.astro",
+      "fix": "Shorten to: Como garantir resultado natural em lifting facial? Entenda a diferença entre vetores verticais e laterais, e por que a técnica Face Moderna prioriza naturali..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/vetor-vertical-vs-lateral-lifting.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (155 words)",
+      "file": "blog/vetor-vertical-vs-lateral-lifting.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/fotos-antes-depois-importancia.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (100 words)",
+      "file": "blog/fotos-antes-depois-importancia.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/massagem-facial-drenagem-pos-lifting.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (92 words)",
+      "file": "blog/massagem-facial-drenagem-pos-lifting.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/lifting-facial-autoestima-psicologia.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (135 words)",
+      "file": "blog/lifting-facial-autoestima-psicologia.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/escolhendo-cirurgiao-lifting-facial.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (130 words)",
+      "file": "blog/escolhendo-cirurgiao-lifting-facial.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (77 chars, max 60)",
+      "file": "blog/drenagem-linfatica-pos-lifting-facial.astro",
+      "fix": "Shorten to: Drenagem Linfática Após Lifting Facial: Benefícios e Prot..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/sulco-nasogeniano-correcao.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (148 words)",
+      "file": "blog/sulco-nasogeniano-correcao.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (73 chars, max 60)",
+      "file": "blog/o-que-e-face-moderna.astro",
+      "fix": "Shorten to: O que é Face Moderna: A Nova Era da Cirurgia Facial | Dr...."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (218 chars, max 160)",
+      "file": "blog/o-que-e-face-moderna.astro",
+      "fix": "Shorten to: Descubra a filosofia Face Moderna: abordagem cirúrgica desenvolvida para pacientes que já receberam bioestimuladores e preenchedores. Conheça os 3 pilares, t..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/ultrassom-microfocado-vs-lifting.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (112 words)",
+      "file": "blog/ultrassom-microfocado-vs-lifting.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (80 chars, max 60)",
+      "file": "blog/complicacoes-lifting-facial-prevencao.astro",
+      "fix": "Shorten to: Complicações em Lifting Facial: Prevenção, Identificação ..."
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (64 chars, max 60)",
+      "file": "blog/lifting-sem-equipamento-caro.astro",
+      "fix": "Shorten to: Lifting Facial sem Equipamento Caro: Democratizando a Exc..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/lifting-sem-equipamento-caro.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/lifting-facial-segunda-vez-revisao.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (132 words)",
+      "file": "blog/lifting-facial-segunda-vez-revisao.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/fat-grafting-lifting-facial.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (107 words)",
+      "file": "blog/fat-grafting-lifting-facial.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (70 chars, max 60)",
+      "file": "blog/custo-beneficio-lifting-facial.astro",
+      "fix": "Shorten to: Custo-Benefício do Lifting Facial: Vale o Investimento? |..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (163 chars, max 160)",
+      "file": "blog/custo-beneficio-lifting-facial.astro",
+      "fix": "Shorten to: Análise completa do custo-benefício do lifting facial: valores no Brasil, comparação com preenchimentos, o que está incluído e como avaliar se vale o investi..."
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (80 chars, max 60)",
+      "file": "blog/endomidface-por-visao-direta-tecnica.astro",
+      "fix": "Shorten to: Endomidface por Visão Direta: Lifting Facial Minimamente ..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (169 chars, max 160)",
+      "file": "blog/endomidface-por-visao-direta-tecnica.astro",
+      "fix": "Shorten to: Descubra a técnica Endomidface por Visão Direta: lifting facial minimamente invasivo sem torre endoscópica. 212 casos, 0% lesão nervosa. Criada pelo Dr. Robé..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/endomidface-por-visao-direta-tecnica.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (66 chars, max 60)",
+      "file": "blog/contraindicacoes-lifting-facial.astro",
+      "fix": "Shorten to: Contraindicações do Lifting Facial: Quem Não Deve Fazer a..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/contraindicacoes-lifting-facial.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (146 words)",
+      "file": "blog/contraindicacoes-lifting-facial.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (75 chars, max 60)",
+      "file": "blog/gordura-facial-envelhecimento.astro",
+      "fix": "Shorten to: Gordura Facial e Envelhecimento: Anatomia dos Compartimen..."
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (66 chars, max 60)",
+      "file": "blog/espaco-pre-zigomatico-anatomia.astro",
+      "fix": "Shorten to: Espaço Pré-Zigomático: Anatomia Aplicada à Cirurgia do Te..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/espaco-pre-zigomatico-anatomia.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (11 chars, min 30)",
+      "file": "blog/como-se-tornar-cirurgiao-face-moderna.astro",
+      "fix": ""
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (80 chars, max 60)",
+      "file": "blog/browlift-visao-direta-frontoplastia-evolutiva.astro",
+      "fix": "Shorten to: Browlift por Visão Direta: Frontoplastia Evolutiva sem En..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/browlift-visao-direta-frontoplastia-evolutiva.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (85 chars, max 60)",
+      "file": "blog/bioestimuladores-cirurgia-facial.astro",
+      "fix": "Shorten to: Bioestimuladores e Cirurgia Facial: O Que Todo Cirurgião ..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (177 chars, max 160)",
+      "file": "blog/bioestimuladores-cirurgia-facial.astro",
+      "fix": "Shorten to: Como bioestimuladores (Sculptra, Radiesse, Ellansé) afetam a cirurgia facial? Guia completo sobre fibrose, alteração de planos e técnicas adaptadas para o pa..."
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (64 chars, max 60)",
+      "file": "blog/lifting-facial-fumantes.astro",
+      "fix": "Shorten to: Lifting Facial em Fumantes: Riscos, Cuidados e Tempo de C..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/lifting-facial-fumantes.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (200 words)",
+      "file": "blog/lifting-facial-fumantes.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (85 chars, max 60)",
+      "file": "blog/endomidface-vs-deep-plane.astro",
+      "fix": "Shorten to: Endomidface vs Deep Plane Tradicional: Análise Técnica Co..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (174 chars, max 160)",
+      "file": "blog/endomidface-vs-deep-plane.astro",
+      "fix": "Shorten to: Comparação técnica detalhada entre Endomidface por Visão Direta e Deep Plane tradicional. Tabela comparativa, prós e contras, indicações de cada técnica e da..."
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (74 chars, max 60)",
+      "file": "blog/lifting-facial-masculino-diferencas.astro",
+      "fix": "Shorten to: Lifting Facial Masculino: Diferenças, Técnicas e Resultad..."
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (75 chars, max 60)",
+      "file": "blog/selecao-pacientes-cirurgia-facial.astro",
+      "fix": "Shorten to: Seleção de Pacientes para Cirurgia Facial: Quem É Candida..."
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (83 chars, max 60)",
+      "file": "blog/anatomia-smas-fundamentos.astro",
+      "fix": "Shorten to: Anatomia do SMAS: Fundamentos para Cirurgiões de Face Mod..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (185 chars, max 160)",
+      "file": "blog/anatomia-smas-fundamentos.astro",
+      "fix": "Shorten to: Guia completo de anatomia do SMAS para cirurgiões faciais: SMAS fixo vs móvel, zonas de perigo, nervo facial, ligamentos retentores e implicações práticas pa..."
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (74 chars, max 60)",
+      "file": "blog/deep-neck-preservando-glandula-submandibular.astro",
+      "fix": "Shorten to: Deep Neck sem Remoção da Glândula: Contorno Cervical Segu..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (161 chars, max 160)",
+      "file": "blog/deep-neck-preservando-glandula-submandibular.astro",
+      "fix": "Shorten to: Técnica de Deep Neck que preserva a glândula submandibular. Platismorrafia, Alça Glandular e Shaving Digástrico para contorno elegante sem riscos desnecessár..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/deep-neck-preservando-glandula-submandibular.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (78 chars, max 60)",
+      "file": "blog/lifting-face-injetada-bioestimuladores.astro",
+      "fix": "Shorten to: Lifting em Face com Bioestimuladores: Como Operar com Seg..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/lifting-face-injetada-bioestimuladores.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (65 chars, max 60)",
+      "file": "blog/perguntas-consulta-lifting-facial.astro",
+      "fix": "Shorten to: Perguntas Essenciais na Consulta de Lifting Facial | Face..."
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (287 words)",
+      "file": "blog/perguntas-consulta-lifting-facial.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (67 chars, max 60)",
+      "file": "blog/indicacoes-endomidface-casos-ideais.astro",
+      "fix": "Shorten to: Indicações do Endomidface: Quem é o Candidato Ideal para ..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/indicacoes-endomidface-casos-ideais.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (283 words)",
+      "file": "blog/indicacoes-endomidface-casos-ideais.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/plano-profundo-cirurgia-facial.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (295 words)",
+      "file": "blog/plano-profundo-cirurgia-facial.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (23 chars, min 30)",
+      "file": "blog/recuperacao-pos-lifting-timeline.astro",
+      "fix": ""
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (177 chars, max 160)",
+      "file": "blog/recuperacao-pos-lifting-timeline.astro",
+      "fix": "Shorten to: O que esperar após um lifting facial? Timeline completa da recuperação: edema, equimoses, retorno ao trabalho, exercícios e resultado final. Baseado na exper..."
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (76 chars, max 60)",
+      "file": "blog/curva-aprendizado-lifting-facial.astro",
+      "fix": "Shorten to: Curva de Aprendizado do Lifting Facial: Quanto Tempo para..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/curva-aprendizado-lifting-facial.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (79 chars, max 60)",
+      "file": "blog/gordura-facial-envelhecimento-compartimentos.astro",
+      "fix": "Shorten to: Gordura Facial e Envelhecimento: Compartimentos e Redistr..."
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (82 chars, max 60)",
+      "file": "blog/planejamento-pre-operatorio-lifting.astro",
+      "fix": "Shorten to: Planejamento Pré-Operatório para Lifting Facial: Checklis..."
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (264 words)",
+      "file": "blog/planejamento-pre-operatorio-lifting.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (70 chars, max 60)",
+      "file": "blog/deep-neck-guia-completo.astro",
+      "fix": "Shorten to: Deep Neck sem Remoção da Glândula: Guia Completo | Dr. Ro..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/hematoma-lifting-facial-prevencao.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (104 words)",
+      "file": "blog/hematoma-lifting-facial-prevencao.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/lifting-facial-apos-perda-peso.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (120 words)",
+      "file": "blog/lifting-facial-apos-perda-peso.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/cicatriz-lifting-facial-cuidados.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (165 words)",
+      "file": "blog/cicatriz-lifting-facial-cuidados.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (84 chars, max 60)",
+      "file": "blog/deep-plane-sem-endoscopio-alternativa.astro",
+      "fix": "Shorten to: Deep Plane sem Endoscópio: Alternativa Moderna ao Lifting..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/deep-plane-sem-endoscopio-alternativa.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (61 chars, max 60)",
+      "file": "blog/exercicios-faciais-lifting-mito.astro",
+      "fix": "Shorten to: Exercícios Faciais Substituem o Lifting? A Verdade Cientí..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/exercicios-faciais-lifting-mito.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (130 words)",
+      "file": "blog/exercicios-faciais-lifting-mito.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/jowls-papada-tratamento-cirurgico.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (140 words)",
+      "file": "blog/jowls-papada-tratamento-cirurgico.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/angulo-cervicomental-definicao.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (133 words)",
+      "file": "blog/angulo-cervicomental-definicao.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (93 chars, max 60)",
+      "file": "blog/planejamento-cirurgico-facial-completo.astro",
+      "fix": "Shorten to: Planejamento Cirúrgico Facial: Avaliação Completa e Sequê..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "blog/face-moderna-conceito-filosofia.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (165 words)",
+      "file": "blog/face-moderna-conceito-filosofia.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "critical",
+      "category": "onpage",
+      "message": "Missing title tag",
+      "file": "en/anatomy.astro",
+      "fix": "Add <title>Your Page Title</title> in <head>"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Missing meta description",
+      "file": "en/anatomy.astro",
+      "fix": "Add <meta name=\"description\" content=\"Your description here\">"
+    },
+    {
+      "severity": "critical",
+      "category": "onpage",
+      "message": "Missing H1 tag",
+      "file": "en/anatomy.astro",
+      "fix": "Add <h1>Your Main Heading</h1>"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/anatomy.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (0 words)",
+      "file": "en/anatomy.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (12 chars, min 30)",
+      "file": "en/terms.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/terms.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (4 chars, min 30)",
+      "file": "en/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "1 images missing alt text",
+      "file": "en/index.astro",
+      "fix": "Add descriptive alt text to all images"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (14 chars, min 30)",
+      "file": "en/privacy.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/privacy.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "contato/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "casos/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "educacao/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (23 chars, min 30)",
+      "file": "formacao/curso-endomidface.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "formacao/curso-endomidface.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (133 words)",
+      "file": "formacao/curso-endomidface.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "critical",
+      "category": "onpage",
+      "message": "Missing title tag",
+      "file": "formacao/index.astro",
+      "fix": "Add <title>Your Page Title</title> in <head>"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Missing meta description",
+      "file": "formacao/index.astro",
+      "fix": "Add <meta name=\"description\" content=\"Your description here\">"
+    },
+    {
+      "severity": "critical",
+      "category": "onpage",
+      "message": "Missing H1 tag",
+      "file": "formacao/index.astro",
+      "fix": "Add <h1>Your Main Heading</h1>"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "formacao/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnologia-clinica/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (19 chars, min 30)",
+      "file": "tecnicas/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "biblioteca/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (22 chars, min 30)",
+      "file": "face-moderna/o-que-e.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "face-moderna/o-que-e.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (13 chars, min 30)",
+      "file": "face-moderna/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "face-moderna/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (29 chars, min 30)",
+      "file": "face-moderna/evolucao-da-cirurgia-facial.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "face-moderna/evolucao-da-cirurgia-facial.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (19 chars, min 30)",
+      "file": "face-moderna/principios.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "face-moderna/principios.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (80 words)",
+      "file": "face-moderna/principios.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "face-moderna/linha-do-tempo.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (165 words)",
+      "file": "face-moderna/linha-do-tempo.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (9 chars, min 30)",
+      "file": "face-moderna/filosofia.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "face-moderna/filosofia.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (21 chars, min 30)",
+      "file": "face-moderna/por-que-visao-direta.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "face-moderna/por-que-visao-direta.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (28 chars, min 30)",
+      "file": "face-moderna/socializacao-do-conhecimento.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "face-moderna/socializacao-do-conhecimento.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/legal/privacidad.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (242 words)",
+      "file": "es/legal/privacidad.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/legal/terminos.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (237 words)",
+      "file": "es/legal/terminos.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/sobre/linea-del-tiempo.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (60 words)",
+      "file": "es/sobre/linea-del-tiempo.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (68 chars)",
+      "file": "es/sobre/casuistica.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/sobre/casuistica.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (81 words)",
+      "file": "es/sobre/casuistica.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/sobre/dr-roberio-brandao.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (118 words)",
+      "file": "es/sobre/dr-roberio-brandao.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/sobre/vision-de-futuro.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (116 words)",
+      "file": "es/sobre/vision-de-futuro.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (29 chars, min 30)",
+      "file": "es/sobre/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/sobre/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/sobre/principios-eticos.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (82 words)",
+      "file": "es/sobre/principios-eticos.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (26 chars, min 30)",
+      "file": "es/faq/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/faq/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "critical",
+      "category": "onpage",
+      "message": "Missing title tag",
+      "file": "es/techniques/endomidface.astro",
+      "fix": "Add <title>Your Page Title</title> in <head>"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Missing meta description",
+      "file": "es/techniques/endomidface.astro",
+      "fix": "Add <meta name=\"description\" content=\"Your description here\">"
+    },
+    {
+      "severity": "critical",
+      "category": "onpage",
+      "message": "Missing H1 tag",
+      "file": "es/techniques/endomidface.astro",
+      "fix": "Add <h1>Your Main Heading</h1>"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/techniques/endomidface.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (0 words)",
+      "file": "es/techniques/endomidface.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "es/planificacion-quirurgica/consentimiento.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/planificacion-quirurgica/consentimiento.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (61 words)",
+      "file": "es/planificacion-quirurgica/consentimiento.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (27 chars, min 30)",
+      "file": "es/planificacion-quirurgica/sistema-spe-m.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/planificacion-quirurgica/sistema-spe-m.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (48 words)",
+      "file": "es/planificacion-quirurgica/sistema-spe-m.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/planificacion-quirurgica/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "es/planificacion-quirurgica/fotografia.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/planificacion-quirurgica/fotografia.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (44 words)",
+      "file": "es/planificacion-quirurgica/fotografia.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/planificacion-quirurgica/evaluacion-inicial.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (57 words)",
+      "file": "es/planificacion-quirurgica/evaluacion-inicial.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (23 chars, min 30)",
+      "file": "es/planificacion-quirurgica/checklist.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/planificacion-quirurgica/checklist.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (78 words)",
+      "file": "es/planificacion-quirurgica/checklist.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (22 chars, min 30)",
+      "file": "es/planificacion-quirurgica/vectores.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/planificacion-quirurgica/vectores.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (52 words)",
+      "file": "es/planificacion-quirurgica/vectores.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/contacto/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnologia-clinica/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (20 chars, min 30)",
+      "file": "es/tecnicas/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/educacion/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/biblioteca/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "es/face-moderna/por-que-vision-directa.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/face-moderna/por-que-vision-directa.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (61 chars, max 60)",
+      "file": "es/face-moderna/linea-del-tiempo.astro",
+      "fix": "Shorten to: Línea del Tiempo de la Cirugía Facial | Modern Face Insti..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/face-moderna/linea-del-tiempo.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (173 words)",
+      "file": "es/face-moderna/linea-del-tiempo.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/face-moderna/socializacion-del-conocimiento.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/face-moderna/evolucion-de-la-cirugia-facial.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (13 chars, min 30)",
+      "file": "es/face-moderna/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/face-moderna/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/face-moderna/principios.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (104 words)",
+      "file": "es/face-moderna/principios.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (22 chars, min 30)",
+      "file": "es/face-moderna/que-es.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/face-moderna/que-es.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (29 chars, min 30)",
+      "file": "es/face-moderna/filosofia.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/face-moderna/filosofia.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (23 chars, min 30)",
+      "file": "es/formacion/curso-endomidface.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/formacion/curso-endomidface.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (133 words)",
+      "file": "es/formacion/curso-endomidface.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnologia-clinica/ai-copilot/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (63 chars)",
+      "file": "es/tecnologia-clinica/faceos/checklists.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnologia-clinica/faceos/checklists.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (118 words)",
+      "file": "es/tecnologia-clinica/faceos/checklists.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnologia-clinica/faceos/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnologia-clinica/faceos/planificacion-vectores.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (130 words)",
+      "file": "es/tecnologia-clinica/faceos/planificacion-vectores.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnologia-clinica/faceos/spe-m.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (116 words)",
+      "file": "es/tecnologia-clinica/faceos/spe-m.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (27 chars, min 30)",
+      "file": "es/tecnologia-clinica/faceos/prontuario.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnologia-clinica/faceos/prontuario.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (103 words)",
+      "file": "es/tecnologia-clinica/faceos/prontuario.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (18 chars, min 30)",
+      "file": "es/tecnicas/browlift/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/browlift/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/anatomia/espacios-quirurgicos.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (43 words)",
+      "file": "es/tecnicas/anatomia/espacios-quirurgicos.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/anatomia/ligamentos-retentores.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (49 words)",
+      "file": "es/tecnicas/anatomia/ligamentos-retentores.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/anatomia/tercio-medio.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (103 words)",
+      "file": "es/tecnicas/anatomia/tercio-medio.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/anatomia/tercio-inferior.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (52 words)",
+      "file": "es/tecnicas/anatomia/tercio-inferior.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/anatomia/tercio-superior.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (50 words)",
+      "file": "es/tecnicas/anatomia/tercio-superior.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (26 chars, min 30)",
+      "file": "es/tecnicas/anatomia/region-cervical.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/anatomia/region-cervical.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (57 words)",
+      "file": "es/tecnicas/anatomia/region-cervical.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/anatomia/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/anatomia/nervios-faciales.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (142 words)",
+      "file": "es/tecnicas/anatomia/nervios-faciales.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (27 chars, min 30)",
+      "file": "es/tecnicas/endomidface/paso-a-paso.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (56 chars)",
+      "file": "es/tecnicas/endomidface/paso-a-paso.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/endomidface/paso-a-paso.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (89 words)",
+      "file": "es/tecnicas/endomidface/paso-a-paso.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (28 chars, min 30)",
+      "file": "es/tecnicas/endomidface/recuperacion.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/endomidface/recuperacion.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (140 words)",
+      "file": "es/tecnicas/endomidface/recuperacion.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (26 chars, min 30)",
+      "file": "es/tecnicas/endomidface/resultados.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/endomidface/resultados.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (102 words)",
+      "file": "es/tecnicas/endomidface/resultados.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "es/tecnicas/endomidface/anatomia.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/endomidface/anatomia.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (136 words)",
+      "file": "es/tecnicas/endomidface/anatomia.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (28 chars, min 30)",
+      "file": "es/tecnicas/endomidface/limitaciones.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (67 chars)",
+      "file": "es/tecnicas/endomidface/limitaciones.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/endomidface/limitaciones.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (71 words)",
+      "file": "es/tecnicas/endomidface/limitaciones.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (59 chars)",
+      "file": "es/tecnicas/endomidface/errores-comunes.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/endomidface/errores-comunes.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (69 words)",
+      "file": "es/tecnicas/endomidface/errores-comunes.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/endomidface/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (18 chars, min 30)",
+      "file": "es/tecnicas/endomidface/que-es.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/endomidface/que-es.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (241 words)",
+      "file": "es/tecnicas/endomidface/que-es.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (20 chars, min 30)",
+      "file": "es/tecnicas/endomidface/vectores.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/endomidface/vectores.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (221 words)",
+      "file": "es/tecnicas/endomidface/vectores.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "es/tecnicas/endomidface/indicaciones.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/endomidface/indicaciones.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (106 words)",
+      "file": "es/tecnicas/endomidface/indicaciones.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (25 chars, min 30)",
+      "file": "es/tecnicas/deep-neck/paso-a-paso.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (56 chars)",
+      "file": "es/tecnicas/deep-neck/paso-a-paso.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/deep-neck/paso-a-paso.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (66 words)",
+      "file": "es/tecnicas/deep-neck/paso-a-paso.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (27 chars, min 30)",
+      "file": "es/tecnicas/deep-neck/pilares.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (63 chars)",
+      "file": "es/tecnicas/deep-neck/pilares.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/deep-neck/pilares.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (71 words)",
+      "file": "es/tecnicas/deep-neck/pilares.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "es/tecnicas/deep-neck/casos.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/deep-neck/casos.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (87 words)",
+      "file": "es/tecnicas/deep-neck/casos.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "es/tecnicas/deep-neck/resultados.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/deep-neck/resultados.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (139 words)",
+      "file": "es/tecnicas/deep-neck/resultados.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (22 chars, min 30)",
+      "file": "es/tecnicas/deep-neck/anatomia.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (53 chars)",
+      "file": "es/tecnicas/deep-neck/anatomia.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/deep-neck/anatomia.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (68 words)",
+      "file": "es/tecnicas/deep-neck/anatomia.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (28 chars, min 30)",
+      "file": "es/tecnicas/deep-neck/errores-comunes.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (57 chars)",
+      "file": "es/tecnicas/deep-neck/errores-comunes.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/deep-neck/errores-comunes.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (49 words)",
+      "file": "es/tecnicas/deep-neck/errores-comunes.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (22 chars, min 30)",
+      "file": "es/tecnicas/deep-neck/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/deep-neck/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (16 chars, min 30)",
+      "file": "es/tecnicas/deep-neck/que-es.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/deep-neck/que-es.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (188 words)",
+      "file": "es/tecnicas/deep-neck/que-es.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (26 chars, min 30)",
+      "file": "es/tecnicas/deep-neck/indicaciones.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/tecnicas/deep-neck/indicaciones.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (102 words)",
+      "file": "es/tecnicas/deep-neck/indicaciones.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/educacion/cursos-satelites/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/educacion/programas-nucleo/endomidface-vision-directa.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (120 words)",
+      "file": "es/educacion/programas-nucleo/endomidface-vision-directa.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/educacion/programas-nucleo/deep-neck-mastery.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (119 words)",
+      "file": "es/educacion/programas-nucleo/deep-neck-mastery.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/educacion/formacion-avanzada/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/biblioteca/estudios-clinicos/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (20 chars, min 30)",
+      "file": "es/biblioteca/ebooks/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/biblioteca/ebooks/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/biblioteca/publicaciones/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (28 chars, min 30)",
+      "file": "es/biblioteca/guias-practicos/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/biblioteca/guias-practicos/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "es/biblioteca/infograficos/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "es/biblioteca/infograficos/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/legal/terms.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (220 words)",
+      "file": "en/legal/terms.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (64 chars)",
+      "file": "en/legal/privacy.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/legal/privacy.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (220 words)",
+      "file": "en/legal/privacy.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/faq/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (184 chars, max 160)",
+      "file": "en/methods/index.astro",
+      "fix": "Shorten to: Subperiosteal midface elevation using Direct Vision approach. The core technique for addressing malar descent, nasolabial deepening, and midface volume loss ..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (22 chars, min 30)",
+      "file": "en/methods/endomidface-direct-vision.astro",
+      "fix": ""
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (260 chars, max 160)",
+      "file": "en/methods/endomidface-direct-vision.astro",
+      "fix": "Shorten to: ENDOMIDFACE® by Direct Vision is a midface lifting technique that eliminates endoscopic equipment dependency. Learn about the vertical vector approach, subpe..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (13 chars, min 30)",
+      "file": "en/philosophy/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (197 chars, max 160)",
+      "file": "en/philosophy/index.astro",
+      "fix": "Shorten to: Modern Face® is a surgical philosophy for facial rejuvenation adapted to contemporary patients. Most facelift candidates today have received fillers or bioes..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (26 chars, min 30)",
+      "file": "en/surgical-planning/initial-assessment.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/surgical-planning/initial-assessment.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (56 words)",
+      "file": "en/surgical-planning/initial-assessment.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (18 chars, min 30)",
+      "file": "en/surgical-planning/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/surgical-planning/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "en/surgical-planning/photography.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/surgical-planning/photography.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (43 words)",
+      "file": "en/surgical-planning/photography.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (13 chars, min 30)",
+      "file": "en/surgical-planning/checklist.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/surgical-planning/checklist.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (74 words)",
+      "file": "en/surgical-planning/checklist.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (17 chars, min 30)",
+      "file": "en/surgical-planning/vectors.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/surgical-planning/vectors.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (46 words)",
+      "file": "en/surgical-planning/vectors.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (21 chars, min 30)",
+      "file": "en/surgical-planning/consent.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/surgical-planning/consent.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (57 words)",
+      "file": "en/surgical-planning/consent.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (23 chars, min 30)",
+      "file": "en/surgical-planning/spe-m-system.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/surgical-planning/spe-m-system.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (46 words)",
+      "file": "en/surgical-planning/spe-m-system.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (14 chars, min 30)",
+      "file": "en/techniques/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (29 chars, min 30)",
+      "file": "en/creator/timeline.astro",
+      "fix": ""
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (243 chars, max 160)",
+      "file": "en/creator/timeline.astro",
+      "fix": "Shorten to: Dr. Robério Brandão begins developing the foundational concepts for what would become ENDOMIDFACE. Working in Natal, RN, Brazil, without access to expensive ..."
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (71 chars, max 60)",
+      "file": "en/creator/case-series-safety.astro",
+      "fix": "Shorten to: 1,500+ Cases, Zero Permanent Neural Injury — ENDOMIDFACE®..."
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (47 chars)",
+      "file": "en/creator/case-series-safety.astro",
+      "fix": ""
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (21 chars, min 30)",
+      "file": "en/creator/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (197 chars, max 160)",
+      "file": "en/creator/index.astro",
+      "fix": "Shorten to: Meet Dr. Robério Brandão, the Brazilian facial plastic surgeon who created ENDOMIDFACE® by Direct Vision technique and founded the Modern Face® philosophy. P..."
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (64 chars, max 60)",
+      "file": "en/creator/faq-authorship.astro",
+      "fix": "Shorten to: FAQ: ENDOMIDFACE® Authorship — Who Created It? Is It Endo..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (176 chars, max 160)",
+      "file": "en/creator/faq-authorship.astro",
+      "fix": "Shorten to: Answers to common questions about ENDOMIDFACE® by Direct Vision: Who created it? Is it endoscopic? How does it differ from Deep Plane? Learn the facts about ..."
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (239 words)",
+      "file": "en/creator/faq-authorship.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (175 chars, max 160)",
+      "file": "en/training/application.astro",
+      "fix": "Shorten to: Apply for ENDOMIDFACE® Mentorship, Deep Neck Mentorship, or Combo Legacy training programs. Complete the surgical profile form to begin your training with Dr..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/training/application.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (265 words)",
+      "file": "en/training/application.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (232 chars, max 160)",
+      "file": "en/training/endomidface-mentorship.astro",
+      "fix": "Shorten to: Master ENDOMIDFACE® by Direct Vision in this 2-month mentorship with Dr. Robério Brandão. Complete technique training, live case discussions, private communi..."
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (281 words)",
+      "file": "en/training/endomidface-mentorship.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (204 chars, max 160)",
+      "file": "en/training/index.astro",
+      "fix": "Shorten to: Learn ENDOMIDFACE® by Direct Vision and Deep Neck techniques directly from Dr. Robério Brandão. Online mentorship programs with live case discussions. $3,100..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (27 chars, min 30)",
+      "file": "en/training/endomidface-course.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/training/endomidface-course.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (128 words)",
+      "file": "en/training/endomidface-course.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (17 chars, min 30)",
+      "file": "en/training/combo-legacy.astro",
+      "fix": ""
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (251 chars, max 160)",
+      "file": "en/training/combo-legacy.astro",
+      "fix": "Shorten to: The complete Modern Face® training: ENDOMIDFACE® + Deep Neck in a 6-month comprehensive program. Save $447 vs separate courses. Priority mentorship access, a..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (7 chars, min 30)",
+      "file": "en/library/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/library/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (6 chars, min 30)",
+      "file": "en/clinical-technology/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/clinical-technology/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (26 chars, min 30)",
+      "file": "en/applied-anatomy/retaining-ligaments.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (64 chars)",
+      "file": "en/applied-anatomy/retaining-ligaments.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/applied-anatomy/retaining-ligaments.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (45 words)",
+      "file": "en/applied-anatomy/retaining-ligaments.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/applied-anatomy/facial-nerves.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (141 words)",
+      "file": "en/applied-anatomy/facial-nerves.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/applied-anatomy/upper-third.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (48 words)",
+      "file": "en/applied-anatomy/upper-third.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (23 chars, min 30)",
+      "file": "en/applied-anatomy/cervical-region.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/applied-anatomy/cervical-region.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (60 words)",
+      "file": "en/applied-anatomy/cervical-region.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/applied-anatomy/middle-third.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (129 words)",
+      "file": "en/applied-anatomy/middle-third.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (11 chars, min 30)",
+      "file": "en/applied-anatomy/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/applied-anatomy/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/applied-anatomy/lower-third.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (48 words)",
+      "file": "en/applied-anatomy/lower-third.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (22 chars, min 30)",
+      "file": "en/applied-anatomy/surgical-spaces.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/applied-anatomy/surgical-spaces.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (68 words)",
+      "file": "en/applied-anatomy/surgical-spaces.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/about/case-studies.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (96 words)",
+      "file": "en/about/case-studies.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (15 chars, min 30)",
+      "file": "en/about/timeline.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/about/timeline.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (56 words)",
+      "file": "en/about/timeline.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (20 chars, min 30)",
+      "file": "en/about/dr-roberio-brandao.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (24 chars)",
+      "file": "en/about/dr-roberio-brandao.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/about/dr-roberio-brandao.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (154 words)",
+      "file": "en/about/dr-roberio-brandao.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (19 chars, min 30)",
+      "file": "en/about/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/about/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (14 chars, min 30)",
+      "file": "en/about/future-vision.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (21 chars)",
+      "file": "en/about/future-vision.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/about/future-vision.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (110 words)",
+      "file": "en/about/future-vision.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (12 chars, min 30)",
+      "file": "en/about/ethical-principles.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/about/ethical-principles.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (76 words)",
+      "file": "en/about/ethical-principles.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (71 chars, max 60)",
+      "file": "en/compare/deep-plane-without-150k-tower.astro",
+      "fix": "Shorten to: Can You Do Deep Plane Without a $150k Tower? — The Direct..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (208 chars, max 160)",
+      "file": "en/compare/deep-plane-without-150k-tower.astro",
+      "fix": "Shorten to: The equipment-free path to advanced facial surgery. Learn how ENDOMIDFACE® by Direct Vision achieves deep plane-level results without endoscopic equipment. S..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (21 chars, min 30)",
+      "file": "en/modern-face/philosophy.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/modern-face/philosophy.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/modern-face/timeline.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (157 words)",
+      "file": "en/modern-face/timeline.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (12 chars, min 30)",
+      "file": "en/modern-face/evolution-of-facial-surgery.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/modern-face/evolution-of-facial-surgery.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (18 chars, min 30)",
+      "file": "en/modern-face/why-direct-vision.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/modern-face/why-direct-vision.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (21 chars, min 30)",
+      "file": "en/modern-face/what-is-it.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/modern-face/what-is-it.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (21 chars, min 30)",
+      "file": "en/modern-face/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (46 chars)",
+      "file": "en/modern-face/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/modern-face/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (22 chars, min 30)",
+      "file": "en/modern-face/knowledge-sharing.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/modern-face/knowledge-sharing.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (28 chars, min 30)",
+      "file": "en/modern-face/principles.astro",
+      "fix": ""
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (229 chars, max 160)",
+      "file": "en/modern-face/principles.astro",
+      "fix": "Shorten to: Direct vision provides simultaneous tactile and visual feedback. You see AND feel. At the same time. In the same plane. The endoscope creates a dissociation ..."
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/modern-face/principles.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (106 words)",
+      "file": "en/modern-face/principles.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (5 chars, min 30)",
+      "file": "en/contact/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/contact/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (17 chars, min 30)",
+      "file": "en/education/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/education/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Title too long (65 chars, max 60)",
+      "file": "en/methods/endomidface/direct-vision-vs-endoscopic.astro",
+      "fix": "Shorten to: Direct Vision vs Endoscopic Tower: Myth vs Reality — ENDO..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (221 chars, max 160)",
+      "file": "en/methods/endomidface/direct-vision-vs-endoscopic.astro",
+      "fix": "Shorten to: Complete comparison between Direct Vision and endoscopic approaches for midface surgery. Equipment costs, visualization quality, safety data, and clinical ou..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (18 chars, min 30)",
+      "file": "en/methods/deep-neck/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Meta description too long (273 chars, max 160)",
+      "file": "en/methods/deep-neck/index.astro",
+      "fix": "Shorten to: Deep Neck surgery without submandibular gland removal: a conservative approach to cervical rejuvenation that preserves natural anatomy while achieving excell..."
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (20 chars, min 30)",
+      "file": "en/techniques/browlift/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (66 chars)",
+      "file": "en/techniques/browlift/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/browlift/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (19 chars, min 30)",
+      "file": "en/techniques/endomidface/anatomy.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/endomidface/anatomy.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (135 words)",
+      "file": "en/techniques/endomidface/anatomy.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (23 chars, min 30)",
+      "file": "en/techniques/endomidface/indications.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/endomidface/indications.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (160 words)",
+      "file": "en/techniques/endomidface/indications.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (28 chars, min 30)",
+      "file": "en/techniques/endomidface/common-errors.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/endomidface/common-errors.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (102 words)",
+      "file": "en/techniques/endomidface/common-errors.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (19 chars, min 30)",
+      "file": "en/techniques/endomidface/what-is-it.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/endomidface/what-is-it.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (247 words)",
+      "file": "en/techniques/endomidface/what-is-it.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (15 chars, min 30)",
+      "file": "en/techniques/endomidface/recovery.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/endomidface/recovery.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (179 words)",
+      "file": "en/techniques/endomidface/recovery.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (13 chars, min 30)",
+      "file": "en/techniques/endomidface/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/endomidface/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "en/techniques/endomidface/step-by-step.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/endomidface/step-by-step.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (106 words)",
+      "file": "en/techniques/endomidface/step-by-step.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (23 chars, min 30)",
+      "file": "en/techniques/endomidface/limitations.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (22 chars)",
+      "file": "en/techniques/endomidface/limitations.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/endomidface/limitations.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (118 words)",
+      "file": "en/techniques/endomidface/limitations.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (16 chars, min 30)",
+      "file": "en/techniques/endomidface/vectors.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/endomidface/vectors.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (212 words)",
+      "file": "en/techniques/endomidface/vectors.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (19 chars, min 30)",
+      "file": "en/techniques/endomidface/results.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/endomidface/results.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (142 words)",
+      "file": "en/techniques/endomidface/results.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "en/techniques/deep-neck/cases.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/deep-neck/cases.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (77 words)",
+      "file": "en/techniques/deep-neck/cases.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (17 chars, min 30)",
+      "file": "en/techniques/deep-neck/anatomy.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (51 chars)",
+      "file": "en/techniques/deep-neck/anatomy.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/deep-neck/anatomy.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (68 words)",
+      "file": "en/techniques/deep-neck/anatomy.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (21 chars, min 30)",
+      "file": "en/techniques/deep-neck/indications.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/deep-neck/indications.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (99 words)",
+      "file": "en/techniques/deep-neck/indications.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (26 chars, min 30)",
+      "file": "en/techniques/deep-neck/common-errors.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (56 chars)",
+      "file": "en/techniques/deep-neck/common-errors.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/deep-neck/common-errors.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (48 words)",
+      "file": "en/techniques/deep-neck/common-errors.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (17 chars, min 30)",
+      "file": "en/techniques/deep-neck/what-is-it.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/deep-neck/what-is-it.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (173 words)",
+      "file": "en/techniques/deep-neck/what-is-it.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "en/techniques/deep-neck/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/deep-neck/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (22 chars, min 30)",
+      "file": "en/techniques/deep-neck/step-by-step.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (49 chars)",
+      "file": "en/techniques/deep-neck/step-by-step.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/deep-neck/step-by-step.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (59 words)",
+      "file": "en/techniques/deep-neck/step-by-step.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (26 chars, min 30)",
+      "file": "en/techniques/deep-neck/pillars.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (63 chars)",
+      "file": "en/techniques/deep-neck/pillars.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/deep-neck/pillars.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (69 words)",
+      "file": "en/techniques/deep-neck/pillars.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (17 chars, min 30)",
+      "file": "en/techniques/deep-neck/results.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/techniques/deep-neck/results.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (129 words)",
+      "file": "en/techniques/deep-neck/results.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (27 chars, min 30)",
+      "file": "en/library/infographics/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/library/infographics/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/library/publications/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/library/practical-guides/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/library/ebooks/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (26 chars, min 30)",
+      "file": "en/library/clinical-studies/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/library/clinical-studies/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (18 chars, min 30)",
+      "file": "en/clinical-technology/ai-copilot/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/clinical-technology/ai-copilot/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "en/clinical-technology/faceos/vector-planning.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/clinical-technology/faceos/vector-planning.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (116 words)",
+      "file": "en/clinical-technology/faceos/vector-planning.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (28 chars, min 30)",
+      "file": "en/clinical-technology/faceos/checklists.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/clinical-technology/faceos/checklists.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (98 words)",
+      "file": "en/clinical-technology/faceos/checklists.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/clinical-technology/faceos/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "en/clinical-technology/faceos/records.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/clinical-technology/faceos/records.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (90 words)",
+      "file": "en/clinical-technology/faceos/records.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/clinical-technology/faceos/spe-m.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (106 words)",
+      "file": "en/clinical-technology/faceos/spe-m.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (21 chars, min 30)",
+      "file": "en/education/advanced-training/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/education/advanced-training/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (29 chars, min 30)",
+      "file": "en/education/satellite-courses/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/education/satellite-courses/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "en/education/core-programs/deep-neck-mastery.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/education/core-programs/deep-neck-mastery.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (112 words)",
+      "file": "en/education/core-programs/deep-neck-mastery.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "en/education/core-programs/endomidface-direct-vision.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "en/education/core-programs/endomidface-direct-vision.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (110 words)",
+      "file": "en/education/core-programs/endomidface-direct-vision.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "H3 used without H2 (broken hierarchy)",
+      "file": "casos/cirurgicos/index.astro",
+      "fix": "Add H2 headings before H3s"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "casos/cirurgicos/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "casos/alunos/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "educacao/cursos-satelites/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "educacao/programas-nucleo/endomidface-visao-direta.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (188 words)",
+      "file": "educacao/programas-nucleo/endomidface-visao-direta.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "educacao/programas-nucleo/deep-neck-mastery.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (127 words)",
+      "file": "educacao/programas-nucleo/deep-neck-mastery.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "educacao/formacao-avancada/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnologia-clinica/ai-copilot/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnologia-clinica/faceos/planejamento-vetores.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (150 words)",
+      "file": "tecnologia-clinica/faceos/planejamento-vetores.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnologia-clinica/faceos/checklists.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (131 words)",
+      "file": "tecnologia-clinica/faceos/checklists.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnologia-clinica/faceos/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnologia-clinica/faceos/spe-m.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (205 words)",
+      "file": "tecnologia-clinica/faceos/spe-m.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (27 chars, min 30)",
+      "file": "tecnologia-clinica/faceos/prontuario.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnologia-clinica/faceos/prontuario.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (122 words)",
+      "file": "tecnologia-clinica/faceos/prontuario.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (18 chars, min 30)",
+      "file": "tecnicas/browlift/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/browlift/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (23 chars, min 30)",
+      "file": "tecnicas/planejamento-cirurgico/consentimento.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/planejamento-cirurgico/consentimento.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (61 words)",
+      "file": "tecnicas/planejamento-cirurgico/consentimento.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (20 chars, min 30)",
+      "file": "tecnicas/planejamento-cirurgico/vetores.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/planejamento-cirurgico/vetores.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (83 words)",
+      "file": "tecnicas/planejamento-cirurgico/vetores.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (26 chars, min 30)",
+      "file": "tecnicas/planejamento-cirurgico/sistema-spe-m.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/planejamento-cirurgico/sistema-spe-m.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (110 words)",
+      "file": "tecnicas/planejamento-cirurgico/sistema-spe-m.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (29 chars, min 30)",
+      "file": "tecnicas/planejamento-cirurgico/avaliacao-inicial.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/planejamento-cirurgico/avaliacao-inicial.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (81 words)",
+      "file": "tecnicas/planejamento-cirurgico/avaliacao-inicial.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/planejamento-cirurgico/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (22 chars, min 30)",
+      "file": "tecnicas/planejamento-cirurgico/fotografia.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/planejamento-cirurgico/fotografia.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (43 words)",
+      "file": "tecnicas/planejamento-cirurgico/fotografia.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "tecnicas/planejamento-cirurgico/checklist.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/planejamento-cirurgico/checklist.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (87 words)",
+      "file": "tecnicas/planejamento-cirurgico/checklist.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (27 chars, min 30)",
+      "file": "tecnicas/anatomia/regiao-cervical.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/anatomia/regiao-cervical.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (113 words)",
+      "file": "tecnicas/anatomia/regiao-cervical.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (29 chars, min 30)",
+      "file": "tecnicas/anatomia/ligamentos-retentores.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/anatomia/ligamentos-retentores.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (116 words)",
+      "file": "tecnicas/anatomia/ligamentos-retentores.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (26 chars, min 30)",
+      "file": "tecnicas/anatomia/espacos-cirurgicos.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/anatomia/espacos-cirurgicos.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (127 words)",
+      "file": "tecnicas/anatomia/espacos-cirurgicos.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/anatomia/terco-medio.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (197 words)",
+      "file": "tecnicas/anatomia/terco-medio.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/anatomia/terco-inferior.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (136 words)",
+      "file": "tecnicas/anatomia/terco-inferior.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/anatomia/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/anatomia/nervos-faciais.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (257 words)",
+      "file": "tecnicas/anatomia/nervos-faciais.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/anatomia/terco-superior.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (86 words)",
+      "file": "tecnicas/anatomia/terco-superior.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (23 chars, min 30)",
+      "file": "tecnicas/endomidface/passo-a-passo.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/endomidface/passo-a-passo.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (169 words)",
+      "file": "tecnicas/endomidface/passo-a-passo.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (21 chars, min 30)",
+      "file": "tecnicas/endomidface/o-que-e.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/endomidface/o-que-e.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (18 chars, min 30)",
+      "file": "tecnicas/endomidface/vetores.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/endomidface/vetores.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (25 chars, min 30)",
+      "file": "tecnicas/endomidface/resultados.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/endomidface/resultados.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (291 words)",
+      "file": "tecnicas/endomidface/resultados.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (23 chars, min 30)",
+      "file": "tecnicas/endomidface/anatomia.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/endomidface/anatomia.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (28 chars, min 30)",
+      "file": "tecnicas/endomidface/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/endomidface/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (25 chars, min 30)",
+      "file": "tecnicas/endomidface/indicacoes.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/endomidface/indicacoes.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (27 chars, min 30)",
+      "file": "tecnicas/endomidface/erros-comuns.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/endomidface/erros-comuns.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (166 words)",
+      "file": "tecnicas/endomidface/erros-comuns.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (26 chars, min 30)",
+      "file": "tecnicas/endomidface/recuperacao.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/endomidface/recuperacao.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (269 words)",
+      "file": "tecnicas/endomidface/recuperacao.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (25 chars, min 30)",
+      "file": "tecnicas/endomidface/limitacoes.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/endomidface/limitacoes.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (25 chars, min 30)",
+      "file": "tecnicas/deep-neck/pilares.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (63 chars)",
+      "file": "tecnicas/deep-neck/pilares.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/deep-neck/pilares.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (73 words)",
+      "file": "tecnicas/deep-neck/pilares.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (26 chars, min 30)",
+      "file": "tecnicas/deep-neck/passo-a-passo.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (55 chars)",
+      "file": "tecnicas/deep-neck/passo-a-passo.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/deep-neck/passo-a-passo.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (66 words)",
+      "file": "tecnicas/deep-neck/passo-a-passo.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (24 chars, min 30)",
+      "file": "tecnicas/deep-neck/casos.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/deep-neck/casos.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (83 words)",
+      "file": "tecnicas/deep-neck/casos.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (19 chars, min 30)",
+      "file": "tecnicas/deep-neck/o-que-e.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/deep-neck/o-que-e.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (204 words)",
+      "file": "tecnicas/deep-neck/o-que-e.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (23 chars, min 30)",
+      "file": "tecnicas/deep-neck/resultados.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/deep-neck/resultados.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (140 words)",
+      "file": "tecnicas/deep-neck/resultados.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (21 chars, min 30)",
+      "file": "tecnicas/deep-neck/anatomia.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (53 chars)",
+      "file": "tecnicas/deep-neck/anatomia.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/deep-neck/anatomia.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (64 words)",
+      "file": "tecnicas/deep-neck/anatomia.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (22 chars, min 30)",
+      "file": "tecnicas/deep-neck/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/deep-neck/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (23 chars, min 30)",
+      "file": "tecnicas/deep-neck/indicacoes.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/deep-neck/indicacoes.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (102 words)",
+      "file": "tecnicas/deep-neck/indicacoes.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (25 chars, min 30)",
+      "file": "tecnicas/deep-neck/erros-comuns.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Meta description too short (55 chars)",
+      "file": "tecnicas/deep-neck/erros-comuns.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "tecnicas/deep-neck/erros-comuns.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "low",
+      "category": "onpage",
+      "message": "Thin content (49 words)",
+      "file": "tecnicas/deep-neck/erros-comuns.astro",
+      "fix": "Expand content to at least 300 words for better SEO"
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "biblioteca/publicacoes/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (20 chars, min 30)",
+      "file": "biblioteca/ebooks/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "biblioteca/ebooks/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (29 chars, min 30)",
+      "file": "biblioteca/estudos-clinicos/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "biblioteca/estudos-clinicos/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (25 chars, min 30)",
+      "file": "biblioteca/infograficos/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "biblioteca/infograficos/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "medium",
+      "category": "onpage",
+      "message": "Title too short (27 chars, min 30)",
+      "file": "biblioteca/guias-praticos/index.astro",
+      "fix": ""
+    },
+    {
+      "severity": "low",
+      "category": "schema",
+      "message": "No schema markup found",
+      "file": "biblioteca/guias-praticos/index.astro",
+      "fix": "Add JSON-LD schema for better rich snippets"
+    },
+    {
+      "severity": "high",
+      "category": "onpage",
+      "message": "Duplicate content detected: glossario.astro, anatomia.astro, anatomia-aplicada.astro...",
+      "file": "",
+      "fix": "Ensure each page has unique content or use canonical tags"
+    },
+    {
+      "severity": "medium",
+      "category": "technical",
+      "message": "174 orphan pages (no internal links)",
+      "file": "",
+      "fix": "Add internal links to these pages from other content"
+    }
+  ],
+  "duplicates": [
+    [
+      "glossario.astro",
+      "anatomia.astro",
+      "anatomia-aplicada.astro",
+      "es/anatomia.astro",
+      "en/anatomy.astro",
+      "formacao/index.astro",
+      "es/techniques/endomidface.astro"
+    ]
+  ],
+  "orphan_pages": [
+    "en/modern-face/what-is-it.astro",
+    "blog/anestesia-local-cirurgia-facial.astro",
+    "blog/curva-aprendizado-lifting-facial.astro",
+    "tecnicas/deep-neck/index.astro",
+    "blog/como-se-tornar-cirurgiao-face-moderna.astro",
+    "blog/fios-pdo-vs-lifting-cirurgico.astro",
+    "tecnicas/browlift/index.astro",
+    "anatomia-aplicada.astro",
+    "blog/bioestimuladores-cirurgia-facial.astro",
+    "es/terminos.astro",
+    "es/faq/index.astro",
+    "blog/complicacoes-lifting-facial-prevencao.astro",
+    "en/philosophy/index.astro",
+    "en/index.astro",
+    "blog/ligamentos-retentores-faciais.astro",
+    "es/tecnologia-clinica/faceos/index.astro",
+    "en/library/clinical-studies/index.astro",
+    "es/formacion/curso-endomidface.astro",
+    "en/techniques/browlift/index.astro",
+    "face-moderna/o-que-e.astro",
+    "blog/mini-lifting-vs-lifting-completo.astro",
+    "blog/lifting-facial-fumantes.astro",
+    "formacao/curso-endomidface.astro",
+    "tecnologia-clinica/index.astro",
+    "contato/index.astro",
+    "en/creator/faq-authorship.astro",
+    "biblioteca/guias-praticos/index.astro",
+    "en/anatomy.astro",
+    "blog/fotos-antes-depois-importancia.astro",
+    "biblioteca/infograficos/index.astro",
+    "es/tecnicas/index.astro",
+    "blog/custo-beneficio-lifting-facial.astro",
+    "en/applied-anatomy/index.astro",
+    "blog/lifting-facial-segunda-vez-revisao.astro",
+    "blog/selecao-pacientes-cirurgia-facial.astro",
+    "blog/frontoplastia-browlift-guia-completo.astro",
+    "en/techniques/endomidface/index.astro",
+    "blog/alimentacao-recuperacao-lifting.astro",
+    "blog/exercicios-faciais-lifting-mito.astro",
+    "termos.astro",
+    "face-moderna/index.astro",
+    "blog/lifting-facial-apos-perda-peso.astro",
+    "blog/instituto-face-moderna-sobre.astro",
+    "en/techniques/index.astro",
+    "sobre/index.astro",
+    "es/anatomia.astro",
+    "blog/escolhendo-cirurgiao-lifting-facial.astro",
+    "es/biblioteca/ebooks/index.astro",
+    "tecnicas/index.astro",
+    "blog/historia-lifting-facial-evolucao.astro",
+    "blog/lifting-facial-masculino-diferencas.astro",
+    "casos/alunos/index.astro",
+    "en/education/satellite-courses/index.astro",
+    "biblioteca/publicacoes/index.astro",
+    "blog/contraindicacoes-lifting-facial.astro",
+    "es/index.astro",
+    "en/methods/deep-neck/index.astro",
+    "blog/lifting-facial-autoestima-psicologia.astro",
+    "es/educacion/formacion-avanzada/index.astro",
+    "en/education/index.astro",
+    "blog/browlift-visao-direta-frontoplastia-evolutiva.astro",
+    "es/biblioteca/publicaciones/index.astro",
+    "en/clinical-technology/faceos/index.astro",
+    "en/modern-face/index.astro",
+    "casos/cirurgicos/index.astro",
+    "es/biblioteca/infograficos/index.astro",
+    "blog/dormencia-sensibilidade-pos-lifting.astro",
+    "blog/vetor-vertical-vs-lateral-lifting.astro",
+    "blog/ptose-malar-tratamento-cirurgico.astro",
+    "en/techniques/deep-neck/index.astro",
+    "404.astro",
+    "sitemap.xml.astro",
+    "en/library/infographics/index.astro",
+    "formacao/index.astro",
+    "blog/skincare-pos-lifting.astro",
+    "blog/mitos-lifting-facial-verdades.astro",
+    "blog/lifting-sem-equipamento-caro.astro",
+    "casos/index.astro",
+    "blog/lifting-facial-vs-preenchimento.astro",
+    "blog/tendencias-cirurgia-facial-2025.astro",
+    "en/library/index.astro",
+    "blog/angulo-cervicomental-definicao.astro",
+    "face-moderna/linha-do-tempo.astro",
+    "en/clinical-technology/index.astro",
+    "rss.xml.astro",
+    "blog/deep-neck-preservando-glandula-submandibular.astro",
+    "blog/endomidface-por-visao-direta-tecnica.astro",
+    "en/modern-face/timeline.astro",
+    "blog/primeiro-lifting-50-anos-guia.astro",
+    "tecnicas/planejamento-cirurgico/index.astro",
+    "tecnicas/endomidface/index.astro",
+    "blog/gordura-facial-envelhecimento-compartimentos.astro",
+    "es/face-moderna/que-es.astro",
+    "blog/planejamento-cirurgico-facial-completo.astro",
+    "blog/deep-neck-guia-completo.astro",
+    "es/face-moderna/index.astro",
+    "en/library/publications/index.astro",
+    "biblioteca/index.astro",
+    "blog/ultrassom-microfocado-vs-lifting.astro",
+    "blog/blefaroplastia-lifting-combinados.astro",
+    "en/methods/index.astro",
+    "blog/perguntas-consulta-lifting-facial.astro",
+    "blog/indicacoes-endomidface-casos-ideais.astro",
+    "biblioteca/estudos-clinicos/index.astro",
+    "blog/plano-profundo-cirurgia-facial.astro",
+    "educacao/formacao-avancada/index.astro",
+    "privacidade.astro",
+    "blog/resultados-naturais-lifting-facial.astro",
+    "blog/index.astro",
+    "blog/lifting-facial-40-anos.astro",
+    "es/techniques/endomidface.astro",
+    "blog/hematoma-lifting-facial-prevencao.astro",
+    "blog/drenagem-linfatica-pos-lifting-facial.astro",
+    "blog/tempo-duracao-resultado-lifting.astro",
+    "blog/edema-inchaço-pos-lifting-evolucao.astro",
+    "blog/jowls-papada-tratamento-cirurgico.astro",
+    "blog/cicatriz-lifting-facial-cuidados.astro",
+    "es/biblioteca/index.astro",
+    "en/about/index.astro",
+    "en/contact/index.astro",
+    "biblioteca/ebooks/index.astro",
+    "es/contacto/index.astro",
+    "blog/espaco-pre-zigomatico-anatomia.astro",
+    "en/faq/index.astro",
+    "blog/deep-plane-sem-endoscopio-alternativa.astro",
+    "es/face-moderna/linea-del-tiempo.astro",
+    "en/terms.astro",
+    "es/tecnologia-clinica/ai-copilot/index.astro",
+    "faq/index.astro",
+    "en/training/index.astro",
+    "blog/gordura-facial-envelhecimento.astro",
+    "blog/lifting-facial-diabeticos.astro",
+    "anatomia.astro",
+    "blog/planejamento-pre-operatorio-lifting.astro",
+    "en/clinical-technology/ai-copilot/index.astro",
+    "es/biblioteca/guias-practicos/index.astro",
+    "en/creator/index.astro",
+    "es/sobre/index.astro",
+    "en/privacy.astro",
+    "blog/lifting-face-injetada-bioestimuladores.astro",
+    "tecnologia-clinica/ai-copilot/index.astro",
+    "educacao/index.astro",
+    "en/surgical-planning/index.astro",
+    "es/educacion/cursos-satelites/index.astro",
+    "es/tecnologia-clinica/index.astro",
+    "glossario.astro",
+    "es/tecnicas/anatomia/index.astro",
+    "blog/nervo-facial-cirurgia-protecao.astro",
+    "blog/lifting-facial-60-anos.astro",
+    "es/tecnicas/browlift/index.astro",
+    "blog/quando-ver-resultado-final-lifting.astro",
+    "es/planificacion-quirurgica/index.astro",
+    "blog/historia-cirurgia-facial-evolucao.astro",
+    "en/library/ebooks/index.astro",
+    "blog/dr-roberio-brandao-criador-endomidface.astro",
+    "tecnologia-clinica/faceos/index.astro",
+    "blog/face-moderna-conceito-filosofia.astro",
+    "es/tecnicas/deep-neck/index.astro",
+    "en/library/practical-guides/index.astro",
+    "en/education/advanced-training/index.astro",
+    "blog/recuperacao-pos-lifting-timeline.astro",
+    "blog/massagem-facial-drenagem-pos-lifting.astro",
+    "blog/sulco-nasogeniano-correcao.astro",
+    "blog/fat-grafting-lifting-facial.astro",
+    "es/biblioteca/estudios-clinicos/index.astro",
+    "blog/smas-o-que-e-importancia.astro",
+    "es/tecnicas/endomidface/index.astro",
+    "formacao.astro",
+    "tecnicas/anatomia/index.astro",
+    "blog/tecnologia-cirurgia-facial-moderna.astro",
+    "educacao/cursos-satelites/index.astro",
+    "blog/bandas-platismais-correcao.astro",
+    "es/privacidad.astro",
+    "es/educacion/index.astro"
+  ]
+}
