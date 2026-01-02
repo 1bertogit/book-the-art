@@ -1,5 +1,9 @@
 # Capítulo 14 — Técnicas de brow lift: temporal, endoscópico, Castañares modificado
 
+![Figura 14.1 — Ilustração principal do capítulo](assets/figures/FIG-14-01_browlift-temporal-endoscopico.png)
+
+
+
 **Parte:** Parte III — Terço Superior
 
 [[KEEP]]

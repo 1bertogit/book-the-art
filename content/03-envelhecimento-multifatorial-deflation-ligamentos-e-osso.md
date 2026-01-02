@@ -1,5 +1,9 @@
 # Capítulo 03 — Envelhecimento multifatorial: deflation, ligamentos e osso
 
+![Figura 03.1 — Ilustração principal do capítulo](assets/figures/FIG-03-01_envelhecimento-multifatorial.png)
+
+
+
 **Parte:** Introdução
 
 [[KEEP]]

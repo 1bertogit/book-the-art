@@ -1,5 +1,9 @@
 # Capítulo 16 — Ptose associada no superior: quando reconhecer e como integrar ao plano
 
+![Figura 16.1 — Ilustração principal do capítulo](assets/figures/FIG-16-01_ptose-avaliacao-integracao.png)
+
+
+
 **Parte:** Parte III — Terço Superior
 
 [[KEEP]]

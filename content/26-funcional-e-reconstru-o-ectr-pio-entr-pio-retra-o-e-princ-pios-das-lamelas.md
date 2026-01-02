@@ -1,5 +1,9 @@
 # Capítulo 26 — Funcional e reconstrução: ectrópio/entrópio/retração e princípios das lamelas
 
+![Figura 26.1 — Ilustração principal do capítulo](assets/figures/FIG-26-01_ectropio-entropio-lamelas.png)
+
+
+
 **Parte:** Parte VII — Funcional e Reconstrução
 
 [[KEEP]]

@@ -1,5 +1,7 @@
 # Notas legais, escopo e uso responsável (educacional)
 
+
+
 > **Aviso importante:** Este material tem finalidade **educacional** para profissionais de saúde devidamente treinados.
 > Não substitui treinamento supervisionado, diretrizes institucionais, julgamento clínico, nem consentimento informado.
 

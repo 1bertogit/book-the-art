@@ -1,5 +1,9 @@
 # Capítulo 15 — Blefaroplastia superior: pele, gordura (preservação) e glândula lacrimal
 
+![Figura 15.1 — Ilustração principal do capítulo](assets/figures/FIG-15-01_blef-superior-preservacao.png)
+
+
+
 **Parte:** Parte III — Terço Superior
 
 [[KEEP]]

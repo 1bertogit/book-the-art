@@ -1,5 +1,7 @@
 # Capítulo 06 — Checklist mental do resultado “nota 10” (princípios replicáveis)
 
+
+
 **Parte:** Parte 0 — Princípios e Segurança
 
 [[KEEP]]

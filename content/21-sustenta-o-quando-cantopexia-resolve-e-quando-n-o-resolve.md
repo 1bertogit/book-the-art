@@ -1,5 +1,9 @@
 # Capítulo 21 — Sustentação: quando cantopexia resolve e quando não resolve
 
+![Figura 21.1 — Ilustração principal do capítulo](assets/figures/FIG-21-01_sustentacao-cantopexia-decisao.png)
+
+
+
 **Parte:** Parte V — Canto Lateral e Sustentação
 
 [[KEEP]]

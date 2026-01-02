@@ -4,10 +4,22 @@
 CONTENT := content
 DIST := dist
 TOOLS := tools
+ASSETS := assets
 
 # Arquivos de saída
 MANUSCRITO := $(CONTENT)/00_MANUSCRITO.md
 MANUSCRITO_LIMPO := $(DIST)/manuscrito_limpo.md
+DOCX_OUT := $(DIST)/manuscrito.docx
+HTML_OUT := $(DIST)/ebook.html
+PDF_OUT := $(DIST)/manuscrito.pdf
+
+# Metadados Pandoc
+BOOK_TITLE := The Art of Eyelid Surgery
+BOOK_AUTHOR := Dr. Marcelo Cury
+BOOK_LANG := pt-BR
+BOOK_DATE := $(shell date +%Y-%m-%d)
+BOOK_CSS := $(ASSETS)/style.css
+PANDOC := pandoc
 
 # =============================================================================
 # TARGETS PRINCIPAIS
@@ -64,17 +76,21 @@ export-refs-paren: build ## Exporta com refs em parênteses (ID)
 
 docx: export ## Gera DOCX (requer Pandoc)
 	@echo "📄 Gerando DOCX..."
-	@pandoc $(MANUSCRITO_LIMPO) -o $(DIST)/manuscrito.docx \
+	@$(PANDOC) $(MANUSCRITO_LIMPO) -o $(DOCX_OUT) \
 		--from markdown \
 		--to docx \
 		--toc \
 		--toc-depth=2 \
-		--standalone
-	@echo "✅ Gerado: $(DIST)/manuscrito.docx"
+		--standalone \
+		--metadata title="$(BOOK_TITLE)" \
+		--metadata author="$(BOOK_AUTHOR)" \
+		--metadata date="$(BOOK_DATE)" \
+		--metadata lang=$(BOOK_LANG)
+	@echo "✅ Gerado: $(DOCX_OUT)"
 
 pdf: export ## Gera PDF (requer Pandoc + LaTeX)
 	@echo "📄 Gerando PDF..."
-	@pandoc $(MANUSCRITO_LIMPO) -o $(DIST)/manuscrito.pdf \
+	@$(PANDOC) $(MANUSCRITO_LIMPO) -o $(PDF_OUT) \
 		--from markdown \
 		--to pdf \
 		--toc \
@@ -82,20 +98,27 @@ pdf: export ## Gera PDF (requer Pandoc + LaTeX)
 		--pdf-engine=xelatex \
 		-V geometry:margin=2.5cm \
 		-V fontsize=11pt \
-		-V lang=pt-BR
-	@echo "✅ Gerado: $(DIST)/manuscrito.pdf"
+		-V lang=$(BOOK_LANG) \
+		--metadata title="$(BOOK_TITLE)" \
+		--metadata author="$(BOOK_AUTHOR)" \
+		--metadata date="$(BOOK_DATE)"
+	@echo "✅ Gerado: $(PDF_OUT)"
 
 html: export ## Gera HTML standalone
 	@echo "📄 Gerando HTML..."
-	@pandoc $(MANUSCRITO_LIMPO) -o $(DIST)/manuscrito.html \
+	@$(PANDOC) $(MANUSCRITO_LIMPO) -o $(HTML_OUT) \
 		--from markdown \
 		--to html5 \
 		--toc \
 		--toc-depth=2 \
 		--standalone \
-		--self-contained \
-		--metadata title="The Art of Eyelid Surgery"
-	@echo "✅ Gerado: $(DIST)/manuscrito.html"
+		--embed-resources \
+		--metadata title="$(BOOK_TITLE)" \
+		--metadata author="$(BOOK_AUTHOR)" \
+		--metadata date="$(BOOK_DATE)" \
+		--metadata lang=$(BOOK_LANG) \
+		--css $(BOOK_CSS)
+	@echo "✅ Gerado: $(HTML_OUT)"
 
 # =============================================================================
 # DESENVOLVIMENTO

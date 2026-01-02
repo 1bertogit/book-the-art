@@ -1,5 +1,9 @@
 # Capítulo 20 — Festoon / edema malar: fisiopatologia e opções (orbicular, espaço pré-malar, resurfacing, excisão)
 
+![Figura 20.1 — Ilustração principal do capítulo](assets/figures/FIG-20-01_festoons-edema-malar.png)
+
+
+
 **Parte:** Parte IV — Inferior e Terço Médio
 
 [[KEEP]]

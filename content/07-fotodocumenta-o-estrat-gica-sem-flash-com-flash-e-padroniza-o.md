@@ -1,5 +1,9 @@
 # Capítulo 07 — Fotodocumentação estratégica: sem flash, com flash e padronização
 
+![Figura 07.1 — Ilustração principal do capítulo](assets/figures/FIG-07-01_fotodocumentacao-sem-flash-com-flash-padronizada.png)
+
+
+
 **Parte:** Parte I — Diagnóstico
 
 [[KEEP]]

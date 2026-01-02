@@ -1,5 +1,9 @@
 # Capítulo 01 — Introdução: a filosofia do rejuvenescimento (operar ≠ rejuvenescer)
 
+![Figura 01.1 — Ilustração principal do capítulo](assets/figures/FIG-01-01_filosofia-rejuvenescimento.png)
+
+
+
 **Parte:** Introdução
 
 [[KEEP]]

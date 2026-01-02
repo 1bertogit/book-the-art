@@ -1,5 +1,9 @@
 # Capítulo 05 — Mapas de risco e erros de plano: zonas de segurança vs perigo
 
+![Figura 05.1 — Ilustração principal do capítulo](assets/figures/FIG-05-01_mapa-risco-zonas.png)
+
+
+
 **Parte:** Parte 0 — Princípios e Segurança
 
 [[KEEP]]

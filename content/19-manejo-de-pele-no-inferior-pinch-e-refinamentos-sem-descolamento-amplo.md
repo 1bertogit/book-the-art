@@ -1,5 +1,9 @@
 # Capítulo 19 — Manejo de pele no inferior: skin pinch e refinamentos sem descolamento amplo
 
+![Figura 19.1 — Ilustração principal do capítulo](assets/figures/FIG-19-01_skin-pinch-refinamentos.png)
+
+
+
 **Parte:** Parte IV — Inferior e Terço Médio
 
 [[KEEP]]

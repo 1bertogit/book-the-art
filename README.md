@@ -30,10 +30,23 @@ pip install -r requirements.txt
 
 ## Build
 ```bash
+# Validação + consolidado + versão limpa
+make export
+
+# Conversões (Pandoc)
+make html   # dist/ebook.html (usa assets/style.css)
+make docx   # dist/manuscrito.docx
+make pdf    # dist/manuscrito.pdf (requer LaTeX)
+
+# Alternativa: builder Python puro
 python build.py --format html --out dist/ebook.html
 python build.py --format docx --out dist/ebook.docx
 python build.py --format epub --out dist/ebook.epub
 ```
+
+### Estilo visual
+- Personalize `assets/style.css` para ajustar tipografia/cores.
+- `build.py` e o alvo `make html` injetam automaticamente esse CSS no HTML final.
 
 ## Como escrever (ritual simples)
 1. Abra o capítulo correspondente em `content/`.

@@ -1,5 +1,9 @@
 # Capítulo 02 — Luz e sombra: unidades estéticas e continuidade periorbitária
 
+![Figura 02.1 — Ilustração principal do capítulo](assets/figures/FIG-02-01_luz-sombra-periorbitario.png)
+
+
+
 **Parte:** Introdução
 
 [[KEEP]]

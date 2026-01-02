@@ -1,5 +1,9 @@
 # Capítulo 28 — Complicações, revisões e gestão: prevenção, resgate e precificação
 
+![Figura 28.1 — Ilustração principal do capítulo](assets/figures/FIG-28-01_complicacoes-resgate-precificacao.png)
+
+
+
 **Parte:** Parte VIII — Complicações e Carreira
 
 [[KEEP]]

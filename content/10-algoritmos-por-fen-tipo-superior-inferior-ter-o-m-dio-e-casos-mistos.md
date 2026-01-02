@@ -1,5 +1,9 @@
 # Capítulo 10 — Algoritmos por fenótipo: superior, inferior, terço médio e casos mistos
 
+![Figura 10.1 — Ilustração principal do capítulo](assets/figures/FIG-10-01_algoritmo-fenotipos.png)
+
+
+
 **Parte:** Parte II — Planejamento
 
 [[KEEP]]

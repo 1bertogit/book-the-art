@@ -1,5 +1,9 @@
 # Capítulo 27 — Reconstrução pós-tumor: retalhos clássicos (Tenzel, Hughes, Cutler-Beard, Mustardé)
 
+![Figura 27.1 — Ilustração principal do capítulo](assets/figures/FIG-27-01_retalhos-classicos.png)
+
+
+
 **Parte:** Parte VII — Funcional e Reconstrução
 
 [[KEEP]]

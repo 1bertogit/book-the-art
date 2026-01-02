@@ -1,5 +1,9 @@
 # Capítulo 12 — Anestesia, infiltração, hemostasia e pós imediato (segurança)
 
+![Figura 12.1 — Ilustração principal do capítulo](assets/figures/FIG-12-01_anestesia-infiltracao-hemostasia-pos-imediato.png)
+
+
+
 **Parte:** Parte II — Planejamento (Transição para Execução)
 
 [[KEEP]]

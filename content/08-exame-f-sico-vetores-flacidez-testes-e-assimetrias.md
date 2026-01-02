@@ -1,5 +1,9 @@
 # Capítulo 08 — Exame físico: vetores, flacidez, testes e assimetrias
 
+![Figura 08.1 — Ilustração principal do capítulo](assets/figures/FIG-08-01_vetores-testes-assimetrias.png)
+
+
+
 **Parte:** Parte I — Diagnóstico
 
 [[KEEP]]

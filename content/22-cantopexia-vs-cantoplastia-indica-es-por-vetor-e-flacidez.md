@@ -1,5 +1,9 @@
 # Capítulo 22 — Cantopexia vs. Cantoplastia: indicações por vetor e flacidez
 
+![Figura 22.1 — Ilustração principal do capítulo](assets/figures/FIG-22-01_cantopexia-vs-cantoplastia.png)
+
+
+
 **Parte:** Parte V — Canto Lateral e Sustentação
 
 [[KEEP]]

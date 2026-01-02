@@ -1,5 +1,9 @@
 # Capítulo 17 — Pálpebra inferior transconjuntival: preferências, septo e bolsas
 
+![Figura 17.1 — Ilustração principal do capítulo](assets/figures/FIG-17-01_transconjuntival-septo-bolsas.png)
+
+
+
 **Parte:** Parte IV — Inferior e Terço Médio
 
 [[KEEP]]

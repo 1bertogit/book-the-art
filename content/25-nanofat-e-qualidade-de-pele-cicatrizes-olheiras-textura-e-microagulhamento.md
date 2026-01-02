@@ -1,5 +1,9 @@
 # Capítulo 25 — Nanofat e qualidade de pele: cicatrizes, olheiras, textura e microagulhamento
 
+![Figura 25.1 — Ilustração principal do capítulo](assets/figures/FIG-25-01_nanofat-qualidade-pele.png)
+
+
+
 **Parte:** Parte VI — Adjuntos
 
 [[KEEP]]

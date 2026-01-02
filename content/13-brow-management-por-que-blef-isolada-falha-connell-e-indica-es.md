@@ -1,5 +1,9 @@
 # Capítulo 13 — Brow management: por que blef isolada falha (Connell) e indicações
 
+![Figura 13.1 — Ilustração principal do capítulo](assets/figures/FIG-13-01_brow-management-comparativo.png)
+
+
+
 **Parte:** Parte III — Terço Superior
 
 [[KEEP]]

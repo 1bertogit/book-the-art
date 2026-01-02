@@ -1,5 +1,9 @@
 # Capítulo 11 — Marcação e medidas: superior e inferior (conservadorismo e simetria)
 
+![Figura 11.1 — Ilustração principal do capítulo](assets/figures/FIG-11-01_marcacao-medidas-simetria.png)
+
+
+
 **Parte:** Parte II — Planejamento
 
 [[KEEP]]

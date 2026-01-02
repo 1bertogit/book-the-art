@@ -1,5 +1,9 @@
 # Capítulo 24 — Microfat: coleta, preparo e injeção; zonas e volumes (justa-periostal)
 
+![Figura 24.1 — Ilustração principal do capítulo](assets/figures/FIG-24-01_microfat-fluxo-zonas.png)
+
+
+
 **Parte:** Parte VI — Adjuntos
 
 [[KEEP]]

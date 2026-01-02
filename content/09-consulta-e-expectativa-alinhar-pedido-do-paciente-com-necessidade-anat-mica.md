@@ -1,5 +1,9 @@
 # Capítulo 09 — Consulta e expectativa: alinhar pedido do paciente com necessidade anatômica
 
+![Figura 09.1 — Ilustração principal do capítulo](assets/figures/FIG-09-01_consulta-pedido-anatomia-plano.png)
+
+
+
 **Parte:** Parte I — Diagnóstico
 
 [[KEEP]]

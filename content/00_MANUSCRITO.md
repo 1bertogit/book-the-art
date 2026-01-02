@@ -1,6 +1,6 @@
 # The Art of Eyelid Surgery — Manuscrito Consolidado
 
-> Gerado automaticamente em 2026-01-01 19:48
+> Gerado automaticamente em 2026-01-01 22:26
 > Fonte: `00_SUMARIO_MESTRE.md`
 
 ---
@@ -11,6 +11,8 @@
 <!-- Capítulo 1: 00-notas-legais-escopo-e-uso-respons-vel-educacional.md -->
 
 # Notas legais, escopo e uso responsável (educacional)
+
+
 
 > **Aviso importante:** Este material tem finalidade **educacional** para profissionais de saúde devidamente treinados.
 > Não substitui treinamento supervisionado, diretrizes institucionais, julgamento clínico, nem consentimento informado.
@@ -40,6 +42,10 @@
 <!-- Capítulo 2: 01-introdu-o-a-filosofia-do-rejuvenescimento-operar-rejuvenescer.md -->
 
 # Capítulo 01 — Introdução: a filosofia do rejuvenescimento (operar ≠ rejuvenescer)
+
+![Figura 01.1 — Ilustração principal do capítulo](assets/figures/FIG-01-01_filosofia-rejuvenescimento.png)
+
+
 
 **Parte:** Introdução
 
@@ -128,6 +134,10 @@ Ao final, o leitor saberá distinguir a diferença entre **operar** e **rejuvene
 <!-- Capítulo 3: 02-luz-e-sombra-unidades-est-ticas-e-continuidade-periorbit-ria.md -->
 
 # Capítulo 02 — Luz e sombra: unidades estéticas e continuidade periorbitária
+
+![Figura 02.1 — Ilustração principal do capítulo](assets/figures/FIG-02-01_luz-sombra-periorbitario.png)
+
+
 
 **Parte:** Introdução
 
@@ -228,6 +238,10 @@ Ao final deste capítulo, o leitor será capaz de diferenciar um “olho operado
 <!-- Capítulo 4: 03-envelhecimento-multifatorial-deflation-ligamentos-e-osso.md -->
 
 # Capítulo 03 — Envelhecimento multifatorial: deflation, ligamentos e osso
+
+![Figura 03.1 — Ilustração principal do capítulo](assets/figures/FIG-03-01_envelhecimento-multifatorial.png)
+
+
 
 **Parte:** Introdução
 
@@ -330,6 +344,10 @@ Protocolos de pós, timing e sinais de alarme ficam melhores concentrados no cap
 
 # Capítulo 04 — Anatomia cirúrgica aplicada: lamelas, septo e ligamentos retentores
 
+![Figura 04.1 — Ilustração principal do capítulo](assets/figures/FIG-04-01_lamelas-septo-ligamentos.png)
+
+
+
 **Parte:** Parte 0 — Princípios e Segurança
 
 **Objetivo do capítulo:** Ao final deste capítulo, o leitor compreenderá a pálpebra não como um retalho de pele, mas como uma estrutura trilamelar dinâmica, sendo capaz de basear sua estratégia cirúrgica na competência de cada componente anatômico.
@@ -424,6 +442,10 @@ A beleza da região periorbitária reside na **continuidade de luz**. O objetivo
 <!-- Capítulo 6: 05-mapas-de-risco-e-erros-de-plano-zonas-de-seguran-a-vs-perigo.md -->
 
 # Capítulo 05 — Mapas de risco e erros de plano: zonas de segurança vs perigo
+
+![Figura 05.1 — Ilustração principal do capítulo](assets/figures/FIG-05-01_mapa-risco-zonas.png)
+
+
 
 **Parte:** Parte 0 — Princípios e Segurança
 
@@ -535,6 +557,8 @@ Preservar unidades estéticas exige respeitar **zonas de transição**. Uma pál
 
 # Capítulo 06 — Checklist mental do resultado “nota 10” (princípios replicáveis)
 
+
+
 **Parte:** Parte 0 — Princípios e Segurança
 
 [[KEEP]]
@@ -620,6 +644,10 @@ Detalhar tecnicamente reposicionamento/redistribuição de gordura (transconjunt
 <!-- Capítulo 8: 07-fotodocumenta-o-estrat-gica-sem-flash-com-flash-e-padroniza-o.md -->
 
 # Capítulo 07 — Fotodocumentação estratégica: sem flash, com flash e padronização
+
+![Figura 07.1 — Ilustração principal do capítulo](assets/figures/FIG-07-01_fotodocumentacao-sem-flash-com-flash-padronizada.png)
+
+
 
 **Parte:** Parte I — Diagnóstico
 
@@ -720,6 +748,10 @@ Detalhar "Técnica de Marcação Cirúrgica" (superior vs inferior), enfatizando
 <!-- Capítulo 9: 08-exame-f-sico-vetores-flacidez-testes-e-assimetrias.md -->
 
 # Capítulo 08 — Exame físico: vetores, flacidez, testes e assimetrias
+
+![Figura 08.1 — Ilustração principal do capítulo](assets/figures/FIG-08-01_vetores-testes-assimetrias.png)
+
+
 
 **Parte:** Parte I — Diagnóstico
 
@@ -832,6 +864,10 @@ Escolher entre:
 
 # Capítulo 09 — Consulta e expectativa: alinhar pedido do paciente com necessidade anatômica
 
+![Figura 09.1 — Ilustração principal do capítulo](assets/figures/FIG-09-01_consulta-pedido-anatomia-plano.png)
+
+
+
 **Parte:** Parte I — Diagnóstico
 
 [[KEEP]]
@@ -938,6 +974,10 @@ Iniciar técnica cirúrgica:
 
 # Capítulo 10 — Algoritmos por fenótipo: superior, inferior, terço médio e casos mistos
 
+![Figura 10.1 — Ilustração principal do capítulo](assets/figures/FIG-10-01_algoritmo-fenotipos.png)
+
+
+
 **Parte:** Parte II — Planejamento
 
 [[KEEP]]
@@ -1038,6 +1078,10 @@ Cap. 11 — Blefaroplastia Superior: marcação e execução (skin-only vs skin-
 
 # Capítulo 11 — Marcação e medidas: superior e inferior (conservadorismo e simetria)
 
+![Figura 11.1 — Ilustração principal do capítulo](assets/figures/FIG-11-01_marcacao-medidas-simetria.png)
+
+
+
 **Parte:** Parte II — Planejamento
 
 [[KEEP]]
@@ -1129,6 +1173,10 @@ A cicatriz lateral deve se camuflar em transições naturais e RSTL. A marcaçã
 <!-- Capítulo 13: 12-anestesia-infiltra-o-hemostasia-e-p-s-imediato-seguran-a.md -->
 
 # Capítulo 12 — Anestesia, infiltração, hemostasia e pós imediato (segurança)
+
+![Figura 12.1 — Ilustração principal do capítulo](assets/figures/FIG-12-01_anestesia-infiltracao-hemostasia-pos-imediato.png)
+
+
 
 **Parte:** Parte II — Planejamento (Transição para Execução)
 
@@ -1226,6 +1274,10 @@ A arte aqui é preservação tecidual: menos sangue no leito cirúrgico tende a 
 
 # Capítulo 13 — Brow management: por que blef isolada falha (Connell) e indicações
 
+![Figura 13.1 — Ilustração principal do capítulo](assets/figures/FIG-13-01_brow-management-comparativo.png)
+
+
+
 **Parte:** Parte III — Terço Superior
 
 [[KEEP]]
@@ -1319,6 +1371,10 @@ A beleza do terço superior depende de **posição e plenitude**, não apenas de
 <!-- Capítulo 15: 14-tecnicas-de-brow-lift-temporal-endosc-pico-casta-ares-modificado.md -->
 
 # Capítulo 14 — Técnicas de brow lift: temporal, endoscópico, Castañares modificado
+
+![Figura 14.1 — Ilustração principal do capítulo](assets/figures/FIG-14-01_browlift-temporal-endoscopico.png)
+
+
 
 **Parte:** Parte III — Terço Superior
 
@@ -1439,6 +1495,10 @@ A curva deve ser suave (sem “^”). Em homens, o objetivo costuma ser retifica
 
 # Capítulo 15 — Blefaroplastia superior: pele, gordura (preservação) e glândula lacrimal
 
+![Figura 15.1 — Ilustração principal do capítulo](assets/figures/FIG-15-01_blef-superior-preservacao.png)
+
+
+
 **Parte:** Parte III — Terço Superior
 
 [[KEEP]]
@@ -1543,6 +1603,10 @@ A pálpebra jovem reflete luz de forma difusa. A pálpebra “operada demais” 
 
 # Capítulo 16 — Ptose associada no superior: quando reconhecer e como integrar ao plano
 
+![Figura 16.1 — Ilustração principal do capítulo](assets/figures/FIG-16-01_ptose-avaliacao-integracao.png)
+
+
+
 **Parte:** Parte III — Terço Superior
 
 [[KEEP]]
@@ -1639,6 +1703,10 @@ A “arte” é a simetria do brilho: o reflexo corneano deve parecer equilibrad
 <!-- Capítulo 18: 17-palpebra-inferior-transconjuntival-prefer-ncias-septo-e-bolsas.md -->
 
 # Capítulo 17 — Pálpebra inferior transconjuntival: preferências, septo e bolsas
+
+![Figura 17.1 — Ilustração principal do capítulo](assets/figures/FIG-17-01_transconjuntival-septo-bolsas.png)
+
+
 
 **Parte:** Parte IV — Inferior e Terço Médio
 
@@ -1756,6 +1824,10 @@ O objetivo não é “retificar” a pálpebra inferior, mas manter uma convexid
 
 # Capítulo 18 — Transposição/redistribuição de gordura: sulco nasojugal e transição pálpebra-malar
 
+![Figura 18.1 — Ilustração principal do capítulo](assets/figures/FIG-18-01_transposicao-gordura-lid-cheek..png)
+
+
+
 **Parte:** Parte IV — Inferior e Terço Médio
 
 [[KEEP]]
@@ -1864,6 +1936,10 @@ O objetivo estético não é “apagar bolsas”, mas recriar uma superfície ú
 
 # Capítulo 19 — Manejo de pele no inferior: skin pinch e refinamentos sem descolamento amplo
 
+![Figura 19.1 — Ilustração principal do capítulo](assets/figures/FIG-19-01_skin-pinch-refinamentos.png)
+
+
+
 **Parte:** Parte IV — Inferior e Terço Médio
 
 [[KEEP]]
@@ -1969,6 +2045,10 @@ O objetivo do *pinch* não é criar uma pálpebra “sem textura”. Em faces ma
 <!-- Capítulo 21: 20-festoon-edema-malar-fisiopatologia-e-op-es-orbicular-espa-o-pr-malar-cauteriza-o.md -->
 
 # Capítulo 20 — Festoon / edema malar: fisiopatologia e opções (orbicular, espaço pré-malar, resurfacing, excisão)
+
+![Figura 20.1 — Ilustração principal do capítulo](assets/figures/FIG-20-01_festoons-edema-malar.png)
+
+
 
 **Parte:** Parte IV — Inferior e Terço Médio
 
@@ -2083,6 +2163,10 @@ Quando o paciente recusa cicatriz direta e o fenótipo não é totalmente respon
 <!-- Capítulo 22: 21-sustenta-o-quando-cantopexia-resolve-e-quando-n-o-resolve.md -->
 
 # Capítulo 21 — Sustentação: quando cantopexia resolve e quando não resolve
+
+![Figura 21.1 — Ilustração principal do capítulo](assets/figures/FIG-21-01_sustentacao-cantopexia-decisao.png)
+
+
 
 **Parte:** Parte V — Canto Lateral e Sustentação
 
@@ -2208,6 +2292,10 @@ A arte está em **poucos milímetros** com **vetor correto**.
 
 # Capítulo 22 — Cantopexia vs. Cantoplastia: indicações por vetor e flacidez
 
+![Figura 22.1 — Ilustração principal do capítulo](assets/figures/FIG-22-01_cantopexia-vs-cantoplastia.png)
+
+
+
 **Parte:** Parte V — Canto Lateral e Sustentação
 
 [[KEEP]]
@@ -2332,6 +2420,10 @@ Cantoplastia muda o olho **se você deixar**. O objetivo é preservar amendoado 
 <!-- Capítulo 24: 23-tecnicas-de-canto-lateral-mladick-tarsal-strip-e-mccord-e-varia-es.md -->
 
 # Capítulo 23 — Técnicas de canto lateral: Mladick, Tarsal Strip e McCord (e variações)
+
+![Figura 23.1 — Ilustração principal do capítulo](assets/figures/FIG-23-01_mladick-strip-mccord.png)
+
+
 
 **Parte:** Parte V — Canto Lateral e Sustentação
 
@@ -2488,6 +2580,10 @@ Olho pequeno + Strip agressivo = aparência operada e risco funcional. Faça o o
 
 # Capítulo 24 — Microfat: coleta, preparo e injeção; zonas e volumes (justa-periostal)
 
+![Figura 24.1 — Ilustração principal do capítulo](assets/figures/FIG-24-01_microfat-fluxo-zonas.png)
+
+
+
 **Parte:** Parte VI — Adjuntos
 
 [[KEEP]]
@@ -2635,6 +2731,10 @@ A juventude é uma superfície contínua. O objetivo do Microfat na junção pá
 <!-- Capítulo 26: 25-nanofat-e-qualidade-de-pele-cicatrizes-olheiras-textura-e-microagulhamento.md -->
 
 # Capítulo 25 — Nanofat e qualidade de pele: cicatrizes, olheiras, textura e microagulhamento
+
+![Figura 25.1 — Ilustração principal do capítulo](assets/figures/FIG-25-01_nanofat-qualidade-pele.png)
+
+
 
 **Parte:** Parte VI — Adjuntos
 
@@ -2786,6 +2886,10 @@ A melhora costuma ser **progressiva** (colágeno/derme remodelando), e não imed
 <!-- Capítulo 27: 26-funcional-e-reconstru-o-ectr-pio-entr-pio-retra-o-e-princ-pios-das-lamelas.md -->
 
 # Capítulo 26 — Funcional e reconstrução: ectrópio/entrópio/retração e princípios das lamelas
+
+![Figura 26.1 — Ilustração principal do capítulo](assets/figures/FIG-26-01_ectropio-entropio-lamelas.png)
+
+
 
 **Parte:** Parte VII — Funcional e Reconstrução
 
@@ -2940,6 +3044,10 @@ Reconstrução não precisa “denunciar” reconstrução.
 <!-- Capítulo 28: 27-reconstru-o-p-s-tumor-retalhos-cl-ssicos-tenzel-hughes-cutler-beard-mustard.md -->
 
 # Capítulo 27 — Reconstrução pós-tumor: retalhos clássicos (Tenzel, Hughes, Cutler-Beard, Mustardé)
+
+![Figura 27.1 — Ilustração principal do capítulo](assets/figures/FIG-27-01_retalhos-classicos.png)
+
+
 
 **Parte:** Parte VII — Funcional e Reconstrução
 
@@ -3112,6 +3220,10 @@ Nenhum desses retalhos restaura cílios de forma natural (exceções com enxerto
 <!-- Capítulo 29: 28-complica-es-revis-es-e-gest-o-preven-o-resgate-e-precifica-o.md -->
 
 # Capítulo 28 — Complicações, revisões e gestão: prevenção, resgate e precificação
+
+![Figura 28.1 — Ilustração principal do capítulo](assets/figures/FIG-28-01_complicacoes-resgate-precificacao.png)
+
+
 
 **Parte:** Parte VIII — Complicações e Carreira
 
@@ -3309,6 +3421,10 @@ O paciente perdoa biologia. Não perdoa abandono.
 
 > Referências organizadas por ID curto. Formato: Vancouver simplificado.  
 > Use `[[REF:ID]]` nos capítulos para referenciar.
+>
+> **Nota:** Esta lista inclui tanto referências citadas no texto quanto obras de 
+> consulta/leitura recomendada. IDs não citados diretamente servem como base 
+> teórica complementar.
 
 ---
 

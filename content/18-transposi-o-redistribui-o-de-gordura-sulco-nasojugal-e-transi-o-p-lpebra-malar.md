@@ -1,5 +1,9 @@
 # Capítulo 18 — Transposição/redistribuição de gordura: sulco nasojugal e transição pálpebra-malar
 
+![Figura 18.1 — Ilustração principal do capítulo](assets/figures/FIG-18-01_transposicao-gordura-lid-cheek..png)
+
+
+
 **Parte:** Parte IV — Inferior e Terço Médio
 
 [[KEEP]]

@@ -61,11 +61,26 @@ def ensure_dist(path):
         os.makedirs(dist, exist_ok=True)
 
 
+DEFAULT_INLINE_CSS = """body { font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; line-height: 1.65; }\nh1,h2,h3,h4 { line-height: 1.25; }\npre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }\nblockquote { border-left: 3px solid #ddd; padding-left: 1rem; color: #444; }\ntable { border-collapse: collapse; width: 100%; }\ntd, th { border: 1px solid #ddd; padding: 8px; }"""
+
+
+def load_css(config):
+    css_path = config.get("html_css", "assets/style.css")
+    if css_path and os.path.exists(css_path):
+        try:
+            with open(css_path, "r", encoding="utf-8") as css_file:
+                return css_file.read()
+        except OSError:
+            pass
+    return DEFAULT_INLINE_CSS
+
+
 def build_html(config, md_parts):
     md_text = "\n\n\n".join(md_parts)
     html = md.markdown(md_text, extensions=["toc", "tables", "fenced_code"])
     title = config.get("title", "Meu eBook")
     subtitle = config.get("subtitle", "")
+    css = load_css(config)
     header = f"<h1>{title}</h1>" + (f"<h2>{subtitle}</h2>" if subtitle else "")
     final = f"""<!DOCTYPE html>
 <html lang="{config.get('language','pt-BR')}">
@@ -74,12 +89,7 @@ def build_html(config, md_parts):
 <title>{title}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <style>
-body {{ font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; line-height: 1.65; }}
-h1,h2,h3,h4 {{ line-height: 1.25; }}
-pre, code {{ font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
-blockquote {{ border-left: 3px solid #ddd; padding-left: 1rem; color: #444; }}
-table {{ border-collapse: collapse; width: 100%; }}
-td, th {{ border: 1px solid #ddd; padding: 8px; }}
+{css}
 </style>
 </head>
 <body>

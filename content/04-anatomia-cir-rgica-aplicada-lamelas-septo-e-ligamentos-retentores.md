@@ -1,5 +1,9 @@
 # Capítulo 04 — Anatomia cirúrgica aplicada: lamelas, septo e ligamentos retentores
 
+![Figura 04.1 — Ilustração principal do capítulo](assets/figures/FIG-04-01_lamelas-septo-ligamentos.png)
+
+
+
 **Parte:** Parte 0 — Princípios e Segurança
 
 **Objetivo do capítulo:** Ao final deste capítulo, o leitor compreenderá a pálpebra não como um retalho de pele, mas como uma estrutura trilamelar dinâmica, sendo capaz de basear sua estratégia cirúrgica na competência de cada componente anatômico.

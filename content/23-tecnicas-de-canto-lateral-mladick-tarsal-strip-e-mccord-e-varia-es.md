@@ -1,5 +1,9 @@
 # Capítulo 23 — Técnicas de canto lateral: Mladick, Tarsal Strip e McCord (e variações)
 
+![Figura 23.1 — Ilustração principal do capítulo](assets/figures/FIG-23-01_mladick-strip-mccord.png)
+
+
+
 **Parte:** Parte V — Canto Lateral e Sustentação
 
 [[KEEP]]
