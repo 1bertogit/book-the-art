@@ -1,0 +1,389 @@
+% ═══════════════════════════════════════════════════════════════════════════
+% Template LaTeX PREMIUM — The Art of Eyelid Surgery
+% ═══════════════════════════════════════════════════════════════════════════
+% Estilo: DIDÁTICO PREMIUM (Thieme/AO-like)
+%
+% Características:
+% - Tipografia premium (Charter + Helvetica Neue)
+% - Boxes coloridos por tipo (Atenção, Pérola, Técnica, Evidência)
+% - Capítulos com abertura editorial
+% - Headers/footers elegantes
+% - Preparado para impressão profissional
+%
+% Uso: pandoc --template=pipeline/premium/template.tex
+% ═══════════════════════════════════════════════════════════════════════════
+
+\documentclass[11pt,a4paper,twoside,openright]{book}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% COMPATIBILIDADE PANDOC 3.8+ (deve vir primeiro!)
+% ═══════════════════════════════════════════════════════════════════════════
+
+% Definições de compatibilidade para tagged PDF (LaTeX 2024+)
+% Estas macros são usadas pelo tcolorbox 6.x para acessibilidade PDF
+% Definidas como no-op para compatibilidade com sistemas sem suporte completo
+\makeatletter
+% Structure macros
+\ifdefined\AssignStructureRole\else
+  \def\AssignStructureRole#1#2{}
+\fi
+\ifdefined\NewStructureName\else
+  \def\NewStructureName#1#2{}
+\fi
+\ifdefined\SetStructureName\else
+  \def\SetStructureName#1#2{}
+\fi
+\ifdefined\UseStructureName\else
+  \def\UseStructureName#1{}
+\fi
+% Tagging socket macros (tcolorbox 6.x)
+\ifdefined\NewTaggingSocket\else
+  \def\NewTaggingSocket#1#2{}
+\fi
+\ifdefined\NewTaggingSocketPlug\else
+  \def\NewTaggingSocketPlug#1#2{}
+\fi
+\ifdefined\AssignTaggingSocketPlug\else
+  \def\AssignTaggingSocketPlug#1#2{}
+\fi
+% Pandoc tightlist
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\makeatother
+
+% ═══════════════════════════════════════════════════════════════════════════
+% GEOMETRIA DA PÁGINA (margens para impressão premium)
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage[
+  top=2.5cm,
+  bottom=2.5cm,
+  inner=3cm,
+  outer=2.5cm,
+  headheight=14pt,
+  headsep=1.2cm,
+  footskip=1.5cm,
+  marginparwidth=2cm
+]{geometry}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% TIPOGRAFIA PREMIUM
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{portuguese}
+
+% Fontes macOS
+\setmainfont{Charter}
+\setsansfont{Helvetica Neue}
+\setmonofont{Menlo}[Scale=0.9]
+
+% Espaçamento
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+
+\usepackage{setspace}
+\setstretch{1.15}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% PALETA DE CORES
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{xcolor}
+
+% Cores principais
+\definecolor{medblue}{RGB}{0,82,147}
+\definecolor{darkblue}{RGB}{0,51,102}
+\definecolor{lightblue}{RGB}{230,240,250}
+
+% Cores de boxes
+\definecolor{alertred}{RGB}{180,40,40}
+\definecolor{alertbg}{RGB}{255,240,240}
+\definecolor{pearlgold}{RGB}{180,140,20}
+\definecolor{pearlbg}{RGB}{255,250,230}
+\definecolor{techgreen}{RGB}{40,120,80}
+\definecolor{techbg}{RGB}{235,250,240}
+\definecolor{evidenceblue}{RGB}{50,100,150}
+\definecolor{evidencebg}{RGB}{235,245,255}
+
+% Cores auxiliares
+\definecolor{chaptergray}{RGB}{80,80,80}
+\definecolor{footergray}{RGB}{120,120,120}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% BOXES CLÍNICOS
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable,hooks}
+
+% Box: ATENÇÃO (vermelho)
+\newtcolorbox{alertbox}[1][]{
+  enhanced, breakable,
+  colback=alertbg, colframe=alertred,
+  boxrule=1.5pt, arc=3pt,
+  left=12pt, right=12pt, top=10pt, bottom=10pt,
+  fonttitle=\bfseries\sffamily\color{alertred},
+  title={! ATENÇÃO},
+  attach boxed title to top left={yshift=-2mm,xshift=5mm},
+  boxed title style={colback=white, colframe=white, boxrule=0pt},
+  #1
+}
+
+% Box: PÉROLA CLÍNICA (dourado)
+\newtcolorbox{pearlbox}[1][]{
+  enhanced, breakable,
+  colback=pearlbg, colframe=pearlgold,
+  boxrule=1.5pt, arc=3pt,
+  left=12pt, right=12pt, top=10pt, bottom=10pt,
+  fonttitle=\bfseries\sffamily\color{pearlgold},
+  title={* PÉROLA CLÍNICA},
+  attach boxed title to top left={yshift=-2mm,xshift=5mm},
+  boxed title style={colback=white, colframe=white, boxrule=0pt},
+  #1
+}
+
+% Box: TÉCNICA (verde)
+\newtcolorbox{techbox}[1][]{
+  enhanced, breakable,
+  colback=techbg, colframe=techgreen,
+  boxrule=1.5pt, arc=3pt,
+  left=12pt, right=12pt, top=10pt, bottom=10pt,
+  fonttitle=\bfseries\sffamily\color{techgreen},
+  title={+ TÉCNICA},
+  attach boxed title to top left={yshift=-2mm,xshift=5mm},
+  boxed title style={colback=white, colframe=white, boxrule=0pt},
+  #1
+}
+
+% Box: EVIDÊNCIA (azul)
+\newtcolorbox{evidencebox}[1][]{
+  enhanced, breakable,
+  colback=evidencebg, colframe=evidenceblue,
+  boxrule=1.5pt, arc=3pt,
+  left=12pt, right=12pt, top=10pt, bottom=10pt,
+  fonttitle=\bfseries\sffamily\color{evidenceblue},
+  title={i EVIDÊNCIA},
+  attach boxed title to top left={yshift=-2mm,xshift=5mm},
+  boxed title style={colback=white, colframe=white, boxrule=0pt},
+  #1
+}
+
+% Box: NOTA (azul claro) - blockquotes
+\newtcolorbox{notebox}[1][]{
+  enhanced, breakable,
+  colback=lightblue, colframe=medblue,
+  boxrule=1pt, arc=2pt,
+  left=10pt, right=10pt, top=8pt, bottom=8pt,
+  #1
+}
+
+% Converter blockquotes para notebox
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\begin{notebox}}
+\AtEndEnvironment{quote}{\end{notebox}}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% CAPÍTULOS E SEÇÕES
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{titlesec}
+
+% Capítulos com número grande
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\sffamily}
+  {\flushright\textcolor{chaptergray}{\fontsize{72}{72}\selectfont\thechapter}}
+  {20pt}
+  {\Huge\raggedright\textcolor{darkblue}}
+  [\vspace{1cm}\titlerule[2pt]]
+
+\titlespacing*{\chapter}{0pt}{-30pt}{40pt}
+
+% Seções
+\titleformat{\section}
+  {\normalfont\Large\bfseries\sffamily\color{medblue}}
+  {\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\sffamily\color{darkblue}}
+  {\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries\sffamily}
+  {\thesubsubsection}{1em}{}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% HEADERS E FOOTERS
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\small\sffamily\textcolor{footergray}{\leftmark}}
+\fancyhead[RO]{\small\sffamily\textcolor{footergray}{\rightmark}}
+\fancyfoot[LE,RO]{\sffamily\textbf{\thepage}}
+\fancyfoot[C]{\small\sffamily\textcolor{footergray}{The Art of Eyelid Surgery}}
+
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{medblue}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0pt}
+
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[C]{\sffamily\textbf{\thepage}}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% SUMÁRIO
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{tocloft}
+
+\setlength{\cftbeforechapskip}{0.8em}
+\renewcommand{\cftchapfont}{\sffamily\bfseries\color{darkblue}}
+\renewcommand{\cftchappagefont}{\sffamily\bfseries}
+\renewcommand{\cftsecfont}{\sffamily}
+\renewcommand{\cftsecpagefont}{\sffamily}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% GRÁFICOS E FIGURAS
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{graphicx}
+\usepackage{float}
+
+\usepackage[
+  font={small,sf},
+  labelfont={bf,color=medblue},
+  labelsep=period,
+  justification=justified,
+  singlelinecheck=false,
+  skip=8pt
+]{caption}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% LINKS E REFERÊNCIAS
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=medblue,
+  citecolor=medblue,
+  urlcolor=medblue,
+  bookmarksnumbered=true,
+  pdfstartview=FitH
+}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% LISTAS
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{enumitem}
+\setlist{nosep, leftmargin=*, itemsep=3pt}
+\setlist[itemize,1]{label=\textcolor{medblue}{\textbullet}}
+\setlist[itemize,2]{label=\textcolor{medblue}{--}}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% COMPATIBILIDADE PANDOC (header-includes, CSL)
+% ═══════════════════════════════════════════════════════════════════════════
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+$if(csl-refs)$
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2]
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  \setlength{\itemsep}{\parskip}}}
+ {\end{list}}
+$endif$
+
+% ═══════════════════════════════════════════════════════════════════════════
+% METADADOS
+% ═══════════════════════════════════════════════════════════════════════════
+
+$if(title)$
+\title{$title$}
+$endif$
+
+$if(author)$
+\author{$author$}
+$endif$
+
+$if(date)$
+\date{$date$}
+$else$
+\date{\today}
+$endif$
+
+% ═══════════════════════════════════════════════════════════════════════════
+% DOCUMENTO
+% ═══════════════════════════════════════════════════════════════════════════
+
+\begin{document}
+
+\frontmatter
+
+% Página de título
+\begin{titlepage}
+  \centering
+  \vspace*{3cm}
+
+  {\fontsize{36}{42}\selectfont\bfseries\sffamily\textcolor{darkblue}{$title$}\par}
+
+  \vspace{0.8cm}
+
+  $if(subtitle)$
+  {\Large\sffamily\textcolor{medblue}{$subtitle$}\par}
+  $endif$
+
+  \vspace{3cm}
+
+  {\LARGE\bfseries $author$\par}
+
+  \vspace{0.5cm}
+
+  {\large\sffamily Cirurgião Plástico — Especialista em Cirurgia Palpebral\par}
+  {\large\sffamily Rio de Janeiro, Brasil\par}
+
+  \vfill
+
+  {\large\sffamily 1ª Edição — $date$\par}
+
+  \vspace{1cm}
+
+  $if(rights)$
+  {\small\textcolor{footergray}{$rights$}\par}
+  $endif$
+
+\end{titlepage}
+
+% Sumário
+$if(toc)$
+\tableofcontents
+\cleardoublepage
+$endif$
+
+% Corpo do livro
+\mainmatter
+
+$body$
+
+% Bibliografia
+$if(bibliography)$
+\backmatter
+\bibliographystyle{plain}
+\bibliography{$bibliography$}
+$endif$
+
+\end{document}

@@ -16,6 +16,7 @@ env/
 
 # Build outputs (opcional - pode querer versioná-los)
 # dist/
+dist/*.pdf
 
 # Logs
 *.log
