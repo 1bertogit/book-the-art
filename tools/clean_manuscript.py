@@ -58,6 +58,116 @@ BACKLOG_PATTERNS = [
 # Ref patterns
 REF_PATTERN = re.compile(r"\[\[REF:([A-Z0-9_-]+)\]\]")
 
+# Front matter title pattern (to remove duplicate title)
+FRONT_MATTER_TITLE_PATTERN = re.compile(
+    r"^# The Art of Eyelid Surgery\s*\n"
+    r"## Do Diagnóstico.*?\n",
+    re.MULTILINE
+)
+
+# Chapter prefix pattern (Capítulo XX - )
+CHAPTER_PREFIX_PATTERN = re.compile(
+    r"^(# )Capítulo \d{2}\s*[-–—]\s*",
+    re.MULTILINE
+)
+
+# Redundant author metadata pattern (often found at the start of body)
+AUTHOR_METADATA_PATTERN = re.compile(
+    r"^\*\*Dr\. Marcelo Cury, MD\*\*.*?\*\*1ª Edição - 2026\*\*",
+    re.MULTILINE | re.DOTALL
+)
+
+# Front matter sections that should be unnumbered
+FRONT_MATTER_SECTIONS = [
+    "Direitos Autorais",
+    "Nota Importante",
+    "Prefácio",
+    "Sobre o Autor",
+    "Nota de Origem",
+    "Notas legais",
+    "Bibliografia Mestre",
+    "Fim do Manuscrito",
+]
+
+# Emojis e caracteres especiais a remover/substituir para PDF
+SPECIAL_CHARS_MAP = {
+    "→": "->",      # seta direita
+    "←": "<-",      # seta esquerda
+    "↔": "<->",     # seta dupla
+    "⇒": "=>",      # seta dupla direita
+    "•": "-",       # bullet
+    "–": "-",       # en-dash
+    "—": " - ",     # em-dash
+    "…": "...",     # ellipsis
+    "≈": "~",       # aproximadamente
+    "≥": ">=",      # maior ou igual
+    "≤": "<=",      # menor ou igual
+    "±": "+/-",     # mais ou menos
+    "°": " graus",  # grau (quando isolado)
+    "×": "x",       # multiplicação
+}
+
+# Regex para emojis (Unicode emoji ranges)
+EMOJI_PATTERN = re.compile(
+    "["
+    "\U0001F600-\U0001F64F"  # emoticons
+    "\U0001F300-\U0001F5FF"  # symbols & pictographs
+    "\U0001F680-\U0001F6FF"  # transport & map
+    "\U0001F700-\U0001F77F"  # alchemical
+    "\U0001F780-\U0001F7FF"  # geometric shapes
+    "\U0001F800-\U0001F8FF"  # supplemental arrows
+    "\U0001F900-\U0001F9FF"  # supplemental symbols
+    "\U0001FA00-\U0001FA6F"  # chess symbols
+    "\U0001FA70-\U0001FAFF"  # symbols extended
+    "\U00002702-\U000027B0"  # dingbats
+    "\U0001F1E0-\U0001F1FF"  # flags
+    "]+",
+    flags=re.UNICODE
+)
+
+
+def clean_special_chars(text: str) -> str:
+    """Remove/substitui emojis e caracteres especiais não suportados por Charter."""
+    result = text
+
+    # Substituir caracteres especiais por equivalentes ASCII
+    for char, replacement in SPECIAL_CHARS_MAP.items():
+        result = result.replace(char, replacement)
+
+    # Remover emojis completamente
+    result = EMOJI_PATTERN.sub("", result)
+
+    # Limpar espaços duplos resultantes
+    result = re.sub(r"  +", " ", result)
+
+    return result
+
+
+def clean_front_matter_for_pdf(text: str) -> str:
+    """Remove título duplicado do front matter e limpa para PDF."""
+    result = text
+
+    # Remover título duplicado (já está no YAML e na titlepage do template)
+    result = FRONT_MATTER_TITLE_PATTERN.sub("", result)
+
+    # Remover bloco de autor/edição redundante no início (já está na titlepage)
+    result = AUTHOR_METADATA_PATTERN.sub("", result)
+
+    # Remover prefixo "Capítulo XX - " dos títulos (LaTeX já numera)
+    result = CHAPTER_PREFIX_PATTERN.sub(r"\1", result)
+
+    # Converter seções de front matter/back matter para unnumbered {-}
+    for section in FRONT_MATTER_SECTIONS:
+        # Match H1 or H2 with this section name
+        # Note: {{1,2}} escapes braces in f-string for regex {1,2}
+        pattern = re.compile(
+            rf"^(#{{1,2}})\s+({re.escape(section)}[^\n]*?)(\s*)$",
+            re.MULTILINE
+        )
+        result = pattern.sub(r"\1 \2 {-}\3", result)
+
+    return result
+
 
 def clean_tags(text: str) -> str:
     """Remove tags internas (linhas inteiras e inline)."""
@@ -265,6 +375,12 @@ def main() -> int:
         text = clean_backlog(text)
 
     text = convert_refs(text, args.ref_style)
+
+    # Limpar emojis e caracteres especiais (para compatibilidade com fontes)
+    text = clean_special_chars(text)
+
+    # Limpar front matter e prefixos de capítulos para PDF
+    text = clean_front_matter_for_pdf(text)
 
     # NOVO: Garantir espaçamento correto antes/depois de blocos
     text = ensure_spacing_around_blocks(text)

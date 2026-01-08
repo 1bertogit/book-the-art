@@ -10,34 +10,23 @@ toc-title: "Sumário"
 toc-depth: 2
 ---
 
-# The Art of Eyelid Surgery
-
-## Do Diagnóstico Preciso ao Rejuvenescimento do Olhar
-
-**Dr. Marcelo Cury, MD**
-
-Cirurgião Plástico — Especialista em Cirurgia Palpebral e Periorbitária
-[Rio de Janeiro / Brasil]
-
-**1ª Edição — 2026**
-
 * * *
 
-## Direitos Autorais
+## Direitos Autorais {-}
 
-© 2026 Dr. Marcelo Cury — Todos os direitos reservados.
+© 2026 Dr. Marcelo Cury - Todos os direitos reservados.
 
 Nenhuma parte deste livro pode ser reproduzida ou transmitida, no todo ou em parte, por qualquer meio, sem autorização por escrito do autor.
 
 * * *
 
-## Nota Importante (Uso Educacional)
+## Nota Importante (Uso Educacional) {-}
 
 Este material destina-se exclusivamente a profissionais médicos e estudantes de medicina, para fins educacionais. Não substitui treinamento prático supervisionado, julgamento clínico e protocolos institucionais.
 
 * * *
 
-## Prefácio
+## Prefácio {-}
 
 Este livro condensa a essência técnica e o rigor analítico do curso **The Art of Eyelid Surgery**. Mais do que um compilado de técnicas, esta obra sistematiza um raciocínio clínico onde a precisão de um milímetro define a fronteira entre o rejuvenescimento natural e o estigma cirúrgico.
 
@@ -45,7 +34,7 @@ Nosso foco é oferecer ao especialista segurança, previsibilidade e um método 
 
 * * *
 
-## Sobre o Autor
+## Sobre o Autor {-}
 
 **Dr. Marcelo Cury** é cirurgião plástico com atuação dedicada à cirurgia palpebral e rejuvenescimento periorbitário. É criador do curso online **The Art of Eyelid Surgery**, no qual sistematiza sua abordagem cirúrgica baseada em anatomia aplicada, tomada de decisão e manejo de riscos.
 
@@ -70,7 +59,7 @@ Rio de Janeiro, Brasil
 
 * * *
 
-## Nota de Origem do Conteúdo
+## Nota de Origem do Conteúdo {-}
 
 Todo o conteúdo deste livro foi adaptado e editado a partir do curso online **The Art of Eyelid Surgery**, de autoria do Dr. Marcelo Cury. A organização em capítulos, a padronização de referências e a estrutura editorial foram desenvolvidas para facilitar consulta, revisão e aplicação clínica.
 
@@ -81,7 +70,7 @@ Todo o conteúdo deste livro foi adaptado e editado a partir do curso online **T
 
 * * *
 
-# Notas legais, escopo e uso responsável (educacional)
+# Notas legais, escopo e uso responsável (educacional) {-}
 
 
 > **Alerta:** Este material tem finalidade **educacional** para profissionais de saúde devidamente treinados.
@@ -106,7 +95,7 @@ Todo o conteúdo deste livro foi adaptado e editado a partir do curso online **T
 
 - Depois: técnica.
 
-- Sempre: “operar ≠ rejuvenescer” → trate **causas** (volume/ligamentos/osso), não só sintomas.
+- Sempre: “operar ≠ rejuvenescer” -> trate **causas** (volume/ligamentos/osso), não só sintomas.
 
 ## Convenções
 
@@ -119,9 +108,9 @@ Todo o conteúdo deste livro foi adaptado e editado a partir do curso online **T
 
 * * *
 
-# Capítulo 01 — Introdução: a filosofia do rejuvenescimento (operar ≠ rejuvenescer)
+# Introdução: a filosofia do rejuvenescimento (operar ≠ rejuvenescer)
 
-![Figura 01.1 — Operar ≠ Rejuvenescer](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-01-01_filosofia-rejuvenescimento.png)
+![Figura 01.1 - Operar ≠ Rejuvenescer](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-01-01_filosofia-rejuvenescimento.png)
 
 > **Leitura guiada:** este capítulo aborda *Nota de escopo (essencial):** este livro é educacional para profissionais de saúde treinados. Não substitui treinamento supervisionado, diretrizes institucionais, julgamento clínico, consentimento informado e avaliação oftalmológica quando indicada.
 
@@ -138,11 +127,11 @@ Ao final, o leitor saberá distinguir a diferença entre **operar** e **rejuvene
 
 ## O que muda na decisão (o “porquê”)
 
-- **Ponto clínico-chave:** o envelhecimento periorbitário é dominado por **deflação volumétrica** e **falha de sustentação** (tecidos/ligamentos/apoios). “Excesso” existe — mas, com frequência, é o sintoma mais visível e não a causa principal.
+- **Ponto clínico-chave:** o envelhecimento periorbitário é dominado por **deflação volumétrica** e **falha de sustentação** (tecidos/ligamentos/apoios). “Excesso” existe - mas, com frequência, é o sintoma mais visível e não a causa principal.
 
 - Risco evitável: a esqueletização da órbita e a quebra da continuidade de luz/sombra (hollow eye / A-frame / sulcos acentuados) quando a cirurgia é exclusivamente subtrativa e agressiva.
 
-- Erro comum (nota 7 → nota 10): tratar a pálpebra isoladamente e ignorar fatores transversais — especialmente supercílio (Connell) e vetor/suporte lateral — resultando em melhora parcial com aparência “operada” ou instável ao longo do tempo.
+- Erro comum (nota 7 -> nota 10): tratar a pálpebra isoladamente e ignorar fatores transversais - especialmente supercílio (Connell) e vetor/suporte lateral - resultando em melhora parcial com aparência “operada” ou instável ao longo do tempo.
 
 ## Para quem é / Para quem não é
 
@@ -163,7 +152,7 @@ Ao final, o leitor saberá distinguir a diferença entre **operar** e **rejuvene
 >
 > ## Checklist mental (antes de qualquer bisturi)
 
-> - [ ] O que domina o caso: **excesso**, **deflação**, **sustentação** — ou uma combinação?
+> - [ ] O que domina o caso: **excesso**, **deflação**, **sustentação** - ou uma combinação?
 
 > - [ ] A estética do caso é “luz/sombra”: onde está a sombra que envelhece e por quê?
 
@@ -173,7 +162,7 @@ Ao final, o leitor saberá distinguir a diferença entre **operar** e **rejuvene
 
 > - [ ] A pálpebra inferior precisa de suporte lateral (canto) para ficar estável?
 
-> - [ ] O plano é subtrativo, reposicionador e/ou aditivo (volume) — e em que ordem?
+> - [ ] O plano é subtrativo, reposicionador e/ou aditivo (volume) - e em que ordem?
 
 > - [ ] O que, se for removido em excesso, será difícil de resgatar?
 
@@ -193,7 +182,8 @@ Ao final, o leitor saberá distinguir a diferença entre **operar** e **rejuvene
 
 2. **Nomear a causa dominante** (excesso vs deflação vs sustentação).
 
-3. Escolher a estratégia: preservar, redistribuir, sustentar e/ou volumizar — antes de decidir “quanto tirar”.
+3. Escolher a estratégia: preservar, redistribuir, sustentar e/ou volumizar - antes de decidir “quanto tirar”.
+
 4. Executar com conservadorismo: o estigma quase sempre nasce do excesso.
 5. Reavaliar com timing correto: tecido tem tempo; resgate precoce por ansiedade costuma piorar o problema.
 
@@ -227,9 +217,9 @@ Ao final, o leitor saberá distinguir a diferença entre **operar** e **rejuvene
 
 * * *
 
-# Capítulo 02 — Luz e sombra: unidades estéticas e continuidade periorbitária
+# Luz e sombra: unidades estéticas e continuidade periorbitária
 
-![Figura 02.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-02-01_luz-sombra-periorbitario.png)
+![Figura 02.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-02-01_luz-sombra-periorbitario.png)
 
 
 **Parte:** Introdução
@@ -240,7 +230,7 @@ Ao final deste capítulo, o leitor será capaz de diferenciar um “olho operado
 
 ## O que muda na decisão (o “porquê”)
 
-- **Ponto clínico-chave:** envelhecimento periorbitário é, em grande parte, uma história de **perda de volume** e perda de continuidade entre unidades estéticas — não apenas “pele sobrando”.
+- **Ponto clínico-chave:** envelhecimento periorbitário é, em grande parte, uma história de **perda de volume** e perda de continuidade entre unidades estéticas - não apenas “pele sobrando”.
 
 - **Risco evitável:** esqueletização da órbita (hollow eye / aspecto cadavérico) quando a cirurgia é exclusivamente subtrativa e agressiva.
 
@@ -251,11 +241,11 @@ Ao final deste capítulo, o leitor será capaz de diferenciar um “olho operado
 >
 > ## Regra prática (o que a foto está te dizendo)
 
-> - **Sombra de deflação:** falta convexidade → falta luz → o sulco “aparece”.
+> - **Sombra de deflação:** falta convexidade -> falta luz -> o sulco “aparece”.
 
-> - **Sombra de ancoragem:** ligamento/aderência “segura” a transição → a quebra persiste até você respeitar essa mecânica.
+> - **Sombra de ancoragem:** ligamento/aderência “segura” a transição -> a quebra persiste até você respeitar essa mecânica.
 
-> - **Sombra de edema (festoon):** volume “móvel” e inflamatório → não responde como deflação.
+> - **Sombra de edema (festoon):** volume “móvel” e inflamatório -> não responde como deflação.
 
 > - Cor ≠ sombra: hiperpigmentação pode parecer olheira, mas não muda com flash e não some com subtração.
 
@@ -306,14 +296,15 @@ Ao final deste capítulo, o leitor será capaz de diferenciar um “olho operado
 
 2. Decida se a sombra é principalmente de **deflação** (falta de volume), de **ancoragem** (ligamento), de edema (festoon) ou mista.
 
-3. Planeje uma estratégia coerente: preservar/redistribuir/volumizar (quando indicado) e sustentar (quando necessário) — antes de pensar em “quanto tirar”.
+3. Planeje uma estratégia coerente: preservar/redistribuir/volumizar (quando indicado) e sustentar (quando necessário) - antes de pensar em “quanto tirar”.
+
 4. Garanta que o plano reduz estigmas: o objetivo é continuidade, não “pálpebra chapada”.
 
 ## Variações de estratégia (o raciocínio por trás)
 
-- **Redistribuição/transposição de gordura:** útil quando há bolsa proeminente e vale profundo imediato (tear trough) — a ideia é usar volume existente para suavizar o vale.
+- **Redistribuição/transposição de gordura:** útil quando há bolsa proeminente e vale profundo imediato (tear trough) - a ideia é usar volume existente para suavizar o vale.
 
-- **Volumização (microfat):** preferível quando há **deflação global** (hollow eye, pós-blefaroplastia subtrativa, pouca bolsa para redistribuir) — a ideia é devolver luz onde falta convexidade.
+- **Volumização (microfat):** preferível quando há **deflação global** (hollow eye, pós-blefaroplastia subtrativa, pouca bolsa para redistribuir) - a ideia é devolver luz onde falta convexidade.
 
 - Refinamento de pele: quando necessário, deve ser conservador e nunca substituir correção de causa (deflação/suporte).
 
@@ -324,11 +315,11 @@ Ao final deste capítulo, o leitor será capaz de diferenciar um “olho operado
 >
 > ## Erros comuns (e como resgatar sem piorar)
 
-> - **Erro — “excesso” tratado onde há deflação:** melhora inicial, mas aprofunda sombras. → prevenir reconhecendo hollow/A-frame/tear trough como problema de volume.
+> - **Erro - “excesso” tratado onde há deflação:** melhora inicial, mas aprofunda sombras. -> prevenir reconhecendo hollow/A-frame/tear trough como problema de volume.
 
-> - **Erro — remover bolsa e manter o vale:** bolsa some, mas a sombra permanece. → prevenir tratando a transição (redistribuição/volume quando indicado).
+> - **Erro - remover bolsa e manter o vale:** bolsa some, mas a sombra permanece. -> prevenir tratando a transição (redistribuição/volume quando indicado).
 
-> - **Erro — confundir cor com sombra:** operar relevo quando o problema principal é pigmento. → alinhar expectativa e indicar manejo complementar quando aplicável.
+> - **Erro - confundir cor com sombra:** operar relevo quando o problema principal é pigmento. -> alinhar expectativa e indicar manejo complementar quando aplicável.
 
 ## Notas de “arte” (o que o olho humano percebe)
 
@@ -347,16 +338,16 @@ Ao final deste capítulo, o leitor será capaz de diferenciar um “olho operado
 
 * * *
 
-# Capítulo 03 — Envelhecimento multifatorial: deflation, ligamentos e osso
+# Envelhecimento multifatorial: deflation, ligamentos e osso
 
-![Figura 03.1 — Envelhecimento multifatorial](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-03-01_envelhecimento-multifatorial.png)
+![Figura 03.1 - Envelhecimento multifatorial](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-03-01_envelhecimento-multifatorial.png)
 
 
 **Parte:** Introdução
 
 ## Objetivo do capítulo
 
-Ao final deste capítulo, o leitor saberá diagnosticar o envelhecimento periorbitário como um fenômeno **multifatorial** — combinação de **deflação volumétrica**, **falha de sustentação ligamentar** e mudança do suporte ósseo — e, com isso, trocar a lógica subtrativa (“ressecar”) por uma estratégia mais previsível (“preservar, estruturar e repor quando indicado”).
+Ao final deste capítulo, o leitor saberá diagnosticar o envelhecimento periorbitário como um fenômeno **multifatorial** - combinação de **deflação volumétrica**, **falha de sustentação ligamentar** e mudança do suporte ósseo - e, com isso, trocar a lógica subtrativa (“ressecar”) por uma estratégia mais previsível (“preservar, estruturar e repor quando indicado”).
 
 ## O que muda na decisão (o “porquê”)
 
@@ -371,9 +362,9 @@ Ao final deste capítulo, o leitor saberá diagnosticar o envelhecimento periorb
 >
 > ## Mapa mental do envelhecimento (em 20 segundos)
 
-> - **Deflação (volume):** falta convexidade → falta luz → o sulco “aparece”.
+> - **Deflação (volume):** falta convexidade -> falta luz -> o sulco “aparece”.
 
-> - **Ligamentos (âncoras):** a transição fica “presa” → a quebra persiste mesmo após subtração.
+> - **Ligamentos (âncoras):** a transição fica “presa” -> a quebra persiste mesmo após subtração.
 
 > - **Osso (suporte):** quando o suporte muda, a leitura do rebordo e das sombras muda junto.
 
@@ -402,13 +393,13 @@ Ao final deste capítulo, o leitor saberá diagnosticar o envelhecimento periorb
 
 > - [ ] Foto **com flash** (quando aplicável): avaliar ptose e assimetrias funcionais (ex.: **MRD1**).
 
-> - [ ] Vetor: positivo / neutro / negativo (perfil: globo × malar).
+> - [ ] Vetor: positivo / neutro / negativo (perfil: globo x malar).
 
 > - [ ] Flacidez: snapback / distraction (define necessidade de suporte lateral).
 
 > - [ ] Assimetria prévia documentada (sulco, fissura, sobrancelha).
 
-> - [ ] O problema dominante é: deflação, âncora ligamentar, suporte ósseo — ou mistura?
+> - [ ] O problema dominante é: deflação, âncora ligamentar, suporte ósseo - ou mistura?
 
 > - [ ] Plano de sustentação (quando necessário) + plano de volume (quando necessário).
 
@@ -427,7 +418,7 @@ Detalhes anatômicos finos e “zonas de risco” específicas (ex.: ramo fronta
 1. Identifique a **sombra dominante** (sem flash) e o que a causa.
 
 2. Classifique a causa: deflação vs âncora ligamentar vs suporte (ou combinação).
-3. Decida a estratégia: **preservar**, **reposicionar**, sustentar e/ou repor volume (quando indicado) — antes de decidir “quanto tirar”.
+3. Decida a estratégia: **preservar**, **reposicionar**, sustentar e/ou repor volume (quando indicado) - antes de decidir “quanto tirar”.
 
 4. Planeje para evitar estigmas: o objetivo é continuidade, não “pálpebra chapada”.
 
@@ -436,11 +427,11 @@ Detalhes anatômicos finos e “zonas de risco” específicas (ex.: ramo fronta
 >
 > ## Erros comuns e resgate (sem piorar)
 
-> - **Erro — subtrair onde o problema é deflação:** aprofunda sombras → resgate costuma exigir reposição planejada de volume.
+> - **Erro - subtrair onde o problema é deflação:** aprofunda sombras -> resgate costuma exigir reposição planejada de volume.
 
-> - **Erro — blefaroplastia isolada em cenário Connell:** melhora parcial com piora da moldura → resgate geralmente envolve reposicionamento da moldura (quando indicado).
+> - **Erro - blefaroplastia isolada em cenário Connell:** melhora parcial com piora da moldura -> resgate geralmente envolve reposicionamento da moldura (quando indicado).
 
-> - **Erro — ignorar vetor/suporte:** abre porta para instabilidade e “olho redondo” em pacientes de risco → resgate costuma ser mais complexo do que a prevenção.
+> - **Erro - ignorar vetor/suporte:** abre porta para instabilidade e “olho redondo” em pacientes de risco -> resgate costuma ser mais complexo do que a prevenção.
 
 ## Notas de “arte” (luz/sombra e transições)
 
@@ -460,23 +451,23 @@ Protocolos de pós, timing e sinais de alarme ficam melhores concentrados no cap
 
 ## Referências / leituras recomendadas (opcional)
 
-- [[REF:ROHRICH-2008]] Rohrich, Rod J. — Compartimentos de gordura e envelhecimento facial.
+- [[REF:ROHRICH-2008]] Rohrich, Rod J. - Compartimentos de gordura e envelhecimento facial.
 
-- [[REF:MARTEN-2008]] Marten, Timothy — Fat grafting na região periorbitária.
+- [[REF:MARTEN-2008]] Marten, Timothy - Fat grafting na região periorbitária.
 
-- [[REF:MENDELSON-2008]] Mendelson, Bryan — Ligamentos retentores e anatomia aplicada.
+- [[REF:MENDELSON-2008]] Mendelson, Bryan - Ligamentos retentores e anatomia aplicada.
 
-- [[REF:MASSRY-2012]] Massry, Guy — Midface aging e Ogee curve.
+- [[REF:MASSRY-2012]] Massry, Guy - Midface aging e Ogee curve.
 
 
 * * *
 
-# Capítulo 04 — Anatomia cirúrgica aplicada: lamelas, septo e ligamentos retentores
+# Anatomia cirúrgica aplicada: lamelas, septo e ligamentos retentores
 
-![Figura 04.1 — Anatomia cirúrgica aplicada](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-04-01_lamelas-septo-ligamentos.png)
+![Figura 04.1 - Anatomia cirúrgica aplicada](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-04-01_lamelas-septo-ligamentos.png)
 
 
-**Parte:** Parte 0 — Princípios e Segurança
+**Parte:** Parte 0 - Princípios e Segurança
 
 **Objetivo do capítulo:** Ao final deste capítulo, o leitor compreenderá a pálpebra não como um retalho de pele, mas como uma estrutura trilamelar dinâmica, sendo capaz de basear sua estratégia cirúrgica na competência de cada componente anatômico.
 
@@ -534,7 +525,7 @@ Protocolos de pós, timing e sinais de alarme ficam melhores concentrados no cap
 
 * “Zona de risco”: Músculo oblíquo inferior. Localizado entre as bolsas de gordura medial e central da pálpebra inferior. Sua lesão durante a blefaroplastia causa diplopia.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 04):**
+> ** FIGURA NECESSÁRIA (Cap. 04):**
 
 > Corte sagital da pálpebra: Lamelas anterior e posterior, septo, tarso
 
@@ -562,9 +553,10 @@ Protocolos de pós, timing e sinais de alarme ficam melhores concentrados no cap
 
 ## Erros comuns (e como resgatar)
 
-* **Ressecção excessiva de pele na pálpebra inferior** → Consequência: Escleral show ou ectrópio → Prevenção: Sempre realizar a manobra de sustentação (cantopexia) antes de marcar a pele → Resgate: Enxerto de pele total ou retalho de transposição da pálpebra superior.
+* **Ressecção excessiva de pele na pálpebra inferior** -> Consequência: Escleral show ou ectrópio -> Prevenção: Sempre realizar a manobra de sustentação (cantopexia) antes de marcar a pele -> Resgate: Enxerto de pele total ou retalho de transposição da pálpebra superior.
 
-* Não liberar o ligamento órbito-malar em pacientes com sulco profundo → Consequência: Persistência da sombra na transição pálpebra-face → Prevenção: Dissecção submuscular até o rebordo ósseo → Resgate: Preenchimento tardio com microfat graft.
+* Não liberar o ligamento órbito-malar em pacientes com sulco profundo -> Consequência: Persistência da sombra na transição pálpebra-face -> Prevenção: Dissecção submuscular até o rebordo ósseo -> Resgate: Preenchimento tardio com microfat graft.
+
 **Princípio da Reconstrução de Lamelas:**
 
 Nunca utilize dois tecidos vascularizados (dois retalhos) para reconstruir ambas as lamelas simultaneamente; o resultado será grosseiro e espesso. Combine sempre um retalho (suporte sanguíneo) com um enxerto (suporte estrutural).
@@ -578,29 +570,29 @@ A beleza da região periorbitária reside na **continuidade de luz**. O objetivo
 
 ## Pós-operatório e follow-up
 
-* **24–72h:** Avaliar quemose e oclusão palpebral. Pequenas torrafias laterais provisórias podem prevenir quemose severa em grandes descolamentos.
+* **24-72h:** Avaliar quemose e oclusão palpebral. Pequenas torrafias laterais provisórias podem prevenir quemose severa em grandes descolamentos.
 
-* **7–14d:** Retirada de pontos de sustentação (nylon 5-0). Observar a posição do canto lateral (deve estar 1-2 mm acima do canto medial).
+* **7-14d:** Retirada de pontos de sustentação (nylon 5-0). Observar a posição do canto lateral (deve estar 1-2 mm acima do canto medial).
 
-* **Sinais de alarme:** Dor súbita com proptose (hematoma retrobulbar — emergência cirúrgica) ou incapacidade de fechamento palpebral com ceratite.
+* **Sinais de alarme:** Dor súbita com proptose (hematoma retrobulbar - emergência cirúrgica) ou incapacidade de fechamento palpebral com ceratite.
 
 ## Referências / leituras recomendadas
 
-* [[REF: Codner — Eyelid & Periorbital Surgery]]
+* [[REF: Codner - Eyelid & Periorbital Surgery]]
 
-* [[REF: Rohrich — Fat Compartments of the Face]]
+* [[REF: Rohrich - Fat Compartments of the Face]]
 
-* [[REF: Mladick — Muscle Suspension Techniques]]
+* [[REF: Mladick - Muscle Suspension Techniques]]
 
 
 * * *
 
-# Capítulo 05 — Mapas de risco e erros de plano: zonas de segurança vs perigo
+# Mapas de risco e erros de plano: zonas de segurança vs perigo
 
-![Figura 05.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-05-01_mapa-risco-zonas.png)
+![Figura 05.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-05-01_mapa-risco-zonas.png)
 
 
-**Parte:** Parte 0 — Princípios e Segurança
+**Parte:** Parte 0 - Princípios e Segurança
 
 ## Objetivo do capítulo
 
@@ -661,7 +653,7 @@ Ao final deste capítulo, o leitor saberá mapear zonas de risco **neurovascular
 
 - Septo orbitário: fronteira anatômica; sua manipulação e fibrose podem influenciar estabilidade e retração.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 05):**
+> ** FIGURA NECESSÁRIA (Cap. 05):**
 
 > Mapa de risco cirúrgico: Zonas verdes (seguras), amarelas (atenção), vermelhas (perigo)
 
@@ -689,18 +681,18 @@ Ao final deste capítulo, o leitor saberá mapear zonas de risco **neurovascular
 
 ## Erros comuns (e como resgatar)
 
-- **Lesão do oblíquo inferior** → diplopia → prevenção: identificação ativa antes de tratar bolsas medial/central → resgate: avaliação especializada (estrabismo).
+- **Lesão do oblíquo inferior** -> diplopia -> prevenção: identificação ativa antes de tratar bolsas medial/central -> resgate: avaliação especializada (estrabismo).
 
-- **Ressecção agressiva de pele em vetor negativo** → ectrópio/exposição → prevenção: ressecção conservadora + suporte/volume conforme indicação → resgate: enxerto/retalhos conforme necessidade.
+- **Ressecção agressiva de pele em vetor negativo** -> ectrópio/exposição -> prevenção: ressecção conservadora + suporte/volume conforme indicação -> resgate: enxerto/retalhos conforme necessidade.
 
-- **Plano errado na região temporal** → déficit motor/ptose de sobrancelha → prevenção: plano correto + marcos + dissecção controlada → resgate: estratégias tardias de simetria (variável conforme caso).
+- **Plano errado na região temporal** -> déficit motor/ptose de sobrancelha -> prevenção: plano correto + marcos + dissecção controlada -> resgate: estratégias tardias de simetria (variável conforme caso).
 
 > **PÉROLA CLÍNICA**
 
 >
-> ## Checklist de 60s — Mnemônico de Segurança (V-B-O)
+> ## Checklist de 60s - Mnemônico de Segurança (V-B-O)
 
-> 1) **V**etor: se negativo, pele é “ouro” — ressecção mínima e suporte bem pensado.
+> 1) **V**etor: se negativo, pele é “ouro” - ressecção mínima e suporte bem pensado.
 
 > 2) **B**ell: se ruim, prioridade é fechar a pálpebra com folga.
 
@@ -709,7 +701,7 @@ Ao final deste capítulo, o leitor saberá mapear zonas de risco **neurovascular
 > **PÉROLA CLÍNICA**
 
 >
-> ## Zona de risco — Septo orbitário (alerta de plano)
+> ## Zona de risco - Septo orbitário (alerta de plano)
 
 > Evite manipulação desnecessária do septo orbitário quando o objetivo é limitado. Exposição e trauma sem indicação podem aumentar risco de fibrose e alterar dinâmica palpebral.
 
@@ -721,27 +713,27 @@ Preservar unidades estéticas exige respeitar **zonas de transição**. Uma pál
 
 (Se você quer um capítulo único de pós/complicações, mova tudo para lá.)
 
-- **24–72h:** acuidade visual e motilidade (excluir emergência)
+- **24-72h:** acuidade visual e motilidade (excluir emergência)
 
-- **7–14d:** posição do canto lateral
+- **7-14d:** posição do canto lateral
 
 - **Alarme:** dor intensa + proptose + baixa visual = emergência
 
 ## Referências / leituras recomendadas
 
-- [[REF:MCCORD-1995]] McCord — Eyelid Surgery
+- [[REF:MCCORD-1995]] McCord - Eyelid Surgery
 
-- [[REF:MCCORD-1995]] Codner — Periorbital Safety Map
+- [[REF:MCCORD-1995]] Codner - Periorbital Safety Map
 
-- [[REF:ZIDE-1985]] Zide — Surgical Anatomy of the Orbit
+- [[REF:ZIDE-1985]] Zide - Surgical Anatomy of the Orbit
 
 
 * * *
 
-# Capítulo 06 — Checklist mental do resultado “nota 10” (princípios replicáveis)
+# Checklist mental do resultado “nota 10” (princípios replicáveis)
 
 
-**Parte:** Parte 0 — Princípios e Segurança
+**Parte:** Parte 0 - Princípios e Segurança
 
 ## Objetivo do capítulo
 
@@ -792,7 +784,7 @@ Ao final deste capítulo, o leitor será capaz de internalizar um protocolo de a
 
 ## Anatomia aplicada (o que muda a conduta)
 
-- **Vetor malar-orbital:** relação globo × suporte infraorbitário. Em vetor negativo, a pálpebra carece de suporte ósseo; isso frequentemente exige plano de sustentação lateral mais robusto.
+- **Vetor malar-orbital:** relação globo x suporte infraorbitário. Em vetor negativo, a pálpebra carece de suporte ósseo; isso frequentemente exige plano de sustentação lateral mais robusto.
 
 - **Septo orbitário:** barreira anatômica; manipulação excessiva/fibrose pode aumentar risco de retração.
 
@@ -835,11 +827,11 @@ A estética “nota 10” depende da **luz**. Uma pálpebra jovem não tem inter
 
 ## Referências
 
-- [[REF:FLOWERS-1993]] Flowers — conceitos de vetores orbitais e suporte palpebral.
+- [[REF:FLOWERS-1993]] Flowers - conceitos de vetores orbitais e suporte palpebral.
 
-- [[REF:HAMRA-1995]] Hamra — preservação/reposicionamento e lógica de transições.
+- [[REF:HAMRA-1995]] Hamra - preservação/reposicionamento e lógica de transições.
 
-- [[REF:PUTTERMAN-1975]] Putterman — dinâmica palpebral e medidas (MRD).
+- [[REF:PUTTERMAN-1975]] Putterman - dinâmica palpebral e medidas (MRD).
 
 ## Próximo capítulo (sugestão de escopo)
 
@@ -848,16 +840,16 @@ Detalhar tecnicamente reposicionamento/redistribuição de gordura (transconjunt
 
 * * *
 
-# Capítulo 07 — Fotodocumentação estratégica: sem flash, com flash e padronização
+# Fotodocumentação estratégica: sem flash, com flash e padronização
 
-![Figura 07.1 — Fotodocumentação estratégica](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-07-01_fotodocumentacao-sem-flash-com-flash-padronizada.png)
+![Figura 07.1 - Fotodocumentação estratégica](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-07-01_fotodocumentacao-sem-flash-com-flash-padronizada.png)
 
 
-**Parte:** Parte I — Diagnóstico
+**Parte:** Parte I - Diagnóstico
 
 ## Objetivo do capítulo
 
-Ao final, o leitor saberá padronizar a captura de imagens para revelar a verdadeira topografia periorbital (bolsas, sulcos e textura), documentar assimetrias prévias e reduzir ruído de expectativa — tanto no planejamento cirúrgico quanto na comunicação com o paciente.
+Ao final, o leitor saberá padronizar a captura de imagens para revelar a verdadeira topografia periorbital (bolsas, sulcos e textura), documentar assimetrias prévias e reduzir ruído de expectativa - tanto no planejamento cirúrgico quanto na comunicação com o paciente.
 
 ## O que muda na decisão (o “porquê”)
 
@@ -894,7 +886,7 @@ Ao final, o leitor saberá padronizar a captura de imagens para revelar a verdad
 
 > - [ ] Padronização do olhar: primário (frente), supraversão (olhar para cima), fechamento suave, sorriso (pés de galinha/dinâmica).
 
-> - [ ] Distância focal fixa: preferir 85–100mm (ou equivalente) para reduzir distorções; evitar grande-angular curta.
+> - [ ] Distância focal fixa: preferir 85-100mm (ou equivalente) para reduzir distorções; evitar grande-angular curta.
 
 > - [ ] Cabelo preso: expor fronte e têmporas para avaliar cauda da sobrancelha e moldura lateral.
 
@@ -904,9 +896,9 @@ Ao final, o leitor saberá padronizar a captura de imagens para revelar a verdad
 
 - **Bolsas de gordura (septo):** a proeminência real costuma aparecer melhor com iluminação incidente lateral ou superior (*top-down lighting*).
 
-- **Zona de risco visual (scleral show):** a foto de perfil ajuda a documentar a relação globo–malar (vetor). Se a córnea estiver claramente à frente do suporte malar, registra-se risco aumentado de exposição/retração com estratégias subtrativas.
+- **Zona de risco visual (scleral show):** a foto de perfil ajuda a documentar a relação globo-malar (vetor). Se a córnea estiver claramente à frente do suporte malar, registra-se risco aumentado de exposição/retração com estratégias subtrativas.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 07):**
+> ** FIGURA NECESSÁRIA (Cap. 07):**
 
 > Comparativo: Foto sem flash (revela sombras/volumes) vs com flash (achata)
 
@@ -920,7 +912,7 @@ Ao final, o leitor saberá padronizar a captura de imagens para revelar a verdad
 
 - **Posicionamento:** paciente sentado, coluna reta, cabeça neutra; operador no mesmo nível dos olhos.
 
-- **Sequência de 5 ângulos:** frontal; oblíqua D/E (45°); perfil D/E (90°).
+- **Sequência de 5 ângulos:** frontal; oblíqua D/E (45 graus); perfil D/E (90 graus).
 
 - Sequência dinâmica: repouso; sorriso; fechamento passivo; olhar para cima.
 
@@ -943,7 +935,7 @@ Selfies de celular (lente grande-angular curta) distorcem proporções e podem a
 
 > Muitos pacientes levantam o queixo ao serem fotografados para disfarçar papada/flacidez.
 
-> **Problema:** isso muda a relação globo–pálpebra e pode simular ptose, mascarar exposição ou alterar a leitura de MRD2.
+> **Problema:** isso muda a relação globo-pálpebra e pode simular ptose, mascarar exposição ou alterar a leitura de MRD2.
 
 > **Correção:** alinhar cabeça no plano neutro; manter referência consistente (Plano de Frankfurt) e câmera paralela ao chão.
 
@@ -951,7 +943,7 @@ Selfies de celular (lente grande-angular curta) distorcem proporções e podem a
 
 - Erro: lente grande-angular (celular / < 50mm equivalente)
  - **Consequência:** distorção facial (nariz maior, orelhas “somem”, face estreita), alterando percepção estética e medidas aparentes.
- - **Prevenção:** usar 85–100mm (ou equivalente) e distância constante; em celular, preferir zoom óptico/tele (2x/3x).
+ - **Prevenção:** usar 85-100mm (ou equivalente) e distância constante; em celular, preferir zoom óptico/tele (2x/3x).
  - **Resgate:** refazer fotos; não planejar com base em imagem distorcida.
 
 - **Erro: iluminação assimétrica**
@@ -976,12 +968,12 @@ Detalhar "Técnica de Marcação Cirúrgica" (superior vs inferior), enfatizando
 
 * * *
 
-# Capítulo 08 — Exame físico: vetores, flacidez, testes e assimetrias
+# Exame físico: vetores, flacidez, testes e assimetrias
 
-![Figura 08.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-08-01_vetores-testes-assimetrias.png)
+![Figura 08.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-08-01_vetores-testes-assimetrias.png)
 
 
-**Parte:** Parte I — Diagnóstico
+**Parte:** Parte I - Diagnóstico
 
 ## Objetivo do capítulo
 
@@ -1008,7 +1000,7 @@ Ao final, o leitor saberá executar um protocolo de avaliação biomecânica e f
 
 > - [ ] Lei de Hering: ocluir o olho “pior” e observar queda do contralateral
 
-> - [ ] MRD1: referência clínica em geral ~4–5 mm (interpretar no contexto)
+> - [ ] MRD1: referência clínica em geral ~4-5 mm (interpretar no contexto)
 
 > - [ ] MRD2: referência clínica em geral ~5 mm (se maior, avaliar retração/exposição prévia)
 
@@ -1038,9 +1030,9 @@ Ao final, o leitor saberá executar um protocolo de avaliação biomecânica e f
 
 - **Músculo de Müller:** componente simpático; ansiedade/ambiente do consultório pode “falsear” altura palpebral, mascarando ptose discreta.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 08):**
+> ** FIGURA NECESSÁRIA (Cap. 08):**
 
-> Diagrama: Vetor positivo vs neutro vs negativo — relação globo/malar
+> Diagrama: Vetor positivo vs neutro vs negativo - relação globo/malar
 
 > *Estilo: Diagrama técnico-didático, cores neutras, legendas claras*
 
@@ -1049,7 +1041,7 @@ Ao final, o leitor saberá executar um protocolo de avaliação biomecânica e f
 ### Visão geral
 
 - **1) Análise de vetor (perfil)**
- - Método simples: alinhar um objeto reto (ex.: abaixador) tangenciando malar e referência orbitária; observar relação córnea–suporte malar.
+ - Método simples: alinhar um objeto reto (ex.: abaixador) tangenciando malar e referência orbitária; observar relação córnea-suporte malar.
  - Se a córnea projeta claramente à frente do suporte malar, documentar como vetor negativo (risco aumentado para abordagem subtrativa).
 
 - **2) Testes de tônus e flacidez (frontal)**
@@ -1076,7 +1068,7 @@ Ao final, o leitor saberá executar um protocolo de avaliação biomecânica e f
 
 > Ignorar *snap-back* lento e remover pele na pálpebra inferior aumenta risco de *round eye* (arredondamento do canto lateral), exposição escleral e ectrópio.
 
-> **Regra prática:** com retorno lento, a lógica tende a ser **suporte primeiro** (pexia/estruturas) e ressecção mínima — não “cortar para resolver”.
+> **Regra prática:** com retorno lento, a lógica tende a ser **suporte primeiro** (pexia/estruturas) e ressecção mínima - não “cortar para resolver”.
 
 ## Erros comuns (e como resgatar)
 
@@ -1096,29 +1088,29 @@ A beleza do olhar depende de **simetria perceptiva**, não de simetria milimétr
 
 ## Referências
 
-- [[REF:JELKS-1993]] Jelks — vetor negativo e implicações na pálpebra inferior
+- [[REF:JELKS-1993]] Jelks - vetor negativo e implicações na pálpebra inferior
 
-- [[REF:BODIAN-1982]] Bodian — Lei de Hering aplicada à ptose/blefaro
+- [[REF:BODIAN-1982]] Bodian - Lei de Hering aplicada à ptose/blefaro
 
-- [[REF:FAGIEN-1999]] Fagien — frouxidão horizontal e escolha de suporte lateral
+- [[REF:FAGIEN-1999]] Fagien - frouxidão horizontal e escolha de suporte lateral
 
 ## Próximo capítulo (sugestão)
 
 Escolher entre:
 
-- Cap. 09 — Anestesia e segurança de vasoconstrição (quando usar, quando evitar, checklist e complicações), ou
+- Cap. 09 - Anestesia e segurança de vasoconstrição (quando usar, quando evitar, checklist e complicações), ou
 
 - Iniciar técnica cirúrgica: Blefaroplastia Superior (marcação, preservação de volume, armadilhas e resgates).
 
 
 * * *
 
-# Capítulo 09 — Consulta e expectativa: alinhar pedido do paciente com necessidade anatômica
+# Consulta e expectativa: alinhar pedido do paciente com necessidade anatômica
 
-![Figura 09.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-09-01_consulta-pedido-anatomia-plano.png)
+![Figura 09.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-09-01_consulta-pedido-anatomia-plano.png)
 
 
-**Parte:** Parte I — Diagnóstico
+**Parte:** Parte I - Diagnóstico
 
 ## Objetivo do capítulo
 
@@ -1144,7 +1136,7 @@ Ao final, o leitor saberá filtrar candidatos cirúrgicos, traduzindo queixas su
 **Evitar / adiar quando:**
 - expectativa irreal (referência estética incompatível com estrutura óssea/pele);
 
-- crise aguda (luto, divórcio recente, depressão descompensada) — cirurgia não é intervenção emocional;
+- crise aguda (luto, divórcio recente, depressão descompensada) - cirurgia não é intervenção emocional;
 
 - padrão de “doctor shopping” e discurso agressivo/desqualificador recorrente.
 
@@ -1183,15 +1175,15 @@ Ao final, o leitor saberá filtrar candidatos cirúrgicos, traduzindo queixas su
 
 ## Anatomia aplicada (tradução da queixa)
 
-- **Complexo frontal–palpebral:** “pele demais” pode ser compensação do frontal. Ao relaxar o frontal no pós-op, a sobrancelha pode parecer cair; isso deve ser antecipado e discutido.
+- **Complexo frontal-palpebral:** “pele demais” pode ser compensação do frontal. Ao relaxar o frontal no pós-op, a sobrancelha pode parecer cair; isso deve ser antecipado e discutido.
 
-- **Transição pálpebra–malar (tear trough):** “olheira” pode ser pigmento, vascular ou sombra. Cirurgia trata relevo/sombra; pigmento exige estratégia dermatológica/qualidade de pele.
+- **Transição pálpebra-malar (tear trough):** “olheira” pode ser pigmento, vascular ou sombra. Cirurgia trata relevo/sombra; pigmento exige estratégia dermatológica/qualidade de pele.
 
 - **Globo ocular:** proeminente vs enoftálmico. Explicar que a cirurgia não muda a posição do globo; molda tecidos ao redor e depende de suporte.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 09):**
+> ** FIGURA NECESSÁRIA (Cap. 09):**
 
-> Fluxograma: Queixa do paciente → Hipótese anatômica → Plano cirúrgico
+> Fluxograma: Queixa do paciente -> Hipótese anatômica -> Plano cirúrgico
 
 > *Estilo: Diagrama técnico-didático, cores neutras, legendas claras*
 
@@ -1237,31 +1229,31 @@ Ao final, o leitor saberá filtrar candidatos cirúrgicos, traduzindo queixas su
 
 ## Notas de “arte” (gestão da percepção)
 
-A arte da consulta é vender **naturalidade** e reduzir medo do “olhar operado”. Explicar que a estratégia conservadora (preservar volume e função do orbicular quando indicado) visa manter identidade facial e apenas “descansar” a expressão — sem estigmas.
+A arte da consulta é vender **naturalidade** e reduzir medo do “olhar operado”. Explicar que a estratégia conservadora (preservar volume e função do orbicular quando indicado) visa manter identidade facial e apenas “descansar” a expressão - sem estigmas.
 
 ## Referências
 
-- [[REF:SARWER-2006]] Sarwer — triagem/psicologia e risco de insatisfação em cirurgia estética
+- [[REF:SARWER-2006]] Sarwer - triagem/psicologia e risco de insatisfação em cirurgia estética
 
-- [[REF:FAGIEN-1999]] Fagien — satisfação/expectativa em blefaroplastia e abordagem conservadora
+- [[REF:FAGIEN-1999]] Fagien - satisfação/expectativa em blefaroplastia e abordagem conservadora
 
-- [[REF:GUNTER-2007]] Gunter — fotografia e documentação de assimetrias pré-operatórias
+- [[REF:GUNTER-2007]] Gunter - fotografia e documentação de assimetrias pré-operatórias
 
 ## Próximo capítulo (sugestão)
 
 Iniciar técnica cirúrgica:
 
-- Cap. 10 — Blefaroplastia Superior: marcação, pele-only vs pele-músculo, preservação de volume, armadilhas e resgates.
+- Cap. 10 - Blefaroplastia Superior: marcação, pele-only vs pele-músculo, preservação de volume, armadilhas e resgates.
 
 
 * * *
 
-# Capítulo 10 — Algoritmos por fenótipo: superior, inferior, terço médio e casos mistos
+# Algoritmos por fenótipo: superior, inferior, terço médio e casos mistos
 
-![Figura 10.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-10-01_algoritmo-fenotipos.png)
+![Figura 10.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-10-01_algoritmo-fenotipos.png)
 
 
-**Parte:** Parte II — Planejamento
+**Parte:** Parte II - Planejamento
 
 ## Objetivo do capítulo
 
@@ -1273,7 +1265,7 @@ Ao final, o leitor será capaz de classificar o paciente em fenótipos clínico-
 
 - **Hierarquia da correção:** problemas estruturais e funcionais (ptose, tônus cantal, vetor, olho seco) têm precedência sobre detalhes estéticos (pele, bolsas). Ignorar essa ordem é uma fonte clássica de falhas.
 
-- **Terço médio como fundação em casos selecionados:** em hipoplasia malar, vetor negativo e sulco pálpebra–malar marcado, tratar apenas a pálpebra inferior pode aumentar risco de retração. O algoritmo deve incluir suporte (volume/suspensão) quando indicado.
+- **Terço médio como fundação em casos selecionados:** em hipoplasia malar, vetor negativo e sulco pálpebra-malar marcado, tratar apenas a pálpebra inferior pode aumentar risco de retração. O algoritmo deve incluir suporte (volume/suspensão) quando indicado.
 
 ## Indicações e contra-indicações
 
@@ -1285,7 +1277,7 @@ Ao final, o leitor será capaz de classificar o paciente em fenótipos clínico-
 - pacientes com edema malar/festoons (diferenciar de bolsa verdadeira).
 
 **Evitar / adiar quando:**
-- queixa é predominantemente dermatológica (discromia/elastose) sem alteração estrutural relevante — considerar *resurfacing* antes ou como principal abordagem;
+- queixa é predominantemente dermatológica (discromia/elastose) sem alteração estrutural relevante - considerar *resurfacing* antes ou como principal abordagem;
 
 - sinais de percepção distorcida/expectativa rígida sem alvo anatômico corrigível.
 
@@ -1302,19 +1294,19 @@ Ao final, o leitor será capaz de classificar o paciente em fenótipos clínico-
 
 > - [ ] **Tônus:** pexia (snap-back lento) vs plastia (distraction aumentado) conforme gravidade
 
-> - [ ] **Transição:** sulco nasojugal profundo / lid-cheek junction marcada → precisa de reposição/redistribuição de volume?
+> - [ ] **Transição:** sulco nasojugal profundo / lid-cheek junction marcada -> precisa de reposição/redistribuição de volume?
 
 > - [ ] Vetor: positivo/neutro/negativo (implica suporte e conservadorismo subtrativo)
 
 ## Anatomia aplicada (zonas de decisão)
 
-- **Junção pálpebra–malar (lid–cheek junction):** objetivo estético central é reduzir a “quebra” (sombra/linha) e recuperar continuidade. Se a transição é longa e baixa (envelhecida), o algoritmo tende a demandar volume e/ou suporte.
+- **Junção pálpebra-malar (lid-cheek junction):** objetivo estético central é reduzir a “quebra” (sombra/linha) e recuperar continuidade. Se a transição é longa e baixa (envelhecida), o algoritmo tende a demandar volume e/ou suporte.
 
-- **Ligamento retentor do orbicular (ORL):** ajuda a definir tear trough e “degrau” pálpebra–malar. Em estratégias de reposicionamento/redistribuição de gordura, sua liberação pode ser necessária, conforme técnica e indicação.
+- **Ligamento retentor do orbicular (ORL):** ajuda a definir tear trough e “degrau” pálpebra-malar. Em estratégias de reposicionamento/redistribuição de gordura, sua liberação pode ser necessária, conforme técnica e indicação.
 
 - **Zona de risco (vetor negativo):** fenótipo em que o globo projeta anterior ao suporte malar. Subtração (pele/gordura) tende a ser de maior risco sem suporte lateral/estratégia de volume.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 10):**
+> ** FIGURA NECESSÁRIA (Cap. 10):**
 
 > Fluxograma de decisão: Superior / Inferior / Terço médio / Casos mistos
 
@@ -1322,29 +1314,29 @@ Ao final, o leitor será capaz de classificar o paciente em fenótipos clínico-
 
 ## Técnica (método de raciocínio)
 
-### Algoritmo — pálpebra superior
+### Algoritmo - pálpebra superior
 
-1. **É apenas pele?** → considerar *skin-only* em casos selecionados, com ressecção conservadora e avaliação do supercílio.
+1. **É apenas pele?** -> considerar *skin-only* em casos selecionados, com ressecção conservadora e avaliação do supercílio.
 
-2. **Pele + componente músculo/orbicular?** → considerar abordagem com manejo do orbicular quando houver indicação (peso/hipertrofia/roll), preservando função.
+2. **Pele + componente músculo/orbicular?** -> considerar abordagem com manejo do orbicular quando houver indicação (peso/hipertrofia/roll), preservando função.
 
-3. **Ptose associada?** → adicionar correção de ptose (aponeurose/Müller conforme diagnóstico e testes).
+3. **Ptose associada?** -> adicionar correção de ptose (aponeurose/Müller conforme diagnóstico e testes).
 
-4. Queda de cauda de supercílio? → adicionar browpexy/lifting temporal conforme caso. Evitar “compensar” retirando pele em excesso.
+4. Queda de cauda de supercílio? -> adicionar browpexy/lifting temporal conforme caso. Evitar “compensar” retirando pele em excesso.
 
-### Algoritmo — pálpebra inferior
+### Algoritmo - pálpebra inferior
 
-1. **Bolsa sem excesso de pele (mais jovem):** → transconjuntival (preservação da lamela anterior).
+1. **Bolsa sem excesso de pele (mais jovem):** -> transconjuntival (preservação da lamela anterior).
 
-2. **Bolsa + pele leve:** → transconjuntival + *pinch* conservador e/ou *resurfacing* (selecionar conforme pele).
+2. **Bolsa + pele leve:** -> transconjuntival + *pinch* conservador e/ou *resurfacing* (selecionar conforme pele).
 
-3. **Bolsa + sulco marcado (tear trough/lid-cheek):** → transconjuntival com estratégia de volume (redistribuição/transposição de gordura ou lipoenxertia, conforme fenótipo).
+3. **Bolsa + sulco marcado (tear trough/lid-cheek):** -> transconjuntival com estratégia de volume (redistribuição/transposição de gordura ou lipoenxertia, conforme fenótipo).
 
-4. Frouxidão horizontal / vetor negativo: → suporte lateral (cantopexia/cantoplastia conforme gravidade) associado à abordagem escolhida; subtração deve ser mínima e guiada por testes.
+4. Frouxidão horizontal / vetor negativo: -> suporte lateral (cantopexia/cantoplastia conforme gravidade) associado à abordagem escolhida; subtração deve ser mínima e guiada por testes.
 
 ### Casos mistos (terço médio)
 
-- Se houver ptose de SOOF e aprofundamento do “V” pálpebra–malar, o algoritmo pode exigir estratégia de terço médio (suspensão e/ou volume) para reconstituir a transição, em vez de tratar apenas a pálpebra.
+- Se houver ptose de SOOF e aprofundamento do “V” pálpebra-malar, o algoritmo pode exigir estratégia de terço médio (suspensão e/ou volume) para reconstituir a transição, em vez de tratar apenas a pálpebra.
 
 > **PÉROLA CLÍNICA**
 
@@ -1353,7 +1345,7 @@ Ao final, o leitor será capaz de classificar o paciente em fenótipos clínico-
 
 > Peça ao paciente para olhar para cima e abrir a boca.
 
-> Se a pele inferior fica tensa, **o excesso real é pequeno** — a queixa tende a ser volume/suporte, não pele. Subtração aqui aumenta risco de ectrópio.
+> Se a pele inferior fica tensa, **o excesso real é pequeno** - a queixa tende a ser volume/suporte, não pele. Subtração aqui aumenta risco de ectrópio.
 
 ## Erros comuns (e como resgatar)
 
@@ -1373,25 +1365,25 @@ O algoritmo não olha a pálpebra isolada: ele avalia continuidade com testa e b
 
 ## Referências
 
-- [[REF:ROHRICH-2008]] Rohrich — abordagem sistemática para blefaroplastia inferior (passos/segurança)
+- [[REF:ROHRICH-2008]] Rohrich - abordagem sistemática para blefaroplastia inferior (passos/segurança)
 
-- [[REF:JELKS-1993]] Jelks — classificação de vetores e implicações
+- [[REF:JELKS-1993]] Jelks - classificação de vetores e implicações
 
-- [[REF:HAMRA-1995]] Hamra / Goldberg — preservação/redistribuição de gordura e rejuvenescimento periorbital
+- [[REF:HAMRA-1995]] Hamra / Goldberg - preservação/redistribuição de gordura e rejuvenescimento periorbital
 
 ## Próximo capítulo
 
-Cap. 11 — Blefaroplastia Superior: marcação e execução (skin-only vs skin-muscle), preservação de volume e armadilhas.
+Cap. 11 - Blefaroplastia Superior: marcação e execução (skin-only vs skin-muscle), preservação de volume e armadilhas.
 
 
 * * *
 
-# Capítulo 11 — Marcação e medidas: superior e inferior (conservadorismo e simetria)
+# Marcação e medidas: superior e inferior (conservadorismo e simetria)
 
-![Figura 11.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-11-01_marcacao-medidas-simetria.png)
+![Figura 11.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-11-01_marcacao-medidas-simetria.png)
 
 
-**Parte:** Parte II — Planejamento
+**Parte:** Parte II - Planejamento
 
 ## Objetivo do capítulo
 
@@ -1399,7 +1391,7 @@ Ao final, o leitor dominará a “arte da preservação” na marcação cirúrg
 
 ## O que muda na decisão (o “porquê”)
 
-- **A gravidade é o juiz:** marcar deitado aumenta risco de super-ressecção. A marcação deve ser feita sentado (≈90°), com expressão e posição real do supercílio/pele.
+- **A gravidade é o juiz:** marcar deitado aumenta risco de super-ressecção. A marcação deve ser feita sentado (~90 graus), com expressão e posição real do supercílio/pele.
 
 - **Segurança antes de estética:** a ressecção é guiada por *teste de fechamento* e pelo *pinch test*, não por “quanto sobra na foto”. Uma marcação conservadora é mais fácil de ajustar do que um lagoftalmo para “desfazer”.
 
@@ -1426,7 +1418,7 @@ Ao final, o leitor dominará a “arte da preservação” na marcação cirúrg
 
 > - [ ] **Pele:** desengordurar para fixar a tinta
 
-> - [ ] Sulco (linha inferior — superior): homens 7–8 mm; mulheres 8–10 mm (a partir da margem ciliar, ajustando ao biotipo)
+> - [ ] Sulco (linha inferior - superior): homens 7-8 mm; mulheres 8-10 mm (a partir da margem ciliar, ajustando ao biotipo)
 
 > - [ ] Linha superior: definida pelo *pinch test* (não por “medida fixa”)
 
@@ -1440,7 +1432,7 @@ Ao final, o leitor dominará a “arte da preservação” na marcação cirúrg
 
 - **Pele fina vs espessa:** a cicatriz deve permanecer na pele palpebral fina (onde ela “some”); subir demais para pele espessa aumenta visibilidade.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 11):**
+> ** FIGURA NECESSÁRIA (Cap. 11):**
 
 > Diagrama de marcação superior: Linha do sulco + fuso, extensão lateral em RSTL
 
@@ -1448,24 +1440,24 @@ Ao final, o leitor dominará a “arte da preservação” na marcação cirúrg
 
 ## Técnica (o pinch test)
 
-### Blefaroplastia superior — visão geral
+### Blefaroplastia superior - visão geral
 
-1. **Definir sulco (linha inferior):** marcar seguindo o padrão anatômico do paciente (≈8–10 mm no centro, ajustando por sexo/biotipo).
+1. **Definir sulco (linha inferior):** marcar seguindo o padrão anatômico do paciente (~8-10 mm no centro, ajustando por sexo/biotipo).
 
 2. **Pinch test:** pinçar pele acima da linha inferior. A quantidade adequada **suaviza** sem eversão de cílios e sem dificultar fechamento suave.
 
 3. Desenhar o fuso: marcar pontos do pinçamento e conectar. Em geral, maior largura no terço lateral.
 4. Extensão lateral: “morrer” dentro de ruga natural (pé de galinha), com discreta ascensão (evitar cauda descendente).
 
-### Pálpebra inferior — visão geral (*skin pinch* quando indicado)
+### Pálpebra inferior - visão geral (*skin pinch* quando indicado)
 
-- Marcar subciliar (≈2 mm abaixo dos cílios) **somente** se houver excesso real.
+- Marcar subciliar (~2 mm abaixo dos cílios) **somente** se houver excesso real.
 
-- Fazer *pinch* com o paciente olhando para cima e **boca aberta** (tensão máxima). Se ainda houver sobra, a ressecção tende a ser pequena (≈1–2 mm, conservadora).
+- Fazer *pinch* com o paciente olhando para cima e **boca aberta** (tensão máxima). Se ainda houver sobra, a ressecção tende a ser pequena (~1-2 mm, conservadora).
 
 ### Variações e indicações
 
-- **Homens:** sulco mais baixo (≈7–8 mm) e desenho mais conservador para evitar feminização.
+- **Homens:** sulco mais baixo (~7-8 mm) e desenho mais conservador para evitar feminização.
 
 - **Asiáticos:** decidir previamente objetivo (criar sulco vs preservar anatomia). Marcação e fixação seguem lógica específica e mais baixa.
 
@@ -1496,21 +1488,21 @@ A cicatriz lateral deve se camuflar em transições naturais e RSTL. A marcaçã
 
 ## Referências
 
-- [[REF:FAGIEN-1999]] Fagien — *pinch* cutâneo e conservadorismo
+- [[REF:FAGIEN-1999]] Fagien - *pinch* cutâneo e conservadorismo
 
-- [[REF:FLOWERS-1993]] Flowers — princípios de marcação e preservação
+- [[REF:FLOWERS-1993]] Flowers - princípios de marcação e preservação
 
-- [[REF:REES-1984]] Rees — segurança em excisão de pele palpebral
+- [[REF:REES-1984]] Rees - segurança em excisão de pele palpebral
 
 
 * * *
 
-# Capítulo 12 — Anestesia, infiltração, hemostasia e pós imediato (segurança)
+# Anestesia, infiltração, hemostasia e pós imediato (segurança)
 
-![Figura 12.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-12-01_anestesia-infiltracao-hemostasia-pos-imediato.png)
+![Figura 12.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-12-01_anestesia-infiltracao-hemostasia-pos-imediato.png)
 
 
-**Parte:** Parte II — Planejamento (Transição para Execução)
+**Parte:** Parte II - Planejamento (Transição para Execução)
 
 ## Objetivo do capítulo
 
@@ -1518,7 +1510,7 @@ Ao final, o leitor saberá instituir um protocolo de anestesia, infiltração e 
 
 ## O que muda na decisão (o “porquê”)
 
-- **O tempo é um agente farmacológico:** incisar imediatamente após infiltrar costuma “roubar” o pico vasoconstrictor da epinefrina. Em geral, aguardar ~10–15 minutos muda a qualidade do campo operatório.
+- **O tempo é um agente farmacológico:** incisar imediatamente após infiltrar costuma “roubar” o pico vasoconstrictor da epinefrina. Em geral, aguardar ~10-15 minutos muda a qualidade do campo operatório.
 
 - **Hidrodissecção como ferramenta:** infiltração não é só analgesia; é criação de plano. Se a agulha não progride com baixa resistência, o plano provavelmente está errado.
 
@@ -1541,15 +1533,15 @@ Ao final, o leitor saberá instituir um protocolo de anestesia, infiltração e 
 >
 > ### Checklist de infiltração e sala (segurança)
 
-> - [ ] **Solução (exemplo comum):** lidocaína 1–2% + epinefrina (p.ex., 1:100.000 ou 1:200.000), respeitando dose máxima e comorbidades.
+> - [ ] **Solução (exemplo comum):** lidocaína 1-2% + epinefrina (p.ex., 1:100.000 ou 1:200.000), respeitando dose máxima e comorbidades.
 
 > - [ ] **Tampão (opcional):** bicarbonato 8,4% (p.ex., 1:10) para reduzir ardor à injeção.
 
 > - [ ] **Proteção ocular:** colírio anestésico + proteção corneana quando houver manipulação profunda/laser, conforme preferência do serviço.
 
-> - [ ] Latência: cronometrar intervalo entre infiltração e incisão (em geral ~10–15 min).
+> - [ ] Latência: cronometrar intervalo entre infiltração e incisão (em geral ~10-15 min).
 
-> - [ ] Pressão arterial: monitorização seriada (frequentemente a cada 3–5 min em fase crítica); manter alvo hemodinâmico acordado com anestesia.
+> - [ ] Pressão arterial: monitorização seriada (frequentemente a cada 3-5 min em fase crítica); manter alvo hemodinâmico acordado com anestesia.
 
 > - [ ] Prontidão para emergência: material para descompressão orbitária imediata disponível e equipe alinhada com o protocolo.
 
@@ -1561,7 +1553,7 @@ Ao final, o leitor saberá instituir um protocolo de anestesia, infiltração e 
 
 - **Plano de segurança:** iniciar superficial (subcutâneo) para turgor cutâneo e depois pré-septal; evitar injeções profundas “às cegas” no pós-septal para reduzir risco de lesão vascular orbitária.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 12):**
+> ** FIGURA NECESSÁRIA (Cap. 12):**
 
 > Mapa de pontos de bloqueio anestésico periorbitário
 
@@ -1621,22 +1613,22 @@ A arte aqui é preservação tecidual: menos sangue no leito cirúrgico tende a 
 
 ## Referências
 
-- [[REF:ROHRICH-2008]] Rohrich — segurança e princípios gerais em cirurgia facial sob anestesia local
+- [[REF:ROHRICH-2008]] Rohrich - segurança e princípios gerais em cirurgia facial sob anestesia local
 
-- [[REF:HASS-2004]] Hass / Most — protocolos e manejo de hematoma retrobulbar
+- [[REF:HASS-2004]] Hass / Most - protocolos e manejo de hematoma retrobulbar
 
-- [[REF:FAGIEN-1999]] Fagien — infiltração/hidrodissecção e hemostasia em cirurgia periorbital
+- [[REF:FAGIEN-1999]] Fagien - infiltração/hidrodissecção e hemostasia em cirurgia periorbital
 
 
 * * *
 
-# Capítulo 13 — Brow management: por que blef isolada falha (Connell) e indicações
+# Brow management: por que blef isolada falha (Connell) e indicações
 
-![Figura 13.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-13-01_brow-management-comparativo.png)
+![Figura 13.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-13-01_brow-management-comparativo.png)
 
 > **Leitura guiada:** este capítulo aborda o leitor aprenderá a indicar estabilização (pexy) ou elevação (lift) antes de definir ressecções palpebrais.
 
-**Parte:** Parte III — Terço Superior
+**Parte:** Parte III - Terço Superior
 
 ## Objetivo do capítulo
 
@@ -1689,7 +1681,7 @@ Ao final, o leitor saberá diagnosticar a “falsa” dermatochalase causada por
 
 - **Nervo facial (ramo temporal):** risco em dissecções temporais superficiais. A segurança é respeitar planos fasciais (fáscia temporoparietal vs. fáscia temporal profunda) e manter técnica de baixo trauma.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 13):**
+> ** FIGURA NECESSÁRIA (Cap. 13):**
 
 > Teste de Connell ilustrado: Bloqueio do frontal e observação da ptose
 
@@ -1742,21 +1734,21 @@ A beleza do terço superior depende de **posição e plenitude**, não apenas de
 
 ## Referências
 
-- [[REF:CONNELL-1978]] Connell — compensação frontal e implicações estéticas
+- [[REF:CONNELL-1978]] Connell - compensação frontal e implicações estéticas
 
-- [[REF:KNIZE-2001]] Knize — anatomia do supercílio/ROOF e princípios de brow lift
+- [[REF:KNIZE-2001]] Knize - anatomia do supercílio/ROOF e princípios de brow lift
 
-- [[REF:LAMBROS-2007]] Lambros — estética do terço superior e envelhecimento
+- [[REF:LAMBROS-2007]] Lambros - estética do terço superior e envelhecimento
 
 
 * * *
 
-# Capítulo 14 — Técnicas de brow lift: temporal, endoscópico, Castañares modificado
+# Técnicas de brow lift: temporal, endoscópico, Castañares modificado
 
-![Figura 14.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-14-01_browlift-temporal-endoscopico.png)
+![Figura 14.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-14-01_browlift-temporal-endoscopico.png)
 
 
-**Parte:** Parte III — Terço Superior
+**Parte:** Parte III - Terço Superior
 
 ## Objetivo do capítulo
 
@@ -1821,7 +1813,7 @@ Ao final, o leitor saberá navegar pelo “menu” de opções de elevação do 
 
 - Galea aponeurótica: camada de força para suspensão e redistribuição de tensão. Fixações duráveis ancoram em galea e/ou periósteo (ou túneis ósseos), conforme a técnica.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 14):**
+> ** FIGURA NECESSÁRIA (Cap. 14):**
 
 > Diagrama: Planos temporais (superficial vs profundo)
 
@@ -1831,7 +1823,7 @@ Ao final, o leitor saberá navegar pelo “menu” de opções de elevação do 
 
 ### 1) Lift Temporal (acesso limitado)
 
-- **Incisão:** 3–4 cm intra-capilar na região temporal.
+- **Incisão:** 3-4 cm intra-capilar na região temporal.
 
 - **Dissecção:** em plano seguro sobre a fáscia temporal profunda até borda orbitária lateral/arco zigomático, conforme técnica.
 
@@ -1841,7 +1833,7 @@ Ao final, o leitor saberá navegar pelo “menu” de opções de elevação do 
 
 ### 2) Endoscópico (fronte completa)
 
-- **Acessos:** 3–5 incisões pequenas atrás da linha capilar.
+- **Acessos:** 3-5 incisões pequenas atrás da linha capilar.
 
 - Dissecção: subperiosteal até glabela/raiz nasal.
 
@@ -1853,7 +1845,7 @@ Ao final, o leitor saberá navegar pelo “menu” de opções de elevação do 
 
 - **Marcação:** fuso de pele imediatamente acima dos pelos da sobrancelha, definindo correção de altura e contorno.
 
-- Incisão: biselada (30–45°) para preservar folículos e permitir crescimento de pelos através da cicatriz.
+- Incisão: biselada (30-45 graus) para preservar folículos e permitir crescimento de pelos através da cicatriz.
 
 - **Ressecção:** pele/subcutâneo, preservando músculo frontal salvo indicação específica.
 
@@ -1898,7 +1890,7 @@ A curva deve ser suave (sem “^”). Em homens, o objetivo costuma ser retifica
 
 ## Pós-operatório
 
-- **Temporal/Endoscópico:** curativo compressivo 24–48h conforme preferência para reduzir seroma/hematoma.
+- **Temporal/Endoscópico:** curativo compressivo 24-48h conforme preferência para reduzir seroma/hematoma.
 
 - **Castañares:** retirada de suturas em tempo adequado para minimizar marca (“trilho”), com orientação rigorosa de cicatriz.
 
@@ -1915,12 +1907,12 @@ A curva deve ser suave (sem “^”). Em homens, o objetivo costuma ser retifica
 
 * * *
 
-# Capítulo 15 — Blefaroplastia superior: pele, gordura (preservação) e glândula lacrimal
+# Blefaroplastia superior: pele, gordura (preservação) e glândula lacrimal
 
-![Figura 15.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-15-01_blef-superior-preservacao.png)
+![Figura 15.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-15-01_blef-superior-preservacao.png)
 
 
-**Parte:** Parte III — Terço Superior
+**Parte:** Parte III - Terço Superior
 
 ## Objetivo do capítulo
 
@@ -1979,7 +1971,7 @@ Ao final, o leitor saberá executar uma blefaroplastia superior **volumétrica e
 
 - ROOF (Retro-Orbicularis Oculi Fat): gordura sob o orbicular e acima do septo; dá volume ao supercílio e pode descer com a idade.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 15):**
+> ** FIGURA NECESSÁRIA (Cap. 15):**
 
 > Anatomia: Gordura pré-aponeurótica, glândula lacrimal, ROOF
 
@@ -2041,7 +2033,7 @@ A pálpebra jovem reflete luz de forma difusa. A pálpebra “operada demais” 
 
 - **Lubrificação:** colírio durante o dia e gel à noite; edema pode reduzir piscamento completo nos primeiros dias.
 
-- **Retirada de pontos:** 5–7 dias.
+- **Retirada de pontos:** 5-7 dias.
 
 ## Referências
 
@@ -2054,12 +2046,12 @@ A pálpebra jovem reflete luz de forma difusa. A pálpebra “operada demais” 
 
 * * *
 
-# Capítulo 16 — Ptose associada no superior: quando reconhecer e como integrar ao plano
+# Ptose associada no superior: quando reconhecer e como integrar ao plano
 
-![Figura 16.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-16-01_ptose-avaliacao-integracao.png)
+![Figura 16.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-16-01_ptose-avaliacao-integracao.png)
 
 
-**Parte:** Parte III — Terço Superior
+**Parte:** Parte III - Terço Superior
 
 ## Objetivo do capítulo
 
@@ -2094,13 +2086,13 @@ Ao final, o leitor saberá diagnosticar a ptose palpebral oculta sob a dermatoca
 >
 > ### Checklist Pré-op de Diagnóstico
 
-> - [ ] **MRD1 (Margem–Reflexo):** distância do reflexo corneano à margem ciliar superior (normal ~4–5 mm).
+> - [ ] **MRD1 (Margem-Reflexo):** distância do reflexo corneano à margem ciliar superior (normal ~4-5 mm).
 
 > - [ ] **Função do elevador:** excursão bloqueando o frontal. >12 mm excelente; <4 mm sugere ptose miogênica grave (considerar suspensão frontal).
 
 > - [ ] **Lei de Hering:** elevar manualmente o lado mais ptótico e observar queda do contralateral.
 
-> - [ ] Teste da fenilefrina: se subir em 5–10 min, favorece via posterior (ptose leve, seleção criteriosa).
+> - [ ] Teste da fenilefrina: se subir em 5-10 min, favorece via posterior (ptose leve, seleção criteriosa).
 
 > - [ ] Posição do sulco: sulco alto/profundo sugere desinserção aponeurótica.
 
@@ -2112,7 +2104,7 @@ Ao final, o leitor saberá diagnosticar a ptose palpebral oculta sob a dermatoca
 
 - **Músculo de Müller:** abaixo da aponeurose e aderido à conjuntiva; simpático-dependente. Manipulação costuma sangrar mais que a aponeurose e exige delicadeza.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 16):**
+> ** FIGURA NECESSÁRIA (Cap. 16):**
 
 > Diagrama diagnóstico: MRD1, função do elevador, teste de fenilefrina
 
@@ -2120,21 +2112,21 @@ Ao final, o leitor saberá diagnosticar a ptose palpebral oculta sob a dermatoca
 
 ## Técnica (integração na blefaroplastia)
 
-### Visão geral (via anterior — Levator Advancement)
+### Visão geral (via anterior - Levator Advancement)
 
-1. **Exposição:** realizar blefaroplastia superior conforme plano (pele ± gordura) com preservação de volume.
+1. **Exposição:** realizar blefaroplastia superior conforme plano (pele +/- gordura) com preservação de volume.
 
 2. **Identificação:** retrair a gordura pré-aponeurótica; visualizar a aponeurose do elevador.
 
 3. **Avaliação do padrão:** desinserida/retraída vs. inserida porém frouxa.
 
-4. Avanço/reinserção: fixar a aponeurose na face anterior do tarso com 1–3 pontos (ex.: Nylon/Prolene 6-0; conforme preferência).
+4. Avanço/reinserção: fixar a aponeurose na face anterior do tarso com 1-3 pontos (ex.: Nylon/Prolene 6-0; conforme preferência).
 
 5. Ajuste intraoperatório: sentar o paciente e checar altura/contorno; ajustar a tensão antes do fechamento cutâneo (sedação profunda atrapalha).
 
 ### Variações e indicações
 
-- **Via posterior (Mülerectomia/Conjuntivectomia):** ptoses leves (1–2 mm) com fenilefrina positiva; boa para contorno, mas não substitui correções mais potentes quando indicado.
+- **Via posterior (Mülerectomia/Conjuntivectomia):** ptoses leves (1-2 mm) com fenilefrina positiva; boa para contorno, mas não substitui correções mais potentes quando indicado.
 
 - **Plicatura simples:** dobra aponeurótica sem grande descolamento; menos potente, pode ser útil em casos selecionados.
 
@@ -2161,13 +2153,13 @@ Ao final, o leitor saberá diagnosticar a ptose palpebral oculta sob a dermatoca
 
 ## Notas de “arte” (o olhar desperto)
 
-A “arte” é a simetria do brilho: o reflexo corneano deve parecer equilibrado entre os olhos. Em geral, a pálpebra superior deve cobrir ~1–2 mm da íris superior. Cobertura maior sugere ptose; cobertura menor, risco de “olhar assustado” (retração).
+A “arte” é a simetria do brilho: o reflexo corneano deve parecer equilibrado entre os olhos. Em geral, a pálpebra superior deve cobrir ~1-2 mm da íris superior. Cobertura maior sugere ptose; cobertura menor, risco de “olhar assustado” (retração).
 
 ## Pós-operatório
 
 - **Fechamento:** checar se o olho fecha durante o sono nas primeiras noites.
 
-- **Lubrificação:** gel oftálmico noturno por 3–4 semanas (ou conforme necessidade).
+- **Lubrificação:** gel oftálmico noturno por 3-4 semanas (ou conforme necessidade).
 
 - **Expectativa:** nos primeiros dias pode parecer “aberto demais” por edema e efeito simpático (Müller).
 
@@ -2183,13 +2175,13 @@ A “arte” é a simetria do brilho: o reflexo corneano deve parecer equilibrad
 
 * * *
 
-# Capítulo 17 — Pálpebra inferior transconjuntival: preferências, septo e bolsas
+# Pálpebra inferior transconjuntival: preferências, septo e bolsas
 
-![Figura 17.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-17-01_transconjuntival-septo-bolsas.png)
+![Figura 17.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-17-01_transconjuntival-septo-bolsas.png)
 
 > **Leitura guiada:** este capítulo aborda preservar) com menor risco de retração palpebral (ectrópio/round eye) quando comparada à abordagem externa em fenótipos selecionados.
 
-**Parte:** Parte IV — Inferior e Terço Médio
+**Parte:** Parte IV - Inferior e Terço Médio
 
 ## Objetivo do capítulo
 
@@ -2201,7 +2193,7 @@ Ao final, o leitor dominará a via de acesso interna que elimina a cicatriz cut�
 
 - **Acesso direto ao alvo:** quando a queixa principal é bolsa (gordura) e não pele, atravessar pele e músculo para chegar às bolsas costuma ser dissecção “extra” sem ganho anatômico.
 
-- **O mito da “pele sobrando”:** em muitos pacientes, a aparência de sobra é secundária à protrusão de gordura. Ao tratar o volume por dentro, parte da pele melhora por retração/redistribuição — mas isso depende de tônus (snap-back). A decisão correta separa pele real de pseudo-sobra por volume.
+- **O mito da “pele sobrando”:** em muitos pacientes, a aparência de sobra é secundária à protrusão de gordura. Ao tratar o volume por dentro, parte da pele melhora por retração/redistribuição - mas isso depende de tônus (snap-back). A decisão correta separa pele real de pseudo-sobra por volume.
 
 ## Indicações e contra-indicações
 
@@ -2245,13 +2237,13 @@ Ao final, o leitor dominará a via de acesso interna que elimina a cicatriz cut�
  2. **Central:** amarela, mais fluida.
  3. Lateral: menor/mais profunda e frequentemente subtratada.
 
-- Divisor crítico: músculo oblíquo inferior (entre medial e central). Lesão → risco de diplopia.
+- Divisor crítico: músculo oblíquo inferior (entre medial e central). Lesão -> risco de diplopia.
 
-- Plano conjuntiva–retratores: incisão geralmente alguns milímetros abaixo da borda inferior do tarso para reduzir sangramento e facilitar a exposição.
+- Plano conjuntiva-retratores: incisão geralmente alguns milímetros abaixo da borda inferior do tarso para reduzir sangramento e facilitar a exposição.
 
 - Arcadas vasculares: atenção ao controle fino com bipolar; sangramento “chato” atrapalha a identificação do oblíquo e dos compartimentos.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 17):**
+> ** FIGURA NECESSÁRIA (Cap. 17):**
 
 > Corte sagital: Acesso transconjuntival pré e pós-septal
 
@@ -2276,9 +2268,9 @@ Ao final, o leitor dominará a via de acesso interna que elimina a cicatriz cut�
 
 ### Variações e indicações
 
-- **Transposição/Reposicionamento de gordura:** — preferir quando há sulco lacrimal/junção pálpebra-malar marcada (objetivo: continuidade).
+- **Transposição/Reposicionamento de gordura:** - preferir quando há sulco lacrimal/junção pálpebra-malar marcada (objetivo: continuidade).
 
-- **Pinch cutâneo associado:** após transconjuntival, remover 1–2 mm de pele (skin-only) quando há excesso real mínimo, sem descolar orbicular.
+- **Pinch cutâneo associado:** após transconjuntival, remover 1-2 mm de pele (skin-only) quando há excesso real mínimo, sem descolar orbicular.
 
 - **Suporte canthal associado:** em tônus limítrofe, planejar cantopexia/cantoplastia conforme algoritmo (capítulos de exame físico/planejamento).
 
@@ -2334,22 +2326,22 @@ O objetivo não é “retificar” a pálpebra inferior, mas manter uma convexid
 
 * * *
 
-# Capítulo 18 — Transposição/redistribuição de gordura: sulco nasojugal e transição pálpebra-malar
+# Transposição/redistribuição de gordura: sulco nasojugal e transição pálpebra-malar
 
-![Figura 18.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-18-01_transposicao-gordura-lid-cheek..png)
+![Figura 18.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-18-01_transposicao-gordura-lid-cheek..png)
 
 
-**Parte:** Parte IV — Inferior e Terço Médio
+**Parte:** Parte IV - Inferior e Terço Médio
 
 ## Objetivo do capítulo
 
-Ao final, o leitor dominará os princípios de **nivelar convexidade (bolsa)** e **preencher concavidade (sulco)** com abordagem de preservação, aprendendo a liberar as estruturas retentoras e reposicionar gordura para restaurar uma transição contínua na junção pálpebra–malar.
+Ao final, o leitor dominará os princípios de **nivelar convexidade (bolsa)** e **preencher concavidade (sulco)** com abordagem de preservação, aprendendo a liberar as estruturas retentoras e reposicionar gordura para restaurar uma transição contínua na junção pálpebra-malar.
 
 ## O que muda na decisão (o “porquê”)
 
 - **Paradigma da preservação:** ressecar bolsa trata a convexidade, mas pode **acentuar** a concavidade do sulco. A decisão por reposicionar/redistribuir busca corrigir **monte + vale** com o próprio tecido disponível.
 
-- A barreira retentora: falhas no tratamento do sulco costumam ser consequência de liberação insuficiente das estruturas retentoras na junção pálpebra–malar (ex.: ORL/TTL, dependendo da escola anatômica e da técnica). Sem mobilidade real, o reposicionamento fica instável ou irregular.
+- A barreira retentora: falhas no tratamento do sulco costumam ser consequência de liberação insuficiente das estruturas retentoras na junção pálpebra-malar (ex.: ORL/TTL, dependendo da escola anatômica e da técnica). Sem mobilidade real, o reposicionamento fica instável ou irregular.
 
 - Volume autólogo vs. camuflagem temporária: ao contrário de preenchedores, a gordura reposicionada é tecido autólogo; pode oferecer continuidade de relevo mais robusta. Isso não “apaga cor” por pigmento, mas pode reduzir a aparência de olheira estrutural ao suavizar sombra e, em alguns casos, atenuar a visualização vascular por aumento de espessura de cobertura.
 
@@ -2360,25 +2352,25 @@ Ao final, o leitor dominará os princípios de **nivelar convexidade (bolsa)** e
 
 - houver risco de olho cavo/deflação (incluindo fenótipos com tendência a esqueletização), onde ressecção agressiva é indesejável;
 
-- a junção pálpebra–malar estiver longa/abrupta (lid–cheek junction marcada), com objetivo de continuidade.
+- a junção pálpebra-malar estiver longa/abrupta (lid-cheek junction marcada), com objetivo de continuidade.
 
 **Evitar / adiar quando:**
 - não houver gordura septal suficiente para reposicionar (planejar alternativa: micro/nanofat, outras manobras de suporte/terço médio);
 
 - a queixa for predominantemente **pigmentar** (melanina) sem componente de sombra/relevo relevante;
 
-- houver processo infeccioso ativo na região (ex.: celulite, sinusopatia relevante com repercussão local) — priorizar estabilidade clínica.
+- houver processo infeccioso ativo na região (ex.: celulite, sinusopatia relevante com repercussão local) - priorizar estabilidade clínica.
 
 > **PÉROLA CLÍNICA**
 
 >
 > ### Checklist Pré-op (Avaliação de Volume e Viabilidade)
 
-> - [ ] **Mapa do defeito:** medial (tear trough) vs. lateral (lid–cheek junction).
+> - [ ] **Mapa do defeito:** medial (tear trough) vs. lateral (lid-cheek junction).
 
 > - [ ] **Volume disponível:** gordura medial/central suficiente para cobertura do rebordo + sulco?
 
-> - [ ] **Qualidade da pele:** muito fina aumenta risco de irregularidades visíveis → considerar refinamento (ex.: nanofat/skin quality adjunct) conforme estratégia.
+> - [ ] **Qualidade da pele:** muito fina aumenta risco de irregularidades visíveis -> considerar refinamento (ex.: nanofat/skin quality adjunct) conforme estratégia.
 
 > - [ ] Vetor e tônus: vetor negativo e/ou tônus limítrofe exigem plano explícito de suporte (cantopexia/cantoplastia e/ou estratégia de terço médio) além do volume.
 
@@ -2388,13 +2380,13 @@ Ao final, o leitor dominará os princípios de **nivelar convexidade (bolsa)** e
 
 - Tear Trough Ligament (TTL) / estruturas retentoras mediais: aderem pele/tecidos ao rebordo medial e contribuem para o sulco e a sombra. O objetivo funcional é **mobilidade** suficiente para permitir acomodação suave do volume.
 
-- **Orbicular Retaining Ligament (ORL):** contribui para a demarcação da junção pálpebra–malar (mais lateral) e para a “linha” da transição. Se permanecer íntegro e tenso, pode manter o degrau/sombra.
+- **Orbicular Retaining Ligament (ORL):** contribui para a demarcação da junção pálpebra-malar (mais lateral) e para a “linha” da transição. Se permanecer íntegro e tenso, pode manter o degrau/sombra.
 
-- **Arcus marginalis / rebordo orbitário:** marco anatômico. O reposicionamento efetivo geralmente visa “cruzar” essa transição de plano, suavizando a fronteira osso–tecido.
+- **Arcus marginalis / rebordo orbitário:** marco anatômico. O reposicionamento efetivo geralmente visa “cruzar” essa transição de plano, suavizando a fronteira osso-tecido.
 
 - Espaço pré-malar / pré-maxilar: compartimento de acomodação (conceito varia com técnica: sub-orbicular, pré/periostal, subperiostal). Atenção a estruturas vasculares mediais e ao feixe infraorbitário.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 18):**
+> ** FIGURA NECESSÁRIA (Cap. 18):**
 
 > Técnica: Fat repositioning para sulco nasojugal
 
@@ -2408,7 +2400,7 @@ Ao final, o leitor dominará os princípios de **nivelar convexidade (bolsa)** e
 
 2. **Exposição e individualização:** identificar compartimentos (medial/central) e mobilizar gordura com respeito ao pedículo, evitando trauma por esmagamento.
 
-3. **Criação do leito receptor:** realizar liberação adequada das estruturas retentoras conforme alvo (medial vs. lid–cheek), criando um plano/lóculo que permita acomodação sem compressão e sem tensão.
+3. **Criação do leito receptor:** realizar liberação adequada das estruturas retentoras conforme alvo (medial vs. lid-cheek), criando um plano/lóculo que permita acomodação sem compressão e sem tensão.
 
 4. Reposicionamento: acomodar o volume para cobrir o rebordo e suavizar o sulco, buscando transição contínua (evitar “degrau inverso”).
 5. Estabilidade (fixação quando indicada):
@@ -2426,7 +2418,7 @@ Ao final, o leitor dominará os princípios de **nivelar convexidade (bolsa)** e
 >
 > ### Zona de Risco: Irregularidades, nódulos e necrose gordurosa
 
-> - **Mecanismo:** trauma mecânico (esmagamento), torção/estrangulamento do pedículo, leito receptor pequeno/compressivo ou hemostasia inadequada → pode gerar nódulos, irregularidade e endurecimento prolongado.
+> - **Mecanismo:** trauma mecânico (esmagamento), torção/estrangulamento do pedículo, leito receptor pequeno/compressivo ou hemostasia inadequada -> pode gerar nódulos, irregularidade e endurecimento prolongado.
 
 > - **Prevenção:** manipulação mínima (“no-crush”), leito amplo, acomodação sem tensão, hemostasia limpa e planejamento de pele fina (possível necessidade de refinamento de superfície).
 
@@ -2467,18 +2459,18 @@ O objetivo estético não é “apagar bolsas”, mas recriar uma superfície ú
 
 - Transposição transconjuntival de gordura e variações técnicas [[REF:GOLDBERG-1998]].
 
-- Anatomia de TTL/ORL e implicações na junção pálpebra–malar [[REF:MENDELSON-2008]].
+- Anatomia de TTL/ORL e implicações na junção pálpebra-malar [[REF:MENDELSON-2008]].
 * * *
 
 
 * * *
 
-# Capítulo 19 — Manejo de pele no inferior: skin pinch e refinamentos sem descolamento amplo
+# Manejo de pele no inferior: skin pinch e refinamentos sem descolamento amplo
 
-![Figura 19.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-19-01_skin-pinch-refinamentos.png)
+![Figura 19.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-19-01_skin-pinch-refinamentos.png)
 
 
-**Parte:** Parte IV — Inferior e Terço Médio
+**Parte:** Parte IV - Inferior e Terço Médio
 
 ## Objetivo do capítulo
 
@@ -2486,11 +2478,11 @@ Ao final, o leitor dominará a técnica de **skin pinch** para ressecar **excess
 
 ## O que muda na decisão (o “porquê”)
 
-- **Pele ≠ sustentação:** tentar “corrigir frouxidão” removendo pele é erro conceitual. A pele é cobertura; o suporte é **tarso–cantal/ligamentar**. Se há frouxidão horizontal, ela é tratada com **suporte cantal**, não com tração cutânea.
+- **Pele ≠ sustentação:** tentar “corrigir frouxidão” removendo pele é erro conceitual. A pele é cobertura; o suporte é **tarso-cantal/ligamentar**. Se há frouxidão horizontal, ela é tratada com **suporte cantal**, não com tração cutânea.
 
 - Preservação de planos e fisiologia: descolamentos amplos aumentam edema, equimose, risco de fibrose e podem comprometer a dinâmica do orbicular. O *pinch* busca tratar o vetor vertical de excesso cutâneo com mínima violação de planos.
 
-- Vertical vs. horizontal: o *pinch* atua no excesso vertical de pele. Frouxidão horizontal (snap-back lento / distraction elevado) exige plano concomitante de suporte (cantopexia/cantoplastia) — nunca “compensar” cortando mais pele.
+- Vertical vs. horizontal: o *pinch* atua no excesso vertical de pele. Frouxidão horizontal (snap-back lento / distraction elevado) exige plano concomitante de suporte (cantopexia/cantoplastia) - nunca “compensar” cortando mais pele.
 
 ## Indicações e contra-indicações
 
@@ -2513,11 +2505,11 @@ Ao final, o leitor dominará a técnica de **skin pinch** para ressecar **excess
 >
 > ### Checklist Pré-op (Segurança do *Pinch*)
 
-> - [ ] **Snap-back:** retorno imediato vs. lento (lento → planejar suporte cantal).
+> - [ ] **Snap-back:** retorno imediato vs. lento (lento -> planejar suporte cantal).
 
 > - [ ] **Teste em máxima tensão vertical:** paciente olhando para cima + boca aberta (ou manobra equivalente).
 
-> - [ ] **Vetor:** vetor negativo → conservadorismo adicional (sub-correção intencional é preferível).
+> - [ ] **Vetor:** vetor negativo -> conservadorismo adicional (sub-correção intencional é preferível).
 
 > - [ ] Expectativa: explicar que o *pinch* atenua rugas de repouso, mas não “apaga” linhas dinâmicas.
 
@@ -2525,15 +2517,15 @@ Ao final, o leitor dominará a técnica de **skin pinch** para ressecar **excess
 
 ## Anatomia aplicada (o “plano zero”)
 
-- **Interface pele–orbicular:** na pálpebra inferior há pouca gordura subcutânea; a pele é relativamente aderida ao orbicular. O *pinch* explora essa relação **sem descolar amplamente**.
+- **Interface pele-orbicular:** na pálpebra inferior há pouca gordura subcutânea; a pele é relativamente aderida ao orbicular. O *pinch* explora essa relação **sem descolar amplamente**.
 
 - **Orbicular pré-tarsal:** componente crítico da dinâmica palpebral. O objetivo é não incorporar músculo no tecido ressecado. Se há fibras musculares evidentes no fuso removido, o plano foi profundo demais.
 
 - Inervação/vascularização: ramos motores e perfurantes vasculares são mais relevantes em dissecções profundas e amplas; o *pinch* superficial tende a ser de menor agressão, desde que executado sem violação muscular.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 19):**
+> ** FIGURA NECESSÁRIA (Cap. 19):**
 
-> Técnica: Skin pinch — demarcação e excisão
+> Técnica: Skin pinch - demarcação e excisão
 
 > *Estilo: Diagrama técnico-didático, cores neutras, legendas claras*
 
@@ -2545,7 +2537,7 @@ Ao final, o leitor dominará a técnica de **skin pinch** para ressecar **excess
 
 2. **Tensão vertical:** padronizar a manobra (olhar para cima + boca aberta) antes de definir ressecção.
 
-3. **Pinçamento:** apreender somente pele a ~1–2 mm abaixo da linha ciliar (subciliar), mantendo a margem ciliar neutra.
+3. **Pinçamento:** apreender somente pele a ~1-2 mm abaixo da linha ciliar (subciliar), mantendo a margem ciliar neutra.
 
 4. Teste de segurança: se houver eversão/tração evidente da margem, reduzir a quantidade pinçada (sub-correção é preferível).
 
@@ -2587,7 +2579,7 @@ Ao final, o leitor dominará a técnica de **skin pinch** para ressecar **excess
 
 ## Notas de “arte” (textura e naturalidade)
 
-O objetivo do *pinch* não é criar uma pálpebra “sem textura”. Em faces maduras, alguma microtextura e linhas finas são compatíveis com naturalidade. O melhor resultado costuma ser **seguro e coerente** com a pele da bochecha — e não uma superfície artificialmente lisa que denuncia intervenção.
+O objetivo do *pinch* não é criar uma pálpebra “sem textura”. Em faces maduras, alguma microtextura e linhas finas são compatíveis com naturalidade. O melhor resultado costuma ser **seguro e coerente** com a pele da bochecha - e não uma superfície artificialmente lisa que denuncia intervenção.
 
 ## Pós-operatório
 
@@ -2595,7 +2587,7 @@ O objetivo do *pinch* não é criar uma pálpebra “sem textura”. Em faces ma
 
 - **Equimose linear:** comum pela vascularização dérmica.
 
-- **Retirada de pontos:** tipicamente 5–7 dias (se sutura), ou queda espontânea em ~10 dias (se cola), conforme técnica e evolução.
+- **Retirada de pontos:** tipicamente 5-7 dias (se sutura), ou queda espontânea em ~10 dias (se cola), conforme técnica e evolução.
 
 ## Referências
 
@@ -2609,12 +2601,12 @@ O objetivo do *pinch* não é criar uma pálpebra “sem textura”. Em faces ma
 
 * * *
 
-# Capítulo 20 — Festoon / edema malar: fisiopatologia e opções (orbicular, espaço pré-malar, resurfacing, excisão)
+# Festoon / edema malar: fisiopatologia e opções (orbicular, espaço pré-malar, resurfacing, excisão)
 
-![Figura 20.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-20-01_festoons-edema-malar.png)
+![Figura 20.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-20-01_festoons-edema-malar.png)
 
 
-**Parte:** Parte IV — Inferior e Terço Médio
+**Parte:** Parte IV - Inferior e Terço Médio
 
 ## Objetivo do capítulo
 
@@ -2653,7 +2645,7 @@ Ao final, o leitor saberá diferenciar **bolsa palpebral (gordura orbitária)** 
 
 > - [ ] **Variação diurna:** estável (mais típico de gordura) vs. variável (mais típico de edema).
 
-> - [ ] Teste dinâmico (squinch/sorriso): aumenta com contração do orbicular → componente muscular/lamelar; não muda e “balança” → maior componente de fluido/pele.
+> - [ ] Teste dinâmico (squinch/sorriso): aumenta com contração do orbicular -> componente muscular/lamelar; não muda e “balança” -> maior componente de fluido/pele.
 
 > - [ ] Histórico de HA: edema tardio iatrogênico é comum e muda completamente o plano (primeiro desfazer o iatrogênico).
 
@@ -2665,23 +2657,23 @@ Ao final, o leitor saberá diferenciar **bolsa palpebral (gordura orbitária)** 
 
 - “Malar septum” (conceito): descrições anatômicas sugerem barreiras/fixações que compartimentalizam o edema no malar. Na prática, pense em compartimentos + retenções que favorecem “poças” localizadas.
 
-## Técnica (menu de opções — escolha por fenótipo)
+## Técnica (menu de opções - escolha por fenótipo)
 
 **Princípio:** tratar o componente predominante (**pele / músculo / fluido / estrutura**) e aceitar que casos moderados a severos tendem a exigir **combinação**.
 
-### Fenótipo A — Predomínio de fluido/edema (malar mound “puffy”)
+### Fenótipo A - Predomínio de fluido/edema (malar mound “puffy”)
 
-- **Primeiro:** corrigir causas iatrogênicas e inflamatórias (ex.: HA prévio → considerar hialuronidase antes de qualquer cirurgia; rinossinusite/alergias → otimizar).
+- **Primeiro:** corrigir causas iatrogênicas e inflamatórias (ex.: HA prévio -> considerar hialuronidase antes de qualquer cirurgia; rinossinusite/alergias -> otimizar).
 
 - **Opções adjuvantes:** protocolos não excisionais (resurfacing selecionado, energia fracionada, medidas de pele) com expectativa realista.
 
-### Fenótipo B — Predomínio cutâneo-muscular (festoon verdadeiro, “drape”)
+### Fenótipo B - Predomínio cutâneo-muscular (festoon verdadeiro, “drape”)
 
 - **Excisão direta selecionada:** maior previsibilidade em casos severos com pele redundante clara e paciente que aceita cicatriz.
 
 - **Reposicionamento/suspensão do orbicular / midface:** quando há ptose estrutural associada (corrige a fundação, não só a cobertura).
 
-### Fenótipo C — Mistos (mais comum)
+### Fenótipo C - Mistos (mais comum)
 
 - Combinação por etapas: tratar **bolsa orbitária** (se houver) de forma conservadora + abordar **malar/festoon** com técnica específica (não “puxar bochecha pela pálpebra”).
 
@@ -2695,7 +2687,7 @@ Ao final, o leitor saberá diferenciar **bolsa palpebral (gordura orbitária)** 
  - Indicação: casos leves a moderados com componente cutâneo/textural relevante.
  - **Limite:** não “seca” um reservatório linfático sozinho; melhora textura e contrai pele, mas não resolve todo fenótipo.
 
-3. Escleroterapia intralesional (ex.: tetraciclina/doxiciclina — uso não padronizado)
+3. Escleroterapia intralesional (ex.: tetraciclina/doxiciclina - uso não padronizado)
  - Indicação: casos selecionados com forte componente de espaço/fluido e falha de medidas conservadoras.
  - **Cautelas:** dor, inflamação prolongada, risco de irregularidade/fibrose imprevisível; exige consentimento robusto e experiência.
 
@@ -2708,7 +2700,8 @@ Ao final, o leitor saberá diferenciar **bolsa palpebral (gordura orbitária)** 
 ## Erros comuns (e como resgatar)
 
 - **Erro:** tentar “esticar festoon” pelo acesso subciliar
- - **Consequência:** aumento do vetor vertical de tensão → risco de retração palpebral / ectrópio cicatricial
+ - **Consequência:** aumento do vetor vertical de tensão -> risco de retração palpebral / ectrópio cicatricial
+
  - **Prevenção:** não usar a pálpebra como alavanca para levantar bochecha; tratar o malar com técnica própria
  - Resgate: liberar tensão vertical e reconstruir suporte conforme gravidade (pode exigir enxertos/elevação de terço médio)
 
@@ -2719,7 +2712,7 @@ Ao final, o leitor saberá diferenciar **bolsa palpebral (gordura orbitária)** 
 
 ## Notas de “arte” (camuflagem inteligente)
 
-Quando o paciente recusa cicatriz direta e o fenótipo não é totalmente responsivo a resurfacing, a “arte” pode ser **regularizar a transição** (lid–cheek junction) e reduzir contraste de sombra, às vezes com **enxerto de gordura** bem indicado. Isso é **camuflagem**, não cura: troca-se alguma definição por continuidade.
+Quando o paciente recusa cicatriz direta e o fenótipo não é totalmente responsivo a resurfacing, a “arte” pode ser **regularizar a transição** (lid-cheek junction) e reduzir contraste de sombra, às vezes com **enxerto de gordura** bem indicado. Isso é **camuflagem**, não cura: troca-se alguma definição por continuidade.
 
 ## Pós-operatório
 
@@ -2741,20 +2734,20 @@ Quando o paciente recusa cicatriz direta e o fenótipo não é totalmente respon
 
 * * *
 
-# Capítulo 21 — Sustentação: quando cantopexia resolve e quando não resolve
+# Sustentação: quando cantopexia resolve e quando não resolve
 
-![Figura 21.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-21-01_sustentacao-cantopexia-decisao.png)
+![Figura 21.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-21-01_sustentacao-cantopexia-decisao.png)
 
 
-**Parte:** Parte V — Canto Lateral e Sustentação
+**Parte:** Parte V - Canto Lateral e Sustentação
 
 **Objetivo do capítulo:** Ao final, o leitor saberá **estratificar a frouxidão cantal** (leve / moderada / severa) e escolher entre **reforço (cantopexia)** vs reconstrução (cantoplastia / tarsal strip), reduzindo recidiva de ectrópio e evitando distorção do canto lateral.
 
 ## O que muda na decisão (o “porquê”)
 
-* **A falácia da “sutura salvadora”:** Cantopexia funciona quando existe **tecido nativo competente** (tarso + tendão/cápsula cantal com resistência). Em tendões alongados/degenerados, “apertar” sem encurtar/reconstruir é, na prática, **manutenção temporária** — pode ceder com edema, cicatrização e tração vertical do pós-op.
+* **A falácia da “sutura salvadora”:** Cantopexia funciona quando existe **tecido nativo competente** (tarso + tendão/cápsula cantal com resistência). Em tendões alongados/degenerados, “apertar” sem encurtar/reconstruir é, na prática, **manutenção temporária** - pode ceder com edema, cicatrização e tração vertical do pós-op.
 
-* A fixação errada cria o problema que você queria evitar: O erro técnico clássico é ancorar “na frente” do rebordo orbitário lateral. Isso cria gapping (afastamento pálpebra–globo), piora lagoftalmo/epífora e pode gerar *round eye*. A sustentação funcional exige um vetor póstero-superior, com ancoragem no periósteo firme do aspecto interno do rebordo (região do tubérculo orbital lateral).
+* A fixação errada cria o problema que você queria evitar: O erro técnico clássico é ancorar “na frente” do rebordo orbitário lateral. Isso cria gapping (afastamento pálpebra-globo), piora lagoftalmo/epífora e pode gerar *round eye*. A sustentação funcional exige um vetor póstero-superior, com ancoragem no periósteo firme do aspecto interno do rebordo (região do tubérculo orbital lateral).
 
 * Estética vs. segurança é um falso dilema (quando você escolhe certo):
  - Cantopexia bem indicada preserva o “V” cantal e melhora inclinação.
@@ -2774,7 +2767,7 @@ A decisão real é: grau de frouxidão + risco de tração vertical (pele, midfa
 * Boa saúde de superfície ocular (sem olho seco importante / sem exposição).
 
 **Indicar Cantoplastia / Lateral Tarsal Strip (Reconstrução):**
-* *Distraction test* **≥ 6–8 mm**, *snap-back* **lento/ausente** (precisa piscar para voltar) ou margem que “boia”.
+* *Distraction test* **>= 6-8 mm**, *snap-back* **lento/ausente** (precisa piscar para voltar) ou margem que “boia”.
 
 * Ectrópio/retração prévia, *round eye*, cirurgia prévia falha.
 
@@ -2795,11 +2788,11 @@ A decisão real é: grau de frouxidão + risco de tração vertical (pele, midfa
 
 > * [ ] **Simulação com pinça:** elevar o canto lateral com vetor póstero-superior:
 
-> - se a margem “assenta” no globo e o V preserva → pexia pode bastar (se testes leves);
+> - se a margem “assenta” no globo e o V preserva -> pexia pode bastar (se testes leves);
 
-> - se a margem continua “solta”/arredonda → precisa strip.
+> - se a margem continua “solta”/arredonda -> precisa strip.
 
-> * [ ] Inclinação cantal: canto lateral deve ficar ~1–2 mm acima do medial (na maioria dos fenótipos). Canto “triste” exige reposição superior (não apenas encurtar).
+> * [ ] Inclinação cantal: canto lateral deve ficar ~1-2 mm acima do medial (na maioria dos fenótipos). Canto “triste” exige reposição superior (não apenas encurtar).
 
 ## Anatomia aplicada (onde ancorar de verdade)
 
@@ -2819,19 +2812,19 @@ A decisão real é: grau de frouxidão + risco de tração vertical (pele, midfa
 
 * **Acesso:** pela própria incisão lateral (blefaroplastia) ou mini-incisão.
 
-* **Ponto de compra:** tarso lateral (porção firme) / cápsula cantal profunda — não pele.
+* **Ponto de compra:** tarso lateral (porção firme) / cápsula cantal profunda - não pele.
 
 * Ancoragem: periósteo firme do aspecto interno do rebordo lateral (vetor póstero-superior).
 
 * Fio: não absorvível (Prolene/Nylon) ou PDS de longa duração, conforme preferência.
 
-* Check intraoperatório: boa aposição globo–margem + preservação do V + inclinação leve positiva.
+* Check intraoperatório: boa aposição globo-margem + preservação do V + inclinação leve positiva.
 
-**Falha típica:** usar pexia para “resolver” frouxidão severa → o tecido cede, a sutura “corta” cápsula, ou a pálpebra volta a descolar.
+**Falha típica:** usar pexia para “resolver” frouxidão severa -> o tecido cede, a sutura “corta” cápsula, ou a pálpebra volta a descolar.
 
-### 2) Cantoplastia (Lateral Tarsal Strip) — Objetivo: encurtar e reconstruir o “cinto” tarsal, criando um novo ponto de fixação estrutural.
+### 2) Cantoplastia (Lateral Tarsal Strip) - Objetivo: encurtar e reconstruir o “cinto” tarsal, criando um novo ponto de fixação estrutural.
 
-* **Passos-chave (macro):** cantotomia lateral + cantólise inferior → criação do strip tarsal (desepitelização) → ancoragem profunda (póstero-superior) → reconstrução do ângulo cutâneo preservando geometria.
+* **Passos-chave (macro):** cantotomia lateral + cantólise inferior -> criação do strip tarsal (desepitelização) -> ancoragem profunda (póstero-superior) -> reconstrução do ângulo cutâneo preservando geometria.
 
 * Check intraoperatório: o canto deve ficar **agudo**, com boa aposição ao globo e sem tensão cutânea vertical.
 
@@ -2843,7 +2836,7 @@ A decisão real é: grau de frouxidão + risco de tração vertical (pele, midfa
 
 * Puxar pele para “fazer canto” (erro de plano).
 
-* Hipercorreção (canto alto demais) → deformidade estética e desconforto.
+* Hipercorreção (canto alto demais) -> deformidade estética e desconforto.
 
 ## Erros comuns (e como resgatar)
 
@@ -2866,7 +2859,7 @@ A decisão real é: grau de frouxidão + risco de tração vertical (pele, midfa
 
 A meta estética não é “olho puxado”; é **inclinação discreta** e **apoio firme**.
 
-- Canto lateral ~1–2 mm acima do medial costuma parecer mais desperto.
+- Canto lateral ~1-2 mm acima do medial costuma parecer mais desperto.
 
 - Canto alto demais cria sinal cirúrgico (“Spock”).
 
@@ -2876,7 +2869,7 @@ A arte está em **poucos milímetros** com vetor correto.
 
 ## Pós-operatório
 
-* Sensação de aperto e assimetria inicial são comuns por edema; orientar hipercorreção leve como normal nas primeiras 1–2 semanas.
+* Sensação de aperto e assimetria inicial são comuns por edema; orientar hipercorreção leve como normal nas primeiras 1-2 semanas.
 
 * Lubrificação (colírio/gel) quando houver exposição transitória.
 
@@ -2894,20 +2887,20 @@ A arte está em **poucos milímetros** com vetor correto.
 
 * * *
 
-# Capítulo 22 — Cantopexia vs. Cantoplastia: indicações por vetor e flacidez
+# Cantopexia vs. Cantoplastia: indicações por vetor e flacidez
 
-![Figura 22.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-22-01_cantopexia-vs-cantoplastia.png)
+![Figura 22.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-22-01_cantopexia-vs-cantoplastia.png)
 
 
-**Parte:** Parte V — Canto Lateral e Sustentação
+**Parte:** Parte V - Canto Lateral e Sustentação
 
-**Objetivo do capítulo:** Ao final, o leitor saberá abandonar a “cantopexia para todos”, usando **critérios objetivos** (frouxidão, *snap-back*, posição cantal e vetor orbital) para indicar **reforço (pexia)** quando há tecido competente — e reconstrução formal (cantoplastia / Lateral Tarsal Strip) quando a pexia tende à recidiva.
+**Objetivo do capítulo:** Ao final, o leitor saberá abandonar a “cantopexia para todos”, usando **critérios objetivos** (frouxidão, *snap-back*, posição cantal e vetor orbital) para indicar **reforço (pexia)** quando há tecido competente - e reconstrução formal (cantoplastia / Lateral Tarsal Strip) quando a pexia tende à recidiva.
 
 ## O que muda na decisão (o “porquê”)
 
 * **A biomecânica da falha (o “elástico velho”):** A cantopexia apenas **re-tensiona** o sistema nativo. Se o complexo cantal está alongado/degenerado (idoso, pós-cirurgia, ectrópio prévio), a pexia pode oferecer melhora inicial, mas é mais suscetível a **ceder** sob edema, cicatrização e tração vertical do pós-operatório. A cantoplastia remove/encurta o componente “doente” e recria uma ancoragem estrutural.
 
-* O imperativo do vetor negativo: No vetor negativo (globo relativamente anterior ao malar), a pálpebra inferior opera “contra a gravidade” e contra a falta de prateleira óssea. Aqui, o sistema exige um vetor de fixação póstero-superior e, com frequência, uma solução mais estrutural (Strip) — especialmente se houver frouxidão relevante.
+* O imperativo do vetor negativo: No vetor negativo (globo relativamente anterior ao malar), a pálpebra inferior opera “contra a gravidade” e contra a falta de prateleira óssea. Aqui, o sistema exige um vetor de fixação póstero-superior e, com frequência, uma solução mais estrutural (Strip) - especialmente se houver frouxidão relevante.
 
 * Distorção nasce de indicação errada + plano errado: Tentar resolver grande flacidez com pexia leva a plicaturas excessivas e pode gerar fish-mouthing, enterramento do canto ou *rounding*. A cantoplastia permite ajustar tensão e geometria do “V” com mais controle, desde que a reconstrução do ângulo seja meticulosa.
 
@@ -2925,23 +2918,23 @@ A arte está em **poucos milímetros** com vetor correto.
 **Indicar Cantoplastia (Lateral Tarsal Strip):**
 * **Vetor negativo** + qualquer frouxidão moderada/severa (risco alto).
 
-* Frouxidão **moderada/severa**: *Distraction* ≥ 6–8 mm ou *snap-back* lento/ausente.
+* Frouxidão **moderada/severa**: *Distraction* >= 6-8 mm ou *snap-back* lento/ausente.
 
 * Ectrópio, retração, “olho redondo” (sequela), falha de pexia prévia.
 
 * Canto lateral baixo/distópico (exige liberação + reposicionamento controlado).
 
 **Cautela (não é “não fazer”, é planejar):**
-* Olho seco relevante / exposição (o “aperto” pode piorar sintomas) → ajustar objetivo funcional, lubrificação agressiva e evitar hipercorreção.
+* Olho seco relevante / exposição (o “aperto” pode piorar sintomas) -> ajustar objetivo funcional, lubrificação agressiva e evitar hipercorreção.
 
-* Tarso muito flácido (*floppy eyelid*) → pode exigir reforços adicionais (técnicas complementares, enxertos/espaciadores em casos selecionados).
+* Tarso muito flácido (*floppy eyelid*) -> pode exigir reforços adicionais (técnicas complementares, enxertos/espaciadores em casos selecionados).
 
 > **PÉROLA CLÍNICA**
 
 >
 > ### Checklist de Decisão: Pexy vs. Strip (objetivo e rápido)
 
-> * [ ] **Distraction Test:** < 6 mm (Pexy provável) vs. ≥ 6–8 mm (Strip provável).
+> * [ ] **Distraction Test:** < 6 mm (Pexy provável) vs. >= 6-8 mm (Strip provável).
 
 > * [ ] **Snap-back:** imediato (Pexy) vs. lento/incompleto (Strip).
 
@@ -2951,7 +2944,7 @@ A arte está em **poucos milímetros** com vetor correto.
 
 > * [ ] Histórico: ectrópio/retração/pexia falha = Strip quase sempre.
 
-> * [ ] Superfície ocular: olho seco/exposição → evitar hipercorreção; meta funcional primeiro.
+> * [ ] Superfície ocular: olho seco/exposição -> evitar hipercorreção; meta funcional primeiro.
 
 ## Anatomia aplicada (o “corte estratégico”)
 
@@ -2965,20 +2958,20 @@ A arte está em **poucos milímetros** com vetor correto.
 
 ### Visão geral
 
-1. **Cantotomia lateral:** incisão horizontal controlada (≈ 8–12 mm conforme necessidade) para expor o canto e permitir manobra sem tensão.
+1. **Cantotomia lateral:** incisão horizontal controlada (~ 8-12 mm conforme necessidade) para expor o canto e permitir manobra sem tensão.
 
 2. **Cantólise inferior (passo crítico):** identificar a “corda” do crus inferior e seccioná-la até que a pálpebra inferior esteja **livre e móvel** (se não mobiliza, a técnica falha por definição).
 
 3. Preparo do Strip:
  * Separar lamela anterior da posterior nos milímetros laterais.
- * Desepitelizar (raspar) a margem e remover conjuntiva do segmento tarsal — se sobrar epitélio, aumenta risco de cisto de inclusão.
+ * Desepitelizar (raspar) a margem e remover conjuntiva do segmento tarsal - se sobrar epitélio, aumenta risco de cisto de inclusão.
 
 4. Encurtamento medido: tracionar o strip no vetor póstero-superior e definir quanto tarso deve ser ressecado para obter tensão firme sem deformar.
 
 5. Fixação profunda: sutura do strip ao periósteo profundo/interno do rebordo lateral, no vetor póstero-superior, buscando:
  * boa aposição ao globo,
  * canto agudo preservado,
- * inclinação final geralmente 1–2 mm acima do canto medial (respeitando fenótipo).
+ * inclinação final geralmente 1-2 mm acima do canto medial (respeitando fenótipo).
 
 6. Reconstrução do ângulo (“V”): reaproximação precisa da linha cinzenta e alinhamento cutâneo para evitar *webbing* e arredondamento.
 
@@ -3001,7 +2994,7 @@ A arte está em **poucos milímetros** com vetor correto.
  * *Resgate:* Z-plastia tardia / revisão de canto.
 
 * **Fixação anterior (gapping)**
- * *Consequência:* afastamento pálpebra–globo, epífora, exposição.
+ * *Consequência:* afastamento pálpebra-globo, epífora, exposição.
  * *Prevenção:* ancoragem no aspecto interno do rebordo + vetor póstero-superior.
  * *Resgate:* reoperação para reposicionamento profundo da sutura.
 
@@ -3014,9 +3007,9 @@ A arte está em **poucos milímetros** com vetor correto.
 
 Cantoplastia muda o olho **se você deixar**. O objetivo é preservar amendoado e naturalidade:
 
-* Fixar baixo → “olho triste” / rounding.
+* Fixar baixo -> “olho triste” / rounding.
 
-* Fixar alto demais → sinal cirúrgico (“Spock/cat eye”).
+* Fixar alto demais -> sinal cirúrgico (“Spock/cat eye”).
 
 * **Alvo funcional-estético:** canto lateral firme, agudo, com inclinação discreta compatível com o paciente.
 
@@ -3040,12 +3033,12 @@ Cantoplastia muda o olho **se você deixar**. O objetivo é preservar amendoado 
 
 * * *
 
-# Capítulo 23 — Técnicas de canto lateral: Mladick, Tarsal Strip e McCord (e variações)
+# Técnicas de canto lateral: Mladick, Tarsal Strip e McCord (e variações)
 
-![Figura 23.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-23-01_mladick-strip-mccord.png)
+![Figura 23.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-23-01_mladick-strip-mccord.png)
 
 
-**Parte:** Parte V — Canto Lateral e Sustentação
+**Parte:** Parte V - Canto Lateral e Sustentação
 
 **Objetivo do capítulo:** Ao final, o leitor saberá navegar o “degrau de complexidade” das fixações laterais, escolhendo **suspensão de lamela anterior (Mladick)**, **reconstrução de lamela posterior (Tarsal Strip/Anderson)** ou fixações robustas de revisão (McCord e variações, incluindo ancoragem óssea e *spacers*) conforme frouxidão, vetor orbital e risco de retração/recidiva.
 
@@ -3058,7 +3051,7 @@ Cantoplastia muda o olho **se você deixar**. O objetivo é preservar amendoado 
 
 * **Integridade do ângulo cantal:**
  - Técnicas de “pexy” preservam mais o “V” nativo.
- - Técnicas de “plasty” (Strip e reconstruções) **desmontam e reconstroem** o canto. Isso é uma ferramenta — não um castigo — quando o tendão não é confiável.
+ - Técnicas de “plasty” (Strip e reconstruções) **desmontam e reconstroem** o canto. Isso é uma ferramenta - não um castigo - quando o tendão não é confiável.
 
 * **O fator recidiva não é azar:**
  - Recidiva costuma vir de **indicação subestimada** (pexia em tendão senil), ancoragem anterior (gapping) ou **ausência de *release*** (tensão vertical puxando a pálpebra para baixo no pós-op).
@@ -3068,13 +3061,13 @@ Cantoplastia muda o olho **se você deixar**. O objetivo é preservar amendoado 
 >
 > ### Checklist Pré-op (Seleção de Técnica)
 
-> * [ ] **Distraction Test:** leve (< ~6mm) → considerar Mladick/pexy; moderado-severo (≥ ~6–8mm) → Strip.
+> * [ ] **Distraction Test:** leve (< ~6mm) -> considerar Mladick/pexy; moderado-severo (>= ~6-8mm) -> Strip.
 
 > * [ ] **Snap-back:** imediato vs. lento/incompleto (quanto pior, mais você migra para Strip/reconstrução).
 
 > * [ ] **Vetor orbital:** negativo reduz seu “limiar” para técnicas estruturais.
 
-> * [ ] Comprimento da fenda horizontal: fenda curta/olho pequeno → evitar encurtamentos agressivos; preferir correções com *release*, midface e tensão bem dosada.
+> * [ ] Comprimento da fenda horizontal: fenda curta/olho pequeno -> evitar encurtamentos agressivos; preferir correções com *release*, midface e tensão bem dosada.
 
 > * [ ] Qualidade do tarso: rígido (ótimo para Strip) vs. “floppy” (planejar reforços/variações).
 
@@ -3094,7 +3087,7 @@ Cantoplastia muda o olho **se você deixar**. O objetivo é preservar amendoado 
 
 ## Técnica (passo a passo diferenciado por “degrau”)
 
-### Degrau 1 — Mladick (Modified Muscle Suspension / “sling” do orbicular)
+### Degrau 1 - Mladick (Modified Muscle Suspension / “sling” do orbicular)
 
 **Indicação típica:** profilaxia; leve necessidade de elevação/suporte lateral com tarso competente.
 
@@ -3110,7 +3103,7 @@ Cantoplastia muda o olho **se você deixar**. O objetivo é preservar amendoado 
 
 * * *
 
-### Degrau 2 — Tarsal Strip (Anderson) — o “cavalo de batalha”
+### Degrau 2 - Tarsal Strip (Anderson) - o “cavalo de batalha”
 
 Indicação típica: *distraction* elevado, *snap-back* ruim, ectrópio/retração leve a moderada, vetor negativo, sequelas de blefaroplastia.
 
@@ -3131,7 +3124,7 @@ Indicação típica: *distraction* elevado, *snap-back* ruim, ectrópio/retraç�
 
 * * *
 
-### Degrau 3 — McCord e variações (Revisão robusta: *release* + ancoragem forte ± *spacer*)
+### Degrau 3 - McCord e variações (Revisão robusta: *release* + ancoragem forte +/- *spacer*)
 
 Indicação típica: retração importante, cicatriz vertical, periósteo ruim, múltiplas cirurgias, necessidade de grande mudança de vetor.
 
@@ -3195,7 +3188,7 @@ Olho pequeno + Strip agressivo = aparência operada e risco funcional. Faça o o
 
 * **Sensação de areia / quemose:** comum após manipulação cantal; lubrificação é obrigatória.
 
-* **Rigidez temporária:** a pálpebra pode parecer “puxada” por 2–3 semanas; alinhar expectativa e monitorar exposição.
+* **Rigidez temporária:** a pálpebra pode parecer “puxada” por 2-3 semanas; alinhar expectativa e monitorar exposição.
 
 ## Referências
 
@@ -3209,12 +3202,12 @@ Olho pequeno + Strip agressivo = aparência operada e risco funcional. Faça o o
 
 * * *
 
-# Capítulo 24 — Microfat: coleta, preparo e injeção; zonas e volumes (justa-periostal)
+# Microfat: coleta, preparo e injeção; zonas e volumes (justa-periostal)
 
-![Figura 24.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-24-01_microfat-fluxo-zonas.png)
+![Figura 24.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-24-01_microfat-fluxo-zonas.png)
 
 
-**Parte:** Parte VI — Adjuntos
+**Parte:** Parte VI - Adjuntos
 
 **Objetivo do capítulo:** Ao final, o leitor dominará a lipoenxertia estrutural (**Microfat**) como ferramenta para restaurar a convexidade orbitária e o suporte malar, aprendendo a depositar gordura no plano profunda/justa-periostal com microalíquotas, reduzindo irregularidades visíveis e evitando o erro clássico: “volume no plano errado”.
 
@@ -3239,7 +3232,7 @@ Olho pequeno + Strip agressivo = aparência operada e risco funcional. Faça o o
 
 > * [ ] **Instabilidade ponderal:** grande oscilação de peso = resultado menos previsível.
 
-> * [ ] Edema malar/festoon: cautela — volume pode piorar drenagem/estase.
+> * [ ] Edema malar/festoon: cautela - volume pode piorar drenagem/estase.
 
 > * [ ] Escolha do produto:
 
@@ -3247,15 +3240,15 @@ Olho pequeno + Strip agressivo = aparência operada e risco funcional. Faça o o
 
 > - Nanofat = qualidade de pele (não volume) > **Área doadora:** abdome inferior (frequente escolha) / face interna de coxa.
 
-> **Instrumental:** coleta 2.4–3.0mm multi-furos; injeção romba 22–25G (≈0.7–0.9mm) + seringas de 1ml (Luer-lock).
+> **Instrumental:** coleta 2.4-3.0mm multi-furos; injeção romba 22-25G (~0.7-0.9mm) + seringas de 1ml (Luer-lock).
 
 > **Volumes práticos (conservadores):**
 
-> - Tear trough (medial): **0.2 – 0.6 ml** / lado
+> - Tear trough (medial): **0.2 - 0.6 ml** / lado
 
-> - Junção pálpebra-malar (lateral): **0.8 – 2.0 ml** / lado
+> - Junção pálpebra-malar (lateral): **0.8 - 2.0 ml** / lado
 
-> - ROOF / cauda do supercílio: 0.5 – 1.5 ml / lado
+> - ROOF / cauda do supercílio: 0.5 - 1.5 ml / lado
 
 > *(Retoque tardio é preferível à sobrecorreção.)*
 
@@ -3263,14 +3256,14 @@ Olho pequeno + Strip agressivo = aparência operada e risco funcional. Faça o o
 
 * **Compartimentos profundos-alvo:**
  - **Espaço pré-zigomático** e **pré-maxilar**: planos profundos que aceitam volume com menor risco de “bolinhas” visíveis.
- - Justa-periostal: a cânula “raspa” o osso — isso é feedback táctil de profundidade correta.
+ - Justa-periostal: a cânula “raspa” o osso - isso é feedback táctil de profundidade correta.
 
 * **Zonas de interdição / respeito anatômico:**
  - **Forame infraorbital:** geralmente na linha pupilar, abaixo do rebordo (varia). Evitar trajetória agressiva/cega.
  - **Veia/Artéria angular (medial):** risco em trajetos muito mediais.
  - ORL (Ligamento Retentor do Orbicular): funciona como “borda” biomecânica; volume profundo pode suportar a transição, mas o ligamento limita “migração” se você tentar preencher *acima* dele.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 24):**
+> ** FIGURA NECESSÁRIA (Cap. 24):**
 
 > Técnica de coleta: Seringa, cânula, processamento
 
@@ -3290,7 +3283,7 @@ Olho pequeno + Strip agressivo = aparência operada e risco funcional. Faça o o
 
 Objetivo: remover óleo livre, sangue e anestésico mantendo tecido viável e injetável.
 
-* **Decantação:** seringa vertical por alguns minutos → descartar sobrenadante oleoso e infranadante (soro/sangue), usar o “miolo”.
+* **Decantação:** seringa vertical por alguns minutos -> descartar sobrenadante oleoso e infranadante (soro/sangue), usar o “miolo”.
 
 * **Ou centrifugação suave (Coleman):** preferir descrever em **RCF (g)**, pois rpm depende do raio. Estratégia: curta duração e força moderada para não “secar” demais nem destruir células.
 
@@ -3298,9 +3291,9 @@ Objetivo: remover óleo livre, sangue e anestésico mantendo tecido viável e in
 
 ### 3) Injeção (Justa-periostal)
 
-* **Ponto de entrada:** geralmente lateral (1–2cm do canto externo) ou malar lateral — evita marca central e dá ângulo seguro.
+* **Ponto de entrada:** geralmente lateral (1-2cm do canto externo) ou malar lateral - evita marca central e dá ângulo seguro.
 
-* **Instrumento:** cânula romba (22–25G). **Evitar agulha afiada** para volume profundo periorbitário.
+* **Instrumento:** cânula romba (22-25G). **Evitar agulha afiada** para volume profundo periorbitário.
 
 * Profundidade: avançar até contato ósseo claro.
 
@@ -3354,7 +3347,7 @@ Objetivo: remover óleo livre, sangue e anestésico mantendo tecido viável e in
 
 A juventude é uma superfície contínua. O objetivo do Microfat na junção pálpebra-malar é criar uma **rampa**: a luz toca a bochecha e “escorre” até a margem infraorbital sem tropeçar num sulco.
 
-**Critério estético simples:** qualquer “degrau” que cria sombra sob flash vira “olheira” na vida real. O enxerto profundo deve apagar o degrau — não criar um novo.
+**Critério estético simples:** qualquer “degrau” que cria sombra sob flash vira “olheira” na vida real. O enxerto profundo deve apagar o degrau - não criar um novo.
 
 ## Pós-operatório
 
@@ -3362,7 +3355,7 @@ A juventude é uma superfície contínua. O objetivo do Microfat na junção pá
 
 * **Induração (“phantom lumps”):** endurecimento transitório pode durar semanas. Alinhar isso antes da cirurgia evita pânico desnecessário.
 
-* Resultado final: 3–6 meses. Evitar “retoques ansiosos” precoces (erro comum que leva à sobrecorreção em cascata).
+* Resultado final: 3-6 meses. Evitar “retoques ansiosos” precoces (erro comum que leva à sobrecorreção em cascata).
 
 ## Referências
 
@@ -3376,12 +3369,12 @@ A juventude é uma superfície contínua. O objetivo do Microfat na junção pá
 
 * * *
 
-# Capítulo 25 — Nanofat e qualidade de pele: cicatrizes, olheiras, textura e microagulhamento
+# Nanofat e qualidade de pele: cicatrizes, olheiras, textura e microagulhamento
 
-![Figura 25.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-25-01_nanofat-qualidade-pele.png)
+![Figura 25.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-25-01_nanofat-qualidade-pele.png)
 
 
-**Parte:** Parte VI — Adjuntos
+**Parte:** Parte VI - Adjuntos
 
 **Objetivo do capítulo:** Ao final, o leitor diferenciará **regeneração tecidual** de **preenchimento volumétrico**, dominando o processamento mecânico da gordura (emulsificação + filtragem) para tratar discromias, transparência vascular e linhas finas com Nanofat, sem incorrer no risco de nódulos superficiais típico do uso inadequado de Microfat.
 
@@ -3399,7 +3392,7 @@ A juventude é uma superfície contínua. O objetivo do Microfat na junção pá
  - **Vascular/transparência** (roxo/azulado): pode melhorar com espessamento dérmico e barreira óptica (Nanofat).
  - Pigmentar (marrom/melanina): pode melhorar parcialmente (Nanofat + modalidades dermatológicas), mas exige expectativa realista.
 
-* **Cicatrização modulada:** Em áreas de tensão (canto lateral, subciliar), Nanofat intradérmico no fechamento pode **suavizar a resposta inflamatória** e melhorar qualidade de cicatriz — não por “milagre”, mas por microambiente de reparo.
+* **Cicatrização modulada:** Em áreas de tensão (canto lateral, subciliar), Nanofat intradérmico no fechamento pode **suavizar a resposta inflamatória** e melhorar qualidade de cicatriz - não por “milagre”, mas por microambiente de reparo.
 
 > **PÉROLA CLÍNICA**
 
@@ -3416,19 +3409,19 @@ A juventude é uma superfície contínua. O objetivo do Microfat na junção pá
 
 > * [ ] Plano de entrega: injeção intradérmica (pápulas/linhas) e/ou “drug-delivery” por microagulhamento.
 
-> * [ ] Kit: conexões Luer-lock rosqueadas, transferidores (estreitos), filtros/malha estéril, seringas 1 ml, agulhas finas (30–32G).
+> * [ ] Kit: conexões Luer-lock rosqueadas, transferidores (estreitos), filtros/malha estéril, seringas 1 ml, agulhas finas (30-32G).
 
 ## Anatomia aplicada (o alvo microscópico)
 
-* **Derme papilar/reticular:** alvo do Nanofat. A aplicação correta gera **branqueamento transitório** (*blanching*) e micro-pápulas que desaparecem em minutos–horas.
+* **Derme papilar/reticular:** alvo do Nanofat. A aplicação correta gera **branqueamento transitório** (*blanching*) e micro-pápulas que desaparecem em minutos-horas.
 
 * Rede vascular subdérmica e transparência do orbicular: em pálpebra inferior muito fina, a cor violácea é “músculo aparecendo”. Nanofat funciona como **opacificação biológica** (espessamento + remodelamento).
 
 * Zona de cautela vascular: glabela, dorso nasal e territórios terminais têm risco teórico de eventos isquêmicos com injeções intradérmicas sob alta pressão. O princípio aqui é microdose + baixa pressão + sem bolus.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 25):**
+> ** FIGURA NECESSÁRIA (Cap. 25):**
 
-> Processamento: Microfat → Nanofat (emulsificação)
+> Processamento: Microfat -> Nanofat (emulsificação)
 
 > *Estilo: Diagrama técnico-didático, cores neutras, legendas claras*
 
@@ -3460,7 +3453,7 @@ A juventude é uma superfície contínua. O objetivo do Microfat na junção pá
 
 ### Aplicação intradérmica (injeção)
 
-* **Instrumento:** agulha fina (30–32G) com seringa 1 ml.
+* **Instrumento:** agulha fina (30-32G) com seringa 1 ml.
 
 * **Plano:** intradérmico superficial (pápulas) ou intradérmico em “linhas” (threading).
 
@@ -3487,11 +3480,11 @@ A juventude é uma superfície contínua. O objetivo do Microfat na junção pá
 >
 > ### Erro Nota 7: “Entupimento” (e o falso Nanofat)
 
-> **Regra simples:** se não passa livremente por agulha 30G, **não é Nanofat** — é gordura mal processada (microgrumos).
+> **Regra simples:** se não passa livremente por agulha 30G, **não é Nanofat** - é gordura mal processada (microgrumos).
 
 > **Risco:** cistos de óleo, nódulos e irregularidades visíveis na pele fina periorbital.
 
-> Correção: voltar à bancada → emulsificar/filtrar até fluidez real.
+> Correção: voltar à bancada -> emulsificar/filtrar até fluidez real.
 
 ## Erros comuns (e como resgatar)
 
@@ -3543,22 +3536,24 @@ A melhora costuma ser **progressiva** (colágeno/derme remodelando), e não imed
 
 * * *
 
-# Capítulo 26 — Funcional e reconstrução: ectrópio/entrópio/retração e princípios das lamelas
+# Funcional e reconstrução: ectrópio/entrópio/retração e princípios das lamelas
 
-![Figura 26.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-26-01_ectropio-entropio-lamelas.png)
+![Figura 26.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-26-01_ectropio-entropio-lamelas.png)
 
 
-**Parte:** Parte VII — Funcional e Reconstrução
+**Parte:** Parte VII - Funcional e Reconstrução
 
-**Objetivo do capítulo:** Ao final, o leitor será capaz de diagnosticar a etiologia das malposições palpebrais pela análise das **lamelas** (anterior, média e posterior) e aplicar o princípio cirúrgico central da reconstrução palpebral: “alongar o que está curto e tencionar o que está frouxo” — com um algoritmo reprodutível que reduz recidivas.
+**Objetivo do capítulo:** Ao final, o leitor será capaz de diagnosticar a etiologia das malposições palpebrais pela análise das **lamelas** (anterior, média e posterior) e aplicar o princípio cirúrgico central da reconstrução palpebral: “alongar o que está curto e tencionar o que está frouxo” - com um algoritmo reprodutível que reduz recidivas.
 
 ## O que muda na decisão (o “porquê”)
 
 * O Princípio das Lamelas (diagnóstico antes do bisturi):
  O erro-mãe em reconstrução é tratar **a lamela errada**.
- - **Lamela anterior curta** (pele/orbicular cicatrizados) → pálpebra “puxa” para fora (**ectrópio cicatricial**) e piora com boca aberta.
- - Lamela posterior curta (tarso/conjuntiva/retratores) → margem roda para dentro (entrópio cicatricial) ou desce (retração), com fórnice raso e simbléfaro.
- - Frouxidão horizontal (tendão cantal/tarso “solto”) → “permite” qualquer deformidade acontecer e recidivar.
+ - **Lamela anterior curta** (pele/orbicular cicatrizados) -> pálpebra “puxa” para fora (**ectrópio cicatricial**) e piora com boca aberta.
+
+ - Lamela posterior curta (tarso/conjuntiva/retratores) -> margem roda para dentro (entrópio cicatricial) ou desce (retração), com fórnice raso e simbléfaro.
+
+ - Frouxidão horizontal (tendão cantal/tarso “solto”) -> “permite” qualquer deformidade acontecer e recidivar.
 
 * Frouxidão horizontal é o denominador comum (mas não é a única doença):
  Em ectrópio/entrópio involucionais, a laxidão do canto lateral é quase sempre permissiva. Sem estabilizar a horizontal (Strip), qualquer correção vertical vira paliativa.
@@ -3567,7 +3562,7 @@ A melhora costuma ser **progressiva** (colágeno/derme remodelando), e não imed
 * **A estabilidade dos retratores define o entrópio involucional:**
  No entrópio senil, a desinserção/afrouxamento dos retratores (fáscia capsulopalpebral) permite que o orbicular pré-septal “suba” sobre o pré-tarsal e **rode a margem para dentro**. Remover pele não trata essa mecânica; é uma correção “cosmética” para um defeito estrutural.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 26):**
+> ** FIGURA NECESSÁRIA (Cap. 26):**
 
 > Diagnóstico: Ectrópio involucional vs cicatricial vs paralítico
 
@@ -3585,7 +3580,7 @@ A melhora costuma ser **progressiva** (colágeno/derme remodelando), e não imed
 
 **Evitar / adiar quando:**
 
-* **Doença cicatrizante ocular ativa** (ex.: Penfigoide Cicatricial Ocular/OCP, Stevens–Johnson): operar só em fase quiescente com doença controlada.
+* **Doença cicatrizante ocular ativa** (ex.: Penfigoide Cicatricial Ocular/OCP, Stevens-Johnson): operar só em fase quiescente com doença controlada.
 
 * **Infecção ativa** (conjuntivite purulenta, dacriocistite): tratar antes.
 
@@ -3598,7 +3593,7 @@ A melhora costuma ser **progressiva** (colágeno/derme remodelando), e não imed
 
 > * [ ] **Distraction Test / Snap-back:** quantifica frouxidão horizontal (canto/tarso).
 
-> * [ ] **Teste da Elevação Malar:** empurre a bochecha para cima → melhora do ectrópio sugere componente involucional/tensional (suporte) e necessidade de suporte lateral/midface; pouca melhora sugere encurtamento real (pele/conjuntiva).
+> * [ ] **Teste da Elevação Malar:** empurre a bochecha para cima -> melhora do ectrópio sugere componente involucional/tensional (suporte) e necessidade de suporte lateral/midface; pouca melhora sugere encurtamento real (pele/conjuntiva).
 
 > * [ ] **Teste da Boca Aberta:** piora do ectrópio com boca aberta = lamela anterior curta (pele).
 
@@ -3611,10 +3606,10 @@ A melhora costuma ser **progressiva** (colágeno/derme remodelando), e não imed
 ## Anatomia aplicada (o sistema de camadas)
 
 * **Lamela Anterior (cobertura):** pele + orbicular.
- Encurtamento → ectrópio cicatricial (puxa margem para fora).
+ Encurtamento -> ectrópio cicatricial (puxa margem para fora).
 
 * **Lamela Posterior (forro e “trilho”):** tarso + conjuntiva + retratores.
- Encurtamento → entrópio cicatricial / **retração palpebral** (descida vertical, fórnice raso).
+ Encurtamento -> entrópio cicatricial / **retração palpebral** (descida vertical, fórnice raso).
 
 * **Lamela Média (plano de deslizamento):** septo + gordura.
  A cicatrização “colando” septo/retratores é um motor comum de **retração pós-blefaroplastia**: perde-se o deslizamento e a pálpebra fica “presa” inferiormente.
@@ -3627,28 +3622,28 @@ A melhora costuma ser **progressiva** (colágeno/derme remodelando), e não imed
 
 2. Passo 1 (quase universal): estabilizar a horizontal com Lateral Tarsal Strip (ou técnica equivalente) quando houver laxidade patológica.
 3. Passo 2 (específico por lamela):
- * Ectrópio involucional: Strip ± correção medial (ver zona de risco) ± suporte adicional se necessário.
+ * Ectrópio involucional: Strip +/- correção medial (ver zona de risco) +/- suporte adicional se necessário.
  * Ectrópio cicatricial (lamela anterior curta): Strip + liberação completa de cicatrizes + enxerto de pele total (FTSG) adequadamente dimensionado.
- * Entrópio involucional: Strip (se laxidade) + reinserção/plicatura dos retratores (Jones/Weiss) ± suturas rotacionais.
+ * Entrópio involucional: Strip (se laxidade) + reinserção/plicatura dos retratores (Jones/Weiss) +/- suturas rotacionais.
  * Entrópio cicatricial (lamela posterior curta): liberar simbléfaro/aderências + substituir lamela posterior (mucosa/conjuntiva/cartilagem, conforme defeito).
  * Retração palpebral inferior: Strip + liberação de retratores + enxerto espaçador (spacer) quando houver encurtamento posterior/vertical real.
 
 ### “Pacotes” práticos (o que normalmente anda junto)
 
-* **Ectrópio involucional + ponto lacrimal evertido:** Strip lateral **não garante** inversão do ponto → frequentemente precisa de correção medial específica (ver BOX abaixo).
+* **Ectrópio involucional + ponto lacrimal evertido:** Strip lateral **não garante** inversão do ponto -> frequentemente precisa de correção medial específica (ver BOX abaixo).
 
-* **Retração pós-blefaroplastia:** raramente é “só frouxidão”. Em geral há cicatriz vertical + laxidade → Strip + release + spacer costuma ser o tripé.
+* **Retração pós-blefaroplastia:** raramente é “só frouxidão”. Em geral há cicatriz vertical + laxidade -> Strip + release + spacer costuma ser o tripé.
 
 > **PÉROLA CLÍNICA**
 
 >
 > ### Zona de Risco: O Ponto Lacrimal (ectrópio medial)
 
-> No ectrópio medial, o ponto lacrimal “vira para fora” e para de drenar → epífora mesmo com canto lateral firme.
+> No ectrópio medial, o ponto lacrimal “vira para fora” e para de drenar -> epífora mesmo com canto lateral firme.
 
 > **Regra de ouro:** o Strip lateral melhora a tensão global, mas pode não “rodar” o ponto medial.
 
-> **Solução clássica:** associar **Plastia em Fuso Medial (Medial Spindle)** — ressecção de um losango de conjuntiva abaixo do ponto lacrimal para rotacioná-lo de volta em direção ao globo, restabelecendo a captação da lágrima.
+> **Solução clássica:** associar **Plastia em Fuso Medial (Medial Spindle)** - ressecção de um losango de conjuntiva abaixo do ponto lacrimal para rotacioná-lo de volta em direção ao globo, restabelecendo a captação da lágrima.
 
 ## Variações úteis (quando escolher o “atalho” com consciência)
 
@@ -3662,7 +3657,8 @@ A melhora costuma ser **progressiva** (colágeno/derme remodelando), e não imed
 
 * **Tratar ectrópio cicatricial sem enxerto (só Strip):**
  * *Consequência:* melhora curta; recidiva quando a falta de pele vence a tensão horizontal.
- * *Prevenção:* se **boca aberta piora**, pense “lamela anterior curta” → enxerto é parte do plano.
+ * *Prevenção:* se **boca aberta piora**, pense “lamela anterior curta” -> enxerto é parte do plano.
+
  * *Resgate:* reoperação com liberação ampla + enxerto bem dimensionado.
 
 * **Hipercorreção no entrópio (ectrópio consecutivo):**
@@ -3687,7 +3683,7 @@ Reconstrução não precisa “denunciar” reconstrução.
 
 ## Pós-operatório (o que protege o resultado)
 
-* **Sutura de Frost / tração palpebral:** em casos com enxerto ou grande liberação, manter tração superior por 3–5 dias melhora a “pega” e reduz contratura vertical precoce.
+* **Sutura de Frost / tração palpebral:** em casos com enxerto ou grande liberação, manter tração superior por 3-5 dias melhora a “pega” e reduz contratura vertical precoce.
 
 * **Lubrificação e proteção corneana:** mandatórias até estabilizar o fechamento e a apposição.
 
@@ -3705,12 +3701,12 @@ Reconstrução não precisa “denunciar” reconstrução.
 
 * * *
 
-# Capítulo 27 — Reconstrução pós-tumor: retalhos clássicos (Tenzel, Hughes, Cutler-Beard, Mustardé)
+# Reconstrução pós-tumor: retalhos clássicos (Tenzel, Hughes, Cutler-Beard, Mustardé)
 
-![Figura 27.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-27-01_retalhos-classicos.png)
+![Figura 27.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-27-01_retalhos-classicos.png)
 
 
-**Parte:** Parte VII — Funcional e Reconstrução
+**Parte:** Parte VII - Funcional e Reconstrução
 
 **Objetivo do capítulo:** Ao final, o leitor saberá estratificar defeitos palpebrais de espessura total por **porcentagem de perda**, **localização** e integridade cantal, selecionando o algoritmo reconstrutivo (Tenzel, Hughes, Cutler-Beard ou Mustardé) para restaurar lamela anterior e posterior, priorizando proteção corneana e função acima da estética imediata.
 
@@ -3719,7 +3715,7 @@ Reconstrução não precisa “denunciar” reconstrução.
 ## O que muda na decisão (o “porquê”)
 
 * A Matemática da Tensão (quando “fechar direto” vira iatrogenia):
- Defeitos marginais de espessura total **> 25–30%** raramente toleram fechamento primário sem distorção. Forçar sutura direta cria:
+ Defeitos marginais de espessura total **> 25-30%** raramente toleram fechamento primário sem distorção. Forçar sutura direta cria:
 
  - tensão horizontal excessiva (deiscência, “olho de botão de camisa”),
  - deformidade do canto,
@@ -3745,9 +3741,9 @@ Reconstrução não precisa “denunciar” reconstrução.
 
 Defeitos de espessura total envolvendo margem palpebral (regra geral):
 
-* **< 25%:** fechamento direto (pentágono) ± cantólise lateral se necessário.
+* **< 25%:** fechamento direto (pentágono) +/- cantólise lateral se necessário.
 
-* **25% a 50–60%:** **Tenzel** (retalho semicircular de rotação/avanço).
+* **25% a 50-60%:** **Tenzel** (retalho semicircular de rotação/avanço).
 
 * > 50% (Pálpebra Inferior central): Hughes (tarsoconjuntival, 2 tempos).
 
@@ -3787,13 +3783,13 @@ Defeitos de espessura total envolvendo margem palpebral (regra geral):
 * **Arcada Vascular Marginal:**
  Fundamental em retalhos em ponte (Cutler-Beard). Incisões muito próximas da margem inferior comprometem a perfusão.
 
-* **Hughes — doador superior (tarsoconjuntival):**
+* **Hughes - doador superior (tarsoconjuntival):**
  O retalho nasce de **tarso + conjuntiva** superiores, com aporte da conjuntiva e estruturas associadas. A dissecção deve respeitar o complexo elevador/Müller para evitar sequela na pálpebra doadora.
 
-* **Mustardé — risco neural:**
+* **Mustardé - risco neural:**
  Dissecção cérvico-facial profunda na bochecha aumenta o risco para ramos zigomáticos/bucais do nervo facial; a estratégia de plano e a gentileza na tração são parte da técnica.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 27):**
+> ** FIGURA NECESSÁRIA (Cap. 27):**
 
 > Retalho de Tenzel: Indicações e passos
 
@@ -3803,7 +3799,7 @@ Defeitos de espessura total envolvendo margem palpebral (regra geral):
 
 ### 1) Tenzel (Semicircular Rotation-Advancement)
 
-* **Defeito:** ~25–60% (superior ou inferior), principalmente central/lateral.
+* **Defeito:** ~25-60% (superior ou inferior), principalmente central/lateral.
 
 * **Ideia:** criar **reserva horizontal** com retalho semicircular lateral e liberar o canto para permitir avanço sem deformar a fenda.
 
@@ -3813,7 +3809,7 @@ Defeitos de espessura total envolvendo margem palpebral (regra geral):
 
 * Força: preserva anatomia e evita oclusão visual; excelente em pacientes onde Hughes/Cutler-Beard não são opção.
 
-### 2) Hughes (Tarsoconjuntival) — **Para Pálpebra Inferior**
+### 2) Hughes (Tarsoconjuntival) - **Para Pálpebra Inferior**
 
 * Defeito: >50% inferior, sobretudo central.
 
@@ -3823,10 +3819,10 @@ Defeitos de espessura total envolvendo margem palpebral (regra geral):
 * **Cobertura (anterior):**
  Cobrir com avanço local de pele/músculo ou enxerto cutâneo livre (conforme necessidade e laxidez).
 
-* 2º tempo (3–6 semanas):
+* 2º tempo (3-6 semanas):
  Abrir a fenda palpebral seccionando o pedículo quando houver maturação vascular e estabilidade.
 
-### 3) Cutler-Beard (Bridge Flap) — **Para Pálpebra Superior**
+### 3) Cutler-Beard (Bridge Flap) - **Para Pálpebra Superior**
 
 * Defeito: >50% superior central (quando não há tarso superior suficiente para fechar).
 
@@ -3834,11 +3830,11 @@ Defeitos de espessura total envolvendo margem palpebral (regra geral):
  Retalho “em ponte” da pálpebra inferior (pele/músculo/conjuntiva) passado superiormente para preencher o defeito.
 
 * **Ponto crítico (estrutura):**
- A pálpebra superior precisa de rigidez posterior → geralmente requer **enxerto de cartilagem** (conchal/auricular ou septal) como substituto tarsal.
+ A pálpebra superior precisa de rigidez posterior -> geralmente requer **enxerto de cartilagem** (conchal/auricular ou septal) como substituto tarsal.
 
 * 2º tempo: separação do retalho após integração.
 
-### 4) Mustardé (Cervicofacial Rotation) — **Grandes defeitos do inferior**
+### 4) Mustardé (Cervicofacial Rotation) - **Grandes defeitos do inferior**
 
 * Defeito: >75% inferior ou defeitos extensos com perda significativa de lamela anterior.
 
@@ -3885,7 +3881,7 @@ Defeitos de espessura total envolvendo margem palpebral (regra geral):
 
 * **Proteção corneana:** prioridade absoluta (lubrificantes, pomadas, escudo, medidas para evitar atrito na nova margem).
 
-* **2º estágio (3–6 semanas):** abrir a fenda quando o tecido estiver vascularizado e maleável. Deixar pequena margem mucosa adequada para evitar atrito/queratinização.
+* **2º estágio (3-6 semanas):** abrir a fenda quando o tecido estiver vascularizado e maleável. Deixar pequena margem mucosa adequada para evitar atrito/queratinização.
 
 * Contratura: lembrar que retração tardia existe; planejar com “margem de segurança” (tensão e tamanho de enxertos).
 
@@ -3903,12 +3899,12 @@ Defeitos de espessura total envolvendo margem palpebral (regra geral):
 
 * * *
 
-# Capítulo 28 — Complicações, revisões e gestão: prevenção, resgate e precificação
+# Complicações, revisões e gestão: prevenção, resgate e precificação
 
-![Figura 28.1 — Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-28-01_complicacoes-resgate-precificacao.png)
+![Figura 28.1 - Ilustração principal do capítulo](/Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures/FIG-28-01_complicacoes-resgate-precificacao.png)
 
 
-**Parte:** Parte VIII — Complicações e Carreira
+**Parte:** Parte VIII - Complicações e Carreira
 
 **Objetivo do capítulo:** Ao final, o leitor saberá instituir **protocolos de segurança para emergências** (ex.: hematoma retrobulbar), diferenciar com precisão o momento de **observar vs. intervir** em complicações estéticas, e estabelecer uma política clara de cobrança para revisões que proteja a relação médico-paciente e a saúde financeira da prática.
 
@@ -3916,7 +3912,7 @@ Defeitos de espessura total envolvendo margem palpebral (regra geral):
 
 ## O que muda na decisão (o “porquê”)
 
-* **A Regra da Presença:** A causa número 1 de escalada ético-legal não é a complicação em si — é a sensação de abandono. O cirurgião que **aparece, examina, documenta e agenda retorno** reduz drasticamente conflito. O que some cria vácuo: o paciente preenche com medo, internet e advogado.
+* **A Regra da Presença:** A causa número 1 de escalada ético-legal não é a complicação em si - é a sensação de abandono. O cirurgião que **aparece, examina, documenta e agenda retorno** reduz drasticamente conflito. O que some cria vácuo: o paciente preenche com medo, internet e advogado.
 
 * **Tempo é tecido (e às vezes é visão):**
  Algumas decisões são **em minutos** (compressão orbitária). Outras são **em meses** (cicatriz, retração, assimetria fina). O erro clássico é inverter: esperar o que não pode e operar o que ainda vai melhorar.
@@ -3929,7 +3925,7 @@ Defeitos de espessura total envolvendo margem palpebral (regra geral):
 **Indicar revisão cirúrgica quando:**
 * Comprometimento funcional: lagoftalmo significativo, ectrópio, entrópio, triquíase corneana, ptose obstrutiva.
 
-* Assimetria **socialmente óbvia** (≈ >2 mm) persistente após fase inflamatória.
+* Assimetria **socialmente óbvia** (~ >2 mm) persistente após fase inflamatória.
 
 * Nódulos/granulomas persistentes após conduta conservadora adequada.
 
@@ -3971,13 +3967,13 @@ Defeitos de espessura total envolvendo margem palpebral (regra geral):
 
 * **Escassez de pele é a regra:** em ectrópio/lagoftalmo pós-subtração, assuma “falta pele” até prova em contrário. Entre com plano de enxerto (pálpebra superior / retroauricular) decidido antes da incisão.
 
-> **📎 FIGURA NECESSÁRIA (Cap. 28):**
+> ** FIGURA NECESSÁRIA (Cap. 28):**
 
-> Fluxograma: Prevenção → Reconhecimento → Resgate
+> Fluxograma: Prevenção -> Reconhecimento -> Resgate
 
 > *Estilo: Diagrama técnico-didático, cores neutras, legendas claras*
 
-> FIG-28B — “triângulo de revisão”: Função, Estética, Superfície ocular.
+> FIG-28B - “triângulo de revisão”: Função, Estética, Superfície ocular.
 
 ## Técnica de Gestão (Protocolo dos 3 A’s)
 
@@ -3993,13 +3989,13 @@ Defeitos de espessura total envolvendo margem palpebral (regra geral):
 
 ## A Linha do Tempo (Regra prática de decisão)
 
-* **0–60 minutos:** emergências que ameaçam visão/tecido (compressão orbitária, isquemia).
+* **0-60 minutos:** emergências que ameaçam visão/tecido (compressão orbitária, isquemia).
 
-* **1–48 horas:** hematoma significativo, infecção precoce, dor desproporcional, piora progressiva.
+* **1-48 horas:** hematoma significativo, infecção precoce, dor desproporcional, piora progressiva.
 
-* **1–3 semanas:** quemose, irregularidades inflamatórias, assimetria por edema, cicatriz “viva”.
+* **1-3 semanas:** quemose, irregularidades inflamatórias, assimetria por edema, cicatriz “viva”.
 
-* 3–6 meses: decisões de resgate estético funcional (retração persistente, ptose, contorno).
+* 3-6 meses: decisões de resgate estético funcional (retração persistente, ptose, contorno).
 
 * > 6 meses: revisão formal eletiva (cicatriz madura, planos estabilizados).
 
@@ -4029,7 +4025,7 @@ Defeitos de espessura total envolvendo margem palpebral (regra geral):
 
 * **Imediato:** lubrificação intensiva, oclusão noturna, proteção corneana.
 
-* **Persistente (>3–6 meses):** avaliar falta de pele/lamela anterior, retração lamelar média/posterior e necessidade de enxerto/liberação (ver Cap. 26).
+* **Persistente (>3-6 meses):** avaliar falta de pele/lamela anterior, retração lamelar média/posterior e necessidade de enxerto/liberação (ver Cap. 26).
 
 ### 4) Ectrópio/retração inferior pós-blefaroplastia
 
@@ -4047,7 +4043,7 @@ Defeitos de espessura total envolvendo margem palpebral (regra geral):
 
 * **Primeiro:** diferenciar nódulo inflamatório vs. óleo/necrose gordurosa vs. cicatriz.
 
-* Conduta: escalonar conservador → procedimentos focais. Evitar “soluções agressivas” em pálpebra fina.
+* Conduta: escalonar conservador -> procedimentos focais. Evitar “soluções agressivas” em pálpebra fina.
 
 * * *
 
@@ -4066,7 +4062,7 @@ A regra precisa estar no consentimento e ser verbalizada:
 
 ### 2) Classifique a revisão (para não virar refém)
 
-* **Biologia previsível:** cicatriz/edema/assimetria leve → acompanhamento e eventual ajuste.
+* **Biologia previsível:** cicatriz/edema/assimetria leve -> acompanhamento e eventual ajuste.
 
 * **Complicação técnica real:** correção com postura de responsabilidade.
 
@@ -4094,7 +4090,7 @@ A regra precisa estar no consentimento e ser verbalizada:
 
 * **Operar cicatriz imatura**
  * *Consequência:* sangramento, pior fibrose, resultado pior que o original.
- * *Prevenção:* respeitar janela de maturação (≈6 meses) salvo urgência funcional.
+ * *Prevenção:* respeitar janela de maturação (~6 meses) salvo urgência funcional.
  * *Resgate:* tratamento conservador prolongado + revisão no tempo certo.
 
 * **Corticoide intralesional “às cegas”**
@@ -4109,7 +4105,7 @@ A regra precisa estar no consentimento e ser verbalizada:
 
 ## Notas de “arte” (A conversa difícil)
 
-Complicação bem gerida pode fortalecer reputação — não por “carinho”, mas por **controle**:
+Complicação bem gerida pode fortalecer reputação - não por “carinho”, mas por **controle**:
 
 * presença,
 
@@ -4135,7 +4131,7 @@ O paciente perdoa biologia. Não perdoa abandono.
 
 * * *
 
-# Bibliografia Mestre
+# Bibliografia Mestre {-}
 
 > Referências organizadas por ID curto. Formato: Vancouver simplificado.
 
@@ -4303,6 +4299,6 @@ O paciente perdoa biologia. Não perdoa abandono.
 
 * * *
 
-# Fim do Manuscrito
+# Fim do Manuscrito {-}
 
 > Total: 30 capítulos | 0 faltando

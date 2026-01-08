@@ -1,0 +1,86 @@
+% ═══════════════════════════════════════════════════════════════════════════
+% HEADINGS E CAPÍTULOS — The Art of Eyelid Surgery
+% ═══════════════════════════════════════════════════════════════════════════
+% Estilo editorial premium para capítulos e seções
+% Abertura de capítulo com número grande e linha decorativa
+% ═══════════════════════════════════════════════════════════════════════════
+% DEPENDÊNCIA: colors.tex (usa darkblue, medblue, chaptergray, footergray)
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{titlesec}
+
+% ───────────────────────────────────────────────────────────────────────────
+% CAPÍTULOS — ABERTURA EDITORIAL
+% ───────────────────────────────────────────────────────────────────────────
+
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\sffamily}
+  {\flushright\textcolor{chaptergray}{\fontsize{72}{72}\selectfont\thechapter}}
+  {20pt}
+  {\Huge\raggedright\textcolor{darkblue}}
+  [\vspace{1cm}\titlerule[2pt]]
+
+\titlespacing*{\chapter}{0pt}{-30pt}{40pt}
+
+% ───────────────────────────────────────────────────────────────────────────
+% SEÇÕES
+% ───────────────────────────────────────────────────────────────────────────
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\sffamily\color{medblue}}
+  {\thesection}
+  {1em}
+  {}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\sffamily\color{darkblue}}
+  {\thesubsection}
+  {1em}
+  {}
+
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries\sffamily}
+  {\thesubsubsection}
+  {1em}
+  {}
+
+% ───────────────────────────────────────────────────────────────────────────
+% HEADERS E FOOTERS
+% ───────────────────────────────────────────────────────────────────────────
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% Headers (nome do capítulo à esquerda, seção à direita)
+\fancyhead[LE]{\small\sffamily\textcolor{footergray}{\leftmark}}
+\fancyhead[RO]{\small\sffamily\textcolor{footergray}{\rightmark}}
+
+% Footers (número da página nas extremidades, título no centro)
+\fancyfoot[LE,RO]{\sffamily\textbf{\thepage}}
+\fancyfoot[C]{\small\sffamily\textcolor{footergray}{The Art of Eyelid Surgery}}
+
+% Linha do header colorida
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{medblue}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0pt}
+
+% Estilo plain (primeira página do capítulo)
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[C]{\sffamily\textbf{\thepage}}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+% ───────────────────────────────────────────────────────────────────────────
+% SUMÁRIO
+% ───────────────────────────────────────────────────────────────────────────
+
+\usepackage{tocloft}
+
+\setlength{\cftbeforechapskip}{0.8em}
+\renewcommand{\cftchapfont}{\sffamily\bfseries\color{darkblue}}
+\renewcommand{\cftchappagefont}{\sffamily\bfseries}
+\renewcommand{\cftsecfont}{\sffamily}
+\renewcommand{\cftsecpagefont}{\sffamily}

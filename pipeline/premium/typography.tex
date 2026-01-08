@@ -1,0 +1,52 @@
+% ═══════════════════════════════════════════════════════════════════════════
+% TIPOGRAFIA PREMIUM — The Art of Eyelid Surgery
+% ═══════════════════════════════════════════════════════════════════════════
+% Módulo de tipografia para publicação premium
+% Fontes otimizadas para leitura em livros médicos
+% ═══════════════════════════════════════════════════════════════════════════
+% REQUER: XeLaTeX (para fontspec e microtype avançado)
+% DEPENDÊNCIA: Nenhuma (módulo independente)
+% ═══════════════════════════════════════════════════════════════════════════
+
+% Fontes via fontspec (requer XeLaTeX)
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{portuguese}
+
+% ───────────────────────────────────────────────────────────────────────────
+% FONTES PRINCIPAIS (macOS)
+% ───────────────────────────────────────────────────────────────────────────
+
+% Fonte principal: Charter (elegante, excelente legibilidade médica)
+\setmainfont{Charter}
+
+% Fonte sans-serif: Helvetica Neue (moderna, clean para headers)
+\setsansfont{Helvetica Neue}
+
+% Fonte monospace: Menlo (código, dados técnicos)
+\setmonofont{Menlo}[Scale=0.9]
+
+% ───────────────────────────────────────────────────────────────────────────
+% MICROTIPOGRAFIA (qualidade editorial)
+% ───────────────────────────────────────────────────────────────────────────
+% Melhora kerning, ligaduras e justificação de texto
+% Resultado: texto mais "polido" e profissional
+
+\usepackage{microtype}
+\microtypesetup{
+  protrusion=true,    % Pequenas projeções para melhor margem visual
+  expansion=true,     % Expansão/contração sutil para melhor justificação
+  tracking=false,     % Desativado (pode prejudicar Charter)
+  kerning=true,       % Ajuste de espaço entre caracteres
+  spacing=true        % Ajuste de espaço entre palavras
+}
+
+% ───────────────────────────────────────────────────────────────────────────
+% ESPAÇAMENTO E PARÁGRAFOS
+% ───────────────────────────────────────────────────────────────────────────
+
+\setlength{\parindent}{0pt}   % Sem indentação (estilo moderno)
+\setlength{\parskip}{0.6em}   % Espaço entre parágrafos
+
+\usepackage{setspace}
+\setstretch{1.15}             % Entrelinha levemente aumentada (legibilidade)

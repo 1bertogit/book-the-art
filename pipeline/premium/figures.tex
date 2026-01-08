@@ -1,0 +1,40 @@
+% ═══════════════════════════════════════════════════════════════════════════
+% FIGURAS E LEGENDAS — The Art of Eyelid Surgery
+% ═══════════════════════════════════════════════════════════════════════════
+% Configuração de figuras para publicação médica premium
+% Estilo: editorial (Nature, NEJM, Springer)
+% ═══════════════════════════════════════════════════════════════════════════
+% DEPENDÊNCIA: colors.tex (usa medblue)
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{graphicx}
+\usepackage{float}
+
+% ───────────────────────────────────────────────────────────────────────────
+% LEGENDAS DE FIGURAS
+% ───────────────────────────────────────────────────────────────────────────
+
+\usepackage[
+  font={small,sf},              % Pequena, sans-serif
+  labelfont={bf,color=medblue}, % Label em negrito azul ("Figura 1.")
+  labelsep=period,              % "Figura 1." não "Figura 1:"
+  justification=justified,      % Justificado
+  singlelinecheck=false,        % Força justificado mesmo em legendas curtas
+  skip=8pt                      % Espaço entre figura e legenda
+]{caption}
+
+% ───────────────────────────────────────────────────────────────────────────
+% SUBFIGURAS (opcional - para figuras A, B, C)
+% ───────────────────────────────────────────────────────────────────────────
+
+\usepackage{subcaption}
+
+% ───────────────────────────────────────────────────────────────────────────
+% POSICIONAMENTO DE FLOATS
+% ───────────────────────────────────────────────────────────────────────────
+
+% Parâmetros mais permissivos para posicionamento de figuras
+\renewcommand{\topfraction}{0.85}      % Máx de página para floats no topo
+\renewcommand{\bottomfraction}{0.85}   % Máx de página para floats no fundo
+\renewcommand{\textfraction}{0.15}     % Mín de texto necessário
+\renewcommand{\floatpagefraction}{0.7} % Mín para página só de floats

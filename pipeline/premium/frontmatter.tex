@@ -1,0 +1,89 @@
+% ═══════════════════════════════════════════════════════════════════════════
+% FRONTMATTER — The Art of Eyelid Surgery
+% ═══════════════════════════════════════════════════════════════════════════
+% Página de título, sumário e estrutura front matter
+% Estilo: editorial premium (livro médico internacional)
+% ═══════════════════════════════════════════════════════════════════════════
+% DEPENDÊNCIA: colors.tex (usa darkblue, medblue, footergray)
+% ═══════════════════════════════════════════════════════════════════════════
+
+% ───────────────────────────────────────────────────────────────────────────
+% COMANDO: PÁGINA DE TÍTULO
+% REQUER: Pandoc variables $title$, $author$, $date$ (defaults em template.tex)
+% ───────────────────────────────────────────────────────────────────────────
+
+\newcommand{\makebooktitle}{
+  \begin{titlepage}
+    \centering
+    \vspace*{3cm}
+
+    % Título principal
+    {\fontsize{36}{42}\selectfont\bfseries\sffamily\textcolor{darkblue}{$title$}\par}
+
+    \vspace{0.8cm}
+
+    % Subtítulo (se existir)
+    $if(subtitle)$
+    {\Large\sffamily\textcolor{medblue}{$subtitle$}\par}
+    $endif$
+
+    \vspace{3cm}
+
+    % Autor
+    {\LARGE\bfseries $author$\par}
+
+    \vspace{0.5cm}
+
+    % Credenciais
+    {\large\sffamily Cirurgião Plástico — Especialista em Cirurgia Palpebral\par}
+    {\large\sffamily Rio de Janeiro, Brasil\par}
+
+    \vfill
+
+    % Edição
+    {\large\sffamily 1ª Edição — $date$\par}
+
+    \vspace{1cm}
+
+    % Direitos
+    $if(rights)$
+    {\small\textcolor{footergray}{$rights$}\par}
+    $endif$
+
+  \end{titlepage}
+}
+
+% ───────────────────────────────────────────────────────────────────────────
+% COMANDO: SUMÁRIO
+% ───────────────────────────────────────────────────────────────────────────
+
+\newcommand{\makebooktoc}{
+  $if(toc)$
+  \tableofcontents
+  \cleardoublepage
+  $endif$
+}
+
+% ───────────────────────────────────────────────────────────────────────────
+% COMANDO: PÁGINA DE DEDICATÓRIA (opcional)
+% ───────────────────────────────────────────────────────────────────────────
+
+\newcommand{\makededicationpage}[1]{
+  \thispagestyle{empty}
+  \vspace*{5cm}
+  \begin{flushright}
+    \itshape #1
+  \end{flushright}
+  \cleardoublepage
+}
+
+% ───────────────────────────────────────────────────────────────────────────
+% COMANDO: PÁGINA DE PREFÁCIO
+% ───────────────────────────────────────────────────────────────────────────
+
+\newcommand{\makeprefacepage}[2]{
+  \chapter*{#1}
+  \addcontentsline{toc}{chapter}{#1}
+  #2
+  \cleardoublepage
+}

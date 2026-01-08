@@ -1,0 +1,147 @@
+% ═══════════════════════════════════════════════════════════════════════════
+% BOXES CLÍNICOS — The Art of Eyelid Surgery
+% ═══════════════════════════════════════════════════════════════════════════
+% Boxes SUTIS para conteúdo clínico
+% Filosofia: bordas finas (0.75pt), backgrounds quase-brancos
+% Tipos: Atenção, Pérola Clínica, Técnica, Evidência, Nota
+% ═══════════════════════════════════════════════════════════════════════════
+% DEPENDÊNCIA: colors.tex (usa alertbg, alertborder, etc.)
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable,hooks}
+
+% ───────────────────────────────────────────────────────────────────────────
+% BOX: ATENÇÃO (burgundy sutil)
+% Uso: alertas de segurança, contraindicações, riscos
+% ───────────────────────────────────────────────────────────────────────────
+
+\newtcolorbox{alertbox}[1][]{
+  enhanced,
+  breakable,
+  colback=alertbg,
+  colframe=alertborder,
+  boxrule=0.75pt,           % Borda FINA (editorial)
+  arc=2pt,                  % Cantos suaves
+  left=10pt,
+  right=10pt,
+  top=8pt,
+  bottom=8pt,
+  fonttitle=\small\sffamily\bfseries\color{alertborder},
+  title={! Atenção},        % Sem ícone grande
+  attach boxed title to top left={yshift=-1.5mm,xshift=4mm},
+  boxed title style={
+    colback=white,
+    colframe=white,
+    boxrule=0pt,
+  },
+  #1
+}
+
+% ───────────────────────────────────────────────────────────────────────────
+% BOX: PÉROLA CLÍNICA (ocre sutil)
+% Uso: insights práticos, truques do autor, sabedoria clínica
+% ───────────────────────────────────────────────────────────────────────────
+
+\newtcolorbox{pearlbox}[1][]{
+  enhanced,
+  breakable,
+  colback=pearlbg,
+  colframe=pearlborder,
+  boxrule=0.75pt,
+  arc=2pt,
+  left=10pt,
+  right=10pt,
+  top=8pt,
+  bottom=8pt,
+  fonttitle=\small\sffamily\bfseries\color{pearlborder},
+  title={* Pérola clínica},
+  attach boxed title to top left={yshift=-1.5mm,xshift=4mm},
+  boxed title style={
+    colback=white,
+    colframe=white,
+    boxrule=0pt,
+  },
+  #1
+}
+
+% ───────────────────────────────────────────────────────────────────────────
+% BOX: TÉCNICA (teal sutil)
+% Uso: passos técnicos, dicas de execução, manobras
+% ───────────────────────────────────────────────────────────────────────────
+
+\newtcolorbox{techbox}[1][]{
+  enhanced,
+  breakable,
+  colback=techbg,
+  colframe=techborder,
+  boxrule=0.75pt,
+  arc=2pt,
+  left=10pt,
+  right=10pt,
+  top=8pt,
+  bottom=8pt,
+  fonttitle=\small\sffamily\bfseries\color{techborder},
+  title={+ Técnica},
+  attach boxed title to top left={yshift=-1.5mm,xshift=4mm},
+  boxed title style={
+    colback=white,
+    colframe=white,
+    boxrule=0pt,
+  },
+  #1
+}
+
+% ───────────────────────────────────────────────────────────────────────────
+% BOX: EVIDÊNCIA (slate sutil)
+% Uso: referências a estudos, literatura, dados científicos
+% ───────────────────────────────────────────────────────────────────────────
+
+\newtcolorbox{evidencebox}[1][]{
+  enhanced,
+  breakable,
+  colback=evidencebg,
+  colframe=evidenceborder,
+  boxrule=0.75pt,
+  arc=2pt,
+  left=10pt,
+  right=10pt,
+  top=8pt,
+  bottom=8pt,
+  fonttitle=\small\sffamily\bfseries\color{evidenceborder},
+  title={i Evidência},
+  attach boxed title to top left={yshift=-1.5mm,xshift=4mm},
+  boxed title style={
+    colback=white,
+    colframe=white,
+    boxrule=0pt,
+  },
+  #1
+}
+
+% ───────────────────────────────────────────────────────────────────────────
+% BOX: NOTA (cinza-azulado, minimal)
+% Uso: blockquotes genéricos, observações, notas
+% ───────────────────────────────────────────────────────────────────────────
+
+\newtcolorbox{notebox}[1][]{
+  enhanced,
+  breakable,
+  colback=notebg,
+  colframe=noteborder,
+  boxrule=0.5pt,            % Ainda mais fina para notas
+  arc=1.5pt,
+  left=10pt,
+  right=10pt,
+  top=6pt,
+  bottom=6pt,
+  #1
+}
+
+% ───────────────────────────────────────────────────────────────────────────
+% CONVERSÃO: Blockquotes → Notebox
+% ───────────────────────────────────────────────────────────────────────────
+
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\begin{notebox}}
+\AtEndEnvironment{quote}{\end{notebox}}

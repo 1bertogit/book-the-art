@@ -1,0 +1,425 @@
+% ═══════════════════════════════════════════════════════════════════════════
+% Template LaTeX PREMIUM — The Art of Eyelid Surgery
+% ═══════════════════════════════════════════════════════════════════════════
+% Estilo: EDITORIAL PREMIUM (Nature, NEJM, Springer)
+% REQUER: XeLaTeX (para fontes OpenType via fontspec)
+%
+% Características:
+% - Cores SUTIS (bordas finas 0.75pt, backgrounds quase-brancos)
+% - Tipografia premium (Charter + Helvetica Neue + microtype)
+% - Boxes clínicos elegantes (5 tipos)
+% - Preparado para publicação profissional
+%
+% Uso: pandoc --pdf-engine=xelatex --template=template-simple.tex
+% ═══════════════════════════════════════════════════════════════════════════
+
+% PATCH 1: twoside + openany (padrão editorial médico)
+\documentclass[11pt,twoside,openany]{book}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% COMPATIBILIDADE PANDOC 3.8+
+% ═══════════════════════════════════════════════════════════════════════════
+
+\makeatletter
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\NewStructureName}[2]{}
+\providecommand{\SetStructureName}[2]{}
+\providecommand{\AssignStructureRole}[2]{}
+\providecommand{\pandocbounded}[1]{#1}
+\makeatother
+
+% ═══════════════════════════════════════════════════════════════════════════
+% GEOMETRIA — PATCH 2: margens simétricas (fix "desalinhamento" em telas)
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{geometry}
+\geometry{
+  paper=a4paper,
+  left=25mm,
+  right=25mm,
+  top=25mm,
+  bottom=25mm,
+  headheight=14pt,
+  headsep=25pt
+}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% TIPOGRAFIA PREMIUM
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{portuguese}
+
+% Fontes premium (Libertinus Serif - open source, editorial quality)
+% Fallback para Charter se Libertinus não estiver instalada
+\IfFontExistsTF{Libertinus Serif}{
+  \setmainfont{Libertinus Serif}
+}{
+  \setmainfont{Charter}
+}
+\setsansfont{Helvetica Neue}
+\setmonofont{Menlo}[Scale=0.9]
+
+% PATCH 4: alinhamento do corpo (padrão livro médico)
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0pt}
+\raggedbottom
+
+\usepackage{setspace}
+\setstretch{1.15}
+
+% Microtipografia (qualidade editorial)
+% Nota: expansion e spacing não funcionam com XeTeX
+\usepackage{microtype}
+\microtypesetup{
+  protrusion=true
+}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% TIPOGRAFIA PREMIUM: hifenização, viúvas/órfãs, espaçamento de emergência
+% ═══════════════════════════════════════════════════════════════════════════
+
+% Controle de viúvas e órfãs (evita linhas sozinhas)
+\widowpenalty=10000
+\clubpenalty=10000
+\brokenpenalty=10000
+
+% Espaçamento de emergência (evita overfull hboxes)
+\emergencystretch=1em
+
+% Tolerância para quebra de linha
+\tolerance=1000
+\hbadness=2000
+
+% Hifenização (polyglossia já configura para português)
+\setotherlanguage{english}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% PALETA DE CORES SUTIS (editorial, não didático)
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage[gray]{xcolor}
+
+% Cores principais
+\definecolor{medblue}{RGB}{0,82,147}
+\definecolor{darkblue}{RGB}{0,51,102}
+\definecolor{lightblue}{RGB}{245,248,252}
+
+% Bordas dos boxes (muted/editorial)
+\definecolor{alertborder}{RGB}{140,60,60}
+\definecolor{pearlborder}{RGB}{120,100,50}
+\definecolor{techborder}{RGB}{60,100,80}
+\definecolor{evidenceborder}{RGB}{70,100,130}
+\definecolor{noteborder}{RGB}{100,120,140}
+
+% Backgrounds dos boxes (quase-branco)
+\definecolor{alertbg}{RGB}{252,248,248}
+\definecolor{pearlbg}{RGB}{252,251,246}
+\definecolor{techbg}{RGB}{248,252,250}
+\definecolor{evidencebg}{RGB}{248,250,252}
+\definecolor{notebg}{RGB}{250,251,252}
+
+% Cores auxiliares
+\definecolor{chaptergray}{RGB}{80,80,80}
+\definecolor{footergray}{RGB}{120,120,120}
+
+% Aliases para compatibilidade
+\definecolor{alertred}{RGB}{140,60,60}
+\definecolor{pearlgold}{RGB}{120,100,50}
+\definecolor{techgreen}{RGB}{60,100,80}
+\definecolor{evidenceblue}{RGB}{70,100,130}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% BLOCKQUOTES (estilo sutil com borda lateral)
+% ═══════════════════════════════════════════════════════════════════════════
+% Nota: tcolorbox desabilitado por incompatibilidade com TeX Live 2025
+% Usando estilo simples com borda lateral colorida
+
+\usepackage{mdframed}
+
+% Definição de boxes minimalistas (sem bordas, apenas tipografia)
+\newmdenv[
+  topline=false,
+  bottomline=false,
+  rightline=false,
+  leftline=false,
+  linewidth=0pt,
+  innerleftmargin=0pt,
+  innerrightmargin=0pt,
+  innertopmargin=0pt,
+  innerbottommargin=10pt,
+  skipabove=1.5em,
+  skipbelow=1.5em
+]{minimalbox}
+
+\usepackage{etoolbox}
+% Aplicar aos quotes do Pandoc um estilo limpo e sem recuo extra
+\AtBeginEnvironment{quote}{
+  \begin{minimalbox}
+  \itshape
+  % Suprimir numeração de títulos dentro de boxes (Pérola Clínica, etc)
+  \setcounter{secnumdepth}{-1}
+}
+\AtEndEnvironment{quote}{
+  \setcounter{secnumdepth}{2} % Restaurar numeração global
+  \end{minimalbox}
+}
+
+% Estilo para Pérola Clínica e outros (Labels manuais no markdown)
+\newcommand{\boxlabel}[1]{\vspace{0.8em}\noindent\textbf{\textsf{\large #1}}\par\nopagebreak\vspace{0.3em}}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% CAPÍTULOS E SEÇÕES
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{titlesec}
+
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\sffamily}
+  {\flushright\textcolor{chaptergray}{\fontsize{60}{60}\selectfont\thechapter}}
+  {15pt}
+  {\Huge\raggedright\textcolor{darkblue}}
+
+\titlespacing*{\chapter}{0pt}{0pt}{30pt}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\sffamily\color{medblue}}
+  {\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\sffamily\color{darkblue}}
+  {\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries\sffamily}
+  {\thesubsubsection}{1em}{}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% HEADERS E FOOTERS
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\small\sffamily\textcolor{footergray}{\leftmark}}
+\fancyhead[RO]{\small\sffamily\textcolor{footergray}{\rightmark}}
+\fancyfoot[LE,RO]{\sffamily\textbf{\thepage}}
+% Footer central removido para limpeza visual
+
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{medblue}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0pt}
+
+% Formatar marks sem MAIÚSCULAS automáticas
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[C]{\sffamily\textbf{\thepage}}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% SUMÁRIO — PATCH 3: alinhamento TOC ao miolo
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{tocloft}
+\renewcommand{\cfttoctitlefont}{\hfill\Huge\bfseries\sffamily\color{darkblue}}
+\renewcommand{\cftaftertoctitle}{\hfill}
+
+% Alinhamento do TOC (resolve desalinhamento visual)
+\setlength{\cftchapindent}{0pt}
+\setlength{\cftchapnumwidth}{2.5em}
+\setlength{\cftsecindent}{2.5em}
+\setlength{\cftsecnumwidth}{3.2em}
+\setlength{\cftsubsecindent}{5.7em}
+\setlength{\cftsubsecnumwidth}{3.8em}
+
+\setlength{\cftbeforechapskip}{1.5em}
+\setlength{\cftbeforesecskip}{0.5em}
+\renewcommand{\cftchapfont}{\sffamily\bfseries\color{darkblue}}
+\renewcommand{\cftchappagefont}{\sffamily\bfseries}
+\renewcommand{\cftsecfont}{\sffamily}
+\renewcommand{\cftsecpagefont}{\sffamily}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% FIGURAS E LINKS
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{graphicx}
+\usepackage{float}
+
+% Limitar tamanho máximo das figuras à área de texto
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>0.8\textheight 0.8\textheight\else\Gin@nat@height\fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+
+% Centralizar figuras automaticamente
+\makeatletter
+\g@addto@macro\@floatboxreset\centering
+\makeatother
+
+% Float positioning mais flexível
+\renewcommand{\floatpagefraction}{0.8}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.9}
+\renewcommand{\textfraction}{0.1}
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{3}
+\setcounter{totalnumber}{6}
+
+\usepackage[
+  font={small,sf},
+  labelfont={bf,color=medblue},
+  labelsep=period,
+  justification=centering,
+  singlelinecheck=false,
+  skip=8pt
+]{caption}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=medblue,
+  citecolor=medblue,
+  urlcolor=medblue,
+  bookmarksnumbered=true,
+  pdfstartview=FitH
+}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% LISTAS
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{enumitem}
+\setlist{nosep, leftmargin=*, itemsep=3pt}
+\setlist[itemize,1]{label=\textcolor{medblue}{\textbullet}}
+\setlist[itemize,2]{label=\textcolor{medblue}{--}}
+
+\usepackage{amssymb}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% COMPATIBILIDADE PANDOC
+% ═══════════════════════════════════════════════════════════════════════════
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+$if(csl-refs)$
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2]
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  \setlength{\itemsep}{\parskip}}}
+ {\end{list}}
+$endif$
+
+% ═══════════════════════════════════════════════════════════════════════════
+% METADADOS
+% ═══════════════════════════════════════════════════════════════════════════
+
+$if(title)$
+\title{$title$}
+$endif$
+
+$if(author)$
+\author{$author$}
+$endif$
+
+$if(date)$
+\date{$date$}
+$else$
+\date{\today}
+$endif$
+
+% ═══════════════════════════════════════════════════════════════════════════
+% DOCUMENTO
+% ═══════════════════════════════════════════════════════════════════════════
+
+\begin{document}
+
+% Fix: polyglossia sobrescreve contentsname, forçar aqui
+\renewcommand{\contentsname}{Sumário}
+
+\frontmatter
+
+\begin{titlepage}
+  \centering
+  \vspace*{3cm}
+  
+  % Título Principal
+  {\fontsize{42}{48}\selectfont\bfseries\sffamily\textcolor{darkblue}{$title$}\par}
+  \vspace{1cm}
+
+  % Subtítulo
+  $if(subtitle)$
+  {\huge\sffamily\textcolor{darkblue}{$subtitle$}\par}
+  $endif$
+  
+  \vspace{3.5cm}
+
+  % Autor
+  {\huge\bfseries $author$, MD\par}
+  \vspace{0.6cm}
+  
+  % Qualificações
+  {\large\sffamily\itshape Cirurgião Plástico — Especialista em Cirurgia Palpebral\par}
+  
+  \vfill
+  
+  % Cidade e Ano
+  {\large\sffamily Rio de Janeiro, Brasil\par}
+  {\large\sffamily 2026\par}
+  \vspace{1cm}
+\end{titlepage}
+
+% --- CONTRACAPA (COPYRIGHT PAGE) ---
+\newpage
+\thispagestyle{empty}
+\vspace*{\fill}
+
+\begin{flushleft}
+  {\small\sffamily\bfseries $title$\par}
+  {\small\sffamily $subtitle$\par}
+  \vspace{0.5cm}
+  
+  {\small\sffamily © 2026 $author$ — Todos os direitos reservados.\par}
+  \vspace{0.3cm}
+  
+  {\small\sffamily\itshape 1ª Edição\par}
+  \vspace{1cm}
+  
+  {\footnotesize\sffamily
+    Este conteúdo destina-se a fins educacionais para profissionais de saúde. 
+    Nenhuma parte desta obra pode ser reproduzida sem autorização prévia.\par
+  }
+\end{flushleft}
+\vspace{2cm}
+
+$if(toc)$
+\tableofcontents
+\cleardoublepage
+$endif$
+
+\mainmatter
+
+$body$
+
+$if(bibliography)$
+\backmatter
+\bibliographystyle{plain}
+\bibliography{$bibliography$}
+$endif$
+
+\end{document}

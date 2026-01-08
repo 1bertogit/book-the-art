@@ -1,4 +1,4 @@
-.PHONY: all validate build clean export help
+.PHONY: all validate build clean export help premium-pdf
 
 # Diretórios
 PROJECT := projects/eyelid-surgery
@@ -95,6 +95,32 @@ export-refs-paren: build ## Exporta com refs em parênteses (ID)
 	@python3 $(TOOLS)/clean_manuscript.py --strip-backlog --ref-style=paren --out $(DIST)/manuscrito_refs_paren.md
 
 # =============================================================================
+# PIPELINE PREMIUM (LaTeX de publicação)
+# =============================================================================
+
+PREMIUM_DIR := pipeline/premium
+PREMIUM_TEMPLATE := $(PREMIUM_DIR)/template-simple.tex
+PREMIUM_PDF := $(DIST)/book_premium.pdf
+
+premium-pdf: export fix-figures ## Gera PDF premium (qualidade editorial)
+	@echo "📚 Gerando PDF Premium..."
+	@$(PANDOC) $(MANUSCRITO_LIMPO) -o $(PREMIUM_PDF) \
+		--from markdown \
+		--template $(PREMIUM_TEMPLATE) \
+		--pdf-engine=xelatex \
+		--top-level-division=chapter \
+		--toc \
+		--toc-depth=2 \
+		--number-sections \
+		--metadata title="$(BOOK_TITLE)" \
+		--metadata subtitle="Cirurgia Palpebral e Periorbitária" \
+		--metadata author="$(BOOK_AUTHOR)" \
+		--metadata date="$(BOOK_DATE)" \
+		--metadata lang=$(BOOK_LANG) \
+		--metadata rights="© 2026 Dr. Marcelo Cury. Todos os direitos reservados."
+	@echo "✅ Gerado: $(PREMIUM_PDF)"
+
+# =============================================================================
 # CONVERSÕES (requer Pandoc)
 # =============================================================================
 
@@ -144,12 +170,12 @@ pdf: export fix-figures ## Gera PDF didático premium (default)
 		--metadata rights="© 2026 Dr. Marcelo Cury. Todos os direitos reservados."
 	@echo "✅ Gerado: $(PDF_OUT)"
 
-pdf-classic: export fix-figures ## Gera PDF clínico elegante (minimalista)
+pdf-classic: export fix-figures ## Gera PDF clínico elegante (Springer/Elsevier style)
 	@echo "📄 Gerando PDF Clínico Elegante..."
 	@$(PANDOC) $(MANUSCRITO_LIMPO) -o $(DIST)/manuscrito_classic.pdf \
 		--from markdown \
 		--to pdf \
-		--template=$(ASSETS)/template-classic.tex \
+		--template=$(ASSETS)/template.tex \
 		--pdf-engine=xelatex \
 		--toc \
 		--toc-depth=2 \

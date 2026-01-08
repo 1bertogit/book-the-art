@@ -1,0 +1,181 @@
+% ═══════════════════════════════════════════════════════════════════════════
+% Template LaTeX PREMIUM MODULAR — The Art of Eyelid Surgery
+% ═══════════════════════════════════════════════════════════════════════════
+% Estilo: EDITORIAL PREMIUM (Nature, NEJM, Springer)
+% REQUER: XeLaTeX (para fontes OpenType via fontspec)
+%
+% Características:
+% - Arquitetura MODULAR (cada aspecto em arquivo separado)
+% - Cores SUTIS (bordas finas, backgrounds quase-brancos)
+% - Tipografia premium (Charter + Helvetica Neue + microtype)
+% - Boxes clínicos elegantes (5 tipos)
+% - Preparado para publicação profissional
+%
+% Uso: pandoc --pdf-engine=xelatex --template=pipeline/premium/template.tex
+% ═══════════════════════════════════════════════════════════════════════════
+
+\documentclass[11pt,a4paper,twoside,openright]{book}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% COMPATIBILIDADE PANDOC 3.8+ (deve vir primeiro!)
+% ═══════════════════════════════════════════════════════════════════════════
+
+% Definições de compatibilidade para tagged PDF (LaTeX 2024+)
+% Estas macros são usadas pelo tcolorbox 6.x para acessibilidade PDF
+\makeatletter
+% Structure macros
+\ifdefined\AssignStructureRole\else
+  \def\AssignStructureRole#1#2{}
+\fi
+\ifdefined\NewStructureName\else
+  \def\NewStructureName#1#2{}
+\fi
+\ifdefined\SetStructureName\else
+  \def\SetStructureName#1#2{}
+\fi
+\ifdefined\UseStructureName\else
+  \def\UseStructureName#1{}
+\fi
+% Tagging socket macros (tcolorbox 6.x)
+\ifdefined\NewTaggingSocket\else
+  \def\NewTaggingSocket#1#2{}
+\fi
+\ifdefined\NewTaggingSocketPlug\else
+  \def\NewTaggingSocketPlug#1#2{}
+\fi
+\ifdefined\AssignTaggingSocketPlug\else
+  \def\AssignTaggingSocketPlug#1#2{}
+\fi
+% Pandoc tightlist
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+% Pandoc image handling
+\providecommand{\pandocbounded}[1]{#1}
+\makeatother
+
+% ═══════════════════════════════════════════════════════════════════════════
+% GEOMETRIA DA PÁGINA (margens para impressão premium)
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage[
+  top=2.5cm,
+  bottom=2.5cm,
+  inner=3cm,
+  outer=2.5cm,
+  headheight=14pt,
+  headsep=1.2cm,
+  footskip=1.5cm,
+  marginparwidth=2cm
+]{geometry}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% MÓDULOS DO TEMPLATE (ordem importa!)
+% ═══════════════════════════════════════════════════════════════════════════
+% Dependências:
+%   typography.tex  → independente
+%   colors.tex      → independente
+%   boxes.tex       → depende de colors.tex
+%   headings.tex    → depende de colors.tex
+%   figures.tex     → depende de colors.tex
+%   frontmatter.tex → depende de colors.tex
+% ═══════════════════════════════════════════════════════════════════════════
+
+\input{typography.tex}
+\input{colors.tex}
+\input{boxes.tex}
+\input{headings.tex}
+\input{figures.tex}
+\input{frontmatter.tex}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% LINKS E REFERÊNCIAS
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=medblue,
+  citecolor=medblue,
+  urlcolor=medblue,
+  bookmarksnumbered=true,
+  pdfstartview=FitH
+}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% LISTAS
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{enumitem}
+\setlist{nosep, leftmargin=*, itemsep=3pt}
+\setlist[itemize,1]{label=\textcolor{medblue}{\textbullet}}
+\setlist[itemize,2]{label=\textcolor{medblue}{--}}
+
+% Símbolos matemáticos (para checklists com \square)
+\usepackage{amssymb}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% COMPATIBILIDADE PANDOC (header-includes, CSL)
+% ═══════════════════════════════════════════════════════════════════════════
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+$if(csl-refs)$
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2]
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  \setlength{\itemsep}{\parskip}}}
+ {\end{list}}
+$endif$
+
+% ═══════════════════════════════════════════════════════════════════════════
+% METADADOS
+% ═══════════════════════════════════════════════════════════════════════════
+
+$if(title)$
+\title{$title$}
+$endif$
+
+$if(author)$
+\author{$author$}
+$endif$
+
+$if(date)$
+\date{$date$}
+$else$
+\date{\today}
+$endif$
+
+% ═══════════════════════════════════════════════════════════════════════════
+% DOCUMENTO
+% ═══════════════════════════════════════════════════════════════════════════
+
+\begin{document}
+
+\frontmatter
+
+% Página de título (definida em frontmatter.tex)
+\makebooktitle
+
+% Sumário (definido em frontmatter.tex)
+\makebooktoc
+
+% Corpo do livro
+\mainmatter
+
+$body$
+
+% Bibliografia
+$if(bibliography)$
+\backmatter
+\bibliographystyle{plain}
+\bibliography{$bibliography$}
+$endif$
+
+\end{document}
