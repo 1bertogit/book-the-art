@@ -28,11 +28,14 @@ results=()
 
 add_result() {
   local name="$1"; local status="$2"; local msg="$3"; local detail="$4"
+  # Escape newlines for JSON (portable way)
+  local escaped_detail
+  escaped_detail=$(echo "$detail" | awk '{printf "%s\\n", $0}' | sed 's/\\n$//' | sed 's/"/\\"/g')
   results+=("$(printf '{"name":"%s","status":"%s","message":"%s","detail":"%s"}' \
     "$(echo "$name" | sed 's/"/\\"/g')" \
     "$status" \
     "$(echo "$msg" | sed 's/"/\\"/g')" \
-    "$(echo "$detail" | sed 's/"/\\"/g')")")
+    "$escaped_detail")")
 }
 
 # Helpers
@@ -152,7 +155,14 @@ check_geometry() {
   local headcfg
   headcfg=$(sh -c "$FIND --hidden --no-ignore-vcs -g 'pipeline/premium/*.tex' -g '*.tex' 'headheight|headsep|footskip' 2>/dev/null || true")
 
-  if [ -n "$geom" ] && echo "$geom" | rg -q "inner=|outer=" >/dev/null 2>&1; then
+  local geom_ok=false
+  if [ -n "$TEMPLATE" ] && [ -f "$TEMPLATE" ]; then
+    if grep -q "inner=" "$TEMPLATE" && grep -q "outer=" "$TEMPLATE"; then
+       geom_ok=true
+    fi
+  fi
+
+  if [ "$geom_ok" = true ]; then
     add_result "Geometry" "PASS" "Found \\geometry with inner/outer in template" "$geom"
   else
     add_result "Geometry" "FAIL" "Não encontrei \\geometry{ inner=..., outer=... } no template" "$geom"
@@ -238,20 +248,44 @@ check_headers_footers() {
 # 10) Integração no Makefile (make premium-pdf e idempotência)
 check_make_integration() {
   if has make; then
-    # Tentativa controlada do build; coletar saída
-    echo "Executando: make clean && make premium-pdf (timeout 10m)..."
-    if timeout 600 bash -lc "make clean && make premium-pdf" > "${OUTDIR}/make_premium_output.txt" 2>&1; then
-      add_result "make premium-pdf" "PASS" "make premium-pdf executou sem erro" "$(sed -n '1,240p' ${OUTDIR}/make_premium_output.txt)"
-      # verificar existência do PDF
-      local pdfs
-      pdfs=$(ls -1 dist/*.pdf 2>/dev/null || true)
-      if [ -n "$pdfs" ]; then
-        add_result "PDF gerado" "PASS" "PDF(s) encontrados em dist/: $(echo "$pdfs" | tr '\n' ' ')" ""
+    # detect timeout command (GNU timeout or gtimeout on macOS via coreutils)
+    TIMEOUT_CMD=""
+    if command -v timeout >/dev/null 2>&1; then
+      TIMEOUT_CMD="timeout 600"
+    elif command -v gtimeout >/dev/null 2>&1; then
+      TIMEOUT_CMD="gtimeout 600"
+    fi
+
+    echo "Executando: make clean && make premium-pdf..."
+    if [ -n "$TIMEOUT_CMD" ]; then
+      if $TIMEOUT_CMD bash -lc "make clean && make premium-pdf" > "${OUTDIR}/make_premium_output.txt" 2>&1; then
+        add_result "make premium-pdf" "PASS" "make premium-pdf executou sem erro" "$(sed -n '1,240p' ${OUTDIR}/make_premium_output.txt)"
+        # verificar existência do PDF
+        local pdfs
+        pdfs=$(ls -1 dist/*.pdf 2>/dev/null || true)
+        if [ -n "$pdfs" ]; then
+          add_result "PDF gerado" "PASS" "PDF(s) encontrados em dist/: $(echo "$pdfs" | tr '\n' ' ')" ""
+        else
+          add_result "PDF gerado" "FAIL" "make premium-pdf não produziu dist/*.pdf visível" "$(sed -n '1,240p' ${OUTDIR}/make_premium_output.txt)"
+        fi
       else
-        add_result "PDF gerado" "FAIL" "make premium-pdf não produziu dist/*.pdf visível" "$(sed -n '1,240p' ${OUTDIR}/make_premium_output.txt)"
+        add_result "make premium-pdf" "FAIL" "make premium-pdf falhou ou excedeu timeout" "$(sed -n '1,240p' ${OUTDIR}/make_premium_output.txt)"
       fi
     else
-      add_result "make premium-pdf" "FAIL" "make premium-pdf falhou ou excedeu timeout" "$(sed -n '1,240p' ${OUTDIR}/make_premium_output.txt)"
+      echo "WARN: no timeout found — running make without timeout" > "${OUTDIR}/make_premium_output.txt"
+      if bash -lc "make clean && make premium-pdf" >> "${OUTDIR}/make_premium_output.txt" 2>&1; then
+        add_result "make premium-pdf" "PASS" "make premium-pdf executou sem erro (sem timeout)" "$(sed -n '1,240p' ${OUTDIR}/make_premium_output.txt)"
+        # verificar existência do PDF
+        local pdfs
+        pdfs=$(ls -1 dist/*.pdf 2>/dev/null || true)
+        if [ -n "$pdfs" ]; then
+          add_result "PDF gerado" "PASS" "PDF(s) encontrados em dist/: $(echo "$pdfs" | tr '\n' ' ')" ""
+        else
+          add_result "PDF gerado" "FAIL" "make premium-pdf não produziu dist/*.pdf visível" "$(sed -n '1,240p' ${OUTDIR}/make_premium_output.txt)"
+        fi
+      else
+        add_result "make premium-pdf" "FAIL" "make premium-pdf falhou (sem timeout)" "$(sed -n '1,240p' ${OUTDIR}/make_premium_output.txt)"
+      fi
     fi
   else
     add_result "make premium-pdf" "WARN" "make não disponível nesta máquina" ""

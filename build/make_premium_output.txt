@@ -1,0 +1,1 @@
+./scripts/check_premium.sh: line 243: timeout: command not found
