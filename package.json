@@ -1,0 +1,12 @@
+{
+    "name": "the-art-of-eyelid-surgery",
+    "version": "1.0.0",
+    "description": "E-book: The Art of Eyelid Surgery",
+    "scripts": {
+        "preview": "npx serve projects/eyelid-surgery/content",
+        "pdf": "pandoc projects/eyelid-surgery/content/00_MANUSCRITO.md -o The_Art_of_Eyelid_Surgery.pdf --toc"
+    },
+    "devDependencies": {
+        "serve": "^14.2.0"
+    }
+}

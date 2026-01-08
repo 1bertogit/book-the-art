@@ -1,0 +1,30 @@
+# BACKLOG DE ARTE — FIGURAS SUGERIDAS
+
+- `01-introdu-o-a-filosofia-do-rejuvenescimento-operar-rejuvenescer.md:3` — Figura sugerida
+- `02-luz-e-sombra-unidades-est-ticas-e-continuidade-periorbit-ria.md:3` — Figura sugerida
+- `03-envelhecimento-multifatorial-deflation-ligamentos-e-osso.md:3` — Figura sugerida
+- `04-anatomia-cir-rgica-aplicada-lamelas-septo-e-ligamentos-retentores.md:3` — Figura sugerida
+- `05-mapas-de-risco-e-erros-de-plano-zonas-de-seguran-a-vs-perigo.md:3` — Figura sugerida
+- `07-fotodocumenta-o-estrat-gica-sem-flash-com-flash-e-padroniza-o.md:3` — Figura sugerida
+- `08-exame-f-sico-vetores-flacidez-testes-e-assimetrias.md:3` — Figura sugerida
+- `09-consulta-e-expectativa-alinhar-pedido-do-paciente-com-necessidade-anat-mica.md:3` — Figura sugerida
+- `10-algoritmos-por-fen-tipo-superior-inferior-ter-o-m-dio-e-casos-mistos.md:3` — Figura sugerida
+- `11-marca-o-e-medidas-superior-e-inferior-conservadorismo-e-simetria.md:3` — Figura sugerida
+- `12-anestesia-infiltra-o-hemostasia-e-p-s-imediato-seguran-a.md:3` — Figura sugerida
+- `13-brow-management-por-que-blef-isolada-falha-connell-e-indica-es.md:3` — Figura sugerida
+- `14-tecnicas-de-brow-lift-temporal-endosc-pico-casta-ares-modificado.md:3` — Figura sugerida
+- `15-blefaroplastia-superior-pele-gordura-preserva-o-e-gl-ndula-lacrimal.md:3` — Figura sugerida
+- `16-ptose-associada-no-superior-quando-reconhecer-e-como-integrar-ao-plano.md:3` — Figura sugerida
+- `17-palpebra-inferior-transconjuntival-prefer-ncias-septo-e-bolsas.md:3` — Figura sugerida
+- `18-transposi-o-redistribui-o-de-gordura-sulco-nasojugal-e-transi-o-p-lpebra-malar.md:3` — Figura sugerida
+- `19-manejo-de-pele-no-inferior-pinch-e-refinamentos-sem-descolamento-amplo.md:3` — Figura sugerida
+- `20-festoon-edema-malar-fisiopatologia-e-op-es-orbicular-espa-o-pr-malar-cauteriza-o.md:3` — Figura sugerida
+- `21-sustenta-o-quando-cantopexia-resolve-e-quando-n-o-resolve.md:3` — Figura sugerida
+- `22-cantopexia-vs-cantoplastia-indica-es-por-vetor-e-flacidez.md:3` — Figura sugerida
+- `23-tecnicas-de-canto-lateral-mladick-tarsal-strip-e-mccord-e-varia-es.md:3` — Figura sugerida
+- `24-microfat-coleta-preparo-e-inje-o-zonas-e-volumes-justa-periostal.md:3` — Figura sugerida
+- `25-nanofat-e-qualidade-de-pele-cicatrizes-olheiras-textura-e-microagulhamento.md:3` — Figura sugerida
+- `26-funcional-e-reconstru-o-ectr-pio-entr-pio-retra-o-e-princ-pios-das-lamelas.md:3` — Figura sugerida
+- `27-reconstru-o-p-s-tumor-retalhos-cl-ssicos-tenzel-hughes-cutler-beard-mustard.md:3` — Figura sugerida
+- `28-complica-es-revis-es-e-gest-o-preven-o-resgate-e-precifica-o.md:3` — Figura sugerida
+- `28-complica-es-revis-es-e-gest-o-preven-o-resgate-e-precifica-o.md:55` — Figura sugerida

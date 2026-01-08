@@ -16,7 +16,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CONTENT_DIR = ROOT / "content"
+CONTENT_DIR = ROOT / "projects" / "eyelid-surgery" / "content"
 BIB_FILE = CONTENT_DIR / "99_BIBLIOGRAFIA.md"
 
 # Regex para [[REF:ID]] no texto

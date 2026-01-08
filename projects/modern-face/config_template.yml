@@ -1,0 +1,21 @@
+# Modern Face - Template de Configuração
+# Copie este arquivo para cada ebook (config_ebook1.yml, config_ebook2.yml, etc.)
+
+project:
+  name: "Modern Face - Ebook [NUMERO]"
+  author: "Dr. Marcelo Cury"
+  language: "pt-BR"
+  
+paths:
+  content_dir: "ebook-[NUMERO]/content"
+  assets_dir: "ebook-[NUMERO]/assets"
+  output_dir: "ebook-[NUMERO]/dist"
+  
+build:
+  generate_toc: true
+  include_figures: true
+  include_tables: true
+  
+output:
+  format: "markdown"  # ou "pdf", "epub"
+  filename: "modern_face_ebook_[NUMERO].md"

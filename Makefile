@@ -1,10 +1,11 @@
 .PHONY: all validate build clean export help
 
 # Diretórios
-CONTENT := content
+PROJECT := projects/eyelid-surgery
+CONTENT := $(PROJECT)/content
 DIST := dist
 TOOLS := tools
-ASSETS := assets
+ASSETS := $(PROJECT)/assets
 
 # Arquivos de saída
 MANUSCRITO := $(CONTENT)/00_MANUSCRITO.md
@@ -19,6 +20,7 @@ BOOK_AUTHOR := Dr. Marcelo Cury
 BOOK_LANG := pt-BR
 BOOK_DATE := $(shell date +%Y-%m-%d)
 BOOK_CSS := $(ASSETS)/style.css
+REFERENCE_DOCX := $(ASSETS)/reference.docx
 PANDOC := pandoc
 
 # =============================================================================
@@ -55,10 +57,32 @@ clean: ## Limpa arquivos gerados
 	@echo "✅ Limpo!"
 
 # =============================================================================
+# FIGURAS
+# =============================================================================
+
+figures-report: ## Relatório de figuras (YAML vs arquivos vs texto)
+	@python3 $(TOOLS)/validate_figures.py
+
+figures-validate: ## Valida figuras (falha se houver erros)
+	@python3 $(TOOLS)/validate_figures.py --strict
+
+# =============================================================================
 # EXPORTAÇÃO
 # =============================================================================
 
-export: build ## Gera versão limpa para exportação
+editorial-report: ## Relatório de problemas editoriais
+	@echo ""
+	@echo "📋 Analisando problemas editoriais..."
+	@python3 $(TOOLS)/clean_editorial_tags.py --report
+
+editorial-clean: ## Limpa tags editoriais dos capítulos
+	@echo ""
+	@echo "🧹 Limpando tags editoriais..."
+	@python3 $(TOOLS)/clean_editorial_tags.py
+	@echo ""
+	@echo "✅ Tags editoriais limpas!"
+
+export: build editorial-clean ## Gera versão limpa para exportação
 	@echo ""
 	@echo "📤 Gerando versão para exportação..."
 	@mkdir -p $(DIST)
@@ -79,6 +103,7 @@ docx: export ## Gera DOCX (requer Pandoc)
 	@$(PANDOC) $(MANUSCRITO_LIMPO) -o $(DOCX_OUT) \
 		--from markdown \
 		--to docx \
+		--reference-doc=$(REFERENCE_DOCX) \
 		--toc \
 		--toc-depth=2 \
 		--standalone \
@@ -88,9 +113,58 @@ docx: export ## Gera DOCX (requer Pandoc)
 		--metadata lang=$(BOOK_LANG)
 	@echo "✅ Gerado: $(DOCX_OUT)"
 
-pdf: export ## Gera PDF (requer Pandoc + LaTeX)
-	@echo "📄 Gerando PDF..."
+fix-figures: ## Corrige paths de figuras para absolutos
+	@python3 $(TOOLS)/fix_figure_paths.py
+
+pdf: export fix-figures ## Gera PDF didático premium (default)
+	@echo "📄 Gerando PDF Didático Premium..."
 	@$(PANDOC) $(MANUSCRITO_LIMPO) -o $(PDF_OUT) \
+		--from markdown \
+		--to pdf \
+		--pdf-engine=xelatex \
+		--toc \
+		--toc-depth=2 \
+		--number-sections \
+		-V documentclass=book \
+		-V classoption=11pt,a4paper,twoside,openright \
+		-V geometry:top=2.5cm,bottom=2.5cm,inner=3cm,outer=2.5cm \
+		-V mainfont="Charter" \
+		-V sansfont="Helvetica Neue" \
+		-V monofont="Menlo" \
+		-V linestretch=1.15 \
+		-V linkcolor=NavyBlue \
+		-V urlcolor=NavyBlue \
+		-V toccolor=NavyBlue \
+		-V colorlinks=true \
+		--metadata title="$(BOOK_TITLE)" \
+		--metadata subtitle="Cirurgia Palpebral e Periorbitária" \
+		--metadata author="$(BOOK_AUTHOR)" \
+		--metadata date="$(BOOK_DATE)" \
+		--metadata lang=$(BOOK_LANG) \
+		--metadata rights="© 2026 Dr. Marcelo Cury. Todos os direitos reservados."
+	@echo "✅ Gerado: $(PDF_OUT)"
+
+pdf-classic: export fix-figures ## Gera PDF clínico elegante (minimalista)
+	@echo "📄 Gerando PDF Clínico Elegante..."
+	@$(PANDOC) $(MANUSCRITO_LIMPO) -o $(DIST)/manuscrito_classic.pdf \
+		--from markdown \
+		--to pdf \
+		--template=$(ASSETS)/template-classic.tex \
+		--pdf-engine=xelatex \
+		--toc \
+		--toc-depth=2 \
+		--number-sections \
+		--metadata title="$(BOOK_TITLE)" \
+		--metadata subtitle="Cirurgia Palpebral e Periorbitária" \
+		--metadata author="$(BOOK_AUTHOR)" \
+		--metadata date="$(BOOK_DATE)" \
+		--metadata lang=$(BOOK_LANG) \
+		--metadata rights="© 2026 Dr. Marcelo Cury. Todos os direitos reservados."
+	@echo "✅ Gerado: $(DIST)/manuscrito_classic.pdf"
+
+pdf-basic: export ## Gera PDF básico (sem template customizado)
+	@echo "📄 Gerando PDF básico..."
+	@$(PANDOC) $(MANUSCRITO_LIMPO) -o $(DIST)/manuscrito_basic.pdf \
 		--from markdown \
 		--to pdf \
 		--toc \
@@ -102,7 +176,7 @@ pdf: export ## Gera PDF (requer Pandoc + LaTeX)
 		--metadata title="$(BOOK_TITLE)" \
 		--metadata author="$(BOOK_AUTHOR)" \
 		--metadata date="$(BOOK_DATE)"
-	@echo "✅ Gerado: $(PDF_OUT)"
+	@echo "✅ Gerado: $(DIST)/manuscrito_basic.pdf"
 
 html: export ## Gera HTML standalone
 	@echo "📄 Gerando HTML..."

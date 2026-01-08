@@ -10,7 +10,7 @@ from typing import Dict, List, Tuple
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CONTENT = ROOT / "content"
+CONTENT = ROOT / "projects" / "eyelid-surgery" / "content"
 
 MOVE_RE = re.compile(r"\[\[MOVE:\s*CAP-(\d+|XX)\s*\]\]", re.IGNORECASE)
 REF_RE = re.compile(r"\[\[REF\]\]", re.IGNORECASE)
@@ -51,7 +51,7 @@ def title_from_md(text: str, fallback: str) -> str:
     return m.group(1).strip() if m else fallback
 
 
-SKIP_FILES = {"MOVE_MAP.md", "00_SUMARIO_MESTRE.md", "00_MAPA_DE_LINKS_MOVE.md", "00_BACKLOG_ARTE.md", "00_BACKLOG_REFERENCIAS.md", "00_MANUSCRITO.md"}
+SKIP_FILES = {"MOVE_MAP.md", "00_SUMARIO_MESTRE.md", "00_MAPA_DE_LINKS_MOVE.md", "00_BACKLOG_ARTE.md", "00_BACKLOG_REFERENCIAS.md", "00_MANUSCRITO.md", "00_FRONT_MATTER.md"}
 
 
 def main() -> None:

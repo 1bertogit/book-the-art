@@ -1,22 +1,33 @@
-# The Art of Eyelid Surgery — Estrutura (Scaffold)
+# Multi-Project Ebook Generator
 
-Este repositório cria a **estrutura completa** do manuscrito em Markdown, pronta para compilar em **DOCX / EPUB / HTML** com Python.
+Este repositório gerencia **múltiplos projetos de ebooks** usando scripts compartilhados para compilar em **DOCX / EPUB / HTML / PDF**.
 
-## Estrutura
+## 📁 Estrutura Geral
+
 ```
 the_art_of_eyelid_surgery_scaffold/
-├─ build.py
+├─ projects/
+│  ├─ eyelid-surgery/          # Projeto: The Art of Eyelid Surgery
+│  │  ├─ config.yml
+│  │  ├─ content/              # 28 capítulos
+│  │  ├─ assets/
+│  │  └─ dist/                 # Output
+│  │
+│  └─ modern-face/             # Projeto: Modern Face
+│     ├─ config_template.yml
+│     ├─ ebook-1/              # 5 ebooks independentes
+│     ├─ ebook-2/
+│     ├─ ebook-3/
+│     ├─ ebook-4/
+│     └─ ebook-5/
+│
+├─ shared/                     # Scripts compartilhados
+│  ├─ build.py
+│  └─ generate_complete_ebook.py
+│
+├─ tools/                      # Ferramentas auxiliares
 ├─ requirements.txt
-├─ config.yml
-├─ MANUSCRIPT_GUIDE.md
-├─ assets/
-│  ├─ figures/
-│  └─ tables/
-└─ content/
-   ├─ 00-notas-legais-e-escopo.md
-   ├─ 01-introducao-filosofia.md
-   ├─ ...
-   └─ 28-gestao-e-precificacao.md
+└─ Makefile
 ```
 
 ## Instalação
@@ -28,20 +39,36 @@ pip install -r requirements.txt
 
 > Recomendado: instalar **Pandoc** para exportação DOCX/EPUB com alta fidelidade.
 
-## Build
+## 🚀 Como Usar
+
+### Para o projeto **Eyelid Surgery**:
 ```bash
-# Validação + consolidado + versão limpa
-make export
+cd projects/eyelid-surgery
+python ../../shared/generate_complete_ebook.py
+# Output: dist/ebook_completo.md
+```
 
-# Conversões (Pandoc)
-make html   # dist/ebook.html (usa assets/style.css)
-make docx   # dist/manuscrito.docx
-make pdf    # dist/manuscrito.pdf (requer LaTeX)
+### Para o projeto **Modern Face**:
+```bash
+cd projects/modern-face/ebook-1
+# 1. Adicione seus capítulos em content/
+# 2. Copie e ajuste config_template.yml
+python ../../../shared/generate_complete_ebook.py --config config_ebook1.yml
+```
 
-# Alternativa: builder Python puro
-python build.py --format html --out dist/ebook.html
-python build.py --format docx --out dist/ebook.docx
-python build.py --format epub --out dist/ebook.epub
+### Build com Pandoc (qualquer projeto):
+```bash
+# Navegue até a pasta do projeto
+cd projects/eyelid-surgery  # ou projects/modern-face/ebook-1
+
+# Gere HTML
+pandoc dist/ebook_completo.md -o dist/ebook.html --css=assets/style.css
+
+# Gere DOCX
+pandoc dist/ebook_completo.md -o dist/ebook.docx
+
+# Gere PDF (requer LaTeX)
+pandoc dist/ebook_completo.md -o dist/ebook.pdf
 ```
 
 ### Estilo visual

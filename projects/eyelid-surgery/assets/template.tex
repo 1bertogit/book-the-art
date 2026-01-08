@@ -1,0 +1,209 @@
+% Template LaTeX — The Art of Eyelid Surgery
+% Baseado em padrões de livros médicos (Springer/Elsevier)
+% Autor: Dr. Marcelo Cury
+
+\documentclass[11pt,a4paper,twoside,openright]{book}
+
+% ═══════════════════════════════════════════════════════════════════════════
+% PACOTES ESSENCIAIS
+% ═══════════════════════════════════════════════════════════════════════════
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{portuguese}
+
+% Geometria da página (margens para impressão)
+\usepackage[
+  top=2.5cm,
+  bottom=2.5cm,
+  inner=3cm,      % Margem interna (encadernação)
+  outer=2cm,      % Margem externa
+  headheight=15pt,
+  headsep=1cm,
+  footskip=1.5cm
+]{geometry}
+
+% Tipografia
+\setmainfont{Palatino}
+\setsansfont{Helvetica Neue}
+\setmonofont{Courier New}
+
+% Cores
+\usepackage{xcolor}
+\definecolor{medblue}{RGB}{0,51,102}
+\definecolor{lightgray}{RGB}{245,245,245}
+\definecolor{darkgray}{RGB}{100,100,100}
+
+% Gráficos e figuras
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[font=small,labelfont=bf]{caption}
+
+% Links e referências
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=medblue,
+  citecolor=medblue,
+  urlcolor=medblue,
+  bookmarksnumbered=true,
+  pdfstartview=FitH
+}
+
+% Cabeçalhos e rodapés
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\small\textit{\leftmark}}
+\fancyhead[RO]{\small\textit{\rightmark}}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[C]{\small\textit{The Art of Eyelid Surgery}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Estilo de capítulo limpo
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[LE,RO]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+% Sumário
+\usepackage{tocloft}
+\setlength{\cftbeforechapskip}{0.5em}
+\renewcommand{\cftchapfont}{\bfseries}
+\renewcommand{\cftchappagefont}{\bfseries}
+
+% Listas e espaçamento
+\usepackage{enumitem}
+\setlist{nosep, leftmargin=*}
+
+% Boxes clínicos (blockquotes)
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+\newtcolorbox{clinicalbox}[1][]{
+  colback=blue!5!white,
+  colframe=medblue,
+  fonttitle=\bfseries,
+  title=#1,
+  breakable,
+  enhanced,
+  boxrule=0.5pt,
+  arc=2pt,
+  left=10pt,
+  right=10pt,
+  top=8pt,
+  bottom=8pt
+}
+
+% Redefinir blockquote para usar clinicalbox
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\begin{clinicalbox}[Nota Clínica]}
+\AtEndEnvironment{quote}{\end{clinicalbox}}
+
+% Código (se necessário)
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  backgroundcolor=\color{lightgray}
+}
+
+% Espaçamento entre parágrafos
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+
+% Compatibilidade com Pandoc 3.8+ (novo sistema de estrutura)
+\providecommand{\NewStructureName}[2]{}
+\providecommand{\SetStructureName}[2]{}
+
+% CSL macros (para citações)
+$if(csl-refs)$
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow resolve resolving of braces in \cite
+ \let\@citationargs\relax
+\makeatother
+$endif$
+
+% ═══════════════════════════════════════════════════════════════════════════
+% METADADOS (preenchidos por Pandoc)
+% ═══════════════════════════════════════════════════════════════════════════
+
+$if(title)$
+\title{$title$}
+$endif$
+
+$if(subtitle)$
+\newcommand{\subtitle}{$subtitle$}
+$endif$
+
+$if(author)$
+\author{$author$}
+$endif$
+
+$if(date)$
+\date{$date$}
+$else$
+\date{\today}
+$endif$
+
+% ═══════════════════════════════════════════════════════════════════════════
+% INÍCIO DO DOCUMENTO
+% ═══════════════════════════════════════════════════════════════════════════
+
+\begin{document}
+
+% Página de rosto
+\frontmatter
+
+\begin{titlepage}
+  \centering
+  \vspace*{2cm}
+  
+  {\Huge\bfseries $title$\par}
+  \vspace{0.5cm}
+  $if(subtitle)$
+  {\Large $subtitle$\par}
+  $endif$
+  
+  \vspace{2cm}
+  
+  {\Large\textbf{$author$}\par}
+  
+  \vfill
+  
+  {\large $date$\par}
+  
+  \vspace{1cm}
+  
+  $if(rights)$
+  {\small $rights$\par}
+  $endif$
+  
+\end{titlepage}
+
+% Sumário
+$if(toc)$
+\tableofcontents
+\cleardoublepage
+$endif$
+
+% Corpo do livro
+\mainmatter
+
+$body$
+
+% Bibliografia (se houver)
+$if(bibliography)$
+\backmatter
+\bibliographystyle{plain}
+\bibliography{$bibliography$}
+$endif$
+
+\end{document}

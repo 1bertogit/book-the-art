@@ -1,0 +1,80 @@
+# Termos técnicos a MANTER em negrito (primeira ocorrência)
+# Um termo por linha, case-insensitive
+
+# Conceitos-chave do livro
+operar
+rejuvenescer
+continuidade de luz e sombra
+deflação volumétrica
+falha de sustentação
+esqueletização da órbita
+
+# Anatomia crítica
+vetor negativo
+vetor positivo
+vetor neutro
+septo orbitário
+gordura periorbitária
+ligamentos retentores
+canto lateral
+glândula lacrimal
+ROOF
+SOOF
+lamela anterior
+lamela posterior
+tarso
+músculo orbicular
+aponeurose do elevador
+músculo de Müller
+
+# Técnicas cirúrgicas
+tarsal strip
+cantoplastia
+cantopexia
+blefaroplastia transconjuntival
+blefaroplastia transcutânea
+lifting de sobrancelha
+brow lift
+fat repositioning
+fat transposition
+preenchimento profundo
+skin pinch
+
+# Diagnósticos
+bolsa palpebral
+malar mound
+festoon
+dermatocálase
+ptose palpebral
+ectrópio
+entrópio
+lagoftalmo
+retração palpebral
+scleral show
+
+# Medidas e sinais
+MRD1
+MRD2
+snapback test
+distraction test
+fenômeno de Bell
+
+# Complicações
+hematoma retrobulbar
+compressão orbitária
+síndrome compartimental
+
+# Labels de seção (sempre manter)
+Indicar quando
+Evitar quando
+Aplicar quando
+Erro comum
+Erro Nota 7
+Regra de ouro
+Ponto clínico-chave
+Prevenção
+Resgate
+Consequência
+Nota clínica
+Alerta
+Leitura guiada

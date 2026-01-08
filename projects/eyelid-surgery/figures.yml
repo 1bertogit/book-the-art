@@ -1,0 +1,327 @@
+# Registro de Figuras — The Art of Eyelid Surgery
+# Fonte única da verdade para imagens do livro
+# 
+# Campos:
+#   id: Identificador único (FIG-XX-YY)
+#   chapter: Número do capítulo
+#   title: Título do capítulo
+#   caption: Legenda da figura para o livro
+#   filename: Nome do arquivo em assets/figures/
+#   priority: P0 (crítica), P1 (importante), P2 (complementar)
+#   status: draft | review | final
+#   source: ai | photo | diagram | external
+#   placement: Onde inserir no texto (after-title, after-section-X, inline)
+
+figures:
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # PARTE I — FUNDAMENTOS
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  FIG-01-01:
+    chapter: 1
+    title: "Filosofia do Rejuvenescimento"
+    caption: "Operar versus rejuvenescer: a diferença fundamental entre intervenção técnica e restauração harmônica do olhar."
+    filename: "FIG-01-01_filosofia-rejuvenescimento.png"
+    priority: P1
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-02-01:
+    chapter: 2
+    title: "Luz e Sombra"
+    caption: "Unidades estéticas periorbitárias e a gramática de luz e sombra que define juventude ou envelhecimento."
+    filename: "FIG-02-01_luz-sombra-periorbitario.png"
+    priority: P0
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-03-01:
+    chapter: 3
+    title: "Envelhecimento Multifatorial"
+    caption: "Tríade do envelhecimento periorbital: deflação adiposa, frouxidão ligamentar e remodelação óssea."
+    filename: "FIG-03-01_envelhecimento-multifatorial.png"
+    priority: P0
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-04-01:
+    chapter: 4
+    title: "Anatomia Cirúrgica"
+    caption: "Anatomia em camadas: lamela anterior, septo orbital, compartimentos adiposos e ligamentos retentores (ORL, ZCL)."
+    filename: "FIG-04-01_lamelas-septo-ligamentos.png"
+    priority: P0
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-05-01:
+    chapter: 5
+    title: "Mapas de Risco"
+    caption: "Zonas de segurança e perigo: estruturas neurovasculares críticas e planos anatômicos de dissecção."
+    filename: "FIG-05-01_mapa-risco-zonas.png"
+    priority: P0
+    status: final
+    source: ai
+    placement: after-title
+
+  # Capítulo 06 — Checklist Mental (sem figura principal - conteúdo textual)
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # PARTE II — AVALIAÇÃO E PLANEJAMENTO
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  FIG-07-01:
+    chapter: 7
+    title: "Fotodocumentação"
+    caption: "Protocolo de fotografia: iluminação sem flash vs com flash e padronização de ângulos para análise precisa."
+    filename: "FIG-07-01_fotodocumentacao-sem-flash-com-flash-padronizada.png"
+    priority: P1
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-08-01:
+    chapter: 8
+    title: "Exame Físico"
+    caption: "Avaliação sistemática: vetores palpebrais, testes de flacidez (snap test, distraction test) e assimetrias."
+    filename: "FIG-08-01_vetores-testes-assimetrias.png"
+    priority: P0
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-09-01:
+    chapter: 9
+    title: "Consulta e Expectativa"
+    caption: "Alinhamento diagnóstico: do pedido estético do paciente à tradução em necessidade anatômica real."
+    filename: "FIG-09-01_consulta-pedido-anatomia-plano.png"
+    priority: P1
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-10-01:
+    chapter: 10
+    title: "Algoritmos por Fenótipo"
+    caption: "Fluxo decisório: pálpebra superior isolada, inferior isolada, terço médio e casos combinados."
+    filename: "FIG-10-01_algoritmo-fenotipos.png"
+    priority: P0
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-11-01:
+    chapter: 11
+    title: "Marcação e Medidas"
+    caption: "Técnica de marcação: pontos de referência, busca de simetria e princípios de conservadorismo."
+    filename: "FIG-11-01_marcacao-medidas-simetria.png"
+    priority: P0
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-12-01:
+    chapter: 12
+    title: "Anestesia e Hemostasia"
+    caption: "Infiltração anestésica: pontos de bloqueio, controle hemostático e cuidados do pós-operatório imediato."
+    filename: "FIG-12-01_anestesia-infiltracao-hemostasia-pos-imediato.png"
+    priority: P1
+    status: final
+    source: ai
+    placement: after-title
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # PARTE III — TÉCNICAS CIRÚRGICAS
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  FIG-13-01:
+    chapter: 13
+    title: "Brow Management"
+    caption: "Por que blefaroplastia isolada falha: critérios de Connell e indicações de elevação do supercílio."
+    filename: "FIG-13-01_brow-management-comparativo.png"
+    priority: P0
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-14-01:
+    chapter: 14
+    title: "Técnicas de Brow Lift"
+    caption: "Comparativo de técnicas: temporal direto, endoscópico e Castañares modificado."
+    filename: "FIG-14-01_browlift-temporal-endoscopico.png"
+    priority: P1
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-15-01:
+    chapter: 15
+    title: "Blefaroplastia Superior"
+    caption: "Técnica de ressecção cutânea com preservação de gordura e respeito à glândula lacrimal."
+    filename: "FIG-15-01_blef-superior-preservacao.png"
+    priority: P0
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-16-01:
+    chapter: 16
+    title: "Ptose Associada"
+    caption: "Reconhecimento e integração da ptose palpebral ao plano cirúrgico: avaliação da função do levador."
+    filename: "FIG-16-01_ptose-avaliacao-integracao.png"
+    priority: P1
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-17-01:
+    chapter: 17
+    title: "Transconjuntival"
+    caption: "Abordagem transconjuntival da pálpebra inferior: septo orbital e manejo das bolsas adiposas."
+    filename: "FIG-17-01_transconjuntival-septo-bolsas.png"
+    priority: P0
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-18-01:
+    chapter: 18
+    title: "Transposição de Gordura"
+    caption: "Redistribuição adiposa: técnica de transposição para sulco nasojugal e lid-cheek junction."
+    filename: "FIG-18-01_transposicao-gordura-lid-cheek..png"
+    priority: P0
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-19-01:
+    chapter: 19
+    title: "Manejo de Pele Inferior"
+    caption: "Skin pinch: ressecção conservadora de pele sem descolamento amplo do músculo orbicular."
+    filename: "FIG-19-01_skin-pinch-refinamentos.png"
+    priority: P1
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-20-01:
+    chapter: 20
+    title: "Festoon e Edema Malar"
+    caption: "Fisiopatologia e opções terapêuticas: plicatura do orbicular, espaço pré-malar e técnicas ablativas."
+    filename: "FIG-20-01_festoons-edema-malar.png"
+    priority: P1
+    status: final
+    source: ai
+    placement: after-title
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # PARTE IV — SUSTENTAÇÃO E CANTO LATERAL
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  FIG-21-01:
+    chapter: 21
+    title: "Sustentação"
+    caption: "Árvore decisória: quando cantopexia resolve o problema e quando é insuficiente."
+    filename: "FIG-21-01_sustentacao-cantopexia-decisao.png"
+    priority: P0
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-22-01:
+    chapter: 22
+    title: "Cantopexia vs Cantoplastia"
+    caption: "Diferenças fundamentais: indicações por vetor palpebral e grau de frouxidão ligamentar."
+    filename: "FIG-22-01_cantopexia-vs-cantoplastia.png"
+    priority: P0
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-23-01:
+    chapter: 23
+    title: "Técnicas de Canto Lateral"
+    caption: "Comparativo de técnicas: Mladick, Tarsal Strip e McCord com suas variações."
+    filename: "FIG-23-01_mladick-strip-mccord.png"
+    priority: P0
+    status: final
+    source: ai
+    placement: after-title
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # PARTE V — VOLUME
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  FIG-24-01:
+    chapter: 24
+    title: "Microfat"
+    caption: "Lipoenxertia periorbital: coleta, preparo, zonas de injeção justa-periostal e volumes seguros."
+    filename: "FIG-24-01_microfat-fluxo-zonas.png"
+    priority: P1
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-25-01:
+    chapter: 25
+    title: "Nanofat"
+    caption: "Nanofat para qualidade de pele: tratamento de olheiras, cicatrizes e textura periorbital."
+    filename: "FIG-25-01_nanofat-qualidade-pele.png"
+    priority: P1
+    status: final
+    source: ai
+    placement: after-title
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # PARTE VI — FUNCIONAL E RECONSTRUÇÃO
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  FIG-26-01:
+    chapter: 26
+    title: "Cirurgia Funcional"
+    caption: "Princípios das lamelas: ectrópio, entrópio e retração palpebral com enfoque reconstrutivo."
+    filename: "FIG-26-01_ectropio-entropio-lamelas.png"
+    priority: P1
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-27-01:
+    chapter: 27
+    title: "Reconstrução Pós-Tumor"
+    caption: "Retalhos clássicos de reconstrução: Tenzel, Hughes, Cutler-Beard e Mustardé."
+    filename: "FIG-27-01_retalhos-classicos.png"
+    priority: P1
+    status: final
+    source: ai
+    placement: after-title
+
+  FIG-28-01:
+    chapter: 28
+    title: "Complicações e Revisões"
+    caption: "Prevenção, estratégias de resgate e gestão de expectativas em cirurgia palpebral."
+    filename: "FIG-28-01_complicacoes-resgate-precificacao.png"
+    priority: P1
+    status: final
+    source: ai
+    placement: after-title
+
+# ═══════════════════════════════════════════════════════════════════════════
+# ESTATÍSTICAS
+# ═══════════════════════════════════════════════════════════════════════════
+#
+# Total de figuras: 27
+# P0 (críticas): 14
+# P1 (importantes): 13
+# P2 (complementares): 0
+#
+# Capítulos sem figura: 06 (Checklist Mental - conteúdo textual)
+#
+# Status:
+#   final: 27
+#   review: 0
+#   draft: 0

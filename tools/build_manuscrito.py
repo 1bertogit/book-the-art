@@ -20,9 +20,10 @@ from pathlib import Path
 from datetime import datetime
 
 ROOT = Path(__file__).resolve().parents[1]
-CONTENT_DIR = ROOT / "content"
+CONTENT_DIR = ROOT / "projects" / "eyelid-surgery" / "content"
 OUT_FILE = CONTENT_DIR / "00_MANUSCRITO.md"
 SUMARIO = CONTENT_DIR / "00_SUMARIO_MESTRE.md"
+FRONT_MATTER = CONTENT_DIR / "00_FRONT_MATTER.md"
 
 # Regex para extrair links do sumário: [Título](./arquivo.md)
 LINK_RE = re.compile(r"\]\(\./([^)]+\.md)\)")
@@ -87,14 +88,24 @@ def main() -> int:
     # Construir manuscrito
     parts: list[str] = []
 
-    # Cabeçalho
-    now = datetime.now().strftime("%Y-%m-%d %H:%M")
-    parts.append("# The Art of Eyelid Surgery — Manuscrito Consolidado\n\n")
-    parts.append(f"> Gerado automaticamente em {now}\n")
-    parts.append("> Fonte: `00_SUMARIO_MESTRE.md`\n")
-    if args.clean:
-        parts.append("> Tags internas removidas (modo --clean)\n")
-    parts.append("\n---\n")
+    # Front Matter Editorial (se existir)
+    if FRONT_MATTER.exists():
+        front_text = FRONT_MATTER.read_text(encoding="utf-8").strip()
+        if args.clean:
+            front_text = clean_text(front_text)
+        parts.append(front_text)
+        parts.append("\n\n---\n\n")
+        print(f"   ✓ Front matter incluído: {FRONT_MATTER.name}")
+    else:
+        # Cabeçalho automático (fallback)
+        now = datetime.now().strftime("%Y-%m-%d %H:%M")
+        parts.append("# The Art of Eyelid Surgery — Manuscrito Consolidado\n\n")
+        parts.append(f"> Gerado automaticamente em {now}\n")
+        parts.append("> Fonte: `00_SUMARIO_MESTRE.md`\n")
+        if args.clean:
+            parts.append("> Tags internas removidas (modo --clean)\n")
+        parts.append("\n---\n")
+        print("   ⚠ Front matter não encontrado, usando cabeçalho automático")
 
     # Concatenar capítulos
     missing = 0
