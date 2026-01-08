@@ -108,6 +108,7 @@ premium-pdf: export fix-figures ## Gera PDF premium (qualidade editorial)
 		--from markdown \
 		--template $(PREMIUM_TEMPLATE) \
 		--pdf-engine=xelatex \
+		--top-level-division=chapter \
 		--toc \
 		--toc-depth=2 \
 		--number-sections \

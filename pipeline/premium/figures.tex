@@ -1,52 +1,40 @@
 % ═══════════════════════════════════════════════════════════════════════════
-% TIPOGRAFIA PREMIUM — The Art of Eyelid Surgery
+% FIGURAS E LEGENDAS — The Art of Eyelid Surgery
 % ═══════════════════════════════════════════════════════════════════════════
-% Módulo de tipografia para publicação premium
-% Fontes otimizadas para leitura em livros médicos
+% Configuração de figuras para publicação médica premium
+% Estilo: editorial (Nature, NEJM, Springer)
 % ═══════════════════════════════════════════════════════════════════════════
-% REQUER: XeLaTeX (para fontspec e microtype avançado)
-% DEPENDÊNCIA: Nenhuma (módulo independente)
+% DEPENDÊNCIA: colors.tex (usa medblue)
 % ═══════════════════════════════════════════════════════════════════════════
 
-% Fontes via fontspec (requer XeLaTeX)
-\usepackage{fontspec}
-\usepackage{polyglossia}
-\setmainlanguage{portuguese}
+\usepackage{graphicx}
+\usepackage{float}
 
 % ───────────────────────────────────────────────────────────────────────────
-% FONTES PRINCIPAIS (macOS)
+% LEGENDAS DE FIGURAS
 % ───────────────────────────────────────────────────────────────────────────
 
-% Fonte principal: Charter (elegante, excelente legibilidade médica)
-\setmainfont{Charter}
-
-% Fonte sans-serif: Helvetica Neue (moderna, clean para headers)
-\setsansfont{Helvetica Neue}
-
-% Fonte monospace: Menlo (código, dados técnicos)
-\setmonofont{Menlo}[Scale=0.9]
-
-% ───────────────────────────────────────────────────────────────────────────
-% MICROTIPOGRAFIA (qualidade editorial)
-% ───────────────────────────────────────────────────────────────────────────
-% Melhora kerning, ligaduras e justificação de texto
-% Resultado: texto mais "polido" e profissional
-
-\usepackage{microtype}
-\microtypesetup{
-  protrusion=true,    % Pequenas projeções para melhor margem visual
-  expansion=true,     % Expansão/contração sutil para melhor justificação
-  tracking=false,     % Desativado (pode prejudicar Charter)
-  kerning=true,       % Ajuste de espaço entre caracteres
-  spacing=true        % Ajuste de espaço entre palavras
-}
+\usepackage[
+  font={small,sf},              % Pequena, sans-serif
+  labelfont={bf,color=medblue}, % Label em negrito azul ("Figura 1.")
+  labelsep=period,              % "Figura 1." não "Figura 1:"
+  justification=justified,      % Justificado
+  singlelinecheck=false,        % Força justificado mesmo em legendas curtas
+  skip=8pt                      % Espaço entre figura e legenda
+]{caption}
 
 % ───────────────────────────────────────────────────────────────────────────
-% ESPAÇAMENTO E PARÁGRAFOS
+% SUBFIGURAS (opcional - para figuras A, B, C)
 % ───────────────────────────────────────────────────────────────────────────
 
-\setlength{\parindent}{0pt}   % Sem indentação (estilo moderno)
-\setlength{\parskip}{0.6em}   % Espaço entre parágrafos
+\usepackage{subcaption}
 
-\usepackage{setspace}
-\setstretch{1.15}             % Entrelinha levemente aumentada (legibilidade)
+% ───────────────────────────────────────────────────────────────────────────
+% POSICIONAMENTO DE FLOATS
+% ───────────────────────────────────────────────────────────────────────────
+
+% Parâmetros mais permissivos para posicionamento de figuras
+\renewcommand{\topfraction}{0.85}      % Máx de página para floats no topo
+\renewcommand{\bottomfraction}{0.85}   % Máx de página para floats no fundo
+\renewcommand{\textfraction}{0.15}     % Mín de texto necessário
+\renewcommand{\floatpagefraction}{0.7} % Mín para página só de floats

@@ -1,52 +1,89 @@
 % ═══════════════════════════════════════════════════════════════════════════
-% TIPOGRAFIA PREMIUM — The Art of Eyelid Surgery
+% FRONTMATTER — The Art of Eyelid Surgery
 % ═══════════════════════════════════════════════════════════════════════════
-% Módulo de tipografia para publicação premium
-% Fontes otimizadas para leitura em livros médicos
+% Página de título, sumário e estrutura front matter
+% Estilo: editorial premium (livro médico internacional)
 % ═══════════════════════════════════════════════════════════════════════════
-% REQUER: XeLaTeX (para fontspec e microtype avançado)
-% DEPENDÊNCIA: Nenhuma (módulo independente)
+% DEPENDÊNCIA: colors.tex (usa darkblue, medblue, footergray)
 % ═══════════════════════════════════════════════════════════════════════════
 
-% Fontes via fontspec (requer XeLaTeX)
-\usepackage{fontspec}
-\usepackage{polyglossia}
-\setmainlanguage{portuguese}
-
 % ───────────────────────────────────────────────────────────────────────────
-% FONTES PRINCIPAIS (macOS)
+% COMANDO: PÁGINA DE TÍTULO
+% REQUER: Pandoc variables $title$, $author$, $date$ (defaults em template.tex)
 % ───────────────────────────────────────────────────────────────────────────
 
-% Fonte principal: Charter (elegante, excelente legibilidade médica)
-\setmainfont{Charter}
+\newcommand{\makebooktitle}{
+  \begin{titlepage}
+    \centering
+    \vspace*{3cm}
 
-% Fonte sans-serif: Helvetica Neue (moderna, clean para headers)
-\setsansfont{Helvetica Neue}
+    % Título principal
+    {\fontsize{36}{42}\selectfont\bfseries\sffamily\textcolor{darkblue}{$title$}\par}
 
-% Fonte monospace: Menlo (código, dados técnicos)
-\setmonofont{Menlo}[Scale=0.9]
+    \vspace{0.8cm}
 
-% ───────────────────────────────────────────────────────────────────────────
-% MICROTIPOGRAFIA (qualidade editorial)
-% ───────────────────────────────────────────────────────────────────────────
-% Melhora kerning, ligaduras e justificação de texto
-% Resultado: texto mais "polido" e profissional
+    % Subtítulo (se existir)
+    $if(subtitle)$
+    {\Large\sffamily\textcolor{medblue}{$subtitle$}\par}
+    $endif$
 
-\usepackage{microtype}
-\microtypesetup{
-  protrusion=true,    % Pequenas projeções para melhor margem visual
-  expansion=true,     % Expansão/contração sutil para melhor justificação
-  tracking=false,     % Desativado (pode prejudicar Charter)
-  kerning=true,       % Ajuste de espaço entre caracteres
-  spacing=true        % Ajuste de espaço entre palavras
+    \vspace{3cm}
+
+    % Autor
+    {\LARGE\bfseries $author$\par}
+
+    \vspace{0.5cm}
+
+    % Credenciais
+    {\large\sffamily Cirurgião Plástico — Especialista em Cirurgia Palpebral\par}
+    {\large\sffamily Rio de Janeiro, Brasil\par}
+
+    \vfill
+
+    % Edição
+    {\large\sffamily 1ª Edição — $date$\par}
+
+    \vspace{1cm}
+
+    % Direitos
+    $if(rights)$
+    {\small\textcolor{footergray}{$rights$}\par}
+    $endif$
+
+  \end{titlepage}
 }
 
 % ───────────────────────────────────────────────────────────────────────────
-% ESPAÇAMENTO E PARÁGRAFOS
+% COMANDO: SUMÁRIO
 % ───────────────────────────────────────────────────────────────────────────
 
-\setlength{\parindent}{0pt}   % Sem indentação (estilo moderno)
-\setlength{\parskip}{0.6em}   % Espaço entre parágrafos
+\newcommand{\makebooktoc}{
+  $if(toc)$
+  \tableofcontents
+  \cleardoublepage
+  $endif$
+}
 
-\usepackage{setspace}
-\setstretch{1.15}             % Entrelinha levemente aumentada (legibilidade)
+% ───────────────────────────────────────────────────────────────────────────
+% COMANDO: PÁGINA DE DEDICATÓRIA (opcional)
+% ───────────────────────────────────────────────────────────────────────────
+
+\newcommand{\makededicationpage}[1]{
+  \thispagestyle{empty}
+  \vspace*{5cm}
+  \begin{flushright}
+    \itshape #1
+  \end{flushright}
+  \cleardoublepage
+}
+
+% ───────────────────────────────────────────────────────────────────────────
+% COMANDO: PÁGINA DE PREFÁCIO
+% ───────────────────────────────────────────────────────────────────────────
+
+\newcommand{\makeprefacepage}[2]{
+  \chapter*{#1}
+  \addcontentsline{toc}{chapter}{#1}
+  #2
+  \cleardoublepage
+}

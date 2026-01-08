@@ -1,43 +1,56 @@
 % ═══════════════════════════════════════════════════════════════════════════
 % PALETA DE CORES — The Art of Eyelid Surgery
 % ═══════════════════════════════════════════════════════════════════════════
-% Cores otimizadas para livros médicos didáticos
-% Inspirado em publicações Thieme/AO
+% Cores SUTIS para publicação médica de qualidade editorial
+% Inspiração: Nature, NEJM, Springer (não slides!)
+%
+% Filosofia: bordas finas, backgrounds quase-brancos
 % ═══════════════════════════════════════════════════════════════════════════
 
 \usepackage{xcolor}
 
 % ───────────────────────────────────────────────────────────────────────────
-% CORES PRINCIPAIS
+% CORES PRINCIPAIS (estruturais)
 % ───────────────────────────────────────────────────────────────────────────
 
 \definecolor{medblue}{RGB}{0,82,147}        % Azul médico (headers, links)
-\definecolor{darkblue}{RGB}{0,51,102}       % Azul escuro (títulos)
-\definecolor{lightblue}{RGB}{230,240,250}   % Azul claro (backgrounds)
+\definecolor{darkblue}{RGB}{0,51,102}       % Azul escuro (títulos capítulos)
+\definecolor{lightblue}{RGB}{245,248,252}   % Azul muito claro (backgrounds)
 
 % ───────────────────────────────────────────────────────────────────────────
-% CORES DE BOXES CLÍNICOS
+% CORES DE BORDAS DOS BOXES (muted/editorial)
+% Tons suaves, sem saturação excessiva
 % ───────────────────────────────────────────────────────────────────────────
 
-% Vermelho (Atenção/Alerta)
-\definecolor{alertred}{RGB}{180,40,40}
-\definecolor{alertbg}{RGB}{255,240,240}
+\definecolor{alertborder}{RGB}{140,60,60}     % Burgundy muted (atenção)
+\definecolor{pearlborder}{RGB}{120,100,50}    % Ocre muted (pérola)
+\definecolor{techborder}{RGB}{60,100,80}      % Teal muted (técnica)
+\definecolor{evidenceborder}{RGB}{70,100,130} % Slate muted (evidência)
+\definecolor{noteborder}{RGB}{100,120,140}    % Cinza-azulado (nota)
 
-% Dourado (Pérola Clínica)
-\definecolor{pearlgold}{RGB}{180,140,20}
-\definecolor{pearlbg}{RGB}{255,250,230}
+% ───────────────────────────────────────────────────────────────────────────
+% CORES DE FUNDO DOS BOXES (quase-branco)
+% Apenas um leve toque de cor, imperceptível na tela
+% ───────────────────────────────────────────────────────────────────────────
 
-% Verde (Técnica/Dica)
-\definecolor{techgreen}{RGB}{40,120,80}
-\definecolor{techbg}{RGB}{235,250,240}
+\definecolor{alertbg}{RGB}{252,248,248}       % Toque de calor
+\definecolor{pearlbg}{RGB}{252,251,246}       % Toque de creme
+\definecolor{techbg}{RGB}{248,252,250}        % Toque de frescor
+\definecolor{evidencebg}{RGB}{248,250,252}    % Toque de azul
+\definecolor{notebg}{RGB}{250,251,252}        % Quase branco puro
 
-% Azul (Evidência)
-\definecolor{evidenceblue}{RGB}{50,100,150}
-\definecolor{evidencebg}{RGB}{235,245,255}
+% ───────────────────────────────────────────────────────────────────────────
+% CORES LEGADAS (mantidas para compatibilidade)
+% ───────────────────────────────────────────────────────────────────────────
+
+\definecolor{alertred}{RGB}{140,60,60}        % Alias para alertborder
+\definecolor{pearlgold}{RGB}{120,100,50}      % Alias para pearlborder
+\definecolor{techgreen}{RGB}{60,100,80}       % Alias para techborder
+\definecolor{evidenceblue}{RGB}{70,100,130}   % Alias para evidenceborder
 
 % ───────────────────────────────────────────────────────────────────────────
 % CORES AUXILIARES
 % ───────────────────────────────────────────────────────────────────────────
 
-\definecolor{chaptergray}{RGB}{80,80,80}    % Cinza para número de capítulo
-\definecolor{footergray}{RGB}{120,120,120}  % Cinza para rodapé
+\definecolor{chaptergray}{RGB}{80,80,80}      % Cinza para número de capítulo
+\definecolor{footergray}{RGB}{120,120,120}    % Cinza para rodapé
