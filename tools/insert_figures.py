@@ -12,13 +12,10 @@ Uso:
     python3 tools/insert_figures.py
 """
 
-from pathlib import Path
 import re
 
+from _config import CONTENT_DIR as CONTENT, FIGURES_DIR as FIGURES
 from _utils import atomic_write
-
-CONTENT = Path("content")
-FIGURES = Path("assets/figures")
 
 
 def get_figure_caption(cap: str, idx: int, filename: str) -> str:

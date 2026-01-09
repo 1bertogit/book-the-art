@@ -16,7 +16,10 @@ import argparse
 import difflib
 import re
 import sys
+
 from pathlib import Path
+
+from _config import CONTENT_DIR, SKIP_FILE_PREFIXES, SKIP_FILES
 
 # MAPEAMENTO: "autor citado" -> "ID"
 AUTHOR_TO_ID = {
@@ -106,8 +109,9 @@ def main() -> int:
     )
     ap.add_argument(
         "--root",
-        default="content",
-        help="Pasta raiz (default: content)"
+        type=str,
+        default=None,
+        help=f"Pasta raiz (default: {CONTENT_DIR})"
     )
     ap.add_argument(
         "--glob",
@@ -116,24 +120,20 @@ def main() -> int:
     )
     args = ap.parse_args()
 
-    root = Path(args.root)
+    root = CONTENT_DIR if args.root is None else Path(args.root)
     if not root.exists():
         print(f"Erro: pasta '{root}' não existe.")
         return 1
 
     files = sorted(root.glob(args.glob))
 
-    # Arquivos a pular
-    skip_prefixes = ("00_", "99_")
-    skip_names = {"MOVE_MAP.md"}
-
     changed = 0
     total_replacements = 0
 
     for fp in files:
-        if fp.name.startswith(skip_prefixes):
+        if fp.name.startswith(SKIP_FILE_PREFIXES):
             continue
-        if fp.name in skip_names:
+        if fp.name in SKIP_FILES:
             continue
 
         original = fp.read_text(encoding="utf-8")

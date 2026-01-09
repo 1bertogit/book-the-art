@@ -12,15 +12,15 @@ Uso:
 from __future__ import annotations
 
 import re
-from pathlib import Path
 import yaml
 
-ROOT = Path(__file__).resolve().parents[1]
-PROJECT_DIR = ROOT / "projects" / "eyelid-surgery"
-CONTENT_DIR = PROJECT_DIR / "content"
-FIGURES_DIR = PROJECT_DIR / "assets" / "figures"
-FIGURES_YAML = PROJECT_DIR / "figures.yml"
-DIST_DIR = ROOT / "dist"
+from _config import (
+    CONTENT_DIR,
+    FIGURES_DIR,
+    FIGURES_YAML,
+    DIST_DIR,
+)
+
 MANUSCRITO_LIMPO = DIST_DIR / "manuscrito_limpo.md"
 
 # Regex para encontrar chamadas de figura: ![Texto](path)

@@ -19,9 +19,8 @@ import re
 from pathlib import Path
 from datetime import datetime
 
-ROOT = Path(__file__).resolve().parents[1]
-CONTENT_DIR = ROOT / "projects" / "eyelid-surgery" / "content"
-DIST_DIR = ROOT / "dist"
+from _config import CONTENT_DIR, DIST_DIR
+
 INPUT_FILE = CONTENT_DIR / "00_MANUSCRITO.md"
 DEFAULT_OUT = DIST_DIR / "manuscrito_limpo.md"
 

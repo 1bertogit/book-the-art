@@ -3,24 +3,18 @@
 
 from __future__ import annotations
 
-import re
-from pathlib import Path
 from dataclasses import dataclass
 from typing import Dict, List, Tuple
 
-
-ROOT = Path(__file__).resolve().parents[1]
-CONTENT = ROOT / "projects" / "eyelid-surgery" / "content"
-
-MOVE_RE = re.compile(r"\[\[MOVE:\s*CAP-(\d+|XX)\s*\]\]", re.IGNORECASE)
-REF_RE = re.compile(r"\[\[REF\]\]", re.IGNORECASE)
-FIG_RE = re.compile(r"\*\*Figura sugerida[:\*]*|FIG-\d+", re.IGNORECASE)
-
-# Pega o primeiro H1 do arquivo como "título do capítulo"
-H1_RE = re.compile(r"^#\s+(.+?)\s*$", re.MULTILINE)
-
-# Heurística: capítulo é o prefixo numérico do filename (ex: 24-....md)
-FILE_CAP_RE = re.compile(r"^(\d+)[-_].+\.md$", re.IGNORECASE)
+from _config import (
+    CONTENT_DIR as CONTENT,
+    MOVE_RE,
+    REF_RE,
+    FIG_SUGERIDA_RE as FIG_RE,
+    H1_RE,
+    FILE_CAP_RE,
+    SKIP_FILES,
+)
 
 
 @dataclass
@@ -51,7 +45,6 @@ def title_from_md(text: str, fallback: str) -> str:
     return m.group(1).strip() if m else fallback
 
 
-SKIP_FILES = {"MOVE_MAP.md", "00_SUMARIO_MESTRE.md", "00_MAPA_DE_LINKS_MOVE.md", "00_BACKLOG_ARTE.md", "00_BACKLOG_REFERENCIAS.md", "00_MANUSCRITO.md", "00_FRONT_MATTER.md"}
 
 
 def main() -> None:

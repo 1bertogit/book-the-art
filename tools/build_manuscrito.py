@@ -16,11 +16,10 @@ from __future__ import annotations
 
 import argparse
 import re
-from pathlib import Path
 from datetime import datetime
 
-ROOT = Path(__file__).resolve().parents[1]
-CONTENT_DIR = ROOT / "projects" / "eyelid-surgery" / "content"
+from _config import CONTENT_DIR
+
 OUT_FILE = CONTENT_DIR / "00_MANUSCRITO.md"
 SUMARIO = CONTENT_DIR / "00_SUMARIO_MESTRE.md"
 FRONT_MATTER = CONTENT_DIR / "00_FRONT_MATTER.md"

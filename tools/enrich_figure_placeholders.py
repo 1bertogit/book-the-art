@@ -15,10 +15,8 @@ from __future__ import annotations
 
 import argparse
 import re
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-CONTENT_DIR = ROOT / "projects" / "eyelid-surgery" / "content"
+from _config import CONTENT_DIR
 
 # Mapeamento de capítulos para contexto de figuras
 CHAPTER_CONTEXT = {

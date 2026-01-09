@@ -12,15 +12,14 @@ from __future__ import annotations
 
 import argparse
 import re
-from pathlib import Path
 from typing import Dict, List, Set, Tuple
 import yaml
 
-ROOT = Path(__file__).resolve().parents[1]
-PROJECT_DIR = ROOT / "projects" / "eyelid-surgery"
-CONTENT_DIR = PROJECT_DIR / "content"
-FIGURES_DIR = PROJECT_DIR / "assets" / "figures"
-FIGURES_YAML = PROJECT_DIR / "figures.yml"
+from _config import (
+    CONTENT_DIR,
+    FIGURES_DIR,
+    FIGURES_YAML,
+)
 
 # Regex para encontrar chamadas de figura no Markdown
 # Padrão: ![Figura XX.Y — Legenda](caminho)

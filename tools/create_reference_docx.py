@@ -13,13 +13,13 @@ Uso:
     python3 tools/create_reference_docx.py
 """
 
-from pathlib import Path
 from docx import Document
 from docx.shared import Pt, Inches, RGBColor
 from docx.enum.style import WD_STYLE_TYPE
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 
-ROOT = Path(__file__).resolve().parents[1]
+from _config import ROOT
+
 OUTPUT_PATH = ROOT / "assets" / "reference.docx"
 
 

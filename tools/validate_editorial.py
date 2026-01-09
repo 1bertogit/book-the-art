@@ -16,18 +16,13 @@ Uso:
 from __future__ import annotations
 
 import re
-from pathlib import Path
 from dataclasses import dataclass
 
-ROOT = Path(__file__).resolve().parents[1]
-CONTENT_DIR = ROOT / "projects" / "eyelid-surgery" / "content"
-
-# Configuração de limites
-MAX_BOLD_PER_CHAPTER = 35
-REQUIRED_SECTIONS = [
-    "Objetivo",
-    "Tecnica",  # ou "Técnica"
-]
+from _config import (
+    CONTENT_DIR,
+    MAX_BOLD_PER_CHAPTER,
+    REQUIRED_SECTIONS,
+)
 
 
 @dataclass

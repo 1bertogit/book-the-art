@@ -19,33 +19,10 @@ from __future__ import annotations
 
 import argparse
 import re
-from pathlib import Path
 from dataclasses import dataclass
 from typing import List, Tuple
 
-ROOT = Path(__file__).resolve().parents[1]
-CONTENT_DIR = ROOT / "projects" / "eyelid-surgery" / "content"
-
-# Mapeamento de títulos de BOX para saída formatada
-BOX_MAPPING = {
-    "pérola clínica": "PÉROLA CLÍNICA",
-    "perola clinica": "PÉROLA CLÍNICA",
-    "pearl": "PÉROLA CLÍNICA",
-    "atenção": "ATENÇÃO",
-    "atencao": "ATENÇÃO",
-    "warning": "ATENÇÃO",
-    "alerta": "ATENÇÃO",
-    "técnica": "TÉCNICA",
-    "tecnica": "TÉCNICA",
-    "technique": "TÉCNICA",
-    "evidência": "EVIDÊNCIA",
-    "evidencia": "EVIDÊNCIA",
-    "evidence": "EVIDÊNCIA",
-    "regra de ouro": "REGRA DE OURO",
-    "regra": "REGRA DE OURO",
-    "rule": "REGRA DE OURO",
-    "": "NOTA CLÍNICA",  # BOX sem título
-}
+from _config import CONTENT_DIR, BOX_MAPPING
 
 
 @dataclass

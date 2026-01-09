@@ -19,13 +19,11 @@ from __future__ import annotations
 
 import argparse
 import re
-from pathlib import Path
 from dataclasses import dataclass
 from typing import Set
 
-ROOT = Path(__file__).resolve().parents[1]
-CONTENT_DIR = ROOT / "projects" / "eyelid-surgery" / "content"
-CONFIG_DIR = ROOT / "config"
+from _config import CONTENT_DIR, CONFIG_DIR
+
 TERMOS_FILE = CONFIG_DIR / "termos_tecnicos.txt"
 
 # Palavras comuns que NUNCA devem ficar em negrito

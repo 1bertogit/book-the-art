@@ -4,12 +4,10 @@
 Adiciona [[FIGURE]] placeholder após o primeiro H1 de cada capítulo.
 """
 
-from pathlib import Path
 import re
 
+from _config import CONTENT_DIR as CONTENT
 from _utils import atomic_write
-
-CONTENT = Path(__file__).resolve().parents[1] / "content"
 
 added = 0
 for md in sorted(CONTENT.glob("[0-9][0-9]-*.md")):

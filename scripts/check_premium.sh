@@ -15,26 +15,60 @@ REPORT_JSON="${OUTDIR}/check_premium_report.json"
 mkdir -p "${OUTDIR}"
 
 # Ferramentas preferidas
+USE_RG=false
 if command -v rg >/dev/null 2>&1; then
-  FIND='rg -n --hidden --no-ignore-vcs'
-else
-  FIND='grep -R -n --binary-files=without-match'
+  USE_RG=true
 fi
 
 has() { command -v "$1" >/dev/null 2>&1; }
 
+# Helper function for searching files
+# Usage: search_files "pattern" "glob1" ["glob2" ...]
+search_files() {
+  local pattern="$1"
+  shift
+  if [ "$USE_RG" = true ]; then
+    local args=(-n --hidden --no-ignore-vcs)
+    for g in "$@"; do
+      args+=(-g "$g")
+    done
+    rg "${args[@]}" -- "$pattern" 2>/dev/null || true
+  else
+    # Fallback to grep - glob patterns become file paths
+    local files=""
+    for g in "$@"; do
+      files="$files $(ls $g 2>/dev/null || true)"
+    done
+    if [ -n "$files" ]; then
+      grep -R -n --binary-files=without-match -- "$pattern" $files 2>/dev/null || true
+    fi
+  fi
+}
+
 # Collect results
 results=()
 
+# JSON escape function - handles special characters properly
+json_escape() {
+  local input="$1"
+  # Use sed to escape: backslash, double quote, control chars, then newlines
+  printf '%s' "$input" | sed -e 's/\\/\\\\/g' \
+                              -e 's/"/\\"/g' \
+                              -e 's/	/\\t/g' \
+                              -e "s/$(printf '\r')/\\\\r/g" | \
+    awk '{printf "%s", (NR==1 ? "" : "\\n") $0}'
+}
+
 add_result() {
   local name="$1"; local status="$2"; local msg="$3"; local detail="$4"
-  # Escape newlines for JSON (portable way)
-  local escaped_detail
-  escaped_detail=$(echo "$detail" | awk '{printf "%s\\n", $0}' | sed 's/\\n$//' | sed 's/"/\\"/g')
+  local escaped_name escaped_msg escaped_detail
+  escaped_name=$(json_escape "$name")
+  escaped_msg=$(json_escape "$msg")
+  escaped_detail=$(json_escape "$detail")
   results+=("$(printf '{"name":"%s","status":"%s","message":"%s","detail":"%s"}' \
-    "$(echo "$name" | sed 's/"/\\"/g')" \
+    "$escaped_name" \
     "$status" \
-    "$(echo "$msg" | sed 's/"/\\"/g')" \
+    "$escaped_msg" \
     "$escaped_detail")")
 }
 
@@ -75,13 +109,13 @@ check_makefile_flags() {
   fi
 
   local has_target
-  has_target=$(grep -E "^[a-zA-Z0-9_-]+:.*" "$makefile" | rg -n "premium-pdf|pdf" || true)
+  has_target=$(grep -E "^[a-zA-Z0-9_-]+:.*" "$makefile" | grep -E "premium-pdf|pdf" || true)
 
   local contains_template contains_engine
-  contains_template=$(sh -c "$FIND --hidden --no-ignore-vcs --no-line-number --only-matching --no-heading --glob 'Makefile' -- \"--template\" 2>/dev/null || true")
-  contains_engine=$(sh -c "$FIND --hidden --no-ignore-vcs --no-line-number --only-matching --no-heading --glob 'Makefile' -- \"--pdf-engine=xelatex\" 2>/dev/null || true")
+  contains_template=$(search_files "--template" "Makefile")
+  contains_engine=$(search_files "--pdf-engine=xelatex" "Makefile")
 
-  if [ -n "$contains_template" ] && [ -n "$contains_engine" ] && (echo "$has_target" | rg -q "premium-pdf|pdf" >/dev/null 2>&1 || true); then
+  if [ -n "$contains_template" ] && [ -n "$contains_engine" ] && (echo "$has_target" | grep -qE "premium-pdf|pdf" 2>/dev/null || true); then
     add_result "Makefile -> Pandoc flags" "PASS" "Makefile tem referência a --template e --pdf-engine=xelatex em regra de build (ex: premium-pdf / pdf)" "$(sed -n '1,160p' Makefile)"
   else
     add_result "Makefile -> Pandoc flags" "FAIL" "Makefile não aparenta chamar pandoc com --template ... e --pdf-engine=xelatex (procure por premium-pdf/pdf target e flags --template/--pdf-engine=xelatex)" "$(sed -n '1,160p' Makefile)"
@@ -101,8 +135,8 @@ check_toc_and_frontmatter() {
   if has pdftotext; then
     pdftotext "$pdf" - | sed -n '1,300p' > "${OUTDIR}/pdf_text_snippet.txt"
     pdftxt=$(cat "${OUTDIR}/pdf_text_snippet.txt")
-    if echo "$pdftxt" | rg -q "Sumário"; then
-      if ! echo "$pdftxt" | rg -q "CONTEÚDO"; then
+    if echo "$pdftxt" | grep -qF "Sumário"; then
+      if ! echo "$pdftxt" | grep -qF "CONTEÚDO"; then
         add_result "TOC aparece como 'Sumário'" "PASS" "Sumário encontrado e CONTEÚDO não encontrado" "$(echo "$pdftxt" | head -n50)"
       else
         add_result "TOC aparece como 'Sumário'" "FAIL" "Texto 'CONTEÚDO' apareceu no PDF (esperado 'Sumário')" "$(echo "$pdftxt" | head -n50)"
@@ -118,7 +152,7 @@ check_toc_and_frontmatter() {
   if [ -n "$TEMPLATE" ] && [ -f "$TEMPLATE" ]; then
     local tmpl_snip
     tmpl_snip=$(sed -n '1,500p' "$TEMPLATE")
-    if echo "$tmpl_snip" | rg -q "\\\\pagenumbering\\{roman\\}|\\\\frontmatter|\\\\mainmatter"; then
+    if echo "$tmpl_snip" | grep -qE '\\pagenumbering\{roman\}|\\frontmatter|\\mainmatter'; then
       add_result "Front matter no template" "PASS" "Template contém marcações esperadas de front/mainmatter ou pagenumbering{roman}" "$(echo "$tmpl_snip" | head -n80)"
     else
       add_result "Front matter no template" "WARN" "Não encontrei \\frontmatter / \\mainmatter / \\pagenumbering{roman} no template — verifique se a separação de numeração está sendo feita" "$(echo "$tmpl_snip" | head -n80)"
@@ -140,7 +174,7 @@ check_chapters() {
     return
   fi
 
-  if echo "$heads" | rg -q "0\\.|Cap[ií]tulo .*0[0-9]"; then
+  if echo "$heads" | grep -qE '0\.|Cap[ií]tulo .*0[0-9]'; then
     add_result "Capítulos (manuscrito)" "WARN" "Alguns capítulos aparentam ter prefixos 0.x ou 'Capítulo 01' — revise títulos" "$heads"
   else
     add_result "Capítulos (manuscrito)" "PASS" "Capítulos nível 1 parecem corretos" "$heads"
@@ -149,11 +183,10 @@ check_chapters() {
 
 # 4) Geometry e head/foot
 check_geometry() {
-  local search_paths="pipeline/premium/*.tex *.tex"
   local geom
-  geom=$(sh -c "$FIND --hidden --no-ignore-vcs -g 'pipeline/premium/*.tex' -g '*.tex' '\\\\geometry' 2>/dev/null || true")
+  geom=$(search_files '\\geometry' "pipeline/premium/*.tex" "*.tex")
   local headcfg
-  headcfg=$(sh -c "$FIND --hidden --no-ignore-vcs -g 'pipeline/premium/*.tex' -g '*.tex' 'headheight|headsep|footskip' 2>/dev/null || true")
+  headcfg=$(search_files 'headheight|headsep|footskip' "pipeline/premium/*.tex" "*.tex")
 
   local geom_ok=false
   if [ -n "$TEMPLATE" ] && [ -f "$TEMPLATE" ]; then
@@ -178,7 +211,7 @@ check_geometry() {
 # 5) Tipografia (setmainfont, microtype)
 check_typography() {
   local typ
-  typ=$(sh -c "$FIND --hidden --no-ignore-vcs -g 'pipeline/premium/*.tex' -g '*.tex' 'setmainfont|microtype|protrusion|expansion' 2>/dev/null || true")
+  typ=$(search_files 'setmainfont|microtype|protrusion|expansion' "pipeline/premium/*.tex" "*.tex")
   if [ -n "$typ" ]; then
     add_result "Tipografia" "PASS" "Encontrado configuração de fonte/microtype" "$typ"
   else
@@ -189,7 +222,7 @@ check_typography() {
   local log
   log=$(ls -1 build/*.log 2>/dev/null | head -n1 || true)
   if [ -n "$log" ] && [ -f "$log" ]; then
-    if rg -n "Font .* not found|font not found" "$log" >/dev/null 2>&1; then
+    if grep -qiE "Font .* not found|font not found" "$log" 2>/dev/null; then
       add_result "Font warnings (log)" "FAIL" "Warnings de fonte encontrados no log do LaTeX" "$(sed -n '1,200p' "$log")"
     else
       add_result "Font warnings (log)" "PASS" "Nenhuma mensagem óbvia de 'font not found' no log" "$(sed -n '1,120p' "$log")"
@@ -202,7 +235,7 @@ check_typography() {
 # 6) Boxes (mdframed, redefinição de quote)
 check_boxes() {
   local boxes
-  boxes=$(sh -c "$FIND --hidden --no-ignore-vcs -g 'pipeline/premium/*.tex' -g '*.tex' 'mdframed|newmdenv|renewenvironment\\{quote\\}' 2>/dev/null || true")
+  boxes=$(search_files 'mdframed|newmdenv|renewenvironment\{quote\}' "pipeline/premium/*.tex" "*.tex")
   if [ -n "$boxes" ]; then
     add_result "Boxes clínicos" "PASS" "Pacote/mdframed ou redefinição de quote encontrada" "$boxes"
   else
@@ -213,9 +246,9 @@ check_boxes() {
 # 7) Figuras (captions, maxwidth)
 check_figures() {
   local texs
-  texs=$(sh -c "ls pipeline/premium/*.tex 2>/dev/null || true")
+  texs=$(ls pipeline/premium/*.tex 2>/dev/null || true)
   local fig_info
-  fig_info=$(sh -c "$FIND --hidden --no-ignore-vcs -g 'pipeline/premium/*.tex' -g '*.tex' '\\\\includegraphics|\\\\maxwidth|\\\\maxheight|caption' 2>/dev/null || true")
+  fig_info=$(search_files '\\includegraphics|\\maxwidth|\\maxheight|caption' "pipeline/premium/*.tex" "*.tex")
   if [ -n "$fig_info" ]; then
     add_result "Figuras" "PASS" "Encontradas referências a includegraphics/caption/maxwidth nos templates/tex" "$fig_info"
   else
@@ -226,7 +259,7 @@ check_figures() {
 # 8) Hifenização/idioma
 check_language() {
   local lang
-  lang=$(sh -c "$FIND --hidden --no-ignore-vcs -g 'pipeline/premium/*.tex' -g '*.tex' 'polyglossia|babel|setmainlanguage|portuguese|brazil' 2>/dev/null || true")
+  lang=$(search_files 'polyglossia|babel|setmainlanguage|portuguese|brazil' "pipeline/premium/*.tex" "*.tex")
   if [ -n "$lang" ]; then
     add_result "Idioma / hifenização" "PASS" "Configuração de idioma encontrada" "$lang"
   else
@@ -237,7 +270,7 @@ check_language() {
 # 9) Headers/footers/paginação (inspeção superficial)
 check_headers_footers() {
   local hf
-  hf=$(sh -c "$FIND --hidden --no-ignore-vcs -g 'pipeline/premium/*.tex' -g '*.tex' 'fancyhdr|headheight|headsep|footskip|pagestyle' 2>/dev/null || true")
+  hf=$(search_files 'fancyhdr|headheight|headsep|footskip|pagestyle' "pipeline/premium/*.tex" "*.tex")
   if [ -n "$hf" ]; then
     add_result "Headers/Footers" "PASS" "Configuração de cabeçalhos/rodapés encontrada" "$hf"
   else
@@ -258,7 +291,7 @@ check_make_integration() {
 
     echo "Executando: make clean && make premium-pdf..."
     if [ -n "$TIMEOUT_CMD" ]; then
-      if $TIMEOUT_CMD bash -lc "make clean && make premium-pdf" > "${OUTDIR}/make_premium_output.txt" 2>&1; then
+      if { $TIMEOUT_CMD make clean && $TIMEOUT_CMD make premium-pdf; } > "${OUTDIR}/make_premium_output.txt" 2>&1; then
         add_result "make premium-pdf" "PASS" "make premium-pdf executou sem erro" "$(sed -n '1,240p' ${OUTDIR}/make_premium_output.txt)"
         # verificar existência do PDF
         local pdfs
@@ -273,7 +306,7 @@ check_make_integration() {
       fi
     else
       echo "WARN: no timeout found — running make without timeout" > "${OUTDIR}/make_premium_output.txt"
-      if bash -lc "make clean && make premium-pdf" >> "${OUTDIR}/make_premium_output.txt" 2>&1; then
+      if { make clean && make premium-pdf; } >> "${OUTDIR}/make_premium_output.txt" 2>&1; then
         add_result "make premium-pdf" "PASS" "make premium-pdf executou sem erro (sem timeout)" "$(sed -n '1,240p' ${OUTDIR}/make_premium_output.txt)"
         # verificar existência do PDF
         local pdfs
@@ -362,7 +395,7 @@ echo " - Markdown: $REPORT_MD"
 echo " - JSON:     $REPORT_JSON"
 echo
 # any FAIL?
-if echo "${results[@]}" | rg -q '"status":"FAIL"' >/dev/null 2>&1; then
+if echo "${results[@]}" | grep -qF '"status":"FAIL"'; then
   echo "Algumas verificações falharam. Veja $REPORT_MD"
   exit 2
 else

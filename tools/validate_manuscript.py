@@ -17,25 +17,17 @@ from __future__ import annotations
 
 import re
 import sys
-from pathlib import Path
 from typing import List, Tuple
 
-ROOT = Path(__file__).resolve().parents[1]
-CONTENT = ROOT / "content"
+from _config import (
+    CONTENT_DIR as CONTENT,
+    SKIP_FILES,
+    MOVE_RE,
+    FILE_CAP_RE,
+)
 
-# Arquivos ignorados (índices gerados)
-SKIP_FILES = {
-    "MOVE_MAP.md",
-    "00_SUMARIO_MESTRE.md",
-    "00_MAPA_DE_LINKS_MOVE.md",
-    "00_BACKLOG_ARTE.md",
-    "00_BACKLOG_REFERENCIAS.md",
-}
-
-# Regex para detectar MOVE
-MOVE_RE = re.compile(r"\[\[MOVE:\s*CAP-(\d+|XX)\s*\]\]", re.IGNORECASE)
-MOVE_SPACE_RE = re.compile(r"\[\[MOVE:\s+CAP-", re.IGNORECASE)  # espaço após :
-FILE_CAP_RE = re.compile(r"^(\d+)[-_].+\.md$", re.IGNORECASE)
+# Regex adicional para detectar MOVE com espaço
+MOVE_SPACE_RE = re.compile(r"\[\[MOVE:\s+CAP-", re.IGNORECASE)
 
 
 def get_cap_from_filename(name: str) -> str | None:

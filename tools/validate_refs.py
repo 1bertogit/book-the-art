@@ -13,10 +13,9 @@ from __future__ import annotations
 
 import re
 import sys
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-CONTENT_DIR = ROOT / "projects" / "eyelid-surgery" / "content"
+from _config import CONTENT_DIR, SKIP_FILE_PREFIXES, SKIP_FILES
+
 BIB_FILE = CONTENT_DIR / "99_BIBLIOGRAFIA.md"
 
 # Regex para [[REF:ID]] no texto
@@ -25,16 +24,13 @@ REF_IN_TEXT_RE = re.compile(r"\[\[REF:([A-Z0-9_-]+)\]\]")
 # Regex para **[ID]** na bibliografia (formato atual)
 BIB_ID_RE = re.compile(r"\*\*\[([A-Z0-9_-]+)\]\*\*")
 
-SKIP_FILES_PREFIXES = ("00_", "99_")
-SKIP_FILES_EXACT = {"MOVE_MAP.md"}
-
 
 def iter_md_files():
     """Itera arquivos markdown de capítulos."""
     for fp in sorted(CONTENT_DIR.glob("*.md")):
-        if fp.name in SKIP_FILES_EXACT:
+        if fp.name in SKIP_FILES:
             continue
-        if fp.name.startswith(SKIP_FILES_PREFIXES):
+        if fp.name.startswith(SKIP_FILE_PREFIXES):
             continue
         yield fp
 
