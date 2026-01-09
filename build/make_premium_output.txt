@@ -1,0 +1,77 @@
+🧹 Limpando...
+✅ Limpo!
+🔍 Validando manuscrito...
+🔍 Validando manuscrito...
+   Diretório: /Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/content
+
+✅ Manuscrito válido — nenhum MOVE quebrado!
+🔍 Validando referências...
+   Bibliografia: /Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/content/99_BIBLIOGRAFIA.md
+
+✅ Todas as 39 referências usadas existem na bibliografia!
+
+⚠️  2 ID(s) na bibliografia mas NÃO usados (ok, só higiene):
+   • CASTANARES-1964
+   • MOST-2007
+
+📊 Resumo: 39 usados | 41 definidos | 2 não usados
+
+📚 Gerando artefatos...
+OK: gerados:
+- content/00_SUMARIO_MESTRE.md
+- content/00_MAPA_DE_LINKS_MOVE.md
+- content/00_BACKLOG_ARTE.md
+- content/00_BACKLOG_REFERENCIAS.md
+📚 Gerando manuscrito consolidado...
+   Sumário: /Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/content/00_SUMARIO_MESTRE.md
+   Saída: /Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/content/00_MANUSCRITO.md
+   Clean: Não
+
+   Encontrados: 30 capítulos
+   ✓ Front matter incluído: 00_FRONT_MATTER.md
+
+✅ Manuscrito gerado: /Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/content/00_MANUSCRITO.md
+   • 30 capítulos
+   • ~28,963 palavras
+   • ~210,397 caracteres
+
+✅ Build completo!
+
+🧹 Limpando tags editoriais...
+🔍 Limpeza Editorial — The Art of Eyelid Surgery
+   Diretório: /Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/content
+
+   Arquivos: 36
+
+🧹 APLICANDO LIMPEZA EDITORIAL
+============================================================
+
+============================================================
+✅ 0 mudanças aplicadas
+
+✅ Tags editoriais limpas!
+
+📤 Gerando versão para exportação...
+🧹 Limpando manuscrito para exportação...
+   Entrada: /Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/content/00_MANUSCRITO.md
+   Saída: dist/manuscrito_limpo.md
+   Refs: keep
+   Strip backlog: True
+
+✅ Manuscrito limpo gerado: dist/manuscrito_limpo.md
+   • 28,892 palavras
+   • 208,413 caracteres
+   • Redução: 0.9%
+
+✅ Exportação completa: dist/manuscrito_limpo.md
+🔧 Corrigindo paths de figuras...
+   Manuscrito: /Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/dist/manuscrito_limpo.md
+   Figuras: /Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/projects/eyelid-surgery/assets/figures
+
+   figures.yml: 27 figuras declaradas
+   Figuras no texto: 27
+
+✅ 27 paths corrigidos
+   Salvo em: /Users/humbertolopes/Dev/work/marcelo-cury/the_art_of_eyelid_surgery_scaffold/dist/manuscrito_limpo.md
+📚 Gerando PDF Premium...
+✅ Gerado: dist/book_premium.pdf

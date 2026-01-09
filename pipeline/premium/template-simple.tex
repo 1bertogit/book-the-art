@@ -35,12 +35,13 @@
 \usepackage{geometry}
 \geometry{
   paper=a4paper,
-  left=25mm,
-  right=25mm,
-  top=25mm,
-  bottom=25mm,
+  inner=30mm,
+  outer=25mm,
+  top=30mm,
+  bottom=30mm,
   headheight=14pt,
-  headsep=25pt
+  headsep=12pt,
+  footskip=24pt
 }
 
 % ═══════════════════════════════════════════════════════════════════════════
@@ -353,6 +354,7 @@ $endif$
 \renewcommand{\contentsname}{Sumário}
 
 \frontmatter
+\pagenumbering{roman}
 
 \begin{titlepage}
   \centering
@@ -413,6 +415,7 @@ $if(toc)$
 $endif$
 
 \mainmatter
+\pagenumbering{arabic}
 
 $body$
 
