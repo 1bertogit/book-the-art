@@ -5,11 +5,11 @@
 
 **Parte:** Parte V — Canto Lateral e Sustentação
 
-**Objetivo do capítulo:** Ao final, o leitor saberá navegar o “degrau de complexidade” das fixações laterais, escolhendo **suspensão de lamela anterior (Mladick)**, **reconstrução de lamela posterior (Tarsal Strip/Anderson)** ou fixações robustas de revisão (McCord e variações, incluindo ancoragem óssea e *spacers*) conforme frouxidão, vetor orbital e risco de retração/recidiva.
+**Objetivo do capítulo:** Ao final, o leitor saberá navegar o “degrau de complexidade” das fixações laterais, escolhendo técnicas conforme frouxidão, vetor orbital e risco de retração/recidiva.
 
 ## O que muda na decisão (o “porquê”)
 
-* **Hierarquia do problema (lamela anterior vs. posterior):**
+* **Hierarquia do problema** (lamela anterior vs. posterior):
   - **Mladick** atua primariamente na **lamela anterior** (músculo/pele) e é útil como *suporte* / profilaxia.
   - Tarsal Strip atua na lamela posterior (tarso/tendão), corrigindo frouxidão real e ectrópio/retração por falha estrutural.
   - McCord e revisões entram quando há retração significativa, periósteo “cansado” por cirurgias prévias, necessidade de vetor forte e, frequentemente, alongamento vertical com *spacer*.
@@ -75,7 +75,7 @@ Indicação típica: retração importante, cicatriz vertical, periósteo ruim, 
 O princípio aqui é **não depender só de encurtamento horizontal**.
 
 1. **Liberação ampla (*release*):** soltar aderências cicatriciais e reduzir tensão vertical (frequentemente incluindo manejo de retratores e espaço pré-malar, conforme o caso).
-2. **Restaurar altura (quando necessário):** em retração significativa, planejar **aumento vertical** com *spacer* (enxerto/implante) antes ou junto da fixação lateral.
+2. **Restaurar altura (quando necessário)::** em retração significativa, planejar **aumento vertical** com *spacer* (enxerto/implante) antes ou junto da fixação lateral.
 3. Ancoragem robusta:
    - quando periósteo não “segura”, usar ancoragem mais profunda ou perfuração óssea (*drill hole*) no rebordo lateral para fixação estável,
    - manter vetor póstero-superior e evitar fixação anterior.
@@ -104,7 +104,7 @@ O princípio aqui é **não depender só de encurtamento horizontal**.
   * *Prevenção:* buscar ancoragem interna/póstero-superior.
   * *Resgate:* reposicionar fixação (idealmente precoce).
 
-* **Assimetria vertical (um olho “cat-eye” unilateral)**
+* **Assimetria vertical** (um olho “cat-eye” unilateral): costuma vir de pexia muito alta ou assimétrica. Recomenda-se soltar o ponto e refazer após 4-6 meses se persistente.
   * *Prevenção:* referência objetiva bilateral (marcação/medida relativa ao canto medial/pupila), e checagem intraoperatória sempre que possível.
   * *Resgate:* revisão do ponto de ancoragem; tratar a causa (não só “baixar” o lado bom).
 ## Notas de “arte” (preservando a fenda)

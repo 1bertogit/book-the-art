@@ -179,7 +179,7 @@ def analyze_file(filepath: Path) -> List[EditorialIssue]:
             ))
         
         # Verificar negrito excessivo (mais de 50 caracteres em negrito)
-        bold_pattern = re.compile(r'\*\*[^*]{50,}\*\*')
+        bold_pattern = re.compile(r'\*\*[^* \n][^*\n]{48,}[^* \n]\*\*')
         if bold_pattern.search(line):
             issues.append(EditorialIssue(
                 file=filepath.name,

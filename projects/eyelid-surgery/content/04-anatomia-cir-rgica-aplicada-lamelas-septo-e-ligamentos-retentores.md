@@ -40,7 +40,7 @@
 
 ## Anatomia aplicada (apenas o que muda o bisturi)
 
-* **Lamelas Anterior e Posterior:** A pálpebra é dividida pelo septo orbitário. A lamela anterior (pele e orbicular) é elástica; a posterior (tarso e conjuntiva) é o arcabouço rígido. Em reconstruções, a regra de ouro é: se usar um retalho para uma lamela, use um enxerto para a outra para garantir suprimento vascular [[BOX: Regra Prática]].
+* **Lamelas Anterior e Posterior:** A pálpebra é dividida pelo septo orbitário. A lamela anterior (pele e orbicular) é elástica; a posterior (tarso e conjuntiva) é o arcabouço rígido. Em reconstruções, a regra de ouro é: se usar um retalho para uma lamela, use um enxerto para a outra para garantir suprimento vascular.
 * **Septo Orbitário:** Atua como a "porta" das bolsas de gordura. Sua fraqueza permite a herniação gordurosa. No acesso transconjuntival, o septo é preservado quando o acesso é pós-septal, diminuindo o risco de retração palpebral.
 * **Ligamento Órbito-malar (LOM):** Um ligamento osteocutâneo que fixa o orbicular ao rebordo inferior. Sua liberação é mandatória para tratar o sulco nasojugal e elevar o terço médio.
 * “Zona de risco”: Músculo oblíquo inferior. Localizado entre as bolsas de gordura medial e central da pálpebra inferior. Sua lesão durante a blefaroplastia causa diplopia.
@@ -69,13 +69,13 @@
 * **Ressecção excessiva de pele na pálpebra inferior** → Consequência: Escleral show ou ectrópio → Prevenção: Sempre realizar a manobra de sustentação (cantopexia) antes de marcar a pele → Resgate: Enxerto de pele total ou retalho de transposição da pálpebra superior.
 * Não liberar o ligamento órbito-malar em pacientes com sulco profundo → Consequência: Persistência da sombra na transição pálpebra-face → Prevenção: Dissecção submuscular até o rebordo ósseo → Resgate: Preenchimento tardio com microfat graft.
 
-[[BOX: Regra Prática]]
-**Princípio da Reconstrução de Lamelas:**
-Nunca utilize dois tecidos vascularizados (dois retalhos) para reconstruir ambas as lamelas simultaneamente; o resultado será grosseiro e espesso. Combine sempre um retalho (suporte sanguíneo) com um enxerto (suporte estrutural).
+> **Regra Prática:** Princípio da Reconstrução de Lamelas
+>
+> Nunca utilize dois tecidos vascularizados (dois retalhos) para reconstruir ambas as lamelas simultaneamente; o resultado será grosseiro e espesso. Combine sempre um retalho (suporte sanguíneo) com um enxerto (suporte estrutural).
 
-[[BOX: Zona de Risco]]
-**O Músculo Oblíquo Inferior:**
-Ao abordar a bolsa central e medial na blefaroplastia inferior, identifique o oblíquo inferior. Ele é a estrutura mais nobre da região e deve ser ativamente afastado antes de qualquer cauterização ou ressecção de gordura.
+> **Zona de Risco: O Músculo Oblíquo Inferior**
+>
+> Ao abordar a bolsa central e medial na blefaroplastia inferior, identifique o oblíquo inferior. Ele é a estrutura mais nobre da região e deve ser ativamente afastado antes de qualquer cauterização ou ressecção de gordura.
 
 ## Notas de “arte”
 

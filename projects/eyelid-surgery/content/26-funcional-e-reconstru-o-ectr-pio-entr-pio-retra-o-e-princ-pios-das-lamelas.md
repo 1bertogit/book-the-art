@@ -19,8 +19,7 @@
   Em ectrópio/entrópio involucionais, a laxidão do canto lateral é quase sempre permissiva. Sem estabilizar a horizontal (Strip), qualquer correção vertical vira paliativa.
   Porém: em cicatriciais, **Strip sozinho falha** se a pele ou conjuntiva estão encurtadas.
 
-* **A estabilidade dos retratores define o entrópio involucional:**
-  No entrópio senil, a desinserção/afrouxamento dos retratores (fáscia capsulopalpebral) permite que o orbicular pré-septal “suba” sobre o pré-tarsal e **rode a margem para dentro**. Remover pele não trata essa mecânica; é uma correção “cosmética” para um defeito estrutural.
+* **A estabilidade dos retratores** define o entrópio involucional: quando os retratores (aponeurose e músculo de Müller) perdem a inserção no tarso, o orbicular marginal "roda" a borda para dentro.
 
 > **📎 FIGURA NECESSÁRIA (Cap. 26):**
 > Diagnóstico: Ectrópio involucional vs cicatricial vs paralítico
@@ -89,8 +88,7 @@
 * **Spacer de palato duro / cartilagem:** opção robusta quando a lamela posterior precisa de rigidez e altura (defeito vertical significativo).
 ## Erros comuns (e como resgatar)
 
-* **Tratar ectrópio cicatricial sem enxerto (só Strip):**
-  * *Consequência:* melhora curta; recidiva quando a falta de pele vence a tensão horizontal.
+* **Tratar ectrópio cicatricial sem enxerto** (só Strip): em vetores negativos, a tração vertical é tão alta que o Strip sozinho falha. Sempre adicione suporte de lamela anterior (enxerto) ou volume conforme a necessidade.
   * *Prevenção:* se **boca aberta piora**, pense “lamela anterior curta” → enxerto é parte do plano.
   * *Resgate:* reoperação com liberação ampla + enxerto bem dimensionado.
 

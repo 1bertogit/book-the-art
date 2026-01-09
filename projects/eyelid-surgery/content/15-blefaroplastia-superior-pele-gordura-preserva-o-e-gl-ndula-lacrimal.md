@@ -34,7 +34,7 @@ Ao final, o leitor saberá executar uma blefaroplastia superior **volumétrica e
 > - [ ] Lagoftalmo prévio: relato de dormir com olho entreaberto.
 
 ## Anatomia aplicada (o mapa da mina)
-- **Compartimentos de gordura clinicamente relevantes:**
+- **Compartimentos de gordura** (clinicamente relevantes):
   - **Nasal:** mais pálida/fibrosa; frequentemente protrui e pode ser reduzida **conservadoramente**.
   - Central: mais amarela/fluida; importante para plenitude jovem; evitar ressecção rotineira (reduzir apenas se herniação franca).
 - Volume superolateral: com frequência corresponde a glândula lacrimal prolapsada e/ou ROOF, e não a uma “bolsa lateral” típica.
@@ -48,7 +48,7 @@ Ao final, o leitor saberá executar uma blefaroplastia superior **volumétrica e
 ### Visão geral
 1. **Incisão e excisão de pele:** conforme marcação (Cap. 11). Preservar músculo sempre que possível.
 2. **Abertura do septo:** mínima e dirigida ao ponto de herniação. Evitar abrir de ponta a ponta sem necessidade.
-3. **Gordura nasal:** identificar (mais pálida). Infiltrar na base, controlar pedículo, reduzir com parcimônia e hemostasia meticulosa.
+3. **Bolsa gordurosa medial** (superior): costuma ser mais clara (amarelada pálida) e requer hemostasia rigorosa pela proximidade com a artéria supraorbitária.
 4. Gordura central: regra é preservar. Se proeminente, preferir redução mínima e controlada; evitar “esvaziamento”.
 5. Glândula lacrimal (se prolapsada): não ressecar. Realizar pexia com pontos (ex.: Nylon 5-0/6-0) fixando cápsula/tecido de suporte ao periósteo da fossa lacrimal superolateral.
 6. Fechamento: sutura contínua ou pontos separados (Nylon/Prolene 6-0), com eversão suave das bordas.

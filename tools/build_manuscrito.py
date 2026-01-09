@@ -17,6 +17,7 @@ from __future__ import annotations
 import argparse
 import re
 from datetime import datetime
+from pathlib import Path
 
 from _config import CONTENT_DIR
 

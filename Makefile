@@ -13,6 +13,7 @@ MANUSCRITO_LIMPO := $(DIST)/manuscrito_limpo.md
 DOCX_OUT := $(DIST)/manuscrito.docx
 HTML_OUT := $(DIST)/ebook.html
 PDF_OUT := $(DIST)/manuscrito.pdf
+EPUB_OUT := $(DIST)/book.epub
 
 # Metadados Pandoc
 BOOK_TITLE := The Art of Eyelid Surgery
@@ -20,6 +21,7 @@ BOOK_AUTHOR := Dr. Marcelo Cury
 BOOK_LANG := pt-BR
 BOOK_DATE := $(shell date +%Y-%m-%d)
 BOOK_CSS := $(ASSETS)/style.css
+EPUB_CSS := $(ASSETS)/epub.css
 REFERENCE_DOCX := $(ASSETS)/reference.docx
 PANDOC := pandoc
 
@@ -219,6 +221,21 @@ html: export ## Gera HTML standalone
 		--metadata lang=$(BOOK_LANG) \
 		--css $(BOOK_CSS)
 	@echo "✅ Gerado: $(HTML_OUT)"
+
+epub: export fix-figures ## Gera ePub (Kindle/Apple Books)
+	@echo "📱 Gerando ePub..."
+	@$(PANDOC) $(MANUSCRITO_LIMPO) -o $(EPUB_OUT) \
+		--from markdown \
+		--to epub3 \
+		--toc \
+		--toc-depth=2 \
+		--epub-chapter-level=1 \
+		--css=$(EPUB_CSS) \
+		--metadata title="$(BOOK_TITLE)" \
+		--metadata author="$(BOOK_AUTHOR)" \
+		--metadata lang=$(BOOK_LANG) \
+		--metadata rights="© 2026 Dr. Marcelo Cury. Todos os direitos reservados."
+	@echo "✅ Gerado: $(EPUB_OUT)"
 
 # =============================================================================
 # DESENVOLVIMENTO

@@ -24,7 +24,7 @@ A decisão real é: grau de frouxidão + risco de tração vertical (pele, midfa
 * Ausência de ectrópio/retração prévia.
 * Boa saúde de superfície ocular (sem olho seco importante / sem exposição).
 
-**Indicar Cantoplastia / Lateral Tarsal Strip (Reconstrução):**
+**Indicar Cantoplastia / Lateral Tarsal Strip** (Reconstrução):
 * *Distraction test* **≥ 6–8 mm**, *snap-back* **lento/ausente** (precisa piscar para voltar) ou margem que “boia”.
 * Ectrópio/retração prévia, *round eye*, cirurgia prévia falha.
 * Vetor negativo + midface ptótico (alta demanda de suporte): o sistema precisa ser estrutural, não só “amarrado”.

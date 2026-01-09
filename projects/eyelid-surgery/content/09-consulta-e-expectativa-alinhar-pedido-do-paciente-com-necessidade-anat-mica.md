@@ -11,6 +11,7 @@ Ao final, o leitor saberá filtrar candidatos cirúrgicos, traduzindo queixas su
 ## O que muda na decisão (o “porquê”)
 - **A falácia da “apenas uma pelezinha”:** pacientes frequentemente apontam excesso cutâneo quando a causa dominante é ptose de supercílio. Operar só pele sem tratar/considerar a moldura frontal pode aproximar a sobrancelha dos cílios, piorar a leitura lateral e gerar insatisfação.
 - **O risco de percepção distorcida:** sinais compatíveis com transtorno dismórfico corporal (TDC) e/ou expectativas rígidas são fator de risco para conflito e insatisfação, independentemente do resultado técnico. A decisão clínica inclui proteger o paciente e o cirurgião.
+- **Ponto crítico-chave:** ALINHAMENTO DE EXPECTATIVAS. O paciente vê "excesso", o cirurgião vê "causa". [[REF: Rohrich]]
 - **Assimetria pré-existente “invisível”:** o cérebro do paciente se habitua a assimetrias. Se não for documentado e demonstrado antes, tende a ser percebido como “erro” depois.
 
 ## Indicações e contra-indicações
@@ -68,7 +69,7 @@ Ao final, o leitor saberá filtrar candidatos cirúrgicos, traduzindo queixas su
 > Use isso como sinal para explicar limites e evitar promessas baseadas em um movimento que a cirurgia palpebral não reproduz.
 
 ## Erros comuns (e como resgatar)
-- **Erro: operar paciente com forte suspeita de TDC / percepção distorcida**
+- **Erro:** operar paciente com forte suspeita de TDC / percepção distorcida
   - **Consequência:** insatisfação persistente, múltiplas demandas e risco de conflito.
   - **Prevenção:** triagem rigorosa; se a consulta gera desconforto clínico, adiar/recusar e encaminhar.
   - Resgate: evitar reoperações impulsivas; documentar, apoiar e orientar encaminhamento adequado.

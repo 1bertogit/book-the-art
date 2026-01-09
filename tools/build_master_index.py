@@ -97,7 +97,7 @@ def main() -> None:
     # Build MOVE MAP
     move_lines: List[str] = []
     move_lines.append("# MAPA DE LINKS — MOVE\n")
-    move_lines.append("> Lista de `[[MOVE:CAP-..]]` encontrados, com resolução para arquivo quando existir.\n")
+    move_lines.append("> Lista de capítulos encontrados, com resolução para arquivo quando existir.\n")
 
     ok, broken = 0, 0
 

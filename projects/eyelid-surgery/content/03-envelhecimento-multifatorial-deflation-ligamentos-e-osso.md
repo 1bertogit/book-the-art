@@ -41,7 +41,7 @@ Ao final deste capítulo, o leitor saberá diagnosticar o envelhecimento periorb
 
 ## Anatomia aplicada (apenas o que muda conduta)
 - Ligamento órbito-malar (orbicular retaining ligament): participa do sulco e da quebra pálpebra-malar. Se a ancoragem domina o caso, “tirar bolsa” não resolve o vale.
-- **Compartimentos gordurosos (ex.: ROOF, SOOF e correlatos):** envelhecimento reduz volume útil e altera a leitura de luz/sombra. O erro clássico é tratar gordura como “excesso universal”.
+- **Compartimentos gordurosos** (ex.: ROOF, SOOF e correlatos): envelhecimento reduz volume útil e altera a leitura de luz/sombra. O erro clássico é tratar gordura como “excesso universal”.
 - **Suporte ósseo:** quando o rebordo “aparece” mais (por mudanças do suporte), a sombra fica mais legível; isso muda a estratégia (preservar/repor em vez de subtrair).
 
 Detalhes anatômicos finos e “zonas de risco” específicas (ex.: ramo frontal do facial, medidas laterais e marcos do brow/temporal) ficam melhores no capítulo de anatomia aplicada/brow.

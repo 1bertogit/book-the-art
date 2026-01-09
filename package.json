@@ -5,7 +5,8 @@
     "scripts": {
         "preview": "npx serve projects/eyelid-surgery/content",
         "pdf": "pandoc projects/eyelid-surgery/content/00_MANUSCRITO.md -o The_Art_of_Eyelid_Surgery.pdf --toc",
-        "test": "bash scripts/check_premium.sh"
+        "test": "bash scripts/check_premium.sh",
+        "measure-margins": "bash scripts/measure_margins.sh"
     },
     "devDependencies": {
         "serve": "^14.2.0"

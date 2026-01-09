@@ -18,7 +18,7 @@
   - lagoftalmo/ptose mecânica,
   - entropion/ectropion cicatricial tardio.
 
-* **A Regra de Ouro das Lamelas (vascularidade manda):**
+* **A Regra de Ouro das Lamelas** (vascularidade manda):
   Reconstrução palpebral é **duas cirurgias em uma**:
   - **Lamela posterior** (tarso + conjuntiva) = trilho rígido e mucosa de deslizamento.
   - Lamela anterior (pele + músculo) = cobertura e fechamento.

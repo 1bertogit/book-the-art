@@ -2,7 +2,7 @@
 title: "The Art of Eyelid Surgery"
 subtitle: "Cirurgia Palpebral e Periorbitária"
 author: "Dr. Marcelo Cury"
-date: "2026-01-08"
+date: "2026-01-09"
 lang: pt-BR
 rights: "© Dr. Marcelo Cury. Conteúdo baseado no curso online do autor."
 toc: true
@@ -407,7 +407,7 @@ Ao final deste capítulo, o leitor saberá diagnosticar o envelhecimento periorb
 
 - Ligamento órbito-malar (orbicular retaining ligament): participa do sulco e da quebra pálpebra-malar. Se a ancoragem domina o caso, “tirar bolsa” não resolve o vale.
 
-- **Compartimentos gordurosos (ex.: ROOF, SOOF e correlatos):** envelhecimento reduz volume útil e altera a leitura de luz/sombra. O erro clássico é tratar gordura como “excesso universal”.
+- **Compartimentos gordurosos** (ex.: ROOF, SOOF e correlatos): envelhecimento reduz volume útil e altera a leitura de luz/sombra. O erro clássico é tratar gordura como “excesso universal”.
 
 - **Suporte ósseo:** quando o rebordo “aparece” mais (por mudanças do suporte), a sombra fica mais legível; isso muda a estratégia (preservar/repor em vez de subtrair).
 
@@ -517,7 +517,7 @@ Protocolos de pós, timing e sinais de alarme ficam melhores concentrados no cap
 
 ## Anatomia aplicada (apenas o que muda o bisturi)
 
-* **Lamelas Anterior e Posterior:** A pálpebra é dividida pelo septo orbitário. A lamela anterior (pele e orbicular) é elástica; a posterior (tarso e conjuntiva) é o arcabouço rígido. Em reconstruções, a regra de ouro é: se usar um retalho para uma lamela, use um enxerto para a outra para garantir suprimento vascular .
+* **Lamelas Anterior e Posterior:** A pálpebra é dividida pelo septo orbitário. A lamela anterior (pele e orbicular) é elástica; a posterior (tarso e conjuntiva) é o arcabouço rígido. Em reconstruções, a regra de ouro é: se usar um retalho para uma lamela, use um enxerto para a outra para garantir suprimento vascular.
 
 * **Septo Orbitário:** Atua como a "porta" das bolsas de gordura. Sua fraqueza permite a herniação gordurosa. No acesso transconjuntival, o septo é preservado quando o acesso é pós-septal, diminuindo o risco de retração palpebral.
 
@@ -557,12 +557,15 @@ Protocolos de pós, timing e sinais de alarme ficam melhores concentrados no cap
 
 * Não liberar o ligamento órbito-malar em pacientes com sulco profundo -> Consequência: Persistência da sombra na transição pálpebra-face -> Prevenção: Dissecção submuscular até o rebordo ósseo -> Resgate: Preenchimento tardio com microfat graft.
 
-**Princípio da Reconstrução de Lamelas:**
+> **Regra Prática:** Princípio da Reconstrução de Lamelas
 
-Nunca utilize dois tecidos vascularizados (dois retalhos) para reconstruir ambas as lamelas simultaneamente; o resultado será grosseiro e espesso. Combine sempre um retalho (suporte sanguíneo) com um enxerto (suporte estrutural).
-**O Músculo Oblíquo Inferior:**
+>
+> Nunca utilize dois tecidos vascularizados (dois retalhos) para reconstruir ambas as lamelas simultaneamente; o resultado será grosseiro e espesso. Combine sempre um retalho (suporte sanguíneo) com um enxerto (suporte estrutural).
 
-Ao abordar a bolsa central e medial na blefaroplastia inferior, identifique o oblíquo inferior. Ele é a estrutura mais nobre da região e deve ser ativamente afastado antes de qualquer cauterização ou ressecção de gordura.
+> **Zona de Risco: O Músculo Oblíquo Inferior**
+
+>
+> Ao abordar a bolsa central e medial na blefaroplastia inferior, identifique o oblíquo inferior. Ele é a estrutura mais nobre da região e deve ser ativamente afastado antes de qualquer cauterização ou ressecção de gordura.
 
 ## Notas de “arte”
 
@@ -678,6 +681,7 @@ Ao final deste capítulo, o leitor saberá mapear zonas de risco **neurovascular
 - **Transconjuntival (pós-septal):** preserva lamela anterior; útil para reduzir risco de retração em perfis selecionados
 
 - **Subciliar com retalho miocutâneo:** quando há excesso real de pele/tratamento de festoons, geralmente exigindo plano de suporte lateral
+
 
 ## Erros comuns (e como resgatar)
 
@@ -1122,6 +1126,8 @@ Ao final, o leitor saberá filtrar candidatos cirúrgicos, traduzindo queixas su
 
 - **O risco de percepção distorcida:** sinais compatíveis com transtorno dismórfico corporal (TDC) e/ou expectativas rígidas são fator de risco para conflito e insatisfação, independentemente do resultado técnico. A decisão clínica inclui proteger o paciente e o cirurgião.
 
+- **Ponto crítico-chave:** ALINHAMENTO DE EXPECTATIVAS. O paciente vê "excesso", o cirurgião vê "causa". [[REF: Rohrich]]
+
 - **Assimetria pré-existente “invisível”:** o cérebro do paciente se habitua a assimetrias. Se não for documentado e demonstrado antes, tende a ser percebido como “erro” depois.
 
 ## Indicações e contra-indicações
@@ -1217,7 +1223,7 @@ Ao final, o leitor saberá filtrar candidatos cirúrgicos, traduzindo queixas su
 
 ## Erros comuns (e como resgatar)
 
-- **Erro: operar paciente com forte suspeita de TDC / percepção distorcida**
+- **Erro:** operar paciente com forte suspeita de TDC / percepção distorcida
  - **Consequência:** insatisfação persistente, múltiplas demandas e risco de conflito.
  - **Prevenção:** triagem rigorosa; se a consulta gera desconforto clínico, adiar/recusar e encaminhar.
  - Resgate: evitar reoperações impulsivas; documentar, apoiar e orientar encaminhamento adequado.
@@ -1961,7 +1967,7 @@ Ao final, o leitor saberá executar uma blefaroplastia superior **volumétrica e
 
 ## Anatomia aplicada (o mapa da mina)
 
-- **Compartimentos de gordura clinicamente relevantes:**
+- **Compartimentos de gordura** (clinicamente relevantes):
  - **Nasal:** mais pálida/fibrosa; frequentemente protrui e pode ser reduzida **conservadoramente**.
  - Central: mais amarela/fluida; importante para plenitude jovem; evitar ressecção rotineira (reduzir apenas se herniação franca).
 
@@ -1985,7 +1991,7 @@ Ao final, o leitor saberá executar uma blefaroplastia superior **volumétrica e
 
 2. **Abertura do septo:** mínima e dirigida ao ponto de herniação. Evitar abrir de ponta a ponta sem necessidade.
 
-3. **Gordura nasal:** identificar (mais pálida). Infiltrar na base, controlar pedículo, reduzir com parcimônia e hemostasia meticulosa.
+3. **Bolsa gordurosa medial** (superior): costuma ser mais clara (amarelada pálida) e requer hemostasia rigorosa pela proximidade com a artéria supraorbitária.
 
 4. Gordura central: regra é preservar. Se proeminente, preferir redução mínima e controlada; evitar “esvaziamento”.
 5. Glândula lacrimal (se prolapsada): não ressecar. Realizar pexia com pontos (ex.: Nylon 5-0/6-0) fixando cápsula/tecido de suporte ao periósteo da fossa lacrimal superolateral.
@@ -2610,13 +2616,15 @@ O objetivo do *pinch* não é criar uma pálpebra “sem textura”. Em faces ma
 
 ## Objetivo do capítulo
 
-Ao final, o leitor saberá diferenciar **bolsa palpebral (gordura orbitária)** de **malar mound / festoon (edema + frouxidão cutâneo-muscular sobre o malar)**, entendendo por que a blefaroplastia “padrão” frequentemente **não trata** (e, em predispostos, pode piorar) o festoon, exigindo estratégia específica (multimodal e, às vezes, em estágios).
+Ao final, o leitor saberá diferenciar **bolsa palpebral** (gordura orbitária) de **malar mound / festoon** (edema + frouxidão cutâneo-muscular sobre o malar), entendendo por que a blefaroplastia “padrão” frequentemente **não trata** (e, em predispostos, pode piorar) o festoon, exigindo estratégia específica (multimodal e, às vezes, em estágios).
 
 ## O que muda na decisão (o “porquê”)
 
 - **Erro topográfico:** bolsa palpebral é um problema **orbitário** (acima do rebordo). Festoon/malar mound é um problema **pré-zigomático** (abaixo do rebordo), na unidade malar. Tratar “em cima” não corrige o que está “embaixo”.
 
 - Natureza do tecido: bolsa é volume relativamente sólido (gordura). Festoon é, em geral, mistura variável de pele redundante + frouxidão do orbicular/lamela anterior + estase linfática/fluido. “Cortar pele” não resolve um espaço que continua acumulando fluido.
+
+- **Espaço pré-malar**: delimitado pelo ORL (superior) e LOM (inferior). É neste espaço que o edema se acumula para formar o festoon.
 
 - Risco de agravamento por dissecção: descolamentos amplos subciliares e manipulação extensiva podem aumentar edema e fibrose, e em pacientes com tendência a edema malar podem prolongar ou intensificar a tumefação. A decisão deve ser conservadora e orientada por fenótipo, não por hábito.
 
@@ -2671,7 +2679,7 @@ Ao final, o leitor saberá diferenciar **bolsa palpebral (gordura orbitária)** 
 
 - **Excisão direta selecionada:** maior previsibilidade em casos severos com pele redundante clara e paciente que aceita cicatriz.
 
-- **Reposicionamento/suspensão do orbicular / midface:** quando há ptose estrutural associada (corrige a fundação, não só a cobertura).
+- **Reposicionamento/suspensão** do orbicular / midface: quando há ptose estrutural associada (corrige a fundação, não só a cobertura).
 
 ### Fenótipo C - Mistos (mais comum)
 
@@ -2766,7 +2774,8 @@ A decisão real é: grau de frouxidão + risco de tração vertical (pele, midfa
 
 * Boa saúde de superfície ocular (sem olho seco importante / sem exposição).
 
-**Indicar Cantoplastia / Lateral Tarsal Strip (Reconstrução):**
+**Indicar Cantoplastia / Lateral Tarsal Strip** (Reconstrução):
+
 * *Distraction test* **>= 6-8 mm**, *snap-back* **lento/ausente** (precisa piscar para voltar) ou margem que “boia”.
 
 * Ectrópio/retração prévia, *round eye*, cirurgia prévia falha.
@@ -3040,11 +3049,11 @@ Cantoplastia muda o olho **se você deixar**. O objetivo é preservar amendoado 
 
 **Parte:** Parte V - Canto Lateral e Sustentação
 
-**Objetivo do capítulo:** Ao final, o leitor saberá navegar o “degrau de complexidade” das fixações laterais, escolhendo **suspensão de lamela anterior (Mladick)**, **reconstrução de lamela posterior (Tarsal Strip/Anderson)** ou fixações robustas de revisão (McCord e variações, incluindo ancoragem óssea e *spacers*) conforme frouxidão, vetor orbital e risco de retração/recidiva.
+**Objetivo do capítulo:** Ao final, o leitor saberá navegar o “degrau de complexidade” das fixações laterais, escolhendo técnicas conforme frouxidão, vetor orbital e risco de retração/recidiva.
 
 ## O que muda na decisão (o “porquê”)
 
-* **Hierarquia do problema (lamela anterior vs. posterior):**
+* **Hierarquia do problema** (lamela anterior vs. posterior):
  - **Mladick** atua primariamente na **lamela anterior** (músculo/pele) e é útil como *suporte* / profilaxia.
  - Tarsal Strip atua na lamela posterior (tarso/tendão), corrigindo frouxidão real e ectrópio/retração por falha estrutural.
  - McCord e revisões entram quando há retração significativa, periósteo “cansado” por cirurgias prévias, necessidade de vetor forte e, frequentemente, alongamento vertical com *spacer*.
@@ -3132,7 +3141,7 @@ O princípio aqui é **não depender só de encurtamento horizontal**.
 
 1. **Liberação ampla (*release*):** soltar aderências cicatriciais e reduzir tensão vertical (frequentemente incluindo manejo de retratores e espaço pré-malar, conforme o caso).
 
-2. **Restaurar altura (quando necessário):** em retração significativa, planejar **aumento vertical** com *spacer* (enxerto/implante) antes ou junto da fixação lateral.
+2. **Restaurar altura (quando necessário)::** em retração significativa, planejar **aumento vertical** com *spacer* (enxerto/implante) antes ou junto da fixação lateral.
 
 3. Ancoragem robusta:
  - quando periósteo não “segura”, usar ancoragem mais profunda ou perfuração óssea (*drill hole*) no rebordo lateral para fixação estável,
@@ -3164,7 +3173,7 @@ O princípio aqui é **não depender só de encurtamento horizontal**.
  * *Prevenção:* buscar ancoragem interna/póstero-superior.
  * *Resgate:* reposicionar fixação (idealmente precoce).
 
-* **Assimetria vertical (um olho “cat-eye” unilateral)**
+* **Assimetria vertical** (um olho “cat-eye” unilateral): costuma vir de pexia muito alta ou assimétrica. Recomenda-se soltar o ponto e refazer após 4-6 meses se persistente.
  * *Prevenção:* referência objetiva bilateral (marcação/medida relativa ao canto medial/pupila), e checagem intraoperatória sempre que possível.
  * *Resgate:* revisão do ponto de ancoragem; tratar a causa (não só “baixar” o lado bom).
 
@@ -3559,8 +3568,7 @@ A melhora costuma ser **progressiva** (colágeno/derme remodelando), e não imed
  Em ectrópio/entrópio involucionais, a laxidão do canto lateral é quase sempre permissiva. Sem estabilizar a horizontal (Strip), qualquer correção vertical vira paliativa.
  Porém: em cicatriciais, **Strip sozinho falha** se a pele ou conjuntiva estão encurtadas.
 
-* **A estabilidade dos retratores define o entrópio involucional:**
- No entrópio senil, a desinserção/afrouxamento dos retratores (fáscia capsulopalpebral) permite que o orbicular pré-septal “suba” sobre o pré-tarsal e **rode a margem para dentro**. Remover pele não trata essa mecânica; é uma correção “cosmética” para um defeito estrutural.
+* **A estabilidade dos retratores** define o entrópio involucional: quando os retratores (aponeurose e músculo de Müller) perdem a inserção no tarso, o orbicular marginal "roda" a borda para dentro.
 
 > ** FIGURA NECESSÁRIA (Cap. 26):**
 
@@ -3655,8 +3663,7 @@ A melhora costuma ser **progressiva** (colágeno/derme remodelando), e não imed
 
 ## Erros comuns (e como resgatar)
 
-* **Tratar ectrópio cicatricial sem enxerto (só Strip):**
- * *Consequência:* melhora curta; recidiva quando a falta de pele vence a tensão horizontal.
+* **Tratar ectrópio cicatricial sem enxerto** (só Strip): em vetores negativos, a tração vertical é tão alta que o Strip sozinho falha. Sempre adicione suporte de lamela anterior (enxerto) ou volume conforme a necessidade.
  * *Prevenção:* se **boca aberta piora**, pense “lamela anterior curta” -> enxerto é parte do plano.
 
  * *Resgate:* reoperação com liberação ampla + enxerto bem dimensionado.
@@ -3722,7 +3729,7 @@ Reconstrução não precisa “denunciar” reconstrução.
  - lagoftalmo/ptose mecânica,
  - entropion/ectropion cicatricial tardio.
 
-* **A Regra de Ouro das Lamelas (vascularidade manda):**
+* **A Regra de Ouro das Lamelas** (vascularidade manda):
  Reconstrução palpebral é **duas cirurgias em uma**:
  - **Lamela posterior** (tarso + conjuntiva) = trilho rígido e mucosa de deslizamento.
  - Lamela anterior (pele + músculo) = cobertura e fechamento.

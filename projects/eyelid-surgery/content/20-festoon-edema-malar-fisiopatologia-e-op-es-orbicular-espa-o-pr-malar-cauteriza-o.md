@@ -6,11 +6,12 @@
 **Parte:** Parte IV — Inferior e Terço Médio
 
 ## Objetivo do capítulo
-Ao final, o leitor saberá diferenciar **bolsa palpebral (gordura orbitária)** de **malar mound / festoon (edema + frouxidão cutâneo-muscular sobre o malar)**, entendendo por que a blefaroplastia “padrão” frequentemente **não trata** (e, em predispostos, pode piorar) o festoon, exigindo estratégia específica (multimodal e, às vezes, em estágios).
+Ao final, o leitor saberá diferenciar **bolsa palpebral** (gordura orbitária) de **malar mound / festoon** (edema + frouxidão cutâneo-muscular sobre o malar), entendendo por que a blefaroplastia “padrão” frequentemente **não trata** (e, em predispostos, pode piorar) o festoon, exigindo estratégia específica (multimodal e, às vezes, em estágios).
 
 ## O que muda na decisão (o “porquê”)
 - **Erro topográfico:** bolsa palpebral é um problema **orbitário** (acima do rebordo). Festoon/malar mound é um problema **pré-zigomático** (abaixo do rebordo), na unidade malar. Tratar “em cima” não corrige o que está “embaixo”.
 - Natureza do tecido: bolsa é volume relativamente sólido (gordura). Festoon é, em geral, mistura variável de pele redundante + frouxidão do orbicular/lamela anterior + estase linfática/fluido. “Cortar pele” não resolve um espaço que continua acumulando fluido.
+- **Espaço pré-malar**: delimitado pelo ORL (superior) e LOM (inferior). É neste espaço que o edema se acumula para formar o festoon.
 - Risco de agravamento por dissecção: descolamentos amplos subciliares e manipulação extensiva podem aumentar edema e fibrose, e em pacientes com tendência a edema malar podem prolongar ou intensificar a tumefação. A decisão deve ser conservadora e orientada por fenótipo, não por hábito.
 ## Indicações e contra-indicações
 **Indicar abordagem específica quando:**
@@ -43,7 +44,7 @@ Ao final, o leitor saberá diferenciar **bolsa palpebral (gordura orbitária)** 
 
 ### Fenótipo B — Predomínio cutâneo-muscular (festoon verdadeiro, “drape”)
 - **Excisão direta selecionada:** maior previsibilidade em casos severos com pele redundante clara e paciente que aceita cicatriz.
-- **Reposicionamento/suspensão do orbicular / midface:** quando há ptose estrutural associada (corrige a fundação, não só a cobertura).
+- **Reposicionamento/suspensão** do orbicular / midface: quando há ptose estrutural associada (corrige a fundação, não só a cobertura).
 
 ### Fenótipo C — Mistos (mais comum)
 - Combinação por etapas: tratar **bolsa orbitária** (se houver) de forma conservadora + abordar **malar/festoon** com técnica específica (não “puxar bochecha pela pálpebra”).

@@ -1,0 +1,79 @@
+/* ePub Stylesheet - The Art of Eyelid Surgery */
+
+body {
+    font-family: "Georgia", serif;
+    line-height: 1.6;
+    margin: 5%;
+    color: #1a202c;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    color: #2d3748;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 1.8em;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 0.3em;
+    page-break-before: always;
+}
+
+h2 {
+    font-size: 1.5em;
+    border-bottom: 1px solid #edf2f7;
+    padding-bottom: 0.2em;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+blockquote {
+    border-left: 0.25em solid #cbd5e0;
+    margin: 1em 0;
+    padding-left: 1em;
+    color: #4a5568;
+    background-color: #f7fafc;
+}
+
+blockquote strong {
+    color: #2d3748;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 1.5em auto;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #718096;
+    font-style: italic;
+}
+
+.caption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #718096;
+    font-style: italic;
+    margin-top: 0.5em;
+}
+
+ul, ol {
+    margin-bottom: 1em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* Page break before chapters */
+.chapter {
+    page-break-before: always;
+}

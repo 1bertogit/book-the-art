@@ -54,7 +54,7 @@ Ao final deste capítulo, o leitor saberá mapear zonas de risco **neurovascular
 ### Variações e indicações
 - **Transconjuntival (pós-septal):** preserva lamela anterior; útil para reduzir risco de retração em perfis selecionados
 - **Subciliar com retalho miocutâneo:** quando há excesso real de pele/tratamento de festoons, geralmente exigindo plano de suporte lateral
-[[/MOVE:CAP-XX]]
+
 
 ## Erros comuns (e como resgatar)
 - **Lesão do oblíquo inferior** → diplopia → prevenção: identificação ativa antes de tratar bolsas medial/central → resgate: avaliação especializada (estrabismo).
