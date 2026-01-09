@@ -29,9 +29,9 @@ python3 tools/build_master_index.py
 ## Architecture
 
 ### Content Structure
-- `content/` - Markdown chapters numbered `XX-titulo.md` (00-28)
-- `assets/figures/` - Images named `fig-XX-titulo-curto.png`
-- `assets/tables/` - Table files
+- `projects/eyelid-surgery/content/` - Markdown chapters numbered `XX-titulo.md` (00-28)
+- `projects/eyelid-surgery/assets/figures/` - Images named `fig-XX-titulo-curto.png`
+- `projects/eyelid-surgery/assets/tables/` - Table files
 - `config.yml` - Book metadata (title, author, language)
 
 ### Cross-Reference System

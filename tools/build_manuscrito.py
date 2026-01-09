@@ -29,10 +29,11 @@ FRONT_MATTER = CONTENT_DIR / "00_FRONT_MATTER.md"
 LINK_RE = re.compile(r"\]\(\./([^)]+\.md)\)")
 
 # Tags internas a remover no modo --clean
+# Limite de 10000 chars em patterns com .*? para prevenir ReDoS
 INTERNAL_TAGS = [
     re.compile(r"\[\[/?KEEP\]\]\n?", re.IGNORECASE),
     re.compile(r"\[\[/?BOX\]\]\n?", re.IGNORECASE),
-    re.compile(r"\[\[MOVE:CAP-\d+\]\].*?\[\[/MOVE:CAP-\d+\]\]\n?", re.DOTALL | re.IGNORECASE),
+    re.compile(r"\[\[MOVE:CAP-\d+\]\][\s\S]{0,10000}?\[\[/MOVE:CAP-\d+\]\]\n?", re.IGNORECASE),
     re.compile(r"\[\[MOVE:CAP-\d+\]\]\n?", re.IGNORECASE),
     re.compile(r"\[\[/MOVE:CAP-\d+\]\]\n?", re.IGNORECASE),
 ]

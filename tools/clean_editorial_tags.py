@@ -98,9 +98,10 @@ def clean_file_content(text: str) -> Tuple[str, List[str]]:
     result = text
     
     # 1. Converter BOX com título para blockquote
+    # Limite de 10000 chars para prevenir ReDoS em input malformado
     box_pattern = re.compile(
-        r'\[\[BOX(?::\s*([^\]]*))?\]\]\s*\n?(.*?)\s*\[\[/BOX\]\]',
-        re.DOTALL | re.IGNORECASE
+        r'\[\[BOX(?::\s*([^\]]*))?\]\]\s*\n?([\s\S]{0,10000}?)\s*\[\[/BOX\]\]',
+        re.IGNORECASE
     )
     
     box_matches = list(box_pattern.finditer(result))
@@ -130,7 +131,8 @@ def clean_file_content(text: str) -> Tuple[str, List[str]]:
         result = todo_pattern.sub('', result)
     
     # 5. Remover [[DELETE]]...[[/DELETE]] (remove tudo)
-    delete_pattern = re.compile(r'\[\[DELETE\]\].*?\[\[/DELETE\]\]\s*\n?', re.DOTALL | re.IGNORECASE)
+    # Limite de 10000 chars para prevenir ReDoS
+    delete_pattern = re.compile(r'\[\[DELETE\]\][\s\S]{0,10000}?\[\[/DELETE\]\]\s*\n?', re.IGNORECASE)
     delete_matches = list(delete_pattern.finditer(result))
     if delete_matches:
         changes.append(f"  → Removidos {len(delete_matches)} blocos DELETE")

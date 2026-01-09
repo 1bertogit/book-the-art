@@ -15,6 +15,8 @@ Uso:
 from pathlib import Path
 import re
 
+from _utils import atomic_write
+
 CONTENT = Path("content")
 FIGURES = Path("assets/figures")
 
@@ -65,7 +67,7 @@ def main():
             f"\n"
         )
 
-        md.write_text(text.replace("[[FIGURE]]", block), encoding="utf-8")
+        atomic_write(md, text.replace("[[FIGURE]]", block))
         print(f"✅ Figura inserida: {md.name} → {figure.name}")
         inserted += 1
 
