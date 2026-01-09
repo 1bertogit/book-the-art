@@ -1,16 +1,17 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "env": {
+    "CLAUDE_CODE_ENABLE_TELEMETRY": "1"
+  },
   "permissions": {
-    "defaultMode": "bypassPermissions",
     "allow": [
       "Bash(npm run lint)"
     ],
     "deny": [
       "Read(./.env)"
     ],
-    "ask": []
-  },
-  "env": {
-    "CLAUDE_CODE_ENABLE_TELEMETRY": "1"
+    "ask": [],
+    "defaultMode": "bypassPermissions"
   },
   "hooks": {
     "SessionStart": [
@@ -24,5 +25,5 @@
       }
     ]
   },
-  "$schema": "https://json.schemastore.org/claude-code-settings.json"
+  "enabledPlugins": {}
 }
