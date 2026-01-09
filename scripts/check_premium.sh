@@ -117,7 +117,7 @@ check_toc_and_frontmatter() {
   # Inspecionar .tex para \frontmatter / \mainmatter ou \pagenumbering{roman}
   if [ -n "$TEMPLATE" ] && [ -f "$TEMPLATE" ]; then
     local tmpl_snip
-    tmpl_snip=$(sed -n '1,240p' "$TEMPLATE")
+    tmpl_snip=$(sed -n '1,500p' "$TEMPLATE")
     if echo "$tmpl_snip" | rg -q "\\\\pagenumbering\\{roman\\}|\\\\frontmatter|\\\\mainmatter"; then
       add_result "Front matter no template" "PASS" "Template contém marcações esperadas de front/mainmatter ou pagenumbering{roman}" "$(echo "$tmpl_snip" | head -n80)"
     else

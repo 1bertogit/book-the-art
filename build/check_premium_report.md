@@ -1,4 +1,4 @@
-# Relatório de verificação: premium (gerado em 2026-01-08T23:05:51Z)
+# Relatório de verificação: premium (gerado em 2026-01-08T23:16:53Z)
 
 Resumo por item:
 
@@ -100,18 +100,18 @@ pipeline/premium/template-simple.tex:36:\geometry{
 Encontrado headheight/headsep/footskip
 
 ```
-pipeline/premium/template.tex:64:  headheight=14pt,
-pipeline/premium/template.tex:65:  headsep=1.2cm,
-pipeline/premium/template.tex:66:  footskip=1.5cm,
-pipeline/premium/template-simple.tex:42:  headheight=14pt,
-pipeline/premium/template-simple.tex:43:  headsep=12pt,
-pipeline/premium/template-simple.tex:44:  footskip=24pt
 projects/eyelid-surgery/assets/template.tex:21:  headheight=15pt,
 projects/eyelid-surgery/assets/template.tex:22:  headsep=1cm,
 projects/eyelid-surgery/assets/template.tex:23:  footskip=1.5cm
 projects/eyelid-surgery/assets/template-didactic.tex:39:  headheight=14pt,
 projects/eyelid-surgery/assets/template-didactic.tex:40:  headsep=1.2cm,
 projects/eyelid-surgery/assets/template-didactic.tex:41:  footskip=1.5cm,
+pipeline/premium/template.tex:64:  headheight=14pt,
+pipeline/premium/template.tex:65:  headsep=1.2cm,
+pipeline/premium/template.tex:66:  footskip=1.5cm,
+pipeline/premium/template-simple.tex:42:  headheight=14pt,
+pipeline/premium/template-simple.tex:43:  headsep=12pt,
+pipeline/premium/template-simple.tex:44:  footskip=24pt
 ```
 
 ## Tipografia — PASS
@@ -119,8 +119,6 @@ projects/eyelid-surgery/assets/template-didactic.tex:41:  footskip=1.5cm,
 Encontrado configuração de fonte/microtype
 
 ```
-projects/eyelid-surgery/assets/template.tex:27:\setmainfont{Palatino}
-projects/eyelid-surgery/assets/template-didactic.tex:50:\setmainfont{Charter}
 pipeline/premium/template.tex:10:% - Tipografia premium (Charter + Helvetica Neue + microtype)
 pipeline/premium/template-simple.tex:9:% - Tipografia premium (Charter + Helvetica Neue + microtype)
 pipeline/premium/template-simple.tex:58:  \setmainfont{Libertinus Serif}
@@ -135,6 +133,8 @@ pipeline/premium/typography.tex:35:\usepackage{microtype}
 pipeline/premium/typography.tex:36:\microtypesetup{
 pipeline/premium/typography.tex:37:  protrusion=true,    % Pequenas projeções para melhor margem visual
 pipeline/premium/typography.tex:38:  expansion=true,     % Expansão/contração sutil para melhor justificação
+projects/eyelid-surgery/assets/template.tex:27:\setmainfont{Palatino}
+projects/eyelid-surgery/assets/template-didactic.tex:50:\setmainfont{Charter}
 ```
 
 ## Font warnings (log) — WARN
@@ -164,8 +164,8 @@ pipeline/premium/template-simple.tex:259:\def\maxheight{\ifdim\Gin@nat@height>0.
 pipeline/premium/template-simple.tex:261:\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 pipeline/premium/template-simple.tex:284:]{caption}
 projects/eyelid-surgery/assets/template.tex:40:\usepackage[font=small,labelfont=bf]{caption}
-projects/eyelid-surgery/assets/template-didactic.tex:98:]{caption}
 projects/eyelid-surgery/assets/header-didactic.tex:109:]{caption}
+projects/eyelid-surgery/assets/template-didactic.tex:98:]{caption}
 ```
 
 ## Idioma / hifenização — PASS
@@ -282,9 +282,9 @@ Notas legais, escopo e uso responsável (educacional)
 Escopo do livro . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 ```
 
-## Front matter no template — WARN
+## Front matter no template — PASS
 
-Não encontrei \frontmatter / \mainmatter / \pagenumbering{roman} no template — verifique se a separação de numeração está sendo feita
+Template contém marcações esperadas de front/mainmatter ou pagenumbering{roman}
 
 ```
 % ═══════════════════════════════════════════════════════════════════════════
